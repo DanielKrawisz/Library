@@ -10,14 +10,113 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     15839,        344]
-NotebookOptionsPosition[       560,         21]
-NotebookOutlinePosition[     15978,        347]
-CellTagsIndexPosition[     15935,        344]
+NotebookDataLength[     19237,        491]
+NotebookOptionsPosition[      2288,        120]
+NotebookOutlinePosition[     17706,        446]
+CellTagsIndexPosition[     17663,        443]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
+Cell["Code", "Title"],
+
+Cell["Outline", "Title"],
+
+Cell[CellGroupData[{
+
+Cell["Complex Calculus", "Item"],
+
+Cell["\<\
+The Caylay Dickson Construction\
+\>", "Subitem"],
+
+Cell["\<\
+Functions of a Complex Variable\
+\>", "Subitem"],
+
+Cell["Taylor Series", "Subitem"],
+
+Cell["Polynomials", "Subitem"],
+
+Cell["Regular Polytopes", "Item"],
+
+Cell["Affine Geometry", "Subitem"],
+
+Cell["The Platonic Solids", "Subitem"],
+
+Cell["Symmetry Groups", "Subitem"],
+
+Cell["Regular Polychora", "Subitem"],
+
+Cell["Dynkin Diagrams", "Subitem"],
+
+Cell["Special Relativity", "Item"],
+
+Cell["Hyperbolic Space", "Subitem"],
+
+Cell["Minkowski Space", "Subitem"],
+
+Cell["The Celestial Sphere", "Subitem"],
+
+Cell["Accelerated Frames", "Subitem"],
+
+Cell["Differential Geometry", "Item"],
+
+Cell["Tensors", "Subitem"],
+
+Cell["Geodesics and Curvature", "Subitem"],
+
+Cell["\<\
+Homogenous Minkowskian Manifolds\
+\>", "Subitem"],
+
+Cell["Lie Groups", "Subitem"],
+
+Cell["Riemann Surfaces", "Subitem"],
+
+Cell["Hamiltonian Mechanics", "Item"],
+
+Cell["Symplectic Manifolds", "Subitem"],
+
+Cell["", "Subitem"],
+
+Cell["Statistical Mechanics", "Item"],
+
+Cell["Fractals and Renormalization", "Subitem"],
+
+Cell["Chaos Theory", "Item"],
+
+Cell["Field Theory", "Item"],
+
+Cell["Gauge Theory", "Item"],
+
+Cell["General Relativity", "Item"],
+
+Cell["Supersymmetry", "Item"],
+
+Cell["Probability", "Item"],
+
+Cell["Functional Analysis", "Item"],
+
+Cell["Quantum Mechanics", "Item"],
+
+Cell["Scattering Theory", "Item"],
+
+Cell["Quantum Field Theory", "Item"],
+
+Cell["Conformal Field Theory", "Item"],
+
+Cell["WZW Models", "Item"],
+
+Cell["Topological Field Theory", "Item"],
+
+Cell["Loop Quantum Gravity", "Item"],
+
+Cell["String Theory", "Item"]
+}, Open  ]]
+}, Open  ]]
 },
 WindowSize->{1330, 988},
 WindowMargins->{{165, Automatic}, {Automatic, -7}},
@@ -346,6 +445,54 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 21, 0, 147, "Title"],
+Cell[603, 24, 24, 0, 147, "Title"],
+Cell[CellGroupData[{
+Cell[652, 28, 32, 0, 38, "Item"],
+Cell[687, 30, 58, 2, 35, "Subitem"],
+Cell[748, 34, 58, 2, 35, "Subitem"],
+Cell[809, 38, 32, 0, 35, "Subitem"],
+Cell[844, 40, 30, 0, 35, "Subitem"],
+Cell[877, 42, 33, 0, 38, "Item"],
+Cell[913, 44, 34, 0, 35, "Subitem"],
+Cell[950, 46, 38, 0, 35, "Subitem"],
+Cell[991, 48, 34, 0, 35, "Subitem"],
+Cell[1028, 50, 36, 0, 35, "Subitem"],
+Cell[1067, 52, 34, 0, 35, "Subitem"],
+Cell[1104, 54, 34, 0, 38, "Item"],
+Cell[1141, 56, 35, 0, 35, "Subitem"],
+Cell[1179, 58, 34, 0, 35, "Subitem"],
+Cell[1216, 60, 39, 0, 35, "Subitem"],
+Cell[1258, 62, 37, 0, 35, "Subitem"],
+Cell[1298, 64, 37, 0, 38, "Item"],
+Cell[1338, 66, 26, 0, 35, "Subitem"],
+Cell[1367, 68, 42, 0, 35, "Subitem"],
+Cell[1412, 70, 59, 2, 35, "Subitem"],
+Cell[1474, 74, 29, 0, 35, "Subitem"],
+Cell[1506, 76, 35, 0, 35, "Subitem"],
+Cell[1544, 78, 37, 0, 38, "Item"],
+Cell[1584, 80, 39, 0, 35, "Subitem"],
+Cell[1626, 82, 19, 0, 35, "Subitem"],
+Cell[1648, 84, 37, 0, 38, "Item"],
+Cell[1688, 86, 47, 0, 35, "Subitem"],
+Cell[1738, 88, 28, 0, 38, "Item"],
+Cell[1769, 90, 28, 0, 38, "Item"],
+Cell[1800, 92, 28, 0, 38, "Item"],
+Cell[1831, 94, 34, 0, 38, "Item"],
+Cell[1868, 96, 29, 0, 38, "Item"],
+Cell[1900, 98, 27, 0, 38, "Item"],
+Cell[1930, 100, 35, 0, 38, "Item"],
+Cell[1968, 102, 33, 0, 38, "Item"],
+Cell[2004, 104, 33, 0, 38, "Item"],
+Cell[2040, 106, 36, 0, 38, "Item"],
+Cell[2079, 108, 38, 0, 38, "Item"],
+Cell[2120, 110, 26, 0, 38, "Item"],
+Cell[2149, 112, 40, 0, 38, "Item"],
+Cell[2192, 114, 36, 0, 38, "Item"],
+Cell[2231, 116, 29, 0, 38, "Item"]
+}, Open  ]]
+}, Open  ]]
 }
 ]
 *)
