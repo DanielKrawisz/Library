@@ -1,0 +1,756 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     26450,        747]
+NotebookOptionsPosition[      4530,        242]
+NotebookOutlinePosition[     22674,        637]
+CellTagsIndexPosition[     22631,        634]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Fantasy Language Words", "Title"],
+
+Cell["World Building", "Title"],
+
+Cell["Physics", "Section"],
+
+Cell["Species and Varieties", "Section"],
+
+Cell["Social Structure", "Section"],
+
+Cell["Economics", "Section"],
+
+Cell["Characters", "Section"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Outline", "Title"],
+
+Cell[CellGroupData[{
+
+Cell["Physics Outline", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Complex Calculus", "Item"],
+
+Cell["The Caylay Dickson Construction", "Subitem"],
+
+Cell["Functions of a Complex Variable", "Subitem"],
+
+Cell["Taylor Series", "Subitem"],
+
+Cell["Polynomials", "Subitem"],
+
+Cell["Regular Polytopes", "Item"],
+
+Cell["Affine Geometry", "Subitem"],
+
+Cell["The Platonic Solids", "Subitem"],
+
+Cell["Symmetry Groups", "Subitem"],
+
+Cell["Regular Polychora", "Subitem"],
+
+Cell["Dynkin Diagrams", "Subitem"],
+
+Cell["Special Relativity", "Item"],
+
+Cell["Hyperbolic Space", "Subitem"],
+
+Cell["Minkowski Space", "Subitem"],
+
+Cell["The Celestial Sphere", "Subitem"],
+
+Cell["Accelerated Frames", "Subitem"],
+
+Cell["Differential Geometry", "Item"],
+
+Cell["Tensors", "Subitem"],
+
+Cell["Geodesics and Curvature", "Subitem"],
+
+Cell["Homogenous Minkowskian Manifolds", "Subitem"],
+
+Cell["Lie Groups", "Subitem"],
+
+Cell["Riemann Surfaces", "Subitem"],
+
+Cell["Hamiltonian Mechanics", "Item"],
+
+Cell["Symplectic Manifolds", "Subitem"],
+
+Cell["", "Subitem"],
+
+Cell["Statistical Mechanics", "Item"],
+
+Cell["Fractals and Renormalization", "Subitem"],
+
+Cell["Chaos Theory", "Item"],
+
+Cell["Field Theory", "Item"],
+
+Cell["Gauge Theory", "Item"],
+
+Cell["General Relativity", "Item"],
+
+Cell["Supersymmetry", "Item"],
+
+Cell["Probability", "Item"],
+
+Cell["Functional Analysis", "Item"],
+
+Cell["Quantum Mechanics", "Item"],
+
+Cell["Scattering Theory", "Item"],
+
+Cell["Quantum Field Theory", "Item"],
+
+Cell["Conformal Field Theory", "Item"],
+
+Cell["WZW Models", "Item"],
+
+Cell["Topological Field Theory", "Item"],
+
+Cell["Loop Quantum Gravity", "Item"],
+
+Cell["String Theory", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Schema of Mathematics (Not at All Good Yet)\
+\>", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Recursive function theory", "Item"],
+
+Cell["Natural Numbers", "Subitem"],
+
+Cell["Recursion", "Subitem"],
+
+Cell["Functions & Partial functions", "Subitem"],
+
+Cell["R.E. sets", "Subitem"],
+
+Cell["Algebra", "Item"],
+
+Cell["Prime Decomposition", "Subitem"],
+
+Cell["Elementary number theory", "Subsubitem"],
+
+Cell["From there to ring theory", "Subsubitem"],
+
+Cell["The Integers", "Subitem"],
+
+Cell["From there to group theory", "Subsubitem"],
+
+Cell["The Rational Numbers", "Subitem"],
+
+Cell["From there to field theory", "Subsubitem"],
+
+Cell["Logic", "Item"],
+
+Cell["Models, theories, and axioms. ", "Subitem"],
+
+Cell["G\[ODoubleDot]del\[CloseCurlyQuote]s theorem", "Subitem"],
+
+Cell["Set Theory", "Item"],
+
+Cell["Real Numbers", "Subitem"],
+
+Cell["Cardinal Numbers", "Subitem"],
+
+Cell["Ordinal Numbers", "Subitem"],
+
+Cell["Axiom of Choice", "Subitem"],
+
+Cell["Axioms of Set theory", "Subitem"],
+
+Cell["Geometry", "Item"],
+
+Cell["Linear spaces", "Subitem"],
+
+Cell["Modules", "Subitem"],
+
+Cell["The four division algebras", "Subitem"],
+
+Cell["Polynomials", "Subitem"],
+
+Cell["Galois Theory", "Subitem"],
+
+Cell["Diophantine Equations", "Subitem"],
+
+Cell["Group Theory", "Item"],
+
+Cell["Polyhedra", "Subitem"],
+
+Cell["Algebraic Topology", "Subitem"],
+
+Cell["Lie group theory", "Subitem"],
+
+Cell["Real Analysis", "Item"],
+
+Cell["Point-set Topology", "Item"],
+
+Cell["Functional Analysis", "Item"],
+
+Cell["Calculus", "Item"],
+
+Cell["Manifolds", "Item"],
+
+Cell["Three kinds", "Subitem"],
+
+Cell["Differential topology", "Subitem"],
+
+Cell["Algebraic Geometry", "Item"],
+
+Cell["Number Theory", "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Story", "Title"],
+
+Cell[CellGroupData[{
+
+Cell["Complex Calculus", "Section"],
+
+Cell["\<\
+The Caylay-Dickson Construction\
+\>", "Subsection"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1157, 988},
+WindowMargins->{{214, Automatic}, {0, Automatic}},
+PrintingPageRange->{Automatic, Automatic},
+ShowSelection->True,
+SpellingDictionaries->{"CorrectWords"->{
+ "intuitionism", "intuistic", "falsificationism", "falsificationist", 
+  "nominalism", "nominalistic", "disequilibrating", "evulotionism", 
+  "scientistic", "verifyable", "foundationalism", "Falsificationism", 
+  "Nominalism", "Essentialism", "essentialism", "knowlege", "Intuitionism", 
+  "intuitionists", "manga", "anime", "online", "Luffy", "Strawhat", "Rango", 
+  "Jonny", "Depp", "Canterlot", "forehoof", "Celestia", "Derpy", "altcoin", 
+  "Mastercoin", "blockchain", "Mastercoins", "datastream", 
+  "Willett\[CloseCurlyQuote]s", "mastercoins", "mastercoin", "altcoins"}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"9.0 for Linux x86 (64-bit) (February 7, 2013)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Title"], CellFrame -> {{0, 0}, {0, 1}}, 
+       CellMargins -> {{27, Inherited}, {8, 34}}, TrackCellChangeTimes -> 
+       False, FontFamily -> "OptimusPrinceps", FontSize -> 40, FontWeight -> 
+       Plain], 
+      Cell[
+       StyleData["Title", "Printout"], CellFrame -> {{0, 0}, {1, 1}}, 
+       CellMargins -> {{60, 60}, {22, 80}}, TextAlignment -> Center, FontSize -> 
+       58]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Subtitle"], PageBreakBelow -> False, TrackCellChangeTimes -> 
+       False, FontFamily -> "Hobbiton Brushhand", FontSize -> 24, FontWeight -> 
+       "Plain", FontSlant -> "Plain", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       StyleData["Subtitle", "Printout"], PageBreakBelow -> False, 
+       TextAlignment -> Center, FontSize -> 24]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Section"], CellFrame -> None, 
+       CellMargins -> {{50, Inherited}, {8, 12}}, PageBreakAbove -> False, 
+       PageBreakBelow -> False, DefaultNewInlineCellStyle -> "None", 
+       TrackCellChangeTimes -> False, LanguageCategory -> "NaturalLanguage", 
+       CounterIncrements -> "Section", 
+       CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+         "Item", 0}, {"Subitem", 0}, {"Subsubitem", 0}, {"ItemNumbered", 0}, {
+         "SubitemNumbered", 0}, {"SubsubitemNumbered", 0}, {"Equation", 0}}, 
+       FontFamily -> "Cloister Black", FontSize -> 36, FontWeight -> "Plain", 
+       FontSlant -> "Plain", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       StyleData["Section", "Printout"], CellMargins -> {{2, 0}, {0, 22}}, 
+       PageBreakAbove -> False, FontFamily -> "Garamond", FontSize -> 20]}, 
+     Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Subsection"], CellDingbat -> None, 
+       CellMargins -> {{75, 40}, {10, 22}}, TrackCellChangeTimes -> False, 
+       CounterAssignments -> {{"Subsubsubsection", 0}, {"Subsubsection", 0}, {
+         "Item", 0}, {"Subitem", 0}, {"Subsubitem", 0}, {"ItemNumbered", 0}, {
+         "SubitemNumbered", 0}, {"SubsubitemNumbered", 0}}, FontFamily -> 
+       "Vivaldi", FontSize -> 20, FontWeight -> "Plain", FontSlant -> 
+       "Italic", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       StyleData["Subsection", "Printout"], CellMargins -> {{2, 0}, {10, 16}},
+        TrackCellChangeTimes -> False, FontFamily -> "Garamond", FontSize -> 
+       20, FontSlant -> Plain]}, Closed]], 
+   Cell[
+    StyleData["Subsection Deleted"], CellDingbat -> None, 
+    CellMargins -> {{75, 40}, {10, 22}}, 
+    CellGroupingRules -> {"SectionGrouping", 40}, TrackCellChangeTimes -> 
+    False, CounterIncrements -> "Subsection", FontFamily -> "Magneto", 
+    FontSize -> 20, FontWeight -> "Plain", FontSlant -> "Italic", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Subsubsection"], CellDingbat -> \[FivePointedStar], 
+       CellMargins -> {{115, 40}, {10, 22}}, TrackCellChangeTimes -> False, 
+       CounterAssignments -> {{"Subsubsubsection", 0}, {"Item", 0}, {
+         "Subitem", 0}, {"Subsubitem", 0}, {"ItemNumbered", 0}, {
+         "SubitemNumbered", 0}, {"SubsubitemNumbered", 0}, {
+         "Definition", 0}, {"Proposition", 0}, {"Figure", 0}, {
+         "DisplayFormula", 0}, {"DisplayFormulaNumbered", 0}}, FontFamily -> 
+       "Zenda", FontSize -> 16, FontWeight -> "Bold", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       StyleData["Subsubsection", "Printout"], CellDingbat -> None, 
+       CellMargins -> {{2, 0}, {10, 16}}, FontFamily -> "Garamond"]}, 
+     Closed]], 
+   Cell[
+    StyleData["Subsubsubsection"], CellMargins -> {{120, Inherited}, {2, 10}},
+     StyleKeyMapping -> {
+     "Tab" -> "Subsubsubsubsection", "Backspace" -> "Subsubsection", 
+      KeyEvent["Tab", Modifiers -> {Shift}] -> "Subsubsection"}, 
+    CellGroupingRules -> {"SectionGrouping", 60}, PageBreakBelow -> False, 
+    TrackCellChangeTimes -> False, LanguageCategory -> "NaturalLanguage", 
+    CounterIncrements -> "Subsubsubsection", 
+    CounterAssignments -> {{"Subsubsubsubsection", 0}, {"Item", 0}, {
+      "Subitem", 0}, {"Subsubitem", 0}, {"ItemNumbered", 0}, {
+      "SubitemNumbered", 0}, {"SubsubitemNumbered", 0}}, MenuSortingValue -> 
+    None, FontFamily -> "Arial", FontSize -> 14, FontWeight -> "Bold", 
+    FontColor -> 
+    RGBColor[0.778286411841001, 0.4230563820859083, 0.16115053025101092`]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Text"], CellMargins -> {{90, 160}, {10, 10}}, 
+       TrackCellChangeTimes -> False, TextJustification -> 1, 
+       ParagraphIndent -> -36], 
+      Cell[
+       StyleData["Text", "Printout"], CellOpen -> False]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Paragraph"], CellMargins -> {{120, 200}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, CellLabelAutoDelete -> False, 
+       TrackCellChangeTimes -> False, TextJustification -> 1, 
+       LineSpacing -> {1, 3}, CounterIncrements -> "Text", FontFamily -> 
+       "Garamond", FontSize -> 14], 
+      Cell[
+       StyleData["Paragraph", "Printout"], 
+       CellMargins -> {{36, 140}, {12, 12}}, LineSpacing -> {1, 7}, 
+       ParagraphIndent -> 0, FontFamily -> "Georgia", FontSize -> 14]}, 
+     Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["LibrettoLyrics"], CellMargins -> {{120, 200}, {10, 10}}, 
+       CellLabelAutoDelete -> False, TrackCellChangeTimes -> False, 
+       TextJustification -> 0, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Text", FontFamily -> "Garamond", FontSize -> 14], 
+      Cell[
+       StyleData["LibrettoLyrics", "Printout"], 
+       CellMargins -> {{36, 140}, {12, 12}}, LineSpacing -> {1, 7}, 
+       ParagraphIndent -> 0, FontFamily -> "Georgia", FontSize -> 14]}, 
+     Open]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["LibrettoDirections"], CellMargins -> {{120, 200}, {10, 10}},
+        ReturnCreatesNewCell -> True, CellLabelAutoDelete -> False, 
+       TrackCellChangeTimes -> False, TextJustification -> 1, 
+       LineSpacing -> {1, 3}, CounterIncrements -> "Text", FontFamily -> 
+       "Garamond", FontSize -> 14, FontSlant -> Italic], 
+      Cell[
+       StyleData["LibrettoDirections", "Printout"], 
+       CellMargins -> {{36, 140}, {12, 12}}, LineSpacing -> {1, 7}, 
+       ParagraphIndent -> 0, FontFamily -> "Georgia", FontSize -> 14]}, 
+     Open]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Footnote"], CellMargins -> {{120, 200}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, TrackCellChangeTimes -> False, 
+       TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Text", FontFamily -> "Garamond", FontSize -> 11], 
+      Cell[
+       StyleData["Footnote", "Printout"], CellMargins -> {{72, 140}, {4, 4}}, 
+       LineSpacing -> {1, 3}, FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["ContinuedParagraph"], CellMargins -> {{120, 200}, {10, 10}},
+        ReturnCreatesNewCell -> False, TrackCellChangeTimes -> False, 
+       TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Text", FontFamily -> "Garamond", FontSize -> 14], 
+      Cell[
+       StyleData["ContinuedParagraph", "Printout"], 
+       CellMargins -> {{72, 140}, {4, 4}}, LineSpacing -> {1, 3}, 
+       ParagraphIndent -> 0, FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Quote"], CellMargins -> {{140, 220}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, TrackCellChangeTimes -> False, 
+       TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Text", FontFamily -> "Garamond", FontSize -> 14, FontSlant -> 1], 
+      Cell[
+       StyleData["Quote", "Printout"], CellMargins -> {{92, 160}, {4, 4}}, 
+       LineSpacing -> {1, 3}, ParagraphIndent -> 16, FontSize -> 15, 
+       FontSlant -> Plain]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Reference"], CellMargins -> {{120, 200}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, TrackCellChangeTimes -> False, 
+       TextJustification -> 1, LineSpacing -> {1, 3}, ParagraphIndent -> -20, 
+       CounterIncrements -> "Text", FontFamily -> "Garamond", FontSize -> 14], 
+      Cell[
+       StyleData["Reference", "Printout"], CellMargins -> {{72, 140}, {4, 4}},
+        LineSpacing -> {1, 3}, FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Header"], FontFamily -> "Verdana", FontSize -> 10, 
+       FontSlant -> "Plain"], 
+      Cell[
+       StyleData["Header", "Printout"], Magnification -> 1.]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["PageNumber"], FontFamily -> "Champagne", FontSize -> 10, 
+       FontWeight -> "Plain"], 
+      Cell[
+       StyleData["PageNumber", "Printout"], FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Item"], CellDingbat -> 
+       Cell["\[FilledSmallCircle]", FontWeight -> "Bold"], 
+       CellMargins -> {{135, 200}, {4, 4}}, ReturnCreatesNewCell -> True, 
+       CellGroupingRules -> {"GroupTogetherNestedGrouping", 15000}, 
+       CellFrameLabelMargins -> 4, TrackCellChangeTimes -> False, 
+       TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Item", CounterAssignments -> {{"Subitem", 0}, {"Subsubitem", 0}}, 
+       MenuSortingValue -> 1600, FontFamily -> "Garamond", FontSize -> 14], 
+      Cell[
+       StyleData["Item", "Presentation"], CellMargins -> {{100, 10}, {7, 7}}, 
+       CellFrameLabelMargins -> 6, FontSize -> 24], 
+      Cell[
+       StyleData["Item", "Condensed"], 
+       CellMargins -> {{58, Inherited}, {2, 2}}, FontSize -> 8], 
+      Cell[
+       StyleData["Item", "Printout"], CellMargins -> {{96, 150}, {4, 4}}]}, 
+     Closed]], 
+   Cell[
+    StyleData["Subitem"], CellMargins -> {{155, 200}, {4, 4}}, 
+    ReturnCreatesNewCell -> True, 
+    CellGroupingRules -> {"GroupTogetherNestedGrouping", 15000}, 
+    CellFrameLabelMargins -> 4, TrackCellChangeTimes -> False, 
+    TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+    "Item", CounterAssignments -> {{"Subitem", 0}, {"Subsubitem", 0}}, 
+    MenuSortingValue -> 1600, FontFamily -> "Garamond", FontSize -> 12], 
+   Cell[
+    StyleData["Subsubitem"], CellDingbat -> "\[Diamond]", 
+    CellMargins -> {{165, 200}, {4, 4}}, ReturnCreatesNewCell -> True, 
+    CellGroupingRules -> {"GroupTogetherNestedGrouping", 15000}, 
+    CellFrameLabelMargins -> 4, TrackCellChangeTimes -> False, 
+    TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+    "Item", CounterAssignments -> {{"Subitem", 0}, {"Subsubitem", 0}}, 
+    MenuSortingValue -> 1600, FontFamily -> "Garamond", FontSize -> 12], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Image Label"], CellMargins -> {{132, 192}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, TrackCellChangeTimes -> False, 
+       TextAlignment -> Center, TextJustification -> 0, LineSpacing -> {1, 3},
+        CounterIncrements -> "Text", FontFamily -> "Garamond", FontSize -> 
+       14], 
+      Cell[
+       StyleData["Paragraph", "Printout"], CellMargins -> {{72, 140}, {4, 4}},
+        LineSpacing -> {1, 3}, ParagraphIndent -> 16, FontSize -> 15]}, 
+     Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["InlineFormula"], CellMargins -> {{10, 4}, {0, 8}}, 
+       StripStyleOnPaste -> True, 
+       HyphenationOptions -> {"HyphenationCharacter" -> "\[Continuation]"}, 
+       LanguageCategory -> "Formula", ScriptLevel -> 1, SingleLetterItalics -> 
+       True, MenuSortingValue -> 1650, FontFamily -> "Garamond"], 
+      Cell[
+       StyleData["InlineFormula", "Printout"], 
+       CellMargins -> {{2, 0}, {6, 6}}]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["DisplayFormula"], 
+       CellMargins -> {{150, Inherited}, {Inherited, Inherited}}, 
+       StripStyleOnPaste -> True, DefaultFormatType -> TraditionalForm, 
+       TrackCellChangeTimes -> False, 
+       HyphenationOptions -> {"HyphenationCharacter" -> "\[Continuation]"}, 
+       LanguageCategory -> "Formula", ScriptLevel -> 0, SingleLetterItalics -> 
+       True, MenuSortingValue -> 1700, FontFamily -> "Garamond", 
+       UnderoverscriptBoxOptions -> {LimitsPositioning -> True}], 
+      Cell[
+       StyleData["DisplayFormula", "Printout"], 
+       CellMargins -> {{52, 115}, {12, 12}}, PageBreakWithin -> False, 
+       TextAlignment -> Center, FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["DisplayFormulaNumbered"], 
+       CellMargins -> {{150, Inherited}, {Inherited, Inherited}}, 
+       StripStyleOnPaste -> True, CellFrameLabels -> {{None, 
+          Cell[
+           TextData[{"(", 
+             CounterBox["Subsubsection"], ", ", 
+             CounterBox["DisplayFormulaNumbered"], ")"}], 
+           "DisplayFormulaEquationNumber"]}, {None, None}}, DefaultFormatType -> 
+       TraditionalForm, TrackCellChangeTimes -> False, 
+       HyphenationOptions -> {"HyphenationCharacter" -> "\[Continuation]"}, 
+       LanguageCategory -> "Formula", ScriptLevel -> 0, SingleLetterItalics -> 
+       True, CounterIncrements -> "DisplayFormulaNumbered", MenuSortingValue -> 
+       1710, FontFamily -> "Garamond", 
+       UnderoverscriptBoxOptions -> {LimitsPositioning -> True}], 
+      Cell[
+       StyleData["DisplayFormulaNumbered", "Printout"], 
+       CellMargins -> {{52, 115}, {12, 12}}, PageBreakWithin -> False, 
+       TextAlignment -> Center, FontSize -> 15]}, Closed]], 
+   Cell[
+    StyleData["DisplayFormulaEquationNumber"], FontFamily -> "Times", 
+    FontSize -> -1 + Inherited], 
+   Cell[
+    StyleData["MarginalNote"], CellMargins -> {{5, 0}, {0, 0}}, FontFamily -> 
+    "Times New Roman", FontSize -> 12], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Input"], TrackCellChangeTimes -> False, FontSize -> 13], 
+      Cell[
+       StyleData["Input", "Presentation"], 
+       CellMargins -> {{100, 10}, {8, 15}}], 
+      Cell[
+       StyleData["Input", "SlideShow"], 
+       CellMargins -> {{
+         0.135 FrontEnd`AbsoluteCurrentValue[{WindowSize, 1}], 0.01 
+          FrontEnd`AbsoluteCurrentValue[{WindowSize, 1}]}, {8, 15}}, 
+       LinebreakAdjustments -> {1, 2., 12., 1., 1.}, FontSize -> 20], 
+      Cell[
+       StyleData["Input", "Condensed"], CellMargins -> {{50, 10}, {2, 3}}], 
+      Cell[
+       StyleData["Input", "Printout"], 
+       CellMargins -> {{49, Inherited}, {Inherited, 8}}, 
+       LinebreakAdjustments -> {0.85, 2, 10, 1, 1}], 
+      Cell[
+       StyleData["Input", "PrintoutGray"], 
+       CellMargins -> {{49, Inherited}, {Inherited, 8}}, 
+       LinebreakAdjustments -> {0.85, 2, 10, 1, 1}]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Output"], TrackCellChangeTimes -> False, FontSize -> 13], 
+      Cell[
+       StyleData["Output", "Presentation"], 
+       CellMargins -> {{100, 10}, {15, 8}}], 
+      Cell[
+       StyleData["Output", "SlideShow"], 
+       CellMargins -> {{
+         0.135 FrontEnd`AbsoluteCurrentValue[{WindowSize, 1}], 0.01 
+          FrontEnd`AbsoluteCurrentValue[{WindowSize, 1}]}, {15, 8}}, 
+       LinebreakAdjustments -> {1, 2., 12., 1., 1.}, FontSize -> 20], 
+      Cell[
+       StyleData["Output", "Condensed"], 
+       CellMargins -> {{50, Inherited}, {3, 2}}], 
+      Cell[
+       StyleData["Output", "Printout"], 
+       CellMargins -> {{49, Inherited}, {9, 3}}], 
+      Cell[
+       StyleData["Output", "PrintoutGray"], 
+       CellMargins -> {{49, Inherited}, {9, 3}}]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Message"], TrackCellChangeTimes -> False], 
+      Cell[
+       StyleData["Message", "Presentation"], 
+       CellMargins -> {{100, Inherited}, {1.5 Inherited, 1.5 Inherited}}], 
+      Cell[
+       StyleData["Message", "SlideShow"], 
+       CellMargins -> {{
+         0.135 FrontEnd`AbsoluteCurrentValue[{WindowSize, 1}], 0.01 
+          FrontEnd`AbsoluteCurrentValue[{WindowSize, 1}]}, {8, 15}}, FontSize -> 
+       18], 
+      Cell[
+       StyleData["Message", "Condensed"], 
+       CellMargins -> {{18, Inherited}, {Inherited, Inherited}}], 
+      Cell[
+       StyleData["Message", "Printout"], 
+       CellMargins -> {{49, Inherited}, {Inherited, Inherited}}, 
+       CellFrameLabels -> {{None, None}, {None, None}}], 
+      Cell[
+       StyleData["Message", "PrintoutGray"], 
+       CellMargins -> {{49, Inherited}, {Inherited, Inherited}}, 
+       CellFrameLabels -> {{None, None}, {None, None}}, FontColor -> 
+       GrayLevel[0.5]]}, Closed]]}, Visible -> False, FrontEndVersion -> 
+  "9.0 for Linux x86 (64-bit) (February 7, 2013)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 39, 0, 123, "Title"],
+Cell[621, 24, 31, 0, 123, "Title"],
+Cell[655, 26, 26, 0, 78, "Section"],
+Cell[684, 28, 40, 0, 67, "Section"],
+Cell[727, 30, 35, 0, 67, "Section"],
+Cell[765, 32, 28, 0, 67, "Section"],
+Cell[796, 34, 29, 0, 67, "Section"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[862, 39, 24, 0, 123, "Title"],
+Cell[CellGroupData[{
+Cell[911, 43, 37, 0, 71, "Subsection"],
+Cell[CellGroupData[{
+Cell[973, 47, 32, 0, 40, "Item"],
+Cell[1008, 49, 50, 0, 37, "Subitem"],
+Cell[1061, 51, 50, 0, 37, "Subitem"],
+Cell[1114, 53, 32, 0, 37, "Subitem"],
+Cell[1149, 55, 30, 0, 37, "Subitem"],
+Cell[1182, 57, 33, 0, 40, "Item"],
+Cell[1218, 59, 34, 0, 37, "Subitem"],
+Cell[1255, 61, 38, 0, 37, "Subitem"],
+Cell[1296, 63, 34, 0, 37, "Subitem"],
+Cell[1333, 65, 36, 0, 37, "Subitem"],
+Cell[1372, 67, 34, 0, 37, "Subitem"],
+Cell[1409, 69, 34, 0, 40, "Item"],
+Cell[1446, 71, 35, 0, 37, "Subitem"],
+Cell[1484, 73, 34, 0, 37, "Subitem"],
+Cell[1521, 75, 39, 0, 37, "Subitem"],
+Cell[1563, 77, 37, 0, 37, "Subitem"],
+Cell[1603, 79, 37, 0, 40, "Item"],
+Cell[1643, 81, 26, 0, 37, "Subitem"],
+Cell[1672, 83, 42, 0, 37, "Subitem"],
+Cell[1717, 85, 51, 0, 37, "Subitem"],
+Cell[1771, 87, 29, 0, 37, "Subitem"],
+Cell[1803, 89, 35, 0, 37, "Subitem"],
+Cell[1841, 91, 37, 0, 40, "Item"],
+Cell[1881, 93, 39, 0, 37, "Subitem"],
+Cell[1923, 95, 19, 0, 37, "Subitem"],
+Cell[1945, 97, 37, 0, 40, "Item"],
+Cell[1985, 99, 47, 0, 37, "Subitem"],
+Cell[2035, 101, 28, 0, 40, "Item"],
+Cell[2066, 103, 28, 0, 40, "Item"],
+Cell[2097, 105, 28, 0, 40, "Item"],
+Cell[2128, 107, 34, 0, 40, "Item"],
+Cell[2165, 109, 29, 0, 40, "Item"],
+Cell[2197, 111, 27, 0, 40, "Item"],
+Cell[2227, 113, 35, 0, 40, "Item"],
+Cell[2265, 115, 33, 0, 40, "Item"],
+Cell[2301, 117, 33, 0, 40, "Item"],
+Cell[2337, 119, 36, 0, 40, "Item"],
+Cell[2376, 121, 38, 0, 40, "Item"],
+Cell[2417, 123, 26, 0, 40, "Item"],
+Cell[2446, 125, 40, 0, 40, "Item"],
+Cell[2489, 127, 36, 0, 40, "Item"],
+Cell[2528, 129, 29, 0, 40, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2606, 135, 73, 2, 47, "Subsection"],
+Cell[CellGroupData[{
+Cell[2704, 141, 41, 0, 40, "Item"],
+Cell[2748, 143, 34, 0, 37, "Subitem"],
+Cell[2785, 145, 28, 0, 37, "Subitem"],
+Cell[2816, 147, 48, 0, 37, "Subitem"],
+Cell[2867, 149, 28, 0, 37, "Subitem"],
+Cell[2898, 151, 23, 0, 40, "Item"],
+Cell[2924, 153, 38, 0, 37, "Subitem"],
+Cell[2965, 155, 46, 0, 36, "Subsubitem"],
+Cell[3014, 157, 47, 0, 36, "Subsubitem"],
+Cell[3064, 159, 31, 0, 37, "Subitem"],
+Cell[3098, 161, 48, 0, 36, "Subsubitem"],
+Cell[3149, 163, 39, 0, 37, "Subitem"],
+Cell[3191, 165, 48, 0, 36, "Subsubitem"],
+Cell[3242, 167, 21, 0, 40, "Item"],
+Cell[3266, 169, 49, 0, 37, "Subitem"],
+Cell[3318, 171, 63, 0, 37, "Subitem"],
+Cell[3384, 173, 26, 0, 40, "Item"],
+Cell[3413, 175, 31, 0, 37, "Subitem"],
+Cell[3447, 177, 35, 0, 37, "Subitem"],
+Cell[3485, 179, 34, 0, 37, "Subitem"],
+Cell[3522, 181, 34, 0, 37, "Subitem"],
+Cell[3559, 183, 39, 0, 37, "Subitem"],
+Cell[3601, 185, 24, 0, 40, "Item"],
+Cell[3628, 187, 32, 0, 37, "Subitem"],
+Cell[3663, 189, 26, 0, 37, "Subitem"],
+Cell[3692, 191, 45, 0, 37, "Subitem"],
+Cell[3740, 193, 30, 0, 37, "Subitem"],
+Cell[3773, 195, 32, 0, 37, "Subitem"],
+Cell[3808, 197, 40, 0, 37, "Subitem"],
+Cell[3851, 199, 28, 0, 40, "Item"],
+Cell[3882, 201, 28, 0, 37, "Subitem"],
+Cell[3913, 203, 37, 0, 37, "Subitem"],
+Cell[3953, 205, 35, 0, 37, "Subitem"],
+Cell[3991, 207, 29, 0, 40, "Item"],
+Cell[4023, 209, 34, 0, 40, "Item"],
+Cell[4060, 211, 35, 0, 40, "Item"],
+Cell[4098, 213, 24, 0, 40, "Item"],
+Cell[4125, 215, 25, 0, 40, "Item"],
+Cell[4153, 217, 30, 0, 37, "Subitem"],
+Cell[4186, 219, 40, 0, 37, "Subitem"],
+Cell[4229, 221, 34, 0, 40, "Item"],
+Cell[4266, 223, 29, 0, 40, "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4356, 230, 22, 0, 123, "Title"],
+Cell[CellGroupData[{
+Cell[4403, 234, 35, 0, 78, "Section"],
+Cell[4441, 236, 61, 2, 71, "Subsection"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

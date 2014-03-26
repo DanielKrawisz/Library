@@ -1,0 +1,3023 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     81704,       3014]
+NotebookOptionsPosition[     38375,       1848]
+NotebookOutlinePosition[     53715,       2172]
+CellTagsIndexPosition[     53672,       2169]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Concepts", "Title",
+ FontSize->32],
+
+Cell[CellGroupData[{
+
+Cell["Early Musings", "Section"],
+
+Cell[CellGroupData[{
+
+Cell["Reveletory Musics", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Introduction", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Version 1", "Section"],
+
+Cell[CellGroupData[{
+
+Cell["Mathematical Logic", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Information Theory", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Thermodynamics", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Evolution", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Engineering", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["The Theory of Mind", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Mythology", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Epistemology", "Title",
+ FontSize->32],
+
+Cell[CellGroupData[{
+
+Cell["Version 1", "Section"],
+
+Cell[CellGroupData[{
+
+Cell["Outline", "Subsubsubsection",
+ CellChangeTimes->{{3.579252668549336*^9, 3.579252668996689*^9}, {
+  3.579344734984991*^9, 3.579344739553904*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["The Scientific Methods", "Item"],
+
+Cell["The Observation", "Subitem"],
+
+Cell["Falsificationism: finite vs. infinite", "Subsubitem"],
+
+Cell["\<\
+Aristotlian vs. Newtonian science (Kepler and Bohr vs. Newton and Schr\
+\[ODoubleDot]dinger)\
+\>", "Subsubitem"],
+
+Cell["The Isolated Experiment", "Subitem"],
+
+Cell["The orbit of mercury as evidence for Einsteinian gravity. ", \
+"Subsubitem"],
+
+Cell["The Controlled Experiment", "Subitem"],
+
+Cell["Causality", "Subsubitem"],
+
+Cell["History", "Subitem"],
+
+Cell["Causality is prior to history. ", "Subsubitem"],
+
+Cell["Engineering", "Item"],
+
+Cell["Optimization", "Subitem"],
+
+Cell["Value scales", "Subsubitem"],
+
+Cell["Offspring", "Subsubitem"],
+
+Cell["Counterfactual statements", "Subitem"],
+
+Cell["\<\
+Compatibilism: something can be purposeful and mechanical at the same time. \
+\>", "Subsubitem"],
+
+Cell["Reverse Engineering", "Subitem"],
+
+Cell["There is a presumption of purposiveness. ", "Subsubitem"],
+
+Cell["\<\
+The engineering stance is applicable generally but can be meaningless. \
+\>", "Subsubitem"],
+
+Cell["Game Theory", "Item"],
+
+Cell["A Competition of Engineering Options", "Subitem"],
+
+Cell["Outcomes", "Subitem"],
+
+Cell["Application to Biology and Economics", "Subitem"],
+
+Cell["The gene", "Subsubitem"],
+
+Cell["The animal", "Subsubitem"],
+
+Cell["The individual", "Subsubitem"],
+
+Cell["The firm", "Subsubitem"],
+
+Cell["The business model", "Subsubitem"],
+
+Cell["Austrian Economics and Mathematics", "Subitem"],
+
+Cell["Political and Social Theories", "Item"],
+
+Cell["Voluntaryism vs. Coercion", "Subitem"],
+
+Cell["Statism vs. Anarchy", "Subitem"],
+
+Cell["Capitalism vs. Primitivism", "Subitem"],
+
+Cell["Technology vs. Primitivism", "Subitem"],
+
+Cell["Employment/Rent vs. Communism", "Subitem"],
+
+Cell["Economic Theory", "Item"],
+
+Cell["Anthropology: The four kinds of interactions", "Subitem"],
+
+Cell["Prices", "Subitem"],
+
+Cell["Rationality", "Subitem"],
+
+Cell["Experimetalism", "Item"],
+
+Cell["", "Subitem"],
+
+Cell["Evaluating History", "Item"],
+
+Cell["The Unfalsifiabily of Theory", "Subitem"],
+
+Cell["The Evolution of Money", "Subitem"],
+
+Cell["Social Behavior and Ethics", "Item"],
+
+Cell["Engineering, ethics, and entrepreneurship.", "Subitem"],
+
+Cell["Reciprocal Altruism and Money", "Subitem"],
+
+Cell["The Handicap Principle", "Subitem"],
+
+Cell["The Spontaneous Order", "Item"],
+
+Cell["Chaos and Complexity", "Subitem"],
+
+Cell["Entrepreneurship ", "Subitem"],
+
+Cell["Production and Time Preference", "Item"],
+
+Cell["Not falsifiable", "Subitem"],
+
+Cell["\<\
+Any historical process must be studied with a presupposition as to the causal \
+processes. \
+\>", "Subitem"],
+
+Cell["Competition", "Item"],
+
+Cell["Creationism and Central Planning", "Item"],
+
+Cell["Historical Propaganda", "Subitem"],
+
+Cell["\<\
+The ways that the design proponents distort history, both in Earth history \
+and human history. \
+\>", "Subsubitem"],
+
+Cell["The Inscrutability of the Creator", "Subitem"],
+
+Cell["\<\
+Without some understanding of the values of a creator, it is impossible to \
+evaluate or identify design. \
+\>", "Subsubitem"],
+
+Cell["Life serves no apparent purpose. ", "Subsubitem"],
+
+Cell["The Entrepreneurial Bottleneck", "Subitem"],
+
+Cell["\<\
+My interpretation of Mises\[CloseCurlyQuote]s calculation argument\
+\>", "Subsubitem"],
+
+Cell["Human Prejudices", "Item"],
+
+Cell["Biology", "Subitem"],
+
+Cell["Economics", "Subitem"],
+
+Cell["Epilog: The Analogies of Atheism and Anarchism", "Item"],
+
+Cell["The Power of Indoctrination", "Subitem"],
+
+Cell["\<\
+Theists and statists have trouble putting themselves in the minds of their \
+opponents.\
+\>", "Subsubitem"],
+
+Cell["\<\
+Arguments for god and for the state only sound convincing to people who \
+already believe in them. \
+\>", "Subsubitem"],
+
+Cell["\<\
+We understand that people under totalitarian regiems were indoctrinated, but \
+the same is true in democracies as well. \
+\>", "Subsubitem"],
+
+Cell["Lack of Imagination", "Subitem"],
+
+Cell["Intelligent design theory", "Subsubitem"],
+
+Cell["Special Pleading", "Subitem"],
+
+Cell["\<\
+If I argue in the abstract that there must be a creator and/or that there \
+must be a monopoly of force, this in no way justifies any human religion or \
+human government. \
+\>", "Subsubitem"],
+
+Cell["The Nonsequitor", "Subitem"],
+
+Cell["Ethics", "Subsubitem"],
+
+Cell["The Fear of the Logical Conclusion", "Subitem"],
+
+Cell["\<\
+Atheists should be anarchists and anarchists should be atheists. \
+\>", "Subsubitem"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Foreward", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Preface", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Philosophy of Learning", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Observation and Experiment", "Subsubsection"],
+
+Cell["\<\
+The scientific methods consists of searching for objective ways to \
+distinguishing between competing hypotheses. The philosophy of science is \
+developed by stating the assumptions that are required so that the \
+observational techniques available to us are meaningful. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Engineering", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Optimization", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Optimization", "Subitem"],
+
+Cell["Value scales", "Subsubitem"],
+
+Cell["Offspring", "Subsubitem"]
+}, Open  ]],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Game Theory", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Metaphysical Issues", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Rationalism", "Subsubsection"],
+
+Cell["\<\
+Engineering is rationalistic to the extent that two approaches whose value is \
+postulated can be compared. \
+\>", "Paragraph"],
+
+Cell["\<\
+In economics, coercion and voluntarism can always be compared. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Compatibilism", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Political and Social Theories", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Evolution", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Variation and Selection", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Price Formation", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Sociality", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Production", "Subsubsection"],
+
+Cell["\<\
+Maybe there is a connection between biology and entropy here\[Ellipsis]\
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Experimentalism", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["The Spontaneous Order", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Epilog", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Anarchism and Atheism", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Humanity", "Title",
+ FontSize->32],
+
+Cell[CellGroupData[{
+
+Cell["Outline of the human nature book.", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["The Philosophy of Engineering", "Item"],
+
+Cell["Causality", "Subitem"],
+
+Cell["The Observation", "Subsubitem"],
+
+Cell["The Controlled Experiment", "Subsubitem"],
+
+Cell["The Isolated Experiment", "Subsubitem"],
+
+Cell["History", "Subsubitem"],
+
+Cell["Purpose", "Subitem"],
+
+Cell["Deterministic and Indeterministic Machines", "Subsubitem"],
+
+Cell["Optimization", "Subsubitem"],
+
+Cell["Purpose", "Item"],
+
+Cell["Not objective.", "Subitem"],
+
+Cell["Requires the concept of counterfactuals.", "Subitem"],
+
+Cell["Reverse Engineering", "Item"],
+
+Cell["Hypothetical statements", "Subitem"],
+
+Cell["Several different representations of the same thing. ", "Subitem"],
+
+Cell["The division into parts is not objective. ", "Subitem"],
+
+Cell["Optimization, or the Good", "Item"],
+
+Cell["Purposes are hierarchical.", "Subitem"],
+
+Cell["A circular network of purposes indicates historical process.", "Subitem"],
+
+Cell["Natural Selection", "Item"],
+
+Cell["Not falsifiable", "Subitem"],
+
+Cell["\<\
+Any historical process must be studied with a presupposition as to the causal \
+processes. \
+\>", "Subitem"],
+
+Cell["Ethics", "Item"],
+
+Cell["\<\
+Actions which promote the good beyond the ability to predict the future. \
+\>", "Subitem"],
+
+Cell["Society", "Item"],
+
+Cell["", "Subitem"],
+
+Cell["\<\
+The categorical imperative must be assumed to prevent parasitism. \
+\>", "Subitem"],
+
+Cell["Tradition", "Item"],
+
+Cell["The method of ethics. ", "Subitem"],
+
+Cell["Intelligence", "Item"],
+
+Cell["\<\
+A complex processes cannot be designed to remain within the bounds of some \
+purpose. \
+\>", "Subitem"],
+
+Cell["Faith", "Item"],
+
+Cell["\<\
+That which constrains intelligence along the path chosen for it. \
+\>", "Subitem"],
+
+Cell["\<\
+Human religion\[LongDash]A mental module for uncritical memetic evolution. \
+\>", "Subitem"],
+
+Cell["Technology", "Item"],
+
+Cell["Will lead to the end of intelligence, one way or another. ", "Subitem"],
+
+Cell["Meaning", "Item"],
+
+Cell["\<\
+Meaning is not objective. Any message can be interpreted in any way. \
+\>", "Subitem"],
+
+Cell["Divination", "Item"],
+
+Cell["Interpretation of meaning into a complex random process. ", "Subitem"],
+
+Cell["\<\
+Divination is the process by which we come to conclusions about our own \
+minds. \
+\>", "Subitem"],
+
+Cell["Consciousness", "Item"],
+
+Cell["\<\
+There are potentially infinite layers to the mind. We can interpret as many \
+as we like. \
+\>", "Subitem"],
+
+Cell["Death", "Item"],
+
+Cell["Suicide is rational.", "Subitem"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Outline of Spontaneous Order", "Subsubsubsection",
+ CellChangeTimes->{{3.579252668549336*^9, 3.579252668996689*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["The Scientific Methods", "Item"],
+
+Cell["The Observation", "Subitem"],
+
+Cell["The Isolated Experiment", "Subitem"],
+
+Cell["The Controlled Experiment", "Subitem"],
+
+Cell["History", "Subitem"],
+
+Cell["Engineering", "Item"],
+
+Cell["Purpose and Value", "Subitem"],
+
+Cell["Counterfactual statements", "Subitem"],
+
+Cell["Reverse Engineering", "Subitem"],
+
+Cell["Game Theory", "Subitem"],
+
+Cell["Evolutionary and Economic Theory", "Item"],
+
+Cell["", "Subitem"],
+
+Cell["Rationality", "Subitem"],
+
+Cell["Evaluating History", "Item"],
+
+Cell["The Evolution of Money", "Subitem"],
+
+Cell["Social Behavior and Ethics", "Item"],
+
+Cell["Reciprocal Altruism and Money", "Subitem"],
+
+Cell["The Handicap Principle", "Subitem"],
+
+Cell["The Spontaneous Order", "Item"],
+
+Cell["Chaos and Complexity", "Subitem"],
+
+Cell["Entrepreneurship ", "Subitem"],
+
+Cell["Production and Time Preference", "Item"],
+
+Cell["Not falsifiable", "Subitem"],
+
+Cell["\<\
+Any historical process must be studied with a presupposition as to the causal \
+processes. \
+\>", "Subitem"],
+
+Cell["Competition", "Item"],
+
+Cell["Creationism and Central Planning", "Item"],
+
+Cell["Historical Propaganda", "Subitem"],
+
+Cell["\<\
+The ways that the design proponents distort history, both in Earth history \
+and human history. \
+\>", "Subsubitem"],
+
+Cell["The Inscrutability of the Creator", "Subitem"],
+
+Cell["\<\
+Without some understanding of the values of a creator, it is impossible to \
+evaluate or identify design. \
+\>", "Subsubitem"],
+
+Cell["Life serves no apparent purpose. ", "Subsubitem"],
+
+Cell["The Entrepreneurial Bottleneck", "Subitem"],
+
+Cell["\<\
+My interpretation of Mises\[CloseCurlyQuote]s calculation argument\
+\>", "Subsubitem"],
+
+Cell["Human Prejudices", "Item"],
+
+Cell["Biology", "Subitem"],
+
+Cell["Economics", "Subitem"],
+
+Cell["Epilog: The Analogies of Atheism and Anarchism", "Item"],
+
+Cell["The Power of Indoctrination", "Subitem"],
+
+Cell["\<\
+Theists and statists have trouble putting themselves in the minds of their \
+opponents.\
+\>", "Subsubitem"],
+
+Cell["\<\
+Arguments for god and for the state only sound convincing to people who \
+already believe in them. \
+\>", "Subsubitem"],
+
+Cell["\<\
+We understand that people under totalitarian regiems were indoctrinated, but \
+the same is true in democracies as well. \
+\>", "Subsubitem"],
+
+Cell["Lack of Imagination", "Subitem"],
+
+Cell["Intelligent design theory", "Subsubitem"],
+
+Cell["Special Pleading", "Subitem"],
+
+Cell["\<\
+If I argue in the abstract that there must be a creator and/or that there \
+must be a monopoly of force, this in no way justifies any human religion or \
+human government. \
+\>", "Subsubitem"],
+
+Cell["The Nonsequitor", "Subitem"],
+
+Cell["Ethics", "Subsubitem"],
+
+Cell["The Fear of the Logical Conclusion", "Subitem"],
+
+Cell["\<\
+Atheists should be anarchists and anarchists should be atheists. \
+\>", "Subsubitem"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["History of Earth:", "Subsubsubsection",
+ CellChangeTimes->{{3.5784941839172196`*^9, 3.5784941872696333`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Prelude: the formation of the solar system", "Item"],
+
+Cell["The Big Bang and Inflation", "Subitem"],
+
+Cell["Successive freezes and the Cosmic Microwave Background", "Subitem"],
+
+Cell["Gravity; the formation of nebulae and stars", "Subitem"],
+
+Cell["The Formation of the Planets", "Subitem"],
+
+Cell["Philosophy: Experiment and History", "Item"],
+
+Cell["Geology and Geologic Processes", "Subitem"],
+
+Cell["Evolutionary theory", "Subitem"],
+
+Cell["The Hadean Era", "Item"],
+
+Cell["Accretion", "Subitem"],
+
+Cell["The Formation of the Moon; Asteroid Impacts", "Subitem"],
+
+Cell["History of the Moon", "Subitem"],
+
+Cell["The Composition of the Early Earth", "Subitem"],
+
+Cell["Abiogenesis", "Item"],
+
+Cell["Life Processes", "Subitem"],
+
+Cell["The RNA World", "Subitem"],
+
+Cell["Formation of Cells", "Subitem"],
+
+Cell["The Three Domains", "Subitem"],
+
+Cell["The Proterozoic", "Item"],
+
+Cell["Multicellularity", "Subitem"],
+
+Cell["The Ediacaran Fauna", "Subitem"],
+
+Cell["The Cambrian Era", "Item"],
+
+Cell["", "Subitem"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Outline 1", "Section"],
+
+Cell[CellGroupData[{
+
+Cell["Notes", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+First, divest people of the idea of an objective metaphysics. \
+\>", "Item"],
+
+Cell["Get them to think of themselves as a machine. ", "Item"],
+
+Cell["\<\
+Get them to think of human behavior in terms of its evolutionary function. \
+\>", "Item"],
+
+Cell["Destroy the idea of religion and the state. ", "Item"],
+
+Cell["Cynify their view of the search for meaning. ", "Item"],
+
+Cell["Now finally think about technology. ", "Item"],
+
+Cell["\<\
+Once people can engineer themselves, there is no ultimate goal to strive for. \
+\>", "Subitem"],
+
+Cell["\<\
+The reason people are so well-organized is not because they want to be. \
+\>", "Subitem"],
+
+Cell["Once a desire is removed, how could someone want it back? ", "Subitem"],
+
+Cell["\<\
+In a population that alters rapidly, Darwinian evolution should operate \
+quickly. \
+\>", "Subitem"],
+
+Cell["\<\
+The only kind of creature that can stay organized is one without technology. \
+\>", "Subitem"],
+
+Cell["\<\
+Thus, the next race should be expected to lack intelligence. \
+\>", "Subitem"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Preface", "Subsection"],
+
+Cell["\<\
+The subject of logical fallacies does not properly belong to the subject of \
+logic. There are an infinite number of possible nonsequitors one could make \
+and all are equally illogical. The reason we have names for certain kinds of \
+fallacies, such as the appeal to authority or the argument from ignorance, is \
+simply that human minds are more prone to making them than other kinds.\
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "Thus, logical fallacies should be considered a matter of psychology rather \
+than logic. The only reason they remain associated is that Aristotle \
+improperly included a section on logical fallacies in his ",
+ StyleBox["prior analytics",
+  FontSlant->"Italic"],
+ " when it should have been confined to his book on ",
+ StyleBox["Rhetoric",
+  FontSlant->"Italic"],
+ ". [footnote to Joyce quote and check that the attribution is correct] \
+Philosophers (though not mathematicians) have propogated this category error."
+}], "Paragraph"],
+
+Cell["\<\
+If logical fallacies are more properly a matter of psychology than of logic, \
+then \[OpenCurlyDoubleQuote]logical fallacy\[CloseCurlyDoubleQuote] is a \
+misleading term. It is merely a polite way of saying \
+\[OpenCurlyDoubleQuote]delusion\[CloseCurlyDoubleQuote]. Now there are times \
+when it is prudent to err on the side of politeness and others when when only \
+the blunt truth will do. I suggest that the overly polite term \
+\[OpenCurlyDoubleQuote]logical fallacy\[CloseCurlyDoubleQuote] ought to be \
+reconsidered. \
+\>", "Paragraph"],
+
+Cell["\<\
+A delusional person would properly not be seen as deserving a point\[Dash]by\
+\[Dash]point rebuttal of his ravings, whereas someone who has merely made a \
+logical fallacy does. This attitude results in the unnesessary subjection of \
+people to long and tedius debates on topics that ought to confuse no \
+reasonable person. If nothing else, this attitude might lead to a reduction \
+in the excessive lengths of books by authors who feel compelled to respond to \
+critics whose intelligence, really, is undeserving of notice. \
+\>", "Paragraph"],
+
+Cell["\<\
+Example: Taleb in Fooled by Randomness versus The Black Swan. \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "Example: Daniel Dennet\[CloseCurlyQuote]s response to John Searle and the \
+length of ",
+ StyleBox["Darwin\[CloseCurlyQuote]s Dangerous Idea",
+  FontSlant->"Italic"],
+ " generally. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "Example: Dawkins in ",
+ StyleBox["Extended Phenotype",
+  FontSlant->"Italic"],
+ " on biological determinism. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "It is frankly degrading to have to explain to people that I am ",
+ StyleBox["not",
+  FontSlant->"Italic"],
+ " saying things that I never said, or to explain to people that they are \
+telling me an obvious fairy tale. If thinking people spent all their time \
+correcting the delusions of people who shouldn\[CloseCurlyQuote]t be thinking \
+at all in the first place, then no real thinking would ever get done."
+}], "Paragraph"],
+
+Cell["\<\
+This book takes a different approach. Anything which I do not actually say, \
+or which is not logically implied by what I say, is not a part of my \
+doctrine. Anyone who cannot tell the difference between a logical implication \
+and his own delusions is forbidden from reading further. \
+\>", "Paragraph"],
+
+Cell["\<\
+If I were to attempt to anticipate all possible nonsequitors that a reader \
+might hallucinate as a result of reading, the book would be infinitely long, \
+fractally discursive, and as pedantic as an analytic philosophy. The reader \
+must restrain his imagination if he wishes to understand me. I take no \
+responsibility for any interpretation of this book by anyone who does not \
+heed this warning. \
+\>", "Paragraph"],
+
+Cell["\<\
+If the reader begins to have the impression that I am perhaps saying \
+something with horrifying social implications or that denies him his \
+humanity, he just needs to calm down, take a deep breath, and search his mind \
+for the source of the delusion. Critics who argue against their own delusions \
+of what I said should simply be ignored. \
+\>", "Paragraph"],
+
+Cell["\<\
+Anyone who cannot handle this approach should just put this book down right \
+now. I can recommend any number of other books which rely on analogy and \
+metaphor rather than logical derivation, and written to give the strong \
+impression of conferring knowledge without really saying anything. \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "Such books as ",
+ StyleBox["A Brief History of Time",
+  FontSlant->"Italic"],
+ ", or any other popular book on modern physics like ",
+ StyleBox["The Elegant Universe",
+  FontSlant->"Italic"],
+ " or ",
+ StyleBox["The Dancing Wu-Li Masters",
+  FontSlant->"Italic"],
+ ", such a reader might find greatly satisfying. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ StyleBox["Atlas Shrugged",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["A New Kind of Science",
+  FontSlant->"Italic"],
+ ". "
+}], "Paragraph"],
+
+Cell["\<\
+Virtually every political book written since the dawn of time. \
+\>", "Paragraph"],
+
+Cell["\<\
+These books, which make wonderful bed\[Dash]time stories, are not books for \
+thinking. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Fundamental Concepts", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Mathematical Logic", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["\<\
+Formalizing logic means abstracting away meaning. \
+\>", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Computer Science", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Computers", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Everything is a computer.", "Item"],
+
+Cell["Two kinds: single program or universal. ", "Item"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Halting Problem", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Things can be too complex to understand or comprehend. ", "Item"],
+
+Cell["Chaos and complexity. ", "Item"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Deterministic and Indeterministic Laws", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+An indetermistic law can be thought of as a story that is either accepted or \
+rejected. Only a determistic law can be thought of as the next step \
+proceeding from the previous.\
+\>", "Item"],
+
+Cell["Music and birdsong are indeterministic. ", "Subitem"],
+
+Cell["\<\
+Counterfactuals only make sense in an indeterministic world. \
+\>", "Item"],
+
+Cell["\<\
+Something can appear to be indeterministic when it is really deterministic. \
+\>", "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Information Theory", "Subsubsection"],
+
+Cell["Entropy", "Subsubsubsection"],
+
+Cell["Meaning", "Subsubsubsection"],
+
+Cell["Reversible Computers", "Subsubsubsection"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Thermodynamics", "Subsubsection"],
+
+Cell["Energy", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Thermodynamics and Computation", "Subsubsubsection"],
+
+Cell["\<\
+The reason that the past appears to be different from the future is because \
+of the thermodynamics of computers. \
+\>", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Thermodynamcis and Life", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Life would not make sense without thermodynamics. ", "Item"],
+
+Cell["\<\
+The thermodynamics of replicators! \
+\>", "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Machines", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Purpose", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Constrained Optimization", "Subsubsubsection"],
+
+Cell["There is always a conflict in engineering. ", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Engineering as Inquiry", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+A machine is not objectively a machine. A machine is a machine because of its \
+relationship to hypothetical alternatives. \
+\>", "Item"],
+
+Cell["\<\
+To understand a machine requires elucidating the alternatives, not describing \
+a physical law. \
+\>", "Item"],
+
+Cell["Aristotle\[CloseCurlyQuote]s four causes. ", "Item"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Reverse Engineering", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["When can we tell when something has a purpose? ", "Item"],
+
+Cell["\<\
+This is necessary in order to say later that living things are machines. \
+\>", "Subitem"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Compatibilism", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+A compatibilist philosohy is based on distinguishing empirical from \
+hypothetical statements. \
+\>", "Item"],
+
+Cell[TextData[{
+ "An ",
+ StyleBox["is",
+  FontSlant->"Italic"],
+ " cannot imply an ",
+ StyleBox["ought",
+  FontSlant->"Italic"],
+ ". "
+}], "Subitem"],
+
+Cell["\<\
+Thus, the argument from incredulity must fail; the phenomenon in question may \
+be perfectly deterministic but too complex to understand easily. \
+\>", "Subitem"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Machines", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Purpose and Thermodynamics", "Subsubsubsection"],
+
+Cell["\<\
+Purposiveness only makes sense in a world that obeys the laws of \
+thermodynamics. \
+\>", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Describing a Machine", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Different representations. ", "Item"],
+
+Cell["What is a \[OpenCurlyDoubleQuote]part\[CloseCurlyDoubleQuote]? ", "Item"],
+
+Cell["Behavior of machines. ", "Item"],
+
+Cell["Metamorphosis of machines. ", "Item"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Human Machines", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Life", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Being a machine inherently means trying to satisfy opposing concerns. \
+\>", "Item"],
+
+Cell["This is why people are alienated. ", "Subitem"],
+
+Cell["\<\
+A mammal most loves to be caressed on the most vulnerable parts of its body. \
+\>", "Item"],
+
+Cell["The ultimate good: the gene-centric view. ", "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Indetermistic Theories", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Entropy and Productivity", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Production networks", "Item"],
+
+Cell["Capital goods", "Item"],
+
+Cell["Time preference", "Item"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Entropy and Life", "Subsubsubsection"],
+
+Cell["Food webs", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Natural Selection", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Game Theory", "Subsubsubsection"],
+
+Cell["Look at history and apply game theory to it. ", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Biological Evolution", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["A very complicated game can explain evolution. ", "Item"],
+
+Cell["The gene centered view. ", "Item"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Cultural Evolution", "Subsubsubsection"],
+
+Cell["\<\
+No such thing as a parasite meme, possibly because there is no thermodynamics \
+in the mind. Must think about this issue very carefully to resolve it. \
+\>", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Economics", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Subjectivism", "Item"],
+
+Cell["Exchange and price formation. ", "Item"],
+
+Cell["Rationality and randomness: Two indeterministic laws. ", "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Social Behavior", "Subsection"],
+
+Cell["The Handicap Principle", "Subsubsection"],
+
+Cell["Mating", "Subsubsection"],
+
+Cell["Status", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Cooperation", "Subsubsection"],
+
+Cell["Altruism", "Subsubsubsection"],
+
+Cell["Coordination", "Subsubsubsection"],
+
+Cell["Money", "Subsubsubsection"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Intelligence", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Invention", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Spontaneous Order", "Subsubsubsection"],
+
+Cell["\<\
+The Gaia theory is not a good metaphor because a thing that continuously \
+transforms is not a machine. \
+\>", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Chaotic Machines", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Finite state machines. ", "Item"],
+
+Cell["Most animals are like finite state machines. ", "Subitem"],
+
+Cell["\<\
+Human music and birdsong are like nondeterministic finite state machines \
+because there is an infinite range of acceptible patterns. \
+\>", "Subitem"],
+
+Cell["Universal computers. Humans are universal computers. ", "Item"],
+
+Cell["\<\
+The important difference between list-like data structures and tree-like data \
+structures. A list \
+\>", "Subitem"],
+
+Cell["\<\
+A chaotic machine cannot be made to stay within its parameters because there \
+is no way to predict every state it may enter that might allow it to escape \
+those parameters. \
+\>", "Item"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Entrepreneurship", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Predicting the future when every event is unique. ", "Item"],
+
+Cell["Dennet\[CloseCurlyQuote]s three machines", "Item"],
+
+Cell["Entrepreneurship in technology", "Item"],
+
+Cell["Entrepreneurship in science", "Item"],
+
+Cell["Entrepreneurship in production", "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Ethics", "Subsubsection"],
+
+Cell["\<\
+Promoting the good beyond our ability to predict the future. \
+\>", "Item"],
+
+Cell[CellGroupData[{
+
+Cell["Tradition", "Subsubsubsection"],
+
+Cell["Tradition is the method.", "Item"]
+}, Open  ]],
+
+Cell["Status", "Subsubsubsection"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Faith", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Is intelligence necessarily a beneficial attribute from an evolutionary \
+standpoint?\
+\>", "Item"],
+
+Cell["Things to have faith about: ", "Item"],
+
+Cell["My life is meaningful", "Subitem"],
+
+Cell["Future plans", "Subitem"],
+
+Cell["I am a good person. ", "Subitem"],
+
+Cell["\<\
+The categorical imperative is required to prevent parasitism. \
+\>", "Item"],
+
+Cell["Our intelligence is alienated from its purpose. ", "Item"],
+
+Cell["There is a desire to be unintelligent. ", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Society", "Subsubsection"],
+
+Cell["Social Reality", "Subsubsubsection"],
+
+Cell["Organizations", "Subsubsubsection"],
+
+Cell["Religion", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Politics", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Axes of contrast: ", "Item"],
+
+Cell["Coercion versus Voluntaryism", "Subitem"],
+
+Cell["The state is coercive. ", "Subsubitem"],
+
+Cell["Statism versus Anarchism", "Subitem"],
+
+Cell["\<\
+Anarchism might include gang warfar as long as there is no ethical monopoly. \
+\>", "Subsubitem"],
+
+Cell["Capitalism versus primitivism", "Subitem"],
+
+Cell["No assumption about whether the owner is a state. ", "Subsubitem"],
+
+Cell["Collectivism versus ", "Subitem"]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Natural Science", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Observation", "Subsubsubsection",
+ CellChangeTimes->{{3.585632450868216*^9, 3.585632452595624*^9}}],
+
+Cell["\<\
+Have all the eggs at home been put in the refrigerator? If the size of the \
+home is finite and all of it is observable, then there is no difficulty in \
+answering this question, at least from a philosophical standpoint. \
+\>", "Paragraph"],
+
+Cell["\<\
+However, in an infinitely large house, such that the number of eggs is \
+potentially infinite, it becomes a greater problem to characterize their \
+state. \
+\>", "Paragraph"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell["The Controlled Experiment", "Subsubsubsection"],
+
+Cell["The Isolated Experiment", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["History", "Subsubsubsection"],
+
+Cell["Must come with preconceptions about causality", "Item"]
+}, Closed]]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Self", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Meaning", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Divination", "Subsubsubsection"],
+
+Cell["I am a divination. ", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Interpretation", "Subsubsubsection"],
+
+Cell["Everything means everything", "Item"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Transformation", "Subsubsubsection"],
+
+Cell["I am always growing up. ", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Consciousness", "Subsubsection"],
+
+Cell["Metaphysics", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Experiencing Ourselves", "Subsubsubsection"],
+
+Cell["\<\
+Our personalities and desires can have an infinite number of layers to them. \
+\>", "Item"]
+}, Open  ]],
+
+Cell["Desire", "Subsubsubsection"],
+
+Cell["Self-Discovery", "Subsubsubsection"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Irrationality", "Subsubsection"],
+
+Cell["Social Reality", "Subsubsubsection"],
+
+Cell["Status", "Subsubsubsection"],
+
+Cell["Narrative", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Atheism and Anarchism", "Subsubsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Mythology", "Item"],
+
+Cell["Question\[Dash]begging ", "Item"],
+
+Cell["Miracles", "Item"],
+
+Cell["Ethics", "Item"]
+}, Open  ]],
+
+Cell["\<\
+The difference between a state and a mafia is precisely the same as that \
+between a religion and a cult. One is arbitrarily considered to be socially \
+acceptible and the other not. \
+\>", "Paragraph"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Individuation", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Trauma", "Item"],
+
+Cell["Recovery", "Item"],
+
+Cell["Multiple personalities", "Item"],
+
+Cell["Hunter-Gatherers", "Item"],
+
+Cell["Early Civilizations", "Item"],
+
+Cell["Religion and the State", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Technology", "Subsubsection"],
+
+Cell["The Singularity", "Subsubsubsection"],
+
+Cell["Transition", "Subsubsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Outline 2", "Section"],
+
+Cell[CellGroupData[{
+
+Cell["Mathematical Logic", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Mathematics", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Computer Science", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Information Theory", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Signals", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Thermodynamics", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Biology", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Natural Selection", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Game Theory", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["The Handicap Principle", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Altruism", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Purpose", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Engineering", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Economics", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Ethics", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Meaning", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Intelligence", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Irrationality", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Technology", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["", "Subsubsubsection"],
+
+Cell["", "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]]
+}, Closed]]
+}, Closed]]
+},
+WindowSize->{1282, 746},
+WindowMargins->{{123, Automatic}, {Automatic, 23}},
+PrintingPageRange->{Automatic, Automatic},
+ShowSelection->True,
+SpellingDictionaries->{"CorrectWords"->{
+ "intuitionism", "intuistic", "falsificationism", "falsificationist", 
+  "nominalism", "nominalistic", "disequilibrating", "evulotionism", 
+  "scientistic", "verifyable", "foundationalism", "Falsificationism", 
+  "Nominalism", "Essentialism", "essentialism", "knowlege", "Intuitionism", 
+  "intuitionists", "manga", "anime", "online", "Luffy", "Strawhat", "Rango", 
+  "Jonny", "Depp", "Canterlot", "forehoof", "Celestia", "Derpy", "altcoin", 
+  "Mastercoin", "blockchain", "Mastercoins", "datastream", 
+  "Willett\[CloseCurlyQuote]s", "mastercoins", "mastercoin", "altcoins"}},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"9.0 for Linux x86 (64-bit) (February 7, 2013)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Title"], CellFrame -> {{0, 0}, {0, 1}}, 
+       CellMargins -> {{27, Inherited}, {8, 34}}, TrackCellChangeTimes -> 
+       False, FontFamily -> "OptimusPrinceps", FontSize -> 40, FontWeight -> 
+       Plain], 
+      Cell[
+       StyleData["Title", "Printout"], CellFrame -> {{0, 0}, {1, 1}}, 
+       CellMargins -> {{60, 60}, {22, 80}}, TextAlignment -> Center, FontSize -> 
+       58]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Subtitle"], PageBreakBelow -> False, TrackCellChangeTimes -> 
+       False, FontFamily -> "Hobbiton Brushhand", FontSize -> 24, FontWeight -> 
+       "Plain", FontSlant -> "Plain", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       StyleData["Subtitle", "Printout"], PageBreakBelow -> False, 
+       TextAlignment -> Center, FontSize -> 24]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Section"], CellFrame -> None, 
+       CellMargins -> {{50, Inherited}, {8, 12}}, PageBreakAbove -> False, 
+       PageBreakBelow -> False, DefaultNewInlineCellStyle -> "None", 
+       TrackCellChangeTimes -> False, LanguageCategory -> "NaturalLanguage", 
+       CounterIncrements -> "Section", 
+       CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+         "Item", 0}, {"Subitem", 0}, {"Subsubitem", 0}, {"ItemNumbered", 0}, {
+         "SubitemNumbered", 0}, {"SubsubitemNumbered", 0}, {"Equation", 0}}, 
+       FontFamily -> "Cloister Black", FontSize -> 36, FontWeight -> "Plain", 
+       FontSlant -> "Plain", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       StyleData["Section", "Printout"], CellMargins -> {{2, 0}, {0, 22}}, 
+       PageBreakAbove -> False, FontFamily -> "Garamond", FontSize -> 20]}, 
+     Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Subsection"], CellDingbat -> None, 
+       CellMargins -> {{75, 40}, {10, 22}}, TrackCellChangeTimes -> False, 
+       CounterAssignments -> {{"Subsubsubsection", 0}, {"Subsubsection", 0}, {
+         "Item", 0}, {"Subitem", 0}, {"Subsubitem", 0}, {"ItemNumbered", 0}, {
+         "SubitemNumbered", 0}, {"SubsubitemNumbered", 0}}, FontFamily -> 
+       "Vivaldi", FontSize -> 20, FontWeight -> "Plain", FontSlant -> 
+       "Italic", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       StyleData["Subsection", "Printout"], CellMargins -> {{2, 0}, {10, 16}},
+        TrackCellChangeTimes -> False, FontFamily -> "Garamond", FontSize -> 
+       20, FontSlant -> Plain]}, Open]], 
+   Cell[
+    StyleData["Subsection Deleted"], CellDingbat -> None, 
+    CellMargins -> {{75, 40}, {10, 22}}, 
+    CellGroupingRules -> {"SectionGrouping", 40}, TrackCellChangeTimes -> 
+    False, CounterIncrements -> "Subsection", FontFamily -> "Magneto", 
+    FontSize -> 20, FontWeight -> "Plain", FontSlant -> "Italic", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Subsubsection"], CellDingbat -> \[FivePointedStar], 
+       CellMargins -> {{115, 40}, {10, 22}}, TrackCellChangeTimes -> False, 
+       CounterAssignments -> {{"Subsubsubsection", 0}, {"Item", 0}, {
+         "Subitem", 0}, {"Subsubitem", 0}, {"ItemNumbered", 0}, {
+         "SubitemNumbered", 0}, {"SubsubitemNumbered", 0}, {
+         "Definition", 0}, {"Proposition", 0}, {"Figure", 0}, {
+         "DisplayFormula", 0}, {"DisplayFormulaNumbered", 0}}, FontFamily -> 
+       "Zenda", FontSize -> 16, FontWeight -> "Bold", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       StyleData["Subsubsection", "Printout"], CellDingbat -> None, 
+       CellMargins -> {{2, 0}, {10, 16}}, FontFamily -> "Garamond"]}, Open]], 
+   Cell[
+    StyleData["Subsubsubsection"], CellMargins -> {{120, Inherited}, {2, 10}},
+     StyleKeyMapping -> {
+     "Tab" -> "Subsubsubsubsection", "Backspace" -> "Subsubsection", 
+      KeyEvent["Tab", Modifiers -> {Shift}] -> "Subsubsection"}, 
+    CellGroupingRules -> {"SectionGrouping", 60}, PageBreakBelow -> False, 
+    TrackCellChangeTimes -> False, LanguageCategory -> "NaturalLanguage", 
+    CounterIncrements -> "Subsubsubsection", 
+    CounterAssignments -> {{"Subsubsubsubsection", 0}, {"Item", 0}, {
+      "Subitem", 0}, {"Subsubitem", 0}, {"ItemNumbered", 0}, {
+      "SubitemNumbered", 0}, {"SubsubitemNumbered", 0}}, MenuSortingValue -> 
+    None, FontFamily -> "Arial", FontSize -> 14, FontWeight -> "Bold", 
+    FontColor -> 
+    RGBColor[0.778286411841001, 0.4230563820859083, 0.16115053025101092`]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Text"], CellMargins -> {{90, 160}, {10, 10}}, 
+       TextJustification -> 1, ParagraphIndent -> -36], 
+      Cell[
+       StyleData["Text", "Printout"], CellOpen -> False]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Paragraph"], CellMargins -> {{120, 200}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, CellLabelAutoDelete -> False, 
+       TrackCellChangeTimes -> False, TextJustification -> 1, 
+       LineSpacing -> {1, 3}, CounterIncrements -> "Text", FontFamily -> 
+       "Garamond", FontSize -> 14], 
+      Cell[
+       StyleData["Paragraph", "Printout"], 
+       CellMargins -> {{36, 140}, {12, 12}}, LineSpacing -> {1, 7}, 
+       ParagraphIndent -> 0, FontFamily -> "Georgia", FontSize -> 14]}, 
+     Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["LibrettoLyrics"], CellMargins -> {{120, 200}, {10, 10}}, 
+       CellLabelAutoDelete -> False, TrackCellChangeTimes -> False, 
+       TextJustification -> 0, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Text", FontFamily -> "Garamond", FontSize -> 14], 
+      Cell[
+       StyleData["LibrettoLyrics", "Printout"], 
+       CellMargins -> {{36, 140}, {12, 12}}, LineSpacing -> {1, 7}, 
+       ParagraphIndent -> 0, FontFamily -> "Georgia", FontSize -> 14]}, 
+     Open]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["LibrettoDirections"], CellMargins -> {{120, 200}, {10, 10}},
+        ReturnCreatesNewCell -> True, CellLabelAutoDelete -> False, 
+       TrackCellChangeTimes -> False, TextJustification -> 1, 
+       LineSpacing -> {1, 3}, CounterIncrements -> "Text", FontFamily -> 
+       "Garamond", FontSize -> 14, FontSlant -> Italic], 
+      Cell[
+       StyleData["LibrettoDirections", "Printout"], 
+       CellMargins -> {{36, 140}, {12, 12}}, LineSpacing -> {1, 7}, 
+       ParagraphIndent -> 0, FontFamily -> "Georgia", FontSize -> 14]}, 
+     Open]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Footnote"], CellMargins -> {{120, 200}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, TrackCellChangeTimes -> False, 
+       TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Text", FontFamily -> "Garamond", FontSize -> 11], 
+      Cell[
+       StyleData["Footnote", "Printout"], CellMargins -> {{72, 140}, {4, 4}}, 
+       LineSpacing -> {1, 3}, FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["ContinuedParagraph"], CellMargins -> {{120, 200}, {10, 10}},
+        TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Text", FontFamily -> "Garamond", FontSize -> 
+       14, $CellContext`ReturnCreatesNewCell -> 
+       False, $CellContext`TrackCellChangeTimes -> False], 
+      Cell[
+       StyleData["ContinuedParagraph", "Printout"], 
+       CellMargins -> {{72, 140}, {4, 4}}, LineSpacing -> {1, 3}, 
+       ParagraphIndent -> 0, FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Quote"], CellMargins -> {{140, 220}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, TrackCellChangeTimes -> False, 
+       TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Text", FontFamily -> "Garamond", FontSize -> 14, FontSlant -> 1], 
+      Cell[
+       StyleData["Quote", "Printout"], CellMargins -> {{92, 160}, {4, 4}}, 
+       LineSpacing -> {1, 3}, ParagraphIndent -> 16, FontSize -> 15, 
+       FontSlant -> Plain]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Reference"], CellMargins -> {{120, 200}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, TrackCellChangeTimes -> False, 
+       TextJustification -> 1, LineSpacing -> {1, 3}, ParagraphIndent -> -20, 
+       CounterIncrements -> "Text", FontFamily -> "Garamond", FontSize -> 14], 
+      Cell[
+       StyleData["Reference", "Printout"], CellMargins -> {{72, 140}, {4, 4}},
+        LineSpacing -> {1, 3}, FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Header"], FontFamily -> "Verdana", FontSize -> 10, 
+       FontSlant -> "Plain"], 
+      Cell[
+       StyleData["Header", "Printout"], Magnification -> 1.]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["PageNumber"], FontFamily -> "Champagne", FontSize -> 10, 
+       FontWeight -> "Plain"], 
+      Cell[
+       StyleData["PageNumber", "Printout"], FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Item"], CellDingbat -> 
+       Cell["\[FilledSmallCircle]", FontWeight -> "Bold"], 
+       CellMargins -> {{135, 200}, {4, 4}}, ReturnCreatesNewCell -> True, 
+       CellGroupingRules -> {"GroupTogetherNestedGrouping", 15000}, 
+       CellFrameLabelMargins -> 4, TrackCellChangeTimes -> False, 
+       TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+       "Item", CounterAssignments -> {{"Subitem", 0}, {"Subsubitem", 0}}, 
+       MenuSortingValue -> 1600, FontFamily -> "Garamond", FontSize -> 14], 
+      Cell[
+       StyleData["Item", "Presentation"], CellMargins -> {{100, 10}, {7, 7}}, 
+       CellFrameLabelMargins -> 6, FontSize -> 24], 
+      Cell[
+       StyleData["Item", "Condensed"], 
+       CellMargins -> {{58, Inherited}, {2, 2}}, FontSize -> 8], 
+      Cell[
+       StyleData["Item", "Printout"], CellMargins -> {{96, 150}, {4, 4}}]}, 
+     Closed]], 
+   Cell[
+    StyleData["Subitem"], CellMargins -> {{155, 200}, {4, 4}}, 
+    ReturnCreatesNewCell -> True, 
+    CellGroupingRules -> {"GroupTogetherNestedGrouping", 15000}, 
+    CellFrameLabelMargins -> 4, TrackCellChangeTimes -> False, 
+    TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+    "Item", CounterAssignments -> {{"Subitem", 0}, {"Subsubitem", 0}}, 
+    MenuSortingValue -> 1600, FontFamily -> "Garamond", FontSize -> 12], 
+   Cell[
+    StyleData["Subsubitem"], CellDingbat -> "\[Diamond]", 
+    CellMargins -> {{165, 200}, {4, 4}}, ReturnCreatesNewCell -> True, 
+    CellGroupingRules -> {"GroupTogetherNestedGrouping", 15000}, 
+    CellFrameLabelMargins -> 4, TrackCellChangeTimes -> False, 
+    TextJustification -> 1, LineSpacing -> {1, 3}, CounterIncrements -> 
+    "Item", CounterAssignments -> {{"Subitem", 0}, {"Subsubitem", 0}}, 
+    MenuSortingValue -> 1600, FontFamily -> "Garamond", FontSize -> 12], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Image Label"], CellMargins -> {{132, 192}, {10, 10}}, 
+       ReturnCreatesNewCell -> True, TrackCellChangeTimes -> False, 
+       TextAlignment -> Center, TextJustification -> 0, LineSpacing -> {1, 3},
+        CounterIncrements -> "Text", FontFamily -> "Garamond", FontSize -> 
+       14], 
+      Cell[
+       StyleData["Paragraph", "Printout"], CellMargins -> {{72, 140}, {4, 4}},
+        LineSpacing -> {1, 3}, ParagraphIndent -> 16, FontSize -> 15]}, 
+     Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["InlineFormula"], CellMargins -> {{10, 4}, {0, 8}}, 
+       StripStyleOnPaste -> True, 
+       HyphenationOptions -> {"HyphenationCharacter" -> "\[Continuation]"}, 
+       LanguageCategory -> "Formula", ScriptLevel -> 1, SingleLetterItalics -> 
+       True, MenuSortingValue -> 1650, FontFamily -> "Garamond"], 
+      Cell[
+       StyleData["InlineFormula", "Printout"], 
+       CellMargins -> {{2, 0}, {6, 6}}]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["DisplayFormula"], 
+       CellMargins -> {{150, Inherited}, {Inherited, Inherited}}, 
+       StripStyleOnPaste -> True, DefaultFormatType -> TraditionalForm, 
+       TrackCellChangeTimes -> False, 
+       HyphenationOptions -> {"HyphenationCharacter" -> "\[Continuation]"}, 
+       LanguageCategory -> "Formula", ScriptLevel -> 0, SingleLetterItalics -> 
+       True, MenuSortingValue -> 1700, FontFamily -> "Garamond", 
+       UnderoverscriptBoxOptions -> {LimitsPositioning -> True}], 
+      Cell[
+       StyleData["DisplayFormula", "Printout"], 
+       CellMargins -> {{52, 115}, {12, 12}}, PageBreakWithin -> False, 
+       TextAlignment -> Center, FontSize -> 15]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["DisplayFormulaNumbered"], 
+       CellMargins -> {{150, Inherited}, {Inherited, Inherited}}, 
+       StripStyleOnPaste -> True, CellFrameLabels -> {{None, 
+          Cell[
+           TextData[{"(", 
+             CounterBox["Subsubsection"], ", ", 
+             CounterBox["DisplayFormulaNumbered"], ")"}], 
+           "DisplayFormulaEquationNumber"]}, {None, None}}, DefaultFormatType -> 
+       TraditionalForm, TrackCellChangeTimes -> False, 
+       HyphenationOptions -> {"HyphenationCharacter" -> "\[Continuation]"}, 
+       LanguageCategory -> "Formula", ScriptLevel -> 0, SingleLetterItalics -> 
+       True, CounterIncrements -> "DisplayFormulaNumbered", MenuSortingValue -> 
+       1710, FontFamily -> "Garamond", 
+       UnderoverscriptBoxOptions -> {LimitsPositioning -> True}], 
+      Cell[
+       StyleData["DisplayFormulaNumbered", "Printout"], 
+       CellMargins -> {{52, 115}, {12, 12}}, PageBreakWithin -> False, 
+       TextAlignment -> Center, FontSize -> 15]}, Closed]], 
+   Cell[
+    StyleData["DisplayFormulaEquationNumber"], FontFamily -> "Times", 
+    FontSize -> Inherited - 1], 
+   Cell[
+    StyleData["MarginalNote"], CellMargins -> {{5, 0}, {0, 0}}, FontFamily -> 
+    "Times New Roman", FontSize -> 12]}, Visible -> False, FrontEndVersion -> 
+  "9.0 for Linux x86 (64-bit) (February 7, 2013)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 40, 1, 133, "Title"],
+Cell[CellGroupData[{
+Cell[644, 27, 32, 0, 95, "Section"],
+Cell[CellGroupData[{
+Cell[701, 31, 39, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[765, 35, 37, 0, 77, "Subsubsection"],
+Cell[805, 37, 21, 0, 84, "Paragraph"]
+}, Closed]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[887, 44, 28, 0, 95, "Section"],
+Cell[CellGroupData[{
+Cell[940, 48, 40, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[1005, 52, 25, 0, 77, "Subsubsection"],
+Cell[1033, 54, 21, 0, 84, "Paragraph"]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1103, 60, 40, 0, 56, "Subsection"],
+Cell[CellGroupData[{
+Cell[1168, 64, 25, 0, 115, "Subsubsection"],
+Cell[1196, 66, 21, 0, 84, "Paragraph"]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1266, 72, 36, 0, 56, "Subsection"],
+Cell[CellGroupData[{
+Cell[1327, 76, 25, 0, 115, "Subsubsection"],
+Cell[1355, 78, 21, 0, 84, "Paragraph"]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1425, 84, 31, 0, 56, "Subsection"],
+Cell[CellGroupData[{
+Cell[1481, 88, 25, 0, 115, "Subsubsection"],
+Cell[1509, 90, 21, 0, 84, "Paragraph"]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1579, 96, 33, 0, 56, "Subsection"],
+Cell[CellGroupData[{
+Cell[1637, 100, 25, 0, 115, "Subsubsection"],
+Cell[1665, 102, 21, 0, 84, "Paragraph"]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1735, 108, 40, 0, 56, "Subsection"],
+Cell[CellGroupData[{
+Cell[1800, 112, 25, 0, 115, "Subsubsection"],
+Cell[1828, 114, 21, 0, 84, "Paragraph"]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1898, 120, 31, 0, 56, "Subsection"],
+Cell[CellGroupData[{
+Cell[1954, 124, 25, 0, 115, "Subsubsection"],
+Cell[1982, 126, 21, 0, 84, "Paragraph"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2076, 134, 44, 1, 133, "Title"],
+Cell[CellGroupData[{
+Cell[2145, 139, 28, 0, 95, "Section"],
+Cell[CellGroupData[{
+Cell[2198, 143, 150, 2, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[2373, 149, 38, 0, 57, "Item"],
+Cell[2414, 151, 34, 0, 52, "Subitem"],
+Cell[2451, 153, 59, 0, 51, "Subsubitem"],
+Cell[2513, 155, 122, 3, 91, "Subsubitem"],
+Cell[2638, 160, 42, 0, 52, "Subitem"],
+Cell[2683, 162, 82, 1, 51, "Subsubitem"],
+Cell[2768, 165, 44, 0, 52, "Subitem"],
+Cell[2815, 167, 31, 0, 51, "Subsubitem"],
+Cell[2849, 169, 26, 0, 52, "Subitem"],
+Cell[2878, 171, 53, 0, 51, "Subsubitem"],
+Cell[2934, 173, 27, 0, 57, "Item"],
+Cell[2964, 175, 31, 0, 52, "Subitem"],
+Cell[2998, 177, 34, 0, 51, "Subsubitem"],
+Cell[3035, 179, 31, 0, 51, "Subsubitem"],
+Cell[3069, 181, 44, 0, 52, "Subitem"],
+Cell[3116, 183, 106, 2, 91, "Subsubitem"],
+Cell[3225, 187, 38, 0, 52, "Subitem"],
+Cell[3266, 189, 63, 0, 51, "Subsubitem"],
+Cell[3332, 191, 101, 2, 91, "Subsubitem"],
+Cell[3436, 195, 27, 0, 57, "Item"],
+Cell[3466, 197, 55, 0, 52, "Subitem"],
+Cell[3524, 199, 27, 0, 52, "Subitem"],
+Cell[3554, 201, 55, 0, 52, "Subitem"],
+Cell[3612, 203, 30, 0, 51, "Subsubitem"],
+Cell[3645, 205, 32, 0, 51, "Subsubitem"],
+Cell[3680, 207, 36, 0, 51, "Subsubitem"],
+Cell[3719, 209, 30, 0, 51, "Subsubitem"],
+Cell[3752, 211, 40, 0, 51, "Subsubitem"],
+Cell[3795, 213, 53, 0, 52, "Subitem"],
+Cell[3851, 215, 45, 0, 57, "Item"],
+Cell[3899, 217, 44, 0, 52, "Subitem"],
+Cell[3946, 219, 38, 0, 52, "Subitem"],
+Cell[3987, 221, 45, 0, 52, "Subitem"],
+Cell[4035, 223, 45, 0, 52, "Subitem"],
+Cell[4083, 225, 48, 0, 52, "Subitem"],
+Cell[4134, 227, 31, 0, 57, "Item"],
+Cell[4168, 229, 63, 0, 52, "Subitem"],
+Cell[4234, 231, 25, 0, 52, "Subitem"],
+Cell[4262, 233, 30, 0, 52, "Subitem"],
+Cell[4295, 235, 30, 0, 57, "Item"],
+Cell[4328, 237, 19, 0, 52, "Subitem"],
+Cell[4350, 239, 34, 0, 57, "Item"],
+Cell[4387, 241, 47, 0, 52, "Subitem"],
+Cell[4437, 243, 41, 0, 52, "Subitem"],
+Cell[4481, 245, 42, 0, 57, "Item"],
+Cell[4526, 247, 61, 0, 52, "Subitem"],
+Cell[4590, 249, 48, 0, 52, "Subitem"],
+Cell[4641, 251, 41, 0, 52, "Subitem"],
+Cell[4685, 253, 37, 0, 57, "Item"],
+Cell[4725, 255, 39, 0, 52, "Subitem"],
+Cell[4767, 257, 36, 0, 52, "Subitem"],
+Cell[4806, 259, 46, 0, 57, "Item"],
+Cell[4855, 261, 34, 0, 52, "Subitem"],
+Cell[4892, 263, 118, 3, 91, "Subitem"],
+Cell[5013, 268, 27, 0, 57, "Item"],
+Cell[5043, 270, 48, 0, 57, "Item"],
+Cell[5094, 272, 40, 0, 52, "Subitem"],
+Cell[5137, 274, 126, 3, 91, "Subsubitem"],
+Cell[5266, 279, 52, 0, 52, "Subitem"],
+Cell[5321, 281, 136, 3, 91, "Subsubitem"],
+Cell[5460, 286, 55, 0, 51, "Subsubitem"],
+Cell[5518, 288, 49, 0, 52, "Subitem"],
+Cell[5570, 290, 96, 2, 51, "Subsubitem"],
+Cell[5669, 294, 32, 0, 57, "Item"],
+Cell[5704, 296, 26, 0, 52, "Subitem"],
+Cell[5733, 298, 28, 0, 52, "Subitem"],
+Cell[5764, 300, 62, 0, 57, "Item"],
+Cell[5829, 302, 46, 0, 52, "Subitem"],
+Cell[5878, 304, 117, 3, 91, "Subsubitem"],
+Cell[5998, 309, 129, 3, 91, "Subsubitem"],
+Cell[6130, 314, 150, 3, 91, "Subsubitem"],
+Cell[6283, 319, 38, 0, 52, "Subitem"],
+Cell[6324, 321, 47, 0, 51, "Subsubitem"],
+Cell[6374, 323, 35, 0, 52, "Subitem"],
+Cell[6412, 325, 202, 4, 130, "Subsubitem"],
+Cell[6617, 331, 34, 0, 52, "Subitem"],
+Cell[6654, 333, 28, 0, 51, "Subsubitem"],
+Cell[6685, 335, 53, 0, 52, "Subitem"],
+Cell[6741, 337, 95, 2, 51, "Subsubitem"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6885, 345, 30, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[6940, 349, 32, 0, 2147483647, "Subsubsection"],
+Cell[6975, 351, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7045, 357, 44, 0, 84, "Subsection"],
+Cell[CellGroupData[{
+Cell[7114, 361, 51, 0, 115, "Subsubsection"],
+Cell[7168, 363, 300, 5, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7505, 373, 36, 0, 72, "Subsubsection"],
+Cell[7544, 375, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7602, 380, 37, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[7664, 384, 31, 0, 2147483647, "Subitem"],
+Cell[7698, 386, 34, 0, 2147483647, "Subsubitem"],
+Cell[7735, 388, 31, 0, 2147483647, "Subsubitem"]
+}, Open  ]],
+Cell[7781, 391, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7839, 396, 36, 0, 72, "Subsubsection"],
+Cell[7878, 398, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7948, 404, 41, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[8014, 408, 36, 0, 115, "Subsubsection"],
+Cell[8053, 410, 137, 3, 2147483647, "Paragraph"],
+Cell[8193, 415, 92, 2, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[8322, 422, 38, 0, 72, "Subsubsection"],
+Cell[8363, 424, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[8421, 429, 54, 0, 72, "Subsubsection"],
+Cell[8478, 431, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8548, 437, 31, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[8604, 441, 48, 0, 115, "Subsubsection"],
+Cell[8655, 443, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[8713, 448, 40, 0, 72, "Subsubsection"],
+Cell[8756, 450, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[8814, 455, 34, 0, 72, "Subsubsection"],
+Cell[8851, 457, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[8909, 462, 35, 0, 72, "Subsubsection"],
+Cell[8947, 464, 100, 2, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[9084, 471, 40, 0, 72, "Subsubsection"],
+Cell[9127, 473, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[9185, 478, 46, 0, 72, "Subsubsection"],
+Cell[9234, 480, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9304, 486, 28, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[9357, 490, 46, 0, 115, "Subsubsection"],
+Cell[9406, 492, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[9500, 500, 40, 1, 86, "Title"],
+Cell[CellGroupData[{
+Cell[9565, 505, 61, 0, 43, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[9651, 509, 45, 0, 57, "Item"],
+Cell[9699, 511, 28, 0, 52, "Subitem"],
+Cell[9730, 513, 37, 0, 51, "Subsubitem"],
+Cell[9770, 515, 47, 0, 51, "Subsubitem"],
+Cell[9820, 517, 45, 0, 51, "Subsubitem"],
+Cell[9868, 519, 29, 0, 51, "Subsubitem"],
+Cell[9900, 521, 26, 0, 52, "Subitem"],
+Cell[9929, 523, 64, 0, 51, "Subsubitem"],
+Cell[9996, 525, 34, 0, 51, "Subsubitem"],
+Cell[10033, 527, 23, 0, 57, "Item"],
+Cell[10059, 529, 33, 0, 52, "Subitem"],
+Cell[10095, 531, 59, 0, 52, "Subitem"],
+Cell[10157, 533, 35, 0, 57, "Item"],
+Cell[10195, 535, 42, 0, 52, "Subitem"],
+Cell[10240, 537, 72, 0, 52, "Subitem"],
+Cell[10315, 539, 61, 0, 52, "Subitem"],
+Cell[10379, 541, 41, 0, 57, "Item"],
+Cell[10423, 543, 45, 0, 52, "Subitem"],
+Cell[10471, 545, 79, 0, 52, "Subitem"],
+Cell[10553, 547, 33, 0, 2147483647, "Item"],
+Cell[10589, 549, 34, 0, 2147483647, "Subitem"],
+Cell[10626, 551, 118, 3, 2147483647, "Subitem"],
+Cell[10747, 556, 22, 0, 2147483647, "Item"],
+Cell[10772, 558, 100, 2, 2147483647, "Subitem"],
+Cell[10875, 562, 23, 0, 2147483647, "Item"],
+Cell[10901, 564, 19, 0, 2147483647, "Subitem"],
+Cell[10923, 566, 93, 2, 52, "Subitem"],
+Cell[11019, 570, 25, 0, 57, "Item"],
+Cell[11047, 572, 41, 0, 52, "Subitem"],
+Cell[11091, 574, 28, 0, 57, "Item"],
+Cell[11122, 576, 113, 3, 91, "Subitem"],
+Cell[11238, 581, 21, 0, 57, "Item"],
+Cell[11262, 583, 92, 2, 52, "Subitem"],
+Cell[11357, 587, 102, 2, 52, "Subitem"],
+Cell[11462, 591, 26, 0, 57, "Item"],
+Cell[11491, 593, 77, 0, 52, "Subitem"],
+Cell[11571, 595, 23, 0, 57, "Item"],
+Cell[11597, 597, 96, 2, 52, "Subitem"],
+Cell[11696, 601, 26, 0, 57, "Item"],
+Cell[11725, 603, 76, 0, 52, "Subitem"],
+Cell[11804, 605, 108, 3, 91, "Subitem"],
+Cell[11915, 610, 29, 0, 57, "Item"],
+Cell[11947, 612, 117, 3, 91, "Subitem"],
+Cell[12067, 617, 21, 0, 57, "Item"],
+Cell[12091, 619, 39, 0, 52, "Subitem"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[12179, 625, 122, 1, 32, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[12326, 630, 38, 0, 57, "Item"],
+Cell[12367, 632, 34, 0, 52, "Subitem"],
+Cell[12404, 634, 42, 0, 52, "Subitem"],
+Cell[12449, 636, 44, 0, 52, "Subitem"],
+Cell[12496, 638, 26, 0, 52, "Subitem"],
+Cell[12525, 640, 27, 0, 57, "Item"],
+Cell[12555, 642, 36, 0, 52, "Subitem"],
+Cell[12594, 644, 44, 0, 52, "Subitem"],
+Cell[12641, 646, 38, 0, 52, "Subitem"],
+Cell[12682, 648, 30, 0, 52, "Subitem"],
+Cell[12715, 650, 48, 0, 57, "Item"],
+Cell[12766, 652, 19, 0, 52, "Subitem"],
+Cell[12788, 654, 30, 0, 52, "Subitem"],
+Cell[12821, 656, 34, 0, 57, "Item"],
+Cell[12858, 658, 41, 0, 52, "Subitem"],
+Cell[12902, 660, 42, 0, 57, "Item"],
+Cell[12947, 662, 48, 0, 52, "Subitem"],
+Cell[12998, 664, 41, 0, 52, "Subitem"],
+Cell[13042, 666, 37, 0, 57, "Item"],
+Cell[13082, 668, 39, 0, 2147483647, "Subitem"],
+Cell[13124, 670, 36, 0, 2147483647, "Subitem"],
+Cell[13163, 672, 46, 0, 2147483647, "Item"],
+Cell[13212, 674, 34, 0, 2147483647, "Subitem"],
+Cell[13249, 676, 118, 3, 2147483647, "Subitem"],
+Cell[13370, 681, 27, 0, 2147483647, "Item"],
+Cell[13400, 683, 48, 0, 2147483647, "Item"],
+Cell[13451, 685, 40, 0, 2147483647, "Subitem"],
+Cell[13494, 687, 126, 3, 2147483647, "Subsubitem"],
+Cell[13623, 692, 52, 0, 2147483647, "Subitem"],
+Cell[13678, 694, 136, 3, 2147483647, "Subsubitem"],
+Cell[13817, 699, 55, 0, 2147483647, "Subsubitem"],
+Cell[13875, 701, 49, 0, 52, "Subitem"],
+Cell[13927, 703, 96, 2, 51, "Subsubitem"],
+Cell[14026, 707, 32, 0, 57, "Item"],
+Cell[14061, 709, 26, 0, 52, "Subitem"],
+Cell[14090, 711, 28, 0, 52, "Subitem"],
+Cell[14121, 713, 62, 0, 57, "Item"],
+Cell[14186, 715, 46, 0, 52, "Subitem"],
+Cell[14235, 717, 117, 3, 91, "Subsubitem"],
+Cell[14355, 722, 129, 3, 91, "Subsubitem"],
+Cell[14487, 727, 150, 3, 91, "Subsubitem"],
+Cell[14640, 732, 38, 0, 52, "Subitem"],
+Cell[14681, 734, 47, 0, 51, "Subsubitem"],
+Cell[14731, 736, 35, 0, 52, "Subitem"],
+Cell[14769, 738, 202, 4, 130, "Subsubitem"],
+Cell[14974, 744, 34, 0, 52, "Subitem"],
+Cell[15011, 746, 28, 0, 51, "Subsubitem"],
+Cell[15042, 748, 53, 0, 52, "Subitem"],
+Cell[15098, 750, 95, 2, 51, "Subsubitem"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[15242, 758, 115, 1, 32, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[15382, 763, 58, 0, 2147483647, "Item"],
+Cell[15443, 765, 45, 0, 2147483647, "Subitem"],
+Cell[15491, 767, 73, 0, 2147483647, "Subitem"],
+Cell[15567, 769, 62, 0, 2147483647, "Subitem"],
+Cell[15632, 771, 47, 0, 2147483647, "Subitem"],
+Cell[15682, 773, 50, 0, 2147483647, "Item"],
+Cell[15735, 775, 49, 0, 2147483647, "Subitem"],
+Cell[15787, 777, 38, 0, 2147483647, "Subitem"],
+Cell[15828, 779, 30, 0, 2147483647, "Item"],
+Cell[15861, 781, 28, 0, 2147483647, "Subitem"],
+Cell[15892, 783, 62, 0, 2147483647, "Subitem"],
+Cell[15957, 785, 38, 0, 2147483647, "Subitem"],
+Cell[15998, 787, 53, 0, 2147483647, "Subitem"],
+Cell[16054, 789, 27, 0, 2147483647, "Item"],
+Cell[16084, 791, 33, 0, 2147483647, "Subitem"],
+Cell[16120, 793, 32, 0, 2147483647, "Subitem"],
+Cell[16155, 795, 37, 0, 2147483647, "Subitem"],
+Cell[16195, 797, 36, 0, 2147483647, "Subitem"],
+Cell[16234, 799, 31, 0, 2147483647, "Item"],
+Cell[16268, 801, 35, 0, 2147483647, "Subitem"],
+Cell[16306, 803, 38, 0, 2147483647, "Subitem"],
+Cell[16347, 805, 32, 0, 2147483647, "Item"],
+Cell[16382, 807, 19, 0, 2147483647, "Subitem"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[16450, 813, 28, 0, 81, "Section"],
+Cell[CellGroupData[{
+Cell[16503, 817, 33, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[16561, 821, 86, 2, 57, "Item"],
+Cell[16650, 825, 62, 0, 57, "Item"],
+Cell[16715, 827, 99, 2, 103, "Item"],
+Cell[16817, 831, 60, 0, 57, "Item"],
+Cell[16880, 833, 61, 0, 57, "Item"],
+Cell[16944, 835, 52, 0, 57, "Item"],
+Cell[16999, 837, 105, 2, 91, "Subitem"],
+Cell[17107, 841, 99, 2, 91, "Subitem"],
+Cell[17209, 845, 77, 0, 52, "Subitem"],
+Cell[17289, 847, 110, 3, 91, "Subitem"],
+Cell[17402, 852, 104, 2, 91, "Subitem"],
+Cell[17509, 856, 88, 2, 52, "Subitem"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17646, 864, 29, 0, 127, "Subsection"],
+Cell[17678, 866, 415, 6, 2147483647, "Paragraph"],
+Cell[18096, 874, 550, 11, 2147483647, "Paragraph"],
+Cell[18649, 887, 553, 9, 2147483647, "Paragraph"],
+Cell[19205, 898, 555, 8, 2147483647, "Paragraph"],
+Cell[19763, 908, 91, 2, 2147483647, "Paragraph"],
+Cell[19857, 912, 217, 6, 2147483647, "Paragraph"],
+Cell[20077, 920, 145, 5, 2147483647, "Paragraph"],
+Cell[20225, 927, 444, 8, 2147483647, "Paragraph"],
+Cell[20672, 937, 315, 5, 2147483647, "Paragraph"],
+Cell[20990, 944, 431, 7, 2147483647, "Paragraph"],
+Cell[21424, 953, 372, 6, 2147483647, "Paragraph"],
+Cell[21799, 961, 323, 5, 2147483647, "Paragraph"],
+Cell[22125, 968, 349, 11, 2147483647, "Paragraph"],
+Cell[22477, 981, 159, 7, 2147483647, "Paragraph"],
+Cell[22639, 990, 92, 2, 2147483647, "Paragraph"],
+Cell[22734, 994, 117, 3, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[22888, 1002, 42, 0, 84, "Subsection"],
+Cell[CellGroupData[{
+Cell[22955, 1006, 43, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[23023, 1010, 28, 0, 64, "Subsubsubsection"],
+Cell[23054, 1012, 74, 2, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[23177, 1020, 41, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[23243, 1024, 37, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[23305, 1028, 41, 0, 57, "Item"],
+Cell[23349, 1030, 56, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23454, 1036, 47, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[23526, 1040, 71, 0, 57, "Item"],
+Cell[23600, 1042, 38, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23687, 1048, 66, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[23778, 1052, 202, 4, 148, "Item"],
+Cell[23983, 1058, 59, 0, 52, "Subitem"],
+Cell[24045, 1060, 85, 2, 57, "Item"],
+Cell[24133, 1064, 100, 2, 103, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[24294, 1073, 43, 0, 72, "Subsubsection"],
+Cell[24340, 1075, 35, 0, 64, "Subsubsubsection"],
+Cell[24378, 1077, 35, 0, 48, "Subsubsubsection"],
+Cell[24416, 1079, 48, 0, 48, "Subsubsubsection"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[24501, 1084, 39, 0, 72, "Subsubsection"],
+Cell[24543, 1086, 34, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[24602, 1090, 58, 0, 48, "Subsubsubsection"],
+Cell[24663, 1092, 138, 3, 103, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24838, 1100, 51, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[24914, 1104, 66, 0, 57, "Item"],
+Cell[24983, 1106, 59, 2, 57, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[25115, 1116, 30, 0, 84, "Subsection"],
+Cell[CellGroupData[{
+Cell[25170, 1120, 32, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[25227, 1124, 52, 0, 2147483647, "Subsubsubsection"],
+Cell[25282, 1126, 59, 0, 2147483647, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25378, 1131, 50, 0, 2147483647, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[25453, 1135, 147, 3, 2147483647, "Item"],
+Cell[25603, 1140, 120, 3, 2147483647, "Item"],
+Cell[25726, 1145, 58, 0, 2147483647, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25833, 1151, 47, 0, 2147483647, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[25905, 1155, 63, 0, 2147483647, "Item"],
+Cell[25971, 1157, 100, 2, 2147483647, "Subitem"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26120, 1165, 41, 0, 2147483647, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[26186, 1169, 119, 3, 2147483647, "Item"],
+Cell[26308, 1174, 149, 8, 2147483647, "Subitem"],
+Cell[26460, 1184, 172, 3, 2147483647, "Subitem"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[26693, 1194, 33, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[26751, 1198, 54, 0, 64, "Subsubsubsection"],
+Cell[26808, 1200, 107, 3, 103, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26952, 1208, 48, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[27025, 1212, 43, 0, 57, "Item"],
+Cell[27071, 1214, 79, 0, 57, "Item"],
+Cell[27153, 1216, 38, 0, 57, "Item"],
+Cell[27194, 1218, 43, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27286, 1224, 42, 0, 64, "Subsubsubsection"],
+Cell[27331, 1226, 16, 0, 57, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27384, 1231, 32, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[27441, 1235, 94, 2, 103, "Item"],
+Cell[27538, 1239, 53, 0, 52, "Subitem"],
+Cell[27594, 1241, 101, 2, 103, "Item"],
+Cell[27698, 1245, 58, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[27817, 1252, 47, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[27889, 1256, 52, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[27966, 1260, 35, 0, 57, "Item"],
+Cell[28004, 1262, 29, 0, 57, "Item"],
+Cell[28036, 1264, 31, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28116, 1270, 44, 0, 64, "Subsubsubsection"],
+Cell[28163, 1272, 25, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[28237, 1278, 42, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[28304, 1282, 39, 0, 64, "Subsubsubsection"],
+Cell[28346, 1284, 61, 0, 57, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28444, 1289, 48, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[28517, 1293, 63, 0, 57, "Item"],
+Cell[28583, 1295, 40, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28672, 1301, 46, 0, 64, "Subsubsubsection"],
+Cell[28721, 1303, 175, 3, 148, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28933, 1311, 37, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[28995, 1315, 28, 0, 57, "Item"],
+Cell[29026, 1317, 46, 0, 57, "Item"],
+Cell[29075, 1319, 70, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[29218, 1327, 37, 0, 84, "Subsection"],
+Cell[29258, 1329, 47, 0, 115, "Subsubsection"],
+Cell[29308, 1331, 31, 0, 72, "Subsubsection"],
+Cell[29342, 1333, 31, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[29398, 1337, 36, 0, 72, "Subsubsection"],
+Cell[29437, 1339, 36, 0, 64, "Subsubsubsection"],
+Cell[29476, 1341, 40, 0, 48, "Subsubsubsection"],
+Cell[29519, 1343, 33, 0, 48, "Subsubsubsection"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[29601, 1349, 34, 0, 84, "Subsection"],
+Cell[CellGroupData[{
+Cell[29660, 1353, 34, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[29719, 1357, 45, 0, 2147483647, "Subsubsubsection"],
+Cell[29767, 1359, 128, 3, 2147483647, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29932, 1367, 44, 0, 2147483647, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[30001, 1371, 39, 0, 2147483647, "Item"],
+Cell[30043, 1373, 64, 0, 2147483647, "Subitem"],
+Cell[30110, 1375, 161, 3, 2147483647, "Subitem"],
+Cell[30274, 1380, 69, 0, 2147483647, "Item"],
+Cell[30346, 1382, 126, 3, 2147483647, "Subitem"],
+Cell[30475, 1387, 199, 4, 2147483647, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30723, 1397, 44, 0, 2147483647, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[30792, 1401, 66, 0, 2147483647, "Item"],
+Cell[30861, 1403, 56, 0, 2147483647, "Item"],
+Cell[30920, 1405, 46, 0, 2147483647, "Item"],
+Cell[30969, 1407, 43, 0, 2147483647, "Item"],
+Cell[31015, 1409, 46, 0, 2147483647, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[31122, 1416, 31, 0, 72, "Subsubsection"],
+Cell[31156, 1418, 85, 2, 57, "Item"],
+Cell[CellGroupData[{
+Cell[31266, 1424, 37, 0, 64, "Subsubsubsection"],
+Cell[31306, 1426, 40, 0, 57, "Item"]
+}, Open  ]],
+Cell[31361, 1429, 34, 0, 64, "Subsubsubsection"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[31432, 1434, 30, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[31487, 1438, 109, 3, 103, "Item"],
+Cell[31599, 1443, 44, 0, 57, "Item"],
+Cell[31646, 1445, 40, 0, 52, "Subitem"],
+Cell[31689, 1447, 31, 0, 52, "Subitem"],
+Cell[31723, 1449, 39, 0, 52, "Subitem"],
+Cell[31765, 1451, 86, 2, 57, "Item"],
+Cell[31854, 1455, 64, 0, 57, "Item"],
+Cell[31921, 1457, 55, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[32025, 1463, 32, 0, 72, "Subsubsection"],
+Cell[32060, 1465, 42, 0, 64, "Subsubsubsection"],
+Cell[32105, 1467, 41, 0, 48, "Subsubsubsection"],
+Cell[32149, 1469, 36, 0, 48, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[32210, 1473, 36, 0, 48, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[32271, 1477, 34, 0, 2147483647, "Item"],
+Cell[32308, 1479, 47, 0, 2147483647, "Subitem"],
+Cell[32358, 1481, 45, 0, 2147483647, "Subsubitem"],
+Cell[32406, 1483, 43, 0, 2147483647, "Subitem"],
+Cell[32452, 1485, 107, 2, 2147483647, "Subsubitem"],
+Cell[32562, 1489, 48, 0, 2147483647, "Subitem"],
+Cell[32613, 1491, 72, 0, 2147483647, "Subsubitem"],
+Cell[32688, 1493, 39, 0, 2147483647, "Subitem"]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[32788, 1500, 40, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[32853, 1504, 105, 1, 64, "Subsubsubsection"],
+Cell[32961, 1507, 250, 4, 2147483647, "Paragraph"],
+Cell[33214, 1513, 184, 4, 2147483647, "Paragraph"],
+Cell[33401, 1519, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[33437, 1522, 53, 0, 48, "Subsubsubsection"],
+Cell[33493, 1524, 51, 0, 48, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[33569, 1528, 35, 0, 48, "Subsubsubsection"],
+Cell[33607, 1530, 61, 0, 2147483647, "Item"]
+}, Closed]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33729, 1537, 30, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[33784, 1541, 32, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[33841, 1545, 38, 0, 64, "Subsubsubsection"],
+Cell[33882, 1547, 35, 0, 57, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33954, 1552, 42, 0, 64, "Subsubsubsection"],
+Cell[33999, 1554, 43, 0, 57, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34079, 1559, 42, 0, 64, "Subsubsubsection"],
+Cell[34124, 1561, 40, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[34213, 1567, 38, 0, 72, "Subsubsection"],
+Cell[34254, 1569, 39, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[34318, 1573, 50, 0, 48, "Subsubsubsection"],
+Cell[34371, 1575, 101, 2, 103, "Item"]
+}, Open  ]],
+Cell[34487, 1580, 34, 0, 64, "Subsubsubsection"],
+Cell[34524, 1582, 42, 0, 48, "Subsubsubsection"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[34603, 1587, 38, 0, 72, "Subsubsection"],
+Cell[34644, 1589, 42, 0, 64, "Subsubsubsection"],
+Cell[34689, 1591, 34, 0, 48, "Subsubsubsection"],
+Cell[34726, 1593, 37, 0, 48, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[34788, 1597, 49, 0, 48, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[34862, 1601, 25, 0, 57, "Item"],
+Cell[34890, 1603, 39, 0, 57, "Item"],
+Cell[34932, 1605, 24, 0, 57, "Item"],
+Cell[34959, 1607, 22, 0, 57, "Item"]
+}, Open  ]],
+Cell[34996, 1610, 212, 4, 175, "Paragraph"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[35257, 1620, 38, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[35320, 1624, 22, 0, 57, "Item"],
+Cell[35345, 1626, 24, 0, 57, "Item"],
+Cell[35372, 1628, 38, 0, 57, "Item"],
+Cell[35413, 1630, 32, 0, 57, "Item"],
+Cell[35448, 1632, 35, 0, 57, "Item"],
+Cell[35486, 1634, 38, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[35573, 1640, 35, 0, 72, "Subsubsection"],
+Cell[35611, 1642, 43, 0, 64, "Subsubsubsection"],
+Cell[35657, 1644, 38, 0, 48, "Subsubsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[35756, 1651, 28, 0, 81, "Section"],
+Cell[CellGroupData[{
+Cell[35809, 1655, 40, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[35874, 1659, 36, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[35935, 1663, 28, 0, 64, "Subsubsubsection"],
+Cell[35966, 1665, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[36031, 1671, 41, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[36097, 1675, 28, 0, 64, "Subsubsubsection"],
+Cell[36128, 1677, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36205, 1684, 40, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[36270, 1688, 32, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[36327, 1692, 28, 0, 64, "Subsubsubsection"],
+Cell[36358, 1694, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[36423, 1700, 39, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[36487, 1704, 28, 0, 64, "Subsubsubsection"],
+Cell[36518, 1706, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[36583, 1712, 32, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[36640, 1716, 28, 0, 64, "Subsubsubsection"],
+Cell[36671, 1718, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36748, 1725, 39, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[36812, 1729, 36, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[36873, 1733, 28, 0, 64, "Subsubsubsection"],
+Cell[36904, 1735, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[36969, 1741, 47, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[37041, 1745, 28, 0, 64, "Subsubsubsection"],
+Cell[37072, 1747, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[37137, 1753, 33, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[37195, 1757, 28, 0, 64, "Subsubsubsection"],
+Cell[37226, 1759, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37303, 1766, 29, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[37357, 1770, 36, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[37418, 1774, 28, 0, 64, "Subsubsubsection"],
+Cell[37449, 1776, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[37514, 1782, 34, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[37573, 1786, 28, 0, 64, "Subsubsubsection"],
+Cell[37604, 1788, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[37669, 1794, 31, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[37725, 1798, 28, 0, 64, "Subsubsubsection"],
+Cell[37756, 1800, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37833, 1807, 29, 0, 127, "Subsection"],
+Cell[CellGroupData[{
+Cell[37887, 1811, 37, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[37949, 1815, 28, 0, 64, "Subsubsubsection"],
+Cell[37980, 1817, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[38045, 1823, 38, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[38108, 1827, 28, 0, 64, "Subsubsubsection"],
+Cell[38139, 1829, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[38204, 1835, 35, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[38264, 1839, 28, 0, 64, "Subsubsubsection"],
+Cell[38295, 1841, 16, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]]
+}, Closed]]
+}, Closed]]
+}
+]
+*)
+
+(* End of internal cache information *)
