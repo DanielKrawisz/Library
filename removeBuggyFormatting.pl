@@ -3,8 +3,11 @@
 use strict;
 use warnings;
 
+my $filename = shift;
+($filename eq "") and die "Must provide filename.";
+
 local $/=undef;
-open FILE, "PonyPhysics.nb"
+open FILE, $filename
   or die "Couldn't open file: $!";
 my $string = <FILE>;
 close FILE;
@@ -14,10 +17,9 @@ $find = quotemeta $find; # escape regex metachars if present
 
 $string =~ s/$find//g;
 
-$string =~ s/,\s*CellChangeTimes->\{(\{[0-9\s\*\^\-,\.]*\}(,\s*)?)*\}//g;
-$string =~ s/,\s*CellChangeTimes->\{([0-9\s\*\^\-\.]*(,\s*)?)*\}//g;
+$string =~ s/,\\?\s*CellChangeTimes->\{\s*((\{\s*([0-9\*\^\-\.`]*(,\s*)?)*\s*\})|[0-9\*\^\-\.`]*(,\s*)?)*\s*\}//g;
 
-open OUTFILE, ">PonyPhysics.nb"
+open OUTFILE, ">$filename"
   or die "can't open file: $!";
 
 print (OUTFILE "$string");
