@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     96463,       2557]
-NotebookOptionsPosition[     71738,       1969]
-NotebookOutlinePosition[     89883,       2364]
-CellTagsIndexPosition[     89840,       2361]
+NotebookDataLength[    100158,       2706]
+NotebookOptionsPosition[     73550,       2068]
+NotebookOutlinePosition[     91695,       2463]
+CellTagsIndexPosition[     91652,       2460]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1841,7 +1841,7 @@ Cell[BoxData[
    3.469710706081035*^9}, 3.4697107847937*^9, 3.469710988841709*^9}]
 }, Closed]]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 
 Cell["The Language Rules", "Section"]
 }, Open  ]],
@@ -1864,6 +1864,10 @@ Cell["Characters", "Section"]
 Cell[CellGroupData[{
 
 Cell["Outline", "Title"],
+
+Cell[CellGroupData[{
+
+Cell["Physics Outline", "Subsection"],
 
 Cell[CellGroupData[{
 
@@ -1952,6 +1956,101 @@ Cell["Loop Quantum Gravity", "Item"],
 Cell["String Theory", "Item"]
 }, Open  ]]
 }, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Schema of Mathematics (Not at All Good Yet)\
+\>", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Recursive function theory", "Item"],
+
+Cell["Natural Numbers", "Subitem"],
+
+Cell["Recursion", "Subitem"],
+
+Cell["Functions & Partial functions", "Subitem"],
+
+Cell["R.E. sets", "Subitem"],
+
+Cell["Algebra", "Item"],
+
+Cell["Prime Decomposition", "Subitem"],
+
+Cell["Elementary number theory", "Subsubitem"],
+
+Cell["From there to ring theory", "Subsubitem"],
+
+Cell["The Integers", "Subitem"],
+
+Cell["From there to group theory", "Subsubitem"],
+
+Cell["The Rational Numbers", "Subitem"],
+
+Cell["From there to field theory", "Subsubitem"],
+
+Cell["Logic", "Item"],
+
+Cell["Models, theories, and axioms. ", "Subitem"],
+
+Cell["G\[ODoubleDot]del\[CloseCurlyQuote]s theorem", "Subitem"],
+
+Cell["Set Theory", "Item"],
+
+Cell["Real Numbers", "Subitem"],
+
+Cell["Cardinal Numbers", "Subitem"],
+
+Cell["Ordinal Numbers", "Subitem"],
+
+Cell["Axiom of Choice", "Subitem"],
+
+Cell["Axioms of Set theory", "Subitem"],
+
+Cell["Geometry", "Item"],
+
+Cell["Linear spaces", "Subitem"],
+
+Cell["Modules", "Subitem"],
+
+Cell["The four division algebras", "Subitem"],
+
+Cell["Polynomials", "Subitem"],
+
+Cell["Galois Theory", "Subitem"],
+
+Cell["Diophantine Equations", "Subitem"],
+
+Cell["Group Theory", "Item"],
+
+Cell["Polyhedra", "Subitem"],
+
+Cell["Algebraic Topology", "Subitem"],
+
+Cell["Lie group theory", "Subitem"],
+
+Cell["Real Analysis", "Item"],
+
+Cell["Point-set Topology", "Item"],
+
+Cell["Functional Analysis", "Item"],
+
+Cell["Calculus", "Item"],
+
+Cell["Manifolds", "Item"],
+
+Cell["Three kinds", "Subitem"],
+
+Cell["Differential topology", "Subitem"],
+
+Cell["Algebraic Geometry", "Item"],
+
+Cell["Number Theory", "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -2494,8 +2593,8 @@ Cell[68143, 1802, 689, 20, 14195, "Input"],
 Cell[68835, 1824, 693, 16, 11038, "Input"]
 }, Closed]]
 }, Open  ]]
-}, Open  ]],
-Cell[69567, 1845, 37, 0, 78, "Section"]
+}, Closed]],
+Cell[69567, 1845, 37, 0, 67, "Section"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[69641, 1850, 31, 0, 123, "Title"],
@@ -2508,55 +2607,105 @@ Cell[69816, 1860, 29, 0, 196, "Section"]
 Cell[CellGroupData[{
 Cell[69882, 1865, 24, 0, 85, "Title"],
 Cell[CellGroupData[{
-Cell[69931, 1869, 32, 0, 32, "Item"],
-Cell[69966, 1871, 50, 0, 30, "Subitem"],
-Cell[70019, 1873, 50, 0, 30, "Subitem"],
-Cell[70072, 1875, 32, 0, 30, "Subitem"],
-Cell[70107, 1877, 30, 0, 30, "Subitem"],
-Cell[70140, 1879, 33, 0, 32, "Item"],
-Cell[70176, 1881, 34, 0, 30, "Subitem"],
-Cell[70213, 1883, 38, 0, 30, "Subitem"],
-Cell[70254, 1885, 34, 0, 30, "Subitem"],
-Cell[70291, 1887, 36, 0, 30, "Subitem"],
-Cell[70330, 1889, 34, 0, 30, "Subitem"],
-Cell[70367, 1891, 34, 0, 32, "Item"],
-Cell[70404, 1893, 35, 0, 30, "Subitem"],
-Cell[70442, 1895, 34, 0, 30, "Subitem"],
-Cell[70479, 1897, 39, 0, 30, "Subitem"],
-Cell[70521, 1899, 37, 0, 30, "Subitem"],
-Cell[70561, 1901, 37, 0, 32, "Item"],
-Cell[70601, 1903, 26, 0, 30, "Subitem"],
-Cell[70630, 1905, 42, 0, 30, "Subitem"],
-Cell[70675, 1907, 51, 0, 30, "Subitem"],
-Cell[70729, 1909, 29, 0, 30, "Subitem"],
-Cell[70761, 1911, 35, 0, 30, "Subitem"],
-Cell[70799, 1913, 37, 0, 32, "Item"],
-Cell[70839, 1915, 39, 0, 30, "Subitem"],
-Cell[70881, 1917, 19, 0, 30, "Subitem"],
-Cell[70903, 1919, 37, 0, 32, "Item"],
-Cell[70943, 1921, 47, 0, 30, "Subitem"],
-Cell[70993, 1923, 28, 0, 32, "Item"],
-Cell[71024, 1925, 28, 0, 32, "Item"],
+Cell[69931, 1869, 37, 0, 71, "Subsection"],
+Cell[CellGroupData[{
+Cell[69993, 1873, 32, 0, 32, "Item"],
+Cell[70028, 1875, 50, 0, 30, "Subitem"],
+Cell[70081, 1877, 50, 0, 30, "Subitem"],
+Cell[70134, 1879, 32, 0, 30, "Subitem"],
+Cell[70169, 1881, 30, 0, 30, "Subitem"],
+Cell[70202, 1883, 33, 0, 32, "Item"],
+Cell[70238, 1885, 34, 0, 30, "Subitem"],
+Cell[70275, 1887, 38, 0, 30, "Subitem"],
+Cell[70316, 1889, 34, 0, 30, "Subitem"],
+Cell[70353, 1891, 36, 0, 30, "Subitem"],
+Cell[70392, 1893, 34, 0, 30, "Subitem"],
+Cell[70429, 1895, 34, 0, 32, "Item"],
+Cell[70466, 1897, 35, 0, 30, "Subitem"],
+Cell[70504, 1899, 34, 0, 30, "Subitem"],
+Cell[70541, 1901, 39, 0, 30, "Subitem"],
+Cell[70583, 1903, 37, 0, 30, "Subitem"],
+Cell[70623, 1905, 37, 0, 32, "Item"],
+Cell[70663, 1907, 26, 0, 30, "Subitem"],
+Cell[70692, 1909, 42, 0, 30, "Subitem"],
+Cell[70737, 1911, 51, 0, 30, "Subitem"],
+Cell[70791, 1913, 29, 0, 30, "Subitem"],
+Cell[70823, 1915, 35, 0, 30, "Subitem"],
+Cell[70861, 1917, 37, 0, 32, "Item"],
+Cell[70901, 1919, 39, 0, 30, "Subitem"],
+Cell[70943, 1921, 19, 0, 30, "Subitem"],
+Cell[70965, 1923, 37, 0, 32, "Item"],
+Cell[71005, 1925, 47, 0, 30, "Subitem"],
 Cell[71055, 1927, 28, 0, 32, "Item"],
-Cell[71086, 1929, 34, 0, 32, "Item"],
-Cell[71123, 1931, 29, 0, 32, "Item"],
-Cell[71155, 1933, 27, 0, 32, "Item"],
-Cell[71185, 1935, 35, 0, 32, "Item"],
-Cell[71223, 1937, 33, 0, 32, "Item"],
-Cell[71259, 1939, 33, 0, 32, "Item"],
-Cell[71295, 1941, 36, 0, 32, "Item"],
-Cell[71334, 1943, 38, 0, 32, "Item"],
-Cell[71375, 1945, 26, 0, 32, "Item"],
-Cell[71404, 1947, 40, 0, 32, "Item"],
-Cell[71447, 1949, 36, 0, 32, "Item"],
-Cell[71486, 1951, 29, 0, 32, "Item"]
+Cell[71086, 1929, 28, 0, 32, "Item"],
+Cell[71117, 1931, 28, 0, 32, "Item"],
+Cell[71148, 1933, 34, 0, 32, "Item"],
+Cell[71185, 1935, 29, 0, 32, "Item"],
+Cell[71217, 1937, 27, 0, 32, "Item"],
+Cell[71247, 1939, 35, 0, 32, "Item"],
+Cell[71285, 1941, 33, 0, 32, "Item"],
+Cell[71321, 1943, 33, 0, 32, "Item"],
+Cell[71357, 1945, 36, 0, 32, "Item"],
+Cell[71396, 1947, 38, 0, 32, "Item"],
+Cell[71437, 1949, 26, 0, 32, "Item"],
+Cell[71466, 1951, 40, 0, 32, "Item"],
+Cell[71509, 1953, 36, 0, 32, "Item"],
+Cell[71548, 1955, 29, 0, 32, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[71564, 1957, 22, 0, 85, "Title"],
+Cell[71626, 1961, 73, 2, 47, "Subsection"],
 Cell[CellGroupData[{
-Cell[71611, 1961, 35, 0, 78, "Section"],
-Cell[71649, 1963, 61, 2, 71, "Subsection"]
+Cell[71724, 1967, 41, 0, 32, "Item"],
+Cell[71768, 1969, 34, 0, 30, "Subitem"],
+Cell[71805, 1971, 28, 0, 30, "Subitem"],
+Cell[71836, 1973, 48, 0, 30, "Subitem"],
+Cell[71887, 1975, 28, 0, 30, "Subitem"],
+Cell[71918, 1977, 23, 0, 32, "Item"],
+Cell[71944, 1979, 38, 0, 30, "Subitem"],
+Cell[71985, 1981, 46, 0, 29, "Subsubitem"],
+Cell[72034, 1983, 47, 0, 29, "Subsubitem"],
+Cell[72084, 1985, 31, 0, 30, "Subitem"],
+Cell[72118, 1987, 48, 0, 29, "Subsubitem"],
+Cell[72169, 1989, 39, 0, 30, "Subitem"],
+Cell[72211, 1991, 48, 0, 29, "Subsubitem"],
+Cell[72262, 1993, 21, 0, 32, "Item"],
+Cell[72286, 1995, 49, 0, 30, "Subitem"],
+Cell[72338, 1997, 63, 0, 30, "Subitem"],
+Cell[72404, 1999, 26, 0, 32, "Item"],
+Cell[72433, 2001, 31, 0, 30, "Subitem"],
+Cell[72467, 2003, 35, 0, 30, "Subitem"],
+Cell[72505, 2005, 34, 0, 30, "Subitem"],
+Cell[72542, 2007, 34, 0, 30, "Subitem"],
+Cell[72579, 2009, 39, 0, 30, "Subitem"],
+Cell[72621, 2011, 24, 0, 32, "Item"],
+Cell[72648, 2013, 32, 0, 30, "Subitem"],
+Cell[72683, 2015, 26, 0, 30, "Subitem"],
+Cell[72712, 2017, 45, 0, 30, "Subitem"],
+Cell[72760, 2019, 30, 0, 30, "Subitem"],
+Cell[72793, 2021, 32, 0, 30, "Subitem"],
+Cell[72828, 2023, 40, 0, 30, "Subitem"],
+Cell[72871, 2025, 28, 0, 32, "Item"],
+Cell[72902, 2027, 28, 0, 30, "Subitem"],
+Cell[72933, 2029, 37, 0, 30, "Subitem"],
+Cell[72973, 2031, 35, 0, 30, "Subitem"],
+Cell[73011, 2033, 29, 0, 32, "Item"],
+Cell[73043, 2035, 34, 0, 32, "Item"],
+Cell[73080, 2037, 35, 0, 32, "Item"],
+Cell[73118, 2039, 24, 0, 32, "Item"],
+Cell[73145, 2041, 25, 0, 32, "Item"],
+Cell[73173, 2043, 30, 0, 30, "Subitem"],
+Cell[73206, 2045, 40, 0, 30, "Subitem"],
+Cell[73249, 2047, 34, 0, 32, "Item"],
+Cell[73286, 2049, 29, 0, 32, "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[73376, 2056, 22, 0, 123, "Title"],
+Cell[CellGroupData[{
+Cell[73423, 2060, 35, 0, 78, "Section"],
+Cell[73461, 2062, 61, 2, 71, "Subsection"]
 }, Open  ]]
 }, Open  ]]
 }
