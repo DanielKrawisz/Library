@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    198117,       5567]
-NotebookOptionsPosition[    143121,       4090]
-NotebookOutlinePosition[    161272,       4484]
-CellTagsIndexPosition[    161229,       4481]
+NotebookDataLength[    235935,       6767]
+NotebookOptionsPosition[    169356,       4999]
+NotebookOutlinePosition[    187507,       5393]
+CellTagsIndexPosition[    187464,       5390]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1201,7 +1201,33 @@ Cell["", "Paragraph"]
 
 Cell[CellGroupData[{
 
-Cell["Early False Start", "Section"],
+Cell["First Draft (chapter 1 + outline)", "Section"],
+
+Cell["\<\
+\[FilledSmallSquare]\tOnce general knowledge is removed, there is nothing \
+left. 
+\[FilledSmallSquare]\tIt is necessary to distinguish between abstract \
+knowledge that is instinctive and conscious. The contents of our \
+consciousness are already abstract by the time we apprehend them, but upon \
+these abstract ideas we make further abstractions. 
+\[FilledSmallSquare]\tHere is the problem: All change, all communication, all \
+interaction is experience. For any experience to be conscious, it must be \
+classified. It must be abstracted. A process must be applied to it which is \
+uniform for all members of that class. How can we know the processes to which \
+our experience should be applied? 
+\[FilledSmallSquare]\tIn general, more metaphor and concrete imagery for this \
+paper. \
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WordCount", "[", 
+  RowBox[{"\"\<The Logic of Inquiry\>\"", ",", 
+   RowBox[{"{", "\"\<First Draft\>\"", "}"}]}], "]"}]], "Input"],
+
+Cell[BoxData["7929"], "Output"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1211,7 +1237,7 @@ Cell[BoxData[
  RowBox[{
   RowBox[{
    RowBox[{"SectionHeaderName", "[", "\"\<Discovery and Axiom\>\"", "]"}], 
-   "=", "\"\<Discovery and Axiom\>\""}], ";"}]], "Input"],
+   "=", "\"\<The Logic of Inquiry\>\""}], ";"}]], "Input"],
 
 Cell[BoxData[
  RowBox[{
@@ -1235,8 +1261,14 @@ Cell[BoxData[
         "\"\<http://iautistic.com/autism-speaks.php\>\""}], ",", 
        "\[IndentingNewLine]", 
        RowBox[{"\"\<Author\>\"", "\[Rule]", 
-        RowBox[{"{", "\"\<Eric Chen\>\"", "}"}]}]}], "]"}], ",", 
-     "\[IndentingNewLine]", 
+        RowBox[{"{", "\"\<Eric Chen\>\"", "}"}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{"\"\<Date\>\"", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"\"\<Year\>\"", "\[Rule]", "2009"}], ",", 
+          RowBox[{"\"\<Day\>\"", "\[Rule]", "31"}], ",", 
+          RowBox[{"\"\<Month\>\"", "\[Rule]", "\"\<May\>\""}]}], "}"}]}]}], 
+      "]"}], ",", "\[IndentingNewLine]", 
      RowBox[{"Reference", "[", "\[IndentingNewLine]", 
       RowBox[{
        RowBox[{"\"\<Citation\>\"", "\[Rule]", "\"\<URL\>\""}], ",", 
@@ -1504,151 +1536,235 @@ not be associated with any metaphysics of mind.\>\"", "}"}], "]"}]}], "}"}]}],
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"SetReferenceCounters", "[", "\"\<Discovery and Axiom\>\"", "]"}], 
-  ";"}]], "Input"]
+  RowBox[{"SetReferenceCounters", "[", 
+   RowBox[{"\"\<Discovery and Axiom\>\"", ",", 
+    RowBox[{"{", "\"\<First Draft\>\"", "}"}]}], "]"}], ";"}]], "Input"]
 }, Closed]],
 
 Cell[CellGroupData[{
 
-Cell["Abstraction and Generalization", "Subsection"],
-
-Cell["\<\
-\[FilledSmallSquare]\tOnce general knowledge is removed, there is nothing \
-left. 
-\[FilledSmallSquare]\tIt is necessary to distinguish between abstract \
-knowledge that is instinctive and conscious. The contents of our \
-consciousness are already abstract by the time we apprehend them, but upon \
-these abstract ideas we make further abstractions. 
-\[FilledSmallSquare]\tHere is the problem: All change, all communication, all \
-interaction is experience. For any experience to be conscious, it must be \
-recognized as a member of a class. \
-\>", "Text"],
+Cell["Preliminaries", "Subsection"],
 
 Cell[CellGroupData[{
 
-Cell["Definitions", "Subsubsubsection"],
+Cell["What Philosophy Is and What It Should Be", "Subsubsection",
+ CellDingbat->"\[Mercury] "],
 
-Cell[TextData[{
- StyleBox["Experience",
-  FontSlant->"Italic"],
- " is our sensations, emotions, and thoughts, whether conscious or \
-unconscious. Schopenhauer's will. "
-}], "Paragraph"],
+Cell["\<\
+Three practices called philosophy: 
+\t\[LongDash] Explaining what people mean when they say things. Looking at \
+contemporary practice. 
+\t\[LongDash] Exponding a doctrine. This activity is in outgrowth of the \
+previous. Reasons may be given, but these reasons are not always sufficient; \
+instead they serve to make the conclusion sound plausible. \
+\>", "Text"],
+
+Cell["", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Preliminaries", "Subsubsection",
+ CellDingbat->"\[Mercury] "],
 
 Cell[TextData[{
  "To ",
  StyleBox["abstract",
   FontSlant->"Italic"],
- " is a process. It is to recognize an experience as being a member of a \
-class. The process of abstraction is itself a part of experience. "
+ " is the process by which we recognize something in our experience as a \
+member of a class. Some abstractions are conscious, and some are not. Thus, \
+every mental process is a kind of abstraction because every mental process \
+recognizes a class: the class of experiences on which it acts. By \
+automatically treating the signals from our retnas as visual information, the \
+optic nerves and occipital lobe are implicity recognizing those signals as \
+members of the class of visual information. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "Abstraction is required to recognize that a thing has properties, for to \
+name any property is to name a general class of things which have that \
+property. Therefore, so too is all ",
+ StyleBox["meaning",
+  FontSlant->"Italic"],
+ " a kind of abstraction. A thing which was not abstract could not be \
+recognized as having implications. "
 }], "Paragraph"],
 
 Cell[TextData[{
  StyleBox["General knowledge",
   FontSlant->"Italic"],
- " is an ability to form an abstraction. All that we ordinarily call \
-knowledge is abstract to some degree. Knowledge may be conscious or \
-unconscious. "
+ " is an ability to abstract. An ability to abstract is still knowledge, \
+regardless of whether it can be considered true, false, or neither. All \
+knowledge is general to some degree because anything not processed by the \
+mind is not knowledge, and all mental processes are abstractions. If there \
+were no general knowledge, there would be nothing but physical processes that \
+have no meaning. "
 }], "Paragraph"],
 
 Cell[TextData[{
- "The ",
- StyleBox["understanding",
+ "When I speak of ",
+ StyleBox["objectivity",
   FontSlant->"Italic"],
- " is the "
-}], "Paragraph"]
+ ", I refer to propositions which are justified by evidence that can be \
+communicated; something is ",
+ StyleBox["objective",
+  FontSlant->"Italic"],
+ ", therefore, if the evidence supporting it is available for everyone to \
+investigate. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "When I speak of ",
+ StyleBox["rationalism",
+  FontSlant->"Italic"],
+ ", I refer to the presumption that knowledge is discoverable by humans. It \
+does not refer only to knowledge which is arrived at through logical \
+argumentation; it may also include empirical knowledge. What it cannot \
+include, however, is ",
+ StyleBox["intuitionism",
+  FontSlant->"Italic"],
+ ", which is the claim that certain propositions are known immediately. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "Finally, ",
+ StyleBox["experience",
+  FontSlant->"Italic"],
+ " is the mental process, and it includes sensations, thoughts, memories, \
+emotions, conclusions, and impulses, both conscious and unconscious. "
+}], "Paragraph"],
+
+Cell["\<\
+Philosophy is not a matter of weighing evidence for one side or the other and \
+deciding on which side the more convincing falls. If one reasons logically, \
+all evidence must fall on one side through logical necessity. If not, then \
+the philosophy cannot make a pronouncement on the question. A philosopher \
+cannot reason like a lawyer. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Summary", "Subsubsection"],
+
+Cell["\<\
+The first section argues that all conscious experience depends upon general \
+knowledge, and all general knowledge depends on prior general knowledge. \
+\>", "Paragraph"],
+
+Cell["\<\
+The second argues that inquiry, the conscious attempt to discover new general \
+principles, must be justified by axioms. These axioms are not verifiable, \
+falsifiable, obvious, or necessarily true, or justifiable at all. \
+\>", "Paragraph"],
+
+Cell["\<\
+The third argues that axioms are not known immediately either. Dogmatic \
+philosophies cannot be foundations of knowledge. \
+\>", "Paragraph"],
+
+Cell["\<\
+The fourth argues that there are definite limits to the potential benefits of \
+skepticism and that discovering these limits is the means to identify the \
+axioms that enable inquiry to take place. \
+\>", "Paragraph"],
+
+Cell["\<\
+The fifth discusses falsificationism and argues that for any given inquiry, \
+the correct axioms enable a falsificationist investigation of experience. \
+\>", "Paragraph"],
+
+Cell["\<\
+The sixth discusses nominalism versus essentialism and demonstrates under \
+what circumstances we can know things by their essences. \
+\>", "Paragraph"],
+
+Cell["\<\
+The correct method in the foundation of inquiry is as follows: to be \
+skeptical in the beginning; to be a pragmatist when discovering the axioms; \
+to be a dogmatic essentialist when developing the theory of inquiry that \
+follows therefrom; and to be a nominalistic scientist when applying the \
+theory to experience. \
+\>", "Paragraph"]
+}, Open  ]]
 }, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Form of Inquiry", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["The Nature of Abstraction", "Subsubsection",
+ CellDingbat->"\[Mercury] "],
 
 Cell[CellGroupData[{
 
 Cell["Introduction", "Subsubsubsection"],
 
-Cell["\<\
-Our experience is particular, but our knowledge is general. And yet the \
-experience of a finite series of events implies nothing about an entire class \
-of events. No trend can be identified and extrapolated without an ability to \
-analyze that experience. No expectations about similar events can be \
-formulated because to do so requires an ability to recognize two events as \
-similar, whereas experience implies no such ability. Knowledge can never be \
-the product of experience alone, but some method, some process, must be \
-applied to it before any general theory can be formulated about the world. \
-\>", "Paragraph"],
+Cell[TextData[{
+ "Our experience is particular, but our knowledge is general. How can this \
+knowledge be justified? A series of experiences implies nothing about the \
+nature of a general class of experience. No trend can be identified and \
+extrapolated without some prior theory about the nature of experience. One \
+must be able to ",
+ StyleBox["recognize",
+  FontSlant->"Italic"],
+ " two events as members of a class before any trend can be recognized \
+between them. Knowledge, therefore, can never be the product of experience \
+alone. Some method, some process, must be applied to it before any general \
+theories can be formulated. "
+}], "Paragraph"],
 
 Cell[TextData[{
- "Without having made abstractions, we would have no idea how to compare one \
-event to another, and could observe no regularities. In order to form an \
-abstraction, we must have the ability to recognize similarity between two \
-individuals, and this ability is what I call ",
+ "But even if experience cannot justify us in forming general knowledge about \
+the nature of things, surely we can at least conclude that an experience is ",
+ StyleBox["possible",
+  FontSlant->"Italic"],
+ ". If I experience ",
+ Cell[BoxData[
+  FormBox["A", TraditionalForm]]],
+ ", shouldn't I be able to make the general statement that ",
+ Cell[BoxData[
+  FormBox["A", TraditionalForm]]],
+ " can actually happen? "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "From the experience of ",
+ Cell[BoxData[
+  FormBox["A", TraditionalForm]]],
+ " one can only conclude that one is experiencing ",
+ Cell[BoxData[
+  FormBox["A", TraditionalForm]]],
+ ", and this is not a consciously apprehension, but simply an assumption \
+repeated over again. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "To recognize something a member of a class I call ",
+ StyleBox["abstraction",
+  FontSlant->"Italic"],
+ ". Without having made abstractions, we would have no idea how to compare \
+one event to another, and we could observe no regularities in our experience. \
+In order to form an abstraction, we must have the ability to recognize \
+similarity between two individuals, and this ability is what I call ",
  StyleBox["general knowledge",
   FontSlant->"Italic"],
- ". To arrive at general knowledge, we must continually search our experience \
-for ways of abstracting from it. This ability is itself a form of general \
-knowledge, for to apply it is also to classify our experience as that from \
-which we may attempt to create new abstractions."
+ ". General knowledge may be applied consciously, as it is when we apply the \
+scientific method to understanding physical phenomena, or it may be applied \
+unconsciously, as when process the input from our eyes, ears, and other \
+sensory organs to produce the experience of sights, sounds, and other senses. "
 }], "Paragraph"],
 
 Cell["\<\
-In our experience we search endlessly for new abstractions. From the \
-disjointed signals constantly disequilibrating our minds, we synthesize an \
-abstract, unified, and meaningful picture of the world. \
-\>", "Paragraph"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Without Abstractions", "Subsubsubsection"],
-
-Cell["\<\
-Without this ability, we would be lost in our own experience: we would be \
-unable to conclude that anything has any implications for us, and hence it \
-would all be meaningless. The problem of epistemology is to justify deeper \
-abstractions in terms of simpler ones, and ultimately to justify the simplest \
-kinds in some other way. The search goes on both deliberately and \
-instinctively, from the application of science to the laws of nature down to \
-the most primitive functions of our brains. \
-\>", "Paragraph"],
-
-Cell[TextData[{
- "Only with general knowledge is it possible to learn from experience. In \
-order to recognize that an event has implications for the future, we must \
-apply our general knowledge of cause and effect so as to imagine the future. \
-We must recognize new experiences as having applications in our prior \
-learning. A boulder tumbling toward us is of no co ncern without some general \
-knowledge of the behavior of boulders and their effect on the human body. \
-Without general theories, our experience would be truly meaningless; we would \
-be unable to believe in any connection between any events or any similarities \
-between one thing and another. Without it we could have no purposeful \
-interactions with the world or our own selves.",
- Cell[BoxData[
-  FormBox[
-   SuperscriptBox["\[VeryThinSpace]", 
-    DynamicBox[$CellContext`ReferenceCounter[1, "knowledge"],
-     ImageSizeCache->{42., {6., 11.}}]], TraditionalForm]]],
- " "
-}], "Paragraph"],
-
-Cell[TextData[{
- "If there were ever something in our experience that was wholly individual, \
-which could not be subsumed under any general concept, we would be incapable \
-of experiencing it. It would be neither painful or pleasurable because these \
-already are abstract categories, and so the sensation must already have been \
-treated to general considerations in order to be felt as pain or pleasure. It \
-would not have colors or textures, and could not be described in terms of any \
-other sense. No known laws would apply to it. It could not be expressed in \
-terms of concepts. It could not be thought about. It would be meaningless, \
-unnoticeable, unthinkable, and indeed, ",
- StyleBox["nothing",
-  FontSlant->"Italic"],
- " to us. "
-}], "Paragraph"],
-
-Cell["\<\
-As our knowledge declines in generality, experience becomes more and more \
-discontinuous and less and less meaningful, from premeditated far-reaching \
-action to simple stimulus-response. Without general knowledge, there could be \
-no self-reflexion, no choice, nothing but total passivity. Experience would \
-have degraded to something more like a physical process than conscious \
-thought. \
+To arrive at general knowledge, we must continually search our experience for \
+ways of abstracting from it. This search is itself a higher form of \
+abstraction in which we recognize the objects of our experience as things \
+that we are able to think about, and this ability to think is a form of \
+general knowledge. In our experience we search endlessly for new \
+abstractions. From the disjointed signals constantly disequilibrating our \
+minds, we synthesize an abstract and meaningful picture of the world. \
 \>", "Paragraph"]
 }, Open  ]],
 
@@ -1657,24 +1773,21 @@ Cell[CellGroupData[{
 Cell["Examples of the Process of Abstraction", "Subsubsubsection"],
 
 Cell[TextData[{
- "There is a kind of abstraction that begins directly from the stimulation of \
-our own neurons. The fact that our neurons are connected differently to one \
-another means that each signal is processed differently from every other. \
-Different signals are thus automatically separated from one another \
-immediately, from the moment the brain begins to process them. The fact that \
-the optic nerves lead to the occipital lobe, whereas [just ask Anna some \
-anatomy to fill in this part] means that the brain recognizes, in a sense, \
-that one sort of signal is in a different class than the other.",
+ "To apprehend a color, sound, or other sensation requires abstraction: the \
+fact that the nerves from the ear and eye are wired to communicate a signal \
+to a specific part of the brain means that these signals have been \
+classified, simply by virtue of the physical wiring of our brains.",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["\[VeryThinSpace]", 
-    DynamicBox[$CellContext`ReferenceCounter[12, "knowledge"],
+    DynamicBox[$CellContext`ReferenceCounter[12, "Discovery and Axiom"],
      ImageSizeCache->{42., {6., 11.}}]], TraditionalForm]]],
  " "
 }], "Paragraph"],
 
 Cell["\<\
-With each step from the excitation of our retinas to the conscious \
+The method by which these signals are processed is a form of general \
+knowledge. With each step from the excitation of our retinas to the conscious \
 apprehension of the visual image, the signals from our eyes are abstracted \
 again and again and classified according to more and more general concepts. \
 Vision begins as simply a series of signals in our eyes, excited by the \
@@ -1717,9 +1830,9 @@ knowledge of ourselves is not immediate or innate.\
 \>", "Paragraph"],
 
 Cell[TextData[{
- "There is indeed no reason to differentiate philosophically between our own \
-minds and the rest of the world; our experience of our own mind is no more \
-direct, no more priviledged than our experience of the outside world.",
+ "There is no reason to differentiate philosophically between our own minds \
+and the rest of the world; our experience of our own mind is no more direct, \
+no more privileged than our experience of the outside world.",
  Cell[BoxData[
   FormBox[
    SuperscriptBox["\[VeryThinSpace]", 
@@ -1729,7 +1842,7 @@ direct, no more priviledged than our experience of the outside world.",
 consciousness, no different from the experience of our senses, and the \
 underlying workings of our own mind are no more obvious to us than are the \
 physical laws of the world we observe. We might imagine a counterpart to \
-Descarte's demon, who instead of tricking us with false sensory information, \
+Descartes's demon, who instead of tricking us with false sensory information, \
 fills our consciousness with false thoughts and emotions. It may feed us a \
 series of thoughts followed by a feeling of certainty that these thoughts are \
 all logically related and irrefutable, when they are really unrelated and \
@@ -1741,33 +1854,62 @@ the laws of physics. "
 
 Cell[CellGroupData[{
 
-Cell["Conclusions", "Subsubsubsection"],
+Cell["Without Abstractions", "Subsubsubsection"],
 
 Cell["\<\
-Founded upon on the powerful apparatus of instinctive knowledge is our \
-reason, which enables us to make far broader abstractions. With it we can \
-discover new general principles with which to interpret experience. The more \
-general the theory, the deeper is our understanding and the more potential \
-there is for technological progress. The application of general knowledge to \
-our experience means that our actions can become more powerful and our \
-experience more meaningful. A deeper understanding of causes and effects \
-enables us to build machines, organizations, and other contrivances that \
-enable us to be vastly more effective, and also to see much more clearly the \
-connectedness of all phenomena.\
+Without general knowledge, we would be lost in our own experience: we would \
+be unable to conclude that anything has any implications for us, and hence it \
+would all be meaningless. The problem of epistemology is to justify deeper \
+abstractions in terms of simpler ones, and ultimately to justify the simplest \
+kinds in some other way. The search goes on both deliberately and \
+instinctively, from the application of science to the laws of nature down to \
+the most primitive functions of our brains. \
 \>", "Paragraph"],
 
 Cell[TextData[{
- "General knowledge is indispensable to us. It is the aim of science and the \
-necessary precursor to all technology. Knowledge can be instinctive or \
-learned, and implicit or conscious, but it is always abstract. It is the \
-foundation of thought and experience. Generalities of various degrees are \
-involved in ",
- StyleBox["all",
+ "Only with general knowledge is it possible to learn from experience. In \
+order to recognize that an event has implications for the future, we must \
+apply our general knowledge of cause and effect so as to imagine the future. \
+We must recognize new experiences as having applications in our prior \
+learning. A boulder tumbling toward us is of no concern without some general \
+knowledge of the behavior of boulders and their effect on the human body. \
+Without general theories, our experience would be truly meaningless; we would \
+be unable to believe in any connection between any events or any similarities \
+between one thing and another. Without it we could have no purposeful \
+interactions with the world or our own selves.",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[VeryThinSpace]", 
+    DynamicBox[$CellContext`ReferenceCounter[1, "Discovery and Axiom"],
+     ImageSizeCache->{42., {6., 11.}}]], TraditionalForm]]],
+ " "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "If there were ever something in our experience that was wholly individual, \
+which could not be subsumed under any general concept, we would be incapable \
+of experiencing it. It would be neither painful or pleasurable because these \
+already are abstract categories, and so the sensation must already have been \
+treated to general considerations in order to be felt as pain or pleasure. It \
+would not have colors or textures, and could not be described in terms of any \
+other sense. No known laws would apply to it. It could not be expressed in \
+terms of concepts. It could not be thought about. It would be meaningless, \
+unnoticeable, unthinkable, and indeed, ",
+ StyleBox["nothing",
   FontSlant->"Italic"],
- " knowledge; recognizing another person from day to day, for example, \
-involves abstracting a continuous identity from our fragmentary, changing \
-experience of him. Without some sort of general knowledge, there could be no \
-justification to any thought process whatsoever because all experience, \
+ " to us. All conscious experience, therefore, is abstract to some degree. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "As our knowledge declines in generality, experience becomes more and more \
+discontinuous and less and less meaningful, from premeditated far-reaching \
+action to simple stimulus-response. Without general knowledge, there could be \
+no self-reflexion, no choice, nothing but total passivity. What is experience \
+without consciousness? It is merely a process, a change, something that ",
+ StyleBox["happens",
+  FontSlant->"Italic"],
+ ", and that is all. Without some sort of general knowledge, there could be \
+no justification to any thought process whatsoever because all experience, \
 including our own thought, would be impenetrably and ineffably individual. "
 }], "Paragraph"]
 }, Open  ]]
@@ -1775,111 +1917,521 @@ including our own thought, would be impenetrably and ineffably individual. "
 
 Cell[CellGroupData[{
 
-Cell["Empiricism", "Subsection"],
+Cell["Unjustifiably of Axioms", "Subsubsection",
+ CellDingbat->"\[Mercury] "],
+
+Cell["\<\
+\[FilledSmallSquare]\tHere I must argue that deliberate inquiry must be \
+founded upon consciously apprehended axioms. 
+\[FilledSmallSquare]\tThe reason we need conscious axioms is that we do not \
+know if our methodology is correct without reasons to justify it. 
+\[FilledSmallSquare]\tIt is possible for a being to reason without being \
+conscious. \
+\>", "Text"],
 
 Cell[CellGroupData[{
 
-Cell["This argument may not be necessary. ", "Subsubsubsection"],
+Cell["Recap", "Subsubsubsection"],
+
+Cell[TextData[{
+ "Because we are creatures with will, consciousness, and reason, we can make \
+the deliberate attempt to expand our knowledge in the hopes of stating \
+explicitly some general principle of our experience. Such an attempt I call ",
+ StyleBox["inquiry",
+  FontSlant->"Italic"],
+ ". "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "Yet a mere attempt to expand our knowledge is not necessarily an attempt \
+that makes sense or has any expectation of succeeding. An inquiry may be a \
+blind alley. If our method is unjustified, we cannot be sure that we are \
+wasting our thinking. Once the need to study methodology is understood, our \
+curiosity is piqued to frame an inquiry into the process of inquiry itself. \
+This I call ",
+ StyleBox["epistemology",
+  FontSlant->"Italic"],
+ ". "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "At the outset of an epistemological inquiry, the problem faces us that \
+everything of which we are conscious depends on prior general knowledge. This \
+prior general knowledge may perhaps be justified by a new inquiry, but this \
+process cannot be continued back indefinitely, at least not consciously. \
+Hence, it is impossible to justify ",
+ StyleBox["all",
+  FontSlant->"Italic"],
+ " our general knowledge; there must be some original principles, some ",
+ StyleBox["axioms",
+  FontSlant->"Italic"],
+ ", with which form the start of a given inquiry. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "These original principles cannot be justified because then they would not \
+be ",
+ StyleBox["original",
+  FontSlant->"Italic"],
+ ". Here there is a dilemma: if the axioms are not justified, how do we know \
+which possible axioms are correct? "
+}], "Paragraph"],
 
 Cell["\<\
-\[FilledSmallSquare]\tNo finite number of observations is sufficient to \
-conclude that an abstract category has a given feature. 
-\[FilledSmallSquare]\tEverything in our consciousness is abstract. Therefore \
-the problem of induction applies to everything in our experience. 
-\[FilledSmallSquare]\tWe are not directly aquainted with the nature of \
-anything, either with our own minds through introspection or with the outside \
-world through observation. \
-\>", "Text"]
+At the outset of an epistemological inquiry, the problem faces us that \
+whatever we think has come to us through the process of thought and hence \
+depends upon the very processes we desire to justify.\
+\>", "Paragraph"],
+
+Cell["\<\
+The mind is versatile. The beliefs to which we ascribe, no matter how obvious \
+and seemingly indisputable, come to us through the medium of our own \
+apprehension. Conscious apprehension, as a means of evaluating our own \
+beliefs, cannot be escaped. \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "Recall that, because experience itself depends on general knowledge, the \
+axioms for a given inquiry are not simply given to us as objects of our \
+experience. Experience is itself a form of inquiry, not a starting point. ",
+ StyleBox["A priori",
+  FontSlant->"Italic"],
+ " principles may not be obvious or easy to understand; we cannot expect to \
+introspect or observe and simply find them there waiting for us. "
+}], "Paragraph"],
+
+Cell["\<\
+Though we have not yet found a method of discovering axioms, reason can help \
+us to tease out some of their properties. \
+\>", "Paragraph"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["Possibly an unnecessary paragraph", "Subsubsubsection"],
+Cell["Logical inconsistency", "Subsubsubsection"],
+
+Cell["\<\
+It cannot be possible to give reasons why the axioms are true. If it were, \
+then they would not be axioms. If reasons could be given to prove the \
+purported axioms, then only those reasons could possibly be axioms, not what \
+was proved with them. It follows from this that axioms are not logically \
+necessary. To deny an axiom cannot result in a contradiction, for if it did, \
+then the axiom would be proved using the axioms of logic. The axioms would \
+then be the axioms of logic, not the statement which follows from them. \
+\>", "Paragraph"],
 
 Cell[TextData[{
- "When we act, we act with an end in mind, and ",
- StyleBox["knowledge",
+ "The axioms of logic satisfy this criterion; to deny them would not result \
+in a contradiction because without them because contradiction is itself \
+defined in terms of them. However, they alone are not sufficient to justify \
+other knowledge. The only things that are necessarily true according to the \
+axioms of logic are tautologies with no positive content such as (((x \[Nand] \
+y) \[Nand] z) \[Nand] (x \[Nand] ((x \[Nand] z) \[Nand] x))) = z. Anything \
+that is ",
+ StyleBox["a priori",
   FontSlant->"Italic"],
- " is that by which we conclude that the act will bring about the desired \
-end. This knowledge may be true or mistaken, but it is not yet necessary to \
-make that distinction. All knowledge is abstract to some extent; if not, then \
-it cannot be knowledge: for to formulate a plan requires us to abstract over \
-time and assume that the future will be somehow like the past. It is in light \
-of our knowledge's abstract qualities that it has meaning for us. We \
-interpret our experience by identifying things as examples of more general \
-categories, and it is only after we make such interpretations that our \
-experience suggests anything about the nature of the world or about our own \
-choices in it. It is easy, of course, to form abstractions; we do so \
-ceaselessly and so effortlessly that we may not even be aware of it even \
-after considerable introspection. Yet how can we justify ourselves in forming \
-such abstractions? The ability to ",
- StyleBox["recognize",
+ " is not logically necessary, and anything that is logically necessary is \
+not ",
+ StyleBox["a priori",
   FontSlant->"Italic"],
- " something as a member of a class is already a form of general knowledge."
+ ". "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "For the same reasons, axioms cannot falsifiable (or verifiable) through \
+observation or through any other means. This too would be to give reasons \
+that the axioms are true. An axiom should be consistent with ",
+ StyleBox["any",
+  FontSlant->"Italic"],
+ " conceivable observation. An axiom's contrary also cannot be empirically \
+verifiable or falsifiable because this could be used to give a reason for the \
+axiom itself\[LongDash]therefore axioms and their contraries should be \
+compatible with all conceivable experience. "
 }], "Paragraph"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["The Real Problem of Empiricism", "Subsubsubsection"],
-
-Cell["\<\
-Nothing in experience implies anything or has any meaning for us until we \
-apply our general knowledge to it. Any empirical method, therefore, must \
-assume that some knowledge of abstraction is immediately given to us. We can \
-assume that this knowledge cannot be learned from experience because if it \
-could, this would just imply the existence of some prior knowledge that was \
-used to learn it. In the case of an instinctive method, this knowledge is not \
-immediately expressible, but is implicit in the method itself, whereas a \
-conscious, rational method requires that this knowledge be explicitly stated \
-or people will not be able to follow the method. \
-\>", "Paragraph"],
+Cell["Action inconsistency", "Subsubsubsection"],
 
 Cell[TextData[{
- "No doubt learning from experience builds upon itself, making it easier to \
-learn as more knowledge is gained, so one might imagine an unending chain of \
-empirical methods, each one justified by a prior one. Something like this \
-would be imagined in a philosophy of natural selection; our instinctive \
-ability to reason would be justified as having grown out of the mental \
-faculties of our ancestors, all the way back to the time when thought was so \
-modest that it was indestinguishable from the mechanistic regulatory \
-functions of a ganglia, and then back to the time when nerve cells were \
-indistinguishable from ohter types of cells, and then further back to when \
-life was indistinguishable from other simple self-catylizing reactions. This \
-would not be an endless chain of empirical methods, but it would rather begin \
-with the laws of physics, something that is not an empirical method at all.",
- Cell[BoxData[
-  FormBox[
-   SuperscriptBox["\[VeryThinSpace]", 
-    DynamicBox[$CellContext`ReferenceCounter[10, "knowledge"],
-     ImageSizeCache->{42., {6., 11.}}]], TraditionalForm]]],
- " "
+ "Sometimes it is claimed that certain statements must be affirmed not \
+because their negation is directly inconsistent, but that their negation is \
+inconsistent with the ",
+ StyleBox["act",
+  FontSlant->"Italic"],
+ " of believing that negation. This is what Descartes argued when he \
+attempted to prove his own existence. Descartes's argument fails because the \
+conclusion is hollow. Although it may prove Descartes's existence in ",
+ StyleBox["some",
+  FontSlant->"Italic"],
+ " sense, it tells us nothing of the ",
+ StyleBox["manner",
+  FontSlant->"Italic"],
+ " of Descartes's existences. It is quite possible that Descartes could exist \
+in a way that we would hardly call existence. For example, right now I am \
+imagining a character named Descartes, who is at this moment doubting his own \
+existence; he now concludes that he must exist, but how shocked he would be \
+if he knew that he exists as nothing more than a transitory imaginary \
+character. "
 }], "Paragraph"],
 
 Cell[TextData[{
- "However, although this might be an ",
- StyleBox["explanation",
+ "This sort of argument has been revived by Mises and Rothbard to justify the \
+axiom of human action in economics. Here it suffers similarly. It is a \
+nontrivial step to ",
+ StyleBox["interpret",
   FontSlant->"Italic"],
- " of our ability to think, it is not a justification. In order to invent and \
-understand such an explanation we must think; indeed, the most advanced \
-faculties of our minds are required. To rely on an evolutionary explanation \
-of thought as a justification is therefore circular. Hence there must be \
-knowledge that is prior to all experience. "
+ " me as ",
+ StyleBox["acting",
+  FontSlant->"Italic"],
+ ". I might just as well be a mindless robot programmed to make philosophical \
+arguments. I see no contradiction in claiming that I am not acting while I am \
+talking, and in failing to interpret my own thoughts and desires as any more \
+than mechanical processes having no intention or meaning to them, in failing \
+to identify my own consciousness. To apprehend ones own conscious is not \
+automatic and not logically necessary. It is so natural to most of us that we \
+do not think about what it would be like not to do it."
 }], "Paragraph"]
 }, Open  ]]
 }, Closed]],
 
 Cell[CellGroupData[{
 
-Cell["Falsificationism", "Subsection"],
+Cell["Dogmatism", "Subsubsection"],
 
 Cell["\<\
-To summarize, axioms are necessary for any kind of general knowledge, but \
-they are neither necessarily true nor self-evident. Since axioms are by \
-definition the fundamental propositions, there can be no reasons proving them \
-to be true. These conclusions pose severe problems for any theory of \
-knowledge. How can one \
+\[Bullet]\tJust remove the term \"self-evidence\" completely from this essay. \
+Instead use the term \"intuitionism\". \
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell["Intuitionism", "Subsubsubsection"],
+
+Cell[TextData[{
+ "Axioms are necessary, but cannot be justified. A philosophical stance that \
+can reconcile these two propositions is one of ",
+ StyleBox["dogmatism",
+  FontSlant->"Italic"],
+ ". Here, axioms are believed to be knowable without being true for any \
+knowable reason. However, all forms of this doctrine seem necessarily to be \
+inherently antirationalistic. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "One way of making this claim is to say that axioms are known immediately, \
+without being the product of inquiry. This I call ",
+ StyleBox["intuitionism",
+  FontSlant->"Italic"],
+ " and the kind of axioms that intuitionists rely on are sometimes said to be \
+",
+ StyleBox["self-evident",
+  FontSlant->"Italic"],
+ ". "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "The definition of self-evidence seems to preclude any rational discourse \
+about it. If I believe that something is self-evidently true, and that \
+therefore the apprehension of its truth is ",
+ StyleBox["immediate",
+  FontSlant->"Italic"],
+ " for me, then I cannot believe it because of ",
+ StyleBox["reasons",
+  FontSlant->"Italic"],
+ "; if I did, then my apprehension of its truth would be ",
+ StyleBox["mediate",
+  FontSlant->"Italic"],
+ " instead of immediate. Indeed, if I had reasons why it must be true, then I \
+would not need to rely on self-evidence; I could just give those reasons \
+instead. In fact, if I had reasons why it must be true, then it wouldn't be \
+an axiom in any case. "
+}], "Paragraph"],
+
+Cell["\<\
+If two people disagree on whether a statement is self-evident they can have \
+no rational argument over it. The one who affirms that a statement is \
+self-evident can do no more than reiterate his insistence. The feeling of \
+obviousness which attends his apprehension of his axiom may be nothing more \
+than a subjective emotion that accompanies it. \
 \>", "Paragraph"],
+
+Cell["\<\
+Self-evidence to me seems more like a quality of the apprehensions of \
+animals. It is self-evident that a cat should stalk, that a snail should \
+creep, that bulls should battle one another, and that people should tell \
+stories, but these are not principles that philosophers have any business \
+with. \
+\>", "Paragraph"],
+
+Cell["\<\
+I have argued above that apprehension requires prior knowledge, and requires \
+being processed by the mind. Therefore, any knowledge which is apparent is \
+not immediate and any knowledge which is immediate is not apparent. Although \
+such truths may exist, they cannot serve as a justification of knowledge.\
+\>", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Naturalism", "Subsubsubsection"],
+
+Cell[TextData[{
+ "Indeed there ",
+ StyleBox["are",
+  FontSlant->"Italic"],
+ " self-evident axioms, in a certain sense. They are the fundamental \
+processes of our minds, our instincts. These processes cannot are literally \
+undoubtable because they are not controlled by our wills. However, we are not \
+automatically acquainted with the underlying processes of our minds. We \
+cannot have any idea what they are without a great deal of research into \
+psychology and biology. Furthermore, self-evident principles cannot be stated \
+in a self-evident way. It is only the axiom in its original form, before it \
+has been consciously apprehended, which is self-evident. "
+}], "Paragraph"],
+
+Cell["\<\
+Our instincts may be self-evident in the way that they operate naturally, but \
+any explicit statement of them will not be self-evident. To discover our own \
+instincts requires research into psychology. \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "One possible candidate for ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " knowledge would be as the simplest processes hardwired into our brains. \
+These principles would presumably be true and immutable and true, seeing as \
+how they are based on the physical laws governing neurons. However, we are \
+not automatically acquainted with the underlying processes of our minds. We \
+know about the way we think through either experimental psychology or through \
+introspection, both of which are a kind of experience; any attempt at a \
+generalization about the nature of thought, therefore, has the same problems \
+with any other sort of generalization. "
+}], "Paragraph"],
+
+Cell["\<\
+Unconscious axioms cannot provide a philosophical justification of inquiry; \
+one cannot write down a logical chain of arguments that explains how we can \
+trust our own beliefs if some of those arguments are not consciously known. \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "This sort of ",
+ StyleBox["scientism",
+  FontSlant->"Italic"],
+ " is really another form of dogmatism. Although psychology may give an ",
+ StyleBox["explanation",
+  FontSlant->"Italic"],
+ " of our ability to think, to call it a justification would be circular. To \
+apprehend our own instincts requires that an inquiry has already taken place. "
+}], "Paragraph"],
+
+Cell["\<\
+Now it seems that not only are axioms unjustifiable but also unknowable by \
+any other means. Knowing the true axiom from the false must be unconscious. \
+Things seem hopeless. Is there anything left now but to stop thinking \
+entirely? \
+\>", "Paragraph"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Skepticism", "Subsubsection",
+ CellDingbat->"\[Mercury] "],
+
+Cell[CellGroupData[{
+
+Cell["The possibility of insanity", "Subsubsubsection"],
+
+Cell[TextData[{
+ "Though axioms are most desperately needed, they are difficult to find. \
+Indeed, all attempts at establishing some kind of certainty in ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " principles must yield to the problem that thought cannot justify itself. \
+It is impossible for a person to prove to himself that he is sane. Whatever I \
+am now thinking, no matter how obvious it seems, might only seem that way \
+because my troubled mind makes it seem that way, and may really be the \
+absurdest of ravings. What is left now but the stultifying morass of \
+skepticism? "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "The reader may be ready to object that there is a contradiction in using \
+arguments to dispute reason itself; but this, however, is not what I am \
+doing. To suggest that there is a philosophical ",
+ StyleBox["question",
+  FontSlant->"Italic"],
+ " of establishing the foundation of reason is not to dispute reason itself, \
+nor to give any evidence that the method of reason is in fact flawed. \
+Questioning logic itself is, of course, illogical, but if I am already \
+questioning logic, then I am not at this point convinced that would be \
+circular reasoning if I ",
+ StyleBox["used",
+  FontSlant->"Italic"],
+ " logic to quell my own doubts. Of course, if I were questioning logic, then \
+I could not say there was anything wrong with circular reasoning. Let us \
+proceed cautiously and continue to use reason despite any misgivings. "
+}], "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Skepticism", "Subsubsubsection"],
+
+Cell["\<\
+Anything which can be consciously articulated can be questioned. Anything \
+which is consciously articulated was arrived at by some intermediate thought. \
+Conscious knowledge is not immediate and might always be mistaken. It might \
+seem, therefore, that there is virtue in acknowledging that one's beliefs, no \
+matter how seemingly obvious, might be mistaken and in searching them for \
+errors and unnoticed assumptions. And yet, a skeptical attitude, taken to its \
+logical conclusion, leads to grave problems. \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "It is sometimes said that skepticism is contradictory: \[OpenCurlyQuote]\
+\[OpenCurlyDoubleQuote]We know that we know nothing,\[CloseCurlyDoubleQuote] \
+they chatter, blanking out the fact that they are claiming knowledge\
+\[CloseCurlyQuote]",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[VeryThinSpace]", 
+    DynamicBox[$CellContext`ReferenceCounter[11, "Discovery and Axiom"],
+     ImageSizeCache->{42., {6., 11.}}]], TraditionalForm]]],
+ " However, to be a skeptic does not imply that one believe with certainty \
+that knowledge is impossible. Not to believe something true is not to believe \
+anything false; it is simply the absence of belief. A rock, for example, \
+believes nothing, and, insofar as it is unconvinced of anything, is therefore \
+a skeptic. One may be a skeptic and yet remain open to the possibility of \
+certain knowledge, if such could ever be found. "
+}], "Paragraph"],
+
+Cell["\<\
+A skeptical attitude, though not contradictory, may still be criticized as \
+being unstable. If one is a self-conscious skeptic (as opposed to one who is \
+skeptical by temperament and who has not consciously apprehended his habit of \
+questioning everything), then one is able to question his own skepticism. The \
+result of such questioning must be either nihilism or dogmatism: nihilism if \
+one stops thinking entirely and leaves nothing left to question, dogmatism if \
+one simply stops questioning. \
+\>", "Paragraph"],
+
+Cell["\<\
+Unfortunately, this objection does not demonstrate the existence of any \
+certain knowledge. The objection demonstrates only the impossibility of \
+consciously apprehending everything that one might question. If I am a \
+skeptic who is questioning my belief in X, I could also question whether I \
+should, indeed, question X. Once I have begun questioning that, then I might \
+as well question whether I should question the questioning of X. One can see \
+that if I continue in this way I am being drawn into a transfinite sequence \
+of doubts. No matter how far I go, I can always question further, so I can \
+never literally question everything. When I cease to question, I do not \
+arrive at certain knowledge; I only arrive at some belief that it has not yet \
+occurred to me to question. [reference something about transfinite sequences \
+here]. \
+\>", "Paragraph"],
+
+Cell["\<\
+The simplest form of dogmatism is to state some axioms and then simply refuse \
+to question them. In this case, axioms are knowable simply because they have \
+been stated to be axioms, and to question their status is beyond the scope of \
+the discourse. This, indeed, is the status of the rationalistic stance I set \
+out with in the beginning. \
+\>", "Paragraph"],
+
+Cell["\<\
+Although it is impossible to be skeptical about everything, there is no \
+proposition of which one cannot be skeptical. Conscious thought depends upon \
+unconscious thought, so one always has unquestioned, unconscious beliefs; the \
+moment, however, that these become conscious, they become questionable. Can \
+one be a skeptic without becoming a suicidal nihilist or an arbitrary \
+dogmatist, as with Montaigne, the skeptic who famously advocated obedience to \
+the arbitrary whims of the king? \
+\>", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Escape from the skeptical trap", "Subsubsubsection"],
+
+Cell["\<\
+The situation now seems most grave: empiricism is impossible, dogmatism is \
+impossible, and now skepticism, too, is impossible. Is utter nihilism, the \
+renunciation of all thought, now the only option? \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "No; I will show that there ",
+ StyleBox["is",
+  FontSlant->"Italic"],
+ " an escape from the skeptical trap and that there ",
+ StyleBox["is",
+  FontSlant->"Italic"],
+ " a method of finding the axioms necessary for inquiry. If one could provide \
+an argument for a certain assumption such that, no matter how riddled with \
+errors it may be, to question it ",
+ StyleBox["cannot",
+  FontSlant->"Italic"],
+ " lead to the discovery of those errors, then there is no longer any virtue \
+in questioning that assumption. One is never worse off in making it. "
+}], "Paragraph"],
+
+Cell["\<\
+An example of such assumptions are the axioms of logic. The moment one \
+questions logic, one loses the ability to evaluate ones own beliefs. Without \
+logic, there is no distinction between premise and conclusion, and no manner \
+of reasoning could be considered any more fallacious than any other. All \
+one's beliefs are independent assumptions not backed by anything. \
+\>", "Paragraph"],
+
+Cell["\<\
+Axioms established in this manner satisfy all the criteria which I have shown \
+axioms must posses. They are not self-evident or logically necessary. They \
+are not proven to be true. They are philosophical rather than scientistic. \
+They can be consciously apprehended. Most importantly, these axioms can be \
+discovered by rational arguments. It will therefore be perfectly objective \
+whether a proposition is an axiom or not. Such arguments, once they are \
+found, would form a solid backing for axiomatic knowledge. \
+\>", "Paragraph"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Falsificationism", "Subsubsection",
+ CellDingbat->"\[Mercury] "],
+
+Cell[TextData[{
+ "Once axioms have been given, it is possible that we might acquire knowledge \
+by a method of falsificationism. We can frame hypotheses about our experience \
+and attempt to falsify them with new experience. With each new theory, we \
+will arrive at more and more accurate descriptions of reality. Since I have \
+rejected both foundationalism and induction, this is the ",
+ StyleBox["only",
+  FontSlant->"Italic"],
+ " method available. The only logical conclusion one can draw about a general \
+theory from a particular observation is that the theory either has been \
+falsified or has not. "
+}], "Paragraph"],
+
+Cell["\<\
+There is a caveat to this method: only theories that our experience is \
+capable of falsifying can be considered. If the truth is not something our \
+experience can falsify, then we can never know it. \
+\>", "Paragraph"],
+
+Cell["\<\
+\[FilledSmallSquare]\tBe sure to mention here that falsificationism means \
+that the general knowledge arrived at through inquiry will always be \
+tentative. 
+\[FilledSmallSquare]\tI need to talk about how axioms are constitutive \
+principles. Then I can talk about how they enable a falsificationist inquiry \
+to proceed. \
+\>", "Text"],
 
 Cell["\<\
 A general theory, which would apply to all events across all of time and \
@@ -1894,7 +2446,7 @@ Cell["\<\
 If there were some method of testing hypotheses, this method could be used to \
 eliminate wrong hypotheses, and although one could not expect to find the \
 rules that can be applied to everything The process may never end, but our \
-knowlege will improve with each new alteration that it undergoes.  \
+knowledge will improve with each new alteration that it undergoes.  \
 \>", "Paragraph"],
 
 Cell["\<\
@@ -1919,7 +2471,7 @@ between any two things. If one proposes that ",
  StyleBox["A",
   FontSlant->"Italic"],
  " happen without any apparent causality between them, he need only propose \
-more and more inscrutible theories and postulate more and more invisible \
+more and more inscrutable theories and postulate more and more invisible \
 causes until the later observations can no longer be considered similar to ",
  StyleBox["A",
   FontSlant->"Italic"],
@@ -1937,9 +2489,9 @@ causes until the later observations can no longer be considered similar to ",
 
 Cell["\<\
 We therefore constrain our hypotheses with a set of axioms that prevent us \
-from straying into the unknowable. Without an axiomatic side to knowlege, our \
-learning has no chance of progressing. Without the necessary constraints on \
-our hypotheses, we propose explanations which we cannot disgard. With each \
+from straying into the unknowable. Without an axiomatic side to knowledge, \
+our learning has no chance of progressing. Without the necessary constraints \
+on our hypotheses, we propose explanations which we cannot discard. With each \
 new step the hypothesis leads us, we find ourselves again confused; yet still \
 nothing informs us that the explanation is faulty. We therefore assume that \
 the problem is the obscurity of the world, and simply explain things in \
@@ -1950,31 +2502,886 @@ around us question our sanity. \
 
 Cell[TextData[{
  "In contrast to a specific theory that gives the exact effects of a given \
-cause, the axiomatic side to knowlege provides only constraints upon the \
+cause, the axiomatic side to knowledge provides only constraints upon the \
 variety of possible theories. A hypothesis may be specific about what ",
  StyleBox["is",
   FontSlant->"Italic"],
  ", but the axiomatic theory is specific only about what ",
  StyleBox["isn't",
   FontSlant->"Italic"],
- ". Unlike the elusive general hypotheses that propose positive knowlege, \
-axiomatic knowlege can be applied universally without having to be tested. "
+ ". Unlike the elusive general hypotheses that propose positive knowledge, \
+axiomatic knowledge can be applied universally without having to be tested."
+}], "Paragraph"],
+
+Cell[TextData[{
+ "Thus far, I have assumed nothing about the topic under investigation; \
+therefore the methodology of ",
+ StyleBox["all",
+  FontSlant->"Italic"],
+ " kinds of inquiry may be deduced by this method. To test a proposition need \
+not involve a controlled experiment; there are many kinds of actions which \
+may be considered to be testing a proposition. Different kinds will be \
+appropriate for different inquiries. "
 }], "Paragraph"],
 
 Cell["\<\
-The Socratic method may be considered a methodology of testing hypotheses \
-whose rationalistic constraints are the axioms of logic. The Socratic method \
-has us ask questions to ourselves or one another to test the consequences of \
-our hypotheses. When a consequence is found to be contradictory, that \
-hypothesis is rejected. As the method procedes, we learn when we discover \
-that a much smaller range of hypotheses is tenible than we had previously \
-thought. Although If logic were not taken to be categorically necessary, \
-reasoning would simply be impossible and the search for knowlege would be \
-hopeless. \
+Learning proceeds from two fronts: on the one hand, a method of testing \
+theories is applied repeatedly, shearing away those theories that contradict \
+reality, and on the other, and the logical application of a set of axioms, \
+constraining our theories to only those that the method can manage. In this \
+world we are bound in a tangle of experience, but we overlook a vale of \
+hypotheses calling for exploration, with boundaries which say what knowledge \
+cannot be. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["The Synthesis", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Nominalism and Essentialism", "Subsubsubsection"],
+
+Cell[TextData[{
+ "\[FilledSmallSquare]\tSome categories are ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " and some are not. The ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " ones are true and absolute but it is an art to determine whether a \
+physical thing fits into one of them. \n\[FilledSmallSquare]\tExample: \
+history is an ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " category; war, revolution, famine, etc. are not. \n\[FilledSmallSquare]\t\
+For a given inquiry, we know the nature of the ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " categories immediately, whereas for other categories the natures are \
+hypothetical. "
+}], "Text"],
+
+Cell[TextData[{
+ "The problem of experience without general knowledge is that nothing can be \
+categorized. Necessarily, therefore, the axioms of any inquiry must involve \
+the postulation of an ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " category. Indeed, this is ",
+ StyleBox["all",
+  FontSlant->"Italic"],
+ " an axiom does. It does not need to do anything else. The principle of \
+discovery is the presumption that we are able to recognize the categories in \
+experience which enable us to engage in inquiry. Once the correct general \
+categories have been postulated, then inquiry can proceed. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "This connection allows for a resolution of the debate over which attributes \
+of an object are essential and which are not, at least from a methodological \
+standpoint. Attributes of belonging to ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " categories (or categories defined in terms of them), are essential. These \
+classifications are assumed prior to any inquiry. Whereas other attributes \
+are hypothetical and must be born out by continued testing. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "We know the natures of the ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " classes because these natures are given by hypothesis. With this \
+knowledge, we also know when a question needs to be answered empirically or \
+through ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " argumentation. "
+}], "Paragraph"],
+
+Cell["\<\
+\[FilledSmallSquare]\tHow is it that we can be familiar with a given inquiry \
+before we have stated the axioms of the inquiry? The categories of many \
+inquiries often seem natural to us. \
+\>", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["Quid Juris",
+  FontSlant->"Plain"],
+ " and ",
+ StyleBox["Quid Facti",
+  FontSlant->"Plain"]
+}], "Subsubsubsection"],
+
+Cell[TextData[{
+ "Axioms deduced by the principle of discovery will satisfy all the \
+properties of axioms I proved earlier. They will not be necessarily true, \
+obvious, verifyable, or falsifiable. They are not known to be true. They are ",
+ StyleBox["assumed",
+  FontSlant->"Italic"],
+ " for pragmatic reasons, but are not proved or otherwise backed by reasons. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "The way out of the problem of first principles is opened by the observation \
+that although one cannot give reasons that axioms are ",
+ StyleBox["true",
+  FontSlant->"Italic"],
+ ", one may still give reasons why they should be ",
+ StyleBox["believed",
+  FontSlant->"Italic"],
+ ". "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "Since every axiom is equivalent to recognizing an ",
+ StyleBox["a priori",
+  FontSlant->"Italic"],
+ " category, it is impossible that any two axioms deduced by the principle of \
+discovery should either contradict or imply one another. Each kind inquiry \
+represents a different way of categorizing the world, but any two kinds of \
+categorizations are both independent and compatible. "
+}], "Paragraph"],
+
+Cell["\<\
+Furthermore, it is objective which axioms are correct and which are not. The \
+principle of discovery ensures that certain axioms will be selected for any \
+given inquiry. If there appear to be two possible sets of axioms, this \
+demonstrates the existence of two possible avenues of inquiry. \
+\>", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Pragmatism",
+ FontSlant->"Plain"]], "Subsubsubsection"],
+
+Cell["\<\
+There is never any logical necessity in recognizing a category any more than \
+there is logical necessity in understanding the definition of a word. If I \
+were to define a class of \"moobs\", a class including insects, kangaroos, \
+and steam engines, I could indeed study this class and attempt to find a set \
+of unifying characteristics that define it, but no one else is need consider \
+this class to be relevant to anything. One can divide up the objects of \
+experience however one likes. Hence, the choice of which categories to \
+recognize or how they are to be defined is wholly a pragmatic one. \
 \>", "Paragraph"],
 
 Cell["\<\
-Put something here about the foolishness of questioning ones own sanity.\
+However, beyond that pragmatism has no rightful place in inquiry. Once the \
+categories are defined, inquiry proceeds according to the evidence available, \
+and the method proceeds according to the logic that the categories allow, and \
+the results will be objective. It is not appropriate to debate the truth or \
+falsity of the results from a pragmatic standpoint. \
+\>", "Paragraph"],
+
+Cell["\<\
+Once the correct axioms are identified, the skeptical and pragmatic stance \
+used to deduce them must be abandoned. From that point on, the axioms may be \
+asserted categorically without fear of any empirical contradiction. Because \
+it cannot advance our learning to question the axoms, they may be treated as \
+if they were unquestionable. This is the correct point to turn from \
+skepticism to dogmatism. \
+\>", "Paragraph"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Concepts", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Reason and Objectivity", "Subsubsection"],
+
+Cell["Reason ", "Text"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Naturalism and Miracularism", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Space and Time", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Causality and History", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Intensionality", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Beauty and Meaning", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["A Space of Doctrines", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Logic", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["The Socratic Method", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Noncontradiction", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Mathematics", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Physics", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Symmetry", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Spacetime", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Probabilistic Causality; Quantum Mechanics", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Evolution", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["A Dialog", "Subsubsection"],
+
+Cell["Filo: ", "Paragraph"],
+
+Cell["\<\
+Dadelus: I have developed a new method whereby I may forego a statistical \
+analysis of the bacteria population and instead record the life history of \
+every individual cell. \
+\>", "Paragraph"],
+
+Cell["Dadelus: If the cell dies, I know precisely when and why. ", "Paragraph"],
+
+Cell["\<\
+Dadelus: The result has been one of the most momentous in the history of \
+science. I have disproved the theory of natural selection. \
+\>", "Paragraph"],
+
+Cell["Filo: Disproved natural selection, you say? ", "Paragraph"],
+
+Cell["Dadelus: Indeed. ", "Paragraph"],
+
+Cell[TextData[{
+ "Dadelus: From my observations, we can now see that there is no ",
+ StyleBox["probability",
+  FontSlant->"Italic"],
+ " involved at all. Things happen strictly according to causality; if a cell \
+dies, it was not because its composition was disadvantageous, but rather \
+because the result was inherent in the situation from the start. "
+}], "Paragraph"],
+
+Cell["Filo: ", "Paragraph"],
+
+Cell["Dadelus: ", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Evolutionary Philosophy", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Stochastic Philosophy", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Economics", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Choice and Value", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Free Market", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Coercion", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["The Search for Happiness", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ethics", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["The Good", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Tradition", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Individual and Society", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["The Axiom", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Law", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Meaning", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Meaning & Interpretation", "Subsubsection"],
+
+Cell["Discuss Hegel and the nature of interpretation here. ", "Paragraph"],
+
+Cell["Everything means everything. ", "Paragraph"],
+
+Cell[CellGroupData[{
+
+Cell["Drug Experiment", "Subsubsubsection"],
+
+Cell["\<\
+Unrelated drug note. this computer screen is far more amazing than Hunter's \
+TV Indirect lighting is awesome. Oh wow! \
+\>", "Paragraph"],
+
+Cell["I'm not really trying to think now ", "Paragraph"],
+
+Cell["My memroies are more intense. Nice! ", "Paragraph"],
+
+Cell[TextData[{
+ "Normally there is this shroud of mentality that protects me from reality. I \
+am so much more ",
+ StyleBox["sensory",
+  FontSlant->"Italic"],
+ " now! But there's still lots of obsessive compulsive me remaining! However, \
+not so much because I would normally never write like that! "
+}], "Paragraph"],
+
+Cell["Night is good because ", "Paragraph"],
+
+Cell["\<\
+Am I really seeing the mental connections of my subconscious mind? Or are \
+these not real?\
+\>", "Paragraph"],
+
+Cell["", "Paragraph"],
+
+Cell["I do things before I'm even aware that I've done them. ", "Paragraph"],
+
+Cell["\<\
+All the same things bother me that normally bother me, but they're just \
+harder to turn away now. \
+\>", "Paragraph"],
+
+Cell["\<\
+Each individual experience seems important now. Whereas normally I think only \
+in terms of classes of things. There are definitely some other people I have \
+read who write a lot like this, so am I experiencing things they way they do? \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "I wish things didn't lead into other things. I wish things didn't have a \
+point. I want everything to exist just for itself not for some ",
+ StyleBox["purpose",
+  FontSlant->"Italic"],
+ "! "
+}], "Paragraph"],
+
+Cell["\<\
+I'm trying to capture my experience right now, but it's instantly gone! The \
+mere process of writing it down requires that I abstract from the experience \
+and not just experience it!!! \
+\>", "Paragraph"],
+
+Cell["\<\
+I wish I could just destroy this need I have to analyze everything! Who is \
+talking right now? This sort of writing style wolud normally seem so stupid \
+to me! \
+\>", "Paragraph"],
+
+Cell["\<\
+Here's a trick: introduce a bunch of associations all fitting into one \
+group--then you're still thinking about the group rather than all the \
+individual things! Then introduce a new association into the mind so that you \
+think some new associations are also part of that group! My god, this sort of \
+trick is done ALL THE TIME but we're so less aware of it normally. \
+\>", "Paragraph"],
+
+Cell["\<\
+I wish I could remove all my habits, all my habitual associations and just \
+start all over. \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "I'm laughing now just ",
+ StyleBox["thinking",
+  FontSlant->"Italic"],
+ " about how all this will look when I read it later. I'm deliberately \
+putting on a mask over myself to hide the real me from myself when I read \
+this later. "
+}], "Paragraph"],
+
+Cell["\<\
+I wish I could just see things without recognizing them. Who is this part of \
+me I'm trying to find? Why don't I know about him normally. It's a lot easier \
+for me to write then to talk. Why is that? Questions to consider later. \
+\>", "Paragraph"],
+
+Cell["\<\
+I don't like remembering things. Why is that? I just like to experience new \
+things. Things that are gone are so uninteresting to me. It's like I'm \
+glowing and then fading alternately! where do these thinsg come from that I \
+do? They come from nowhere; there is noise and then I niterpret the noise and \
+see amazing things. Is that what all life is? This could very well be  a new \
+insight into my theory of religion,, but I'm just not smart enough now to \
+think about it! \
+\>", "Paragraph"],
+
+Cell["\<\
+I seem to think of myself as different from other people. Subjectively, that \
+is true, but is it really? I wish that I could check my subjective experience \
+against other people to know if that's real. \
+\>", "Paragraph"],
+
+Cell["\<\
+Is the continual quest to escape from myself the real point of life? That is \
+definitely what many people are looking for. Why do they want that so much? I \
+just hope that my words will jog my memory later on so that I can answer my \
+own questions. \
+\>", "Paragraph"],
+
+Cell["\<\
+Now the regular everyday me is like an older brother to the present me. If \
+only he were here to help me through the answers to everything! \
+\>", "Paragraph"],
+
+Cell["\<\
+Every book should come with an anylital text explaining exactly the \
+associations everything in the text has for the author. Otherwise, how can we \
+know what he means? \
+\>", "Paragraph"],
+
+Cell["\<\
+Reality is a series of dots and consciousness is drawing lines between them. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Drug journal, September 24. ", "Subsubsubsection"],
+
+Cell["\<\
+Insect heads. They appear to have gruesome faces, but really that is an \
+illusion. Their heads and sensory organs evolved independently of ours, so \
+try not to interpret their heads that way. \
+\>", "Paragraph"],
+
+Cell["\<\
+One definite problem with drugs: I can see all the ways in which the \
+compression algorithm works in the film. Now I'll have to get everything on \
+blue ray! :( \
+\>", "Paragraph"],
+
+Cell["\<\
+There are some emotions that are sensory ande some that are deeper than that. \
+I think that I may need a nice moment with my cat in order to cement love in \
+me. \
+\>", "Paragraph"],
+
+Cell["Lemon was accomodating. ", "Paragraph"],
+
+Cell["\<\
+If I hadn't had bad trips before, I wouldn't even know the questions that the \
+good trips answer! \
+\>", "Paragraph"],
+
+Cell["\<\
+Questioning the meaning of life IS the meaning of life!!!!!!!!! \
+\>", "Paragraph"],
+
+Cell["\<\
+From the outside, a statement like that looks a little crazy and scary \
+because it could be violent. You poor sane people, always thinking about \
+violence! There is no violence in it at all. From the inside, it is just \
+being playful, expressive, and it is so full of pent up joy that it just has \
+to let it out some way. \
+\>", "Paragraph"],
+
+Cell["\<\
+This time I just felt great and there was no real stuggle at all. I think I \
+prefer the struggle. Else, where's the triumph??? \
+\>", "Paragraph"],
+
+Cell["\<\
+I think that I am on drugs all the time except I don't know how things affect \
+me then. \
+\>", "Paragraph"],
+
+Cell["\t", "Paragraph"],
+
+Cell["\<\
+Remember when we first met and we talked about how two people can initially \
+open up to one another and then feel weird about it later, and then it feels \
+hurtful when the other person turns away because of that feeling? Well I am \
+going to open up to you. I hope you'll accept that and not feel weird about \
+it. 
+
+I learned a lot tonight and I want to feel like I am talking to somebody \
+rather than to myself as I mull it all over. 
+
+Here's what I learned: I think I am made up of several parts, and there is a \
+part that is built to feel 
+
+Part of me is saddened by this knowledge, and part of me is exhilarated. And \
+I think that the sad part would feel sad to learn anything at all, and the \
+exhilarated part would be the same way. If something happened to me
+
+Right now I feel confidant because I think I can say something interesting \
+and useful, but how much of that is a mask that covers up deeper feelings of \
+inadequacy? 
+
+Now that I can see all these different parts of me, how do I know which parts \
+I should trim and which parts 
+
+How much of me is just overgrown mess? How much of me is a history that was \
+built up, layer upon layer, out of the conflicts between these different \
+parts? 
+
+I think there is a part of me that does nothing all day but listen to himself \
+talk and tell himself that it is all utterly amazing. Here is a puzzle. Part \
+of me is mocking myself by writing this, but in the end, it still got \
+written. So which side really won? 
+
+Everything means everything. 
+
+I want to dream and be awake at the same time. 
+
+I am a pretty good multitasker. Does this mean I am more fragmented than \
+other people? Some people don't like to listen to music while they work. Does \
+that mean that they aren't able to let the music part of their brain go off \
+and do its own thing while the thinking part goes off and does whatever work \
+they need to do?
+
+I am an infinite brain that thinks and feels everything that is possible. \
+Most if this brain is turned off except for a tiny part that is turned on. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell["", "Subsubsubsection"]
+}, Open  ]],
+
+Cell["Divination", "Subsubsection"],
+
+Cell[CellGroupData[{
+
+Cell["Mind", "Subsubsection"],
+
+Cell["Aesthetics is applied psychology. ", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Aesthetics", "Subsubsection"],
+
+Cell["Aesthetics is applied psychology. ", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Religion", "Subsubsection"],
+
+Cell["Consciousness separates us from the flux of being.", "Paragraph"],
+
+Cell["Everything imagined is real. ", "Paragraph"],
+
+Cell["We all serve architypes architypes. ", "Paragraph"],
+
+Cell["Creative destruction. Death is necessary for growth. ", "Paragraph"],
+
+Cell["\<\
+My god, these notes all sound so juvinile now that I've written them! If I \
+never finish don't publish these sentences. \
+\>", "Paragraph"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Experience", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Definitions", "Subsubsection"],
+
+Cell["\<\
+\[FilledSmallSquare]\tPut here some of the introductory stuff from my earlier \
+essay on ethics. \
+\>", "Text"],
+
+Cell["", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Reason", "Subsubsection"],
+
+Cell[TextData[{
+ "A process that manipulates representations is ",
+ StyleBox["thought",
+  FontSlant->"Italic"],
+ ". The minds of most animals are limited in the variety of representations \
+that can be formed within them"
+}], "Paragraph"],
+
+Cell["\<\
+An instinctive being is only capable of thinking in certain ways and \
+therefore cannot inquire with reason. \
+\>", "Paragraph"],
+
+Cell["\<\
+The method of reason is the Socratic method, and the axioms of reason are the \
+axioms of logic. By this method, we question our hypotheses for \
+contradictions. A hypothesis which is contradictory is then rejected. As the \
+method proceeds, we learn when we discover that a much smaller range of \
+hypotheses is tenable than we had previously thought. Although If logic were \
+not taken to be categorically necessary, reasoning would simply be impossible \
+and the search for knowlege would be hopeless. \
+\>", "Paragraph"],
+
+Cell[TextData[{
+ "There is always the danger of attributing more power to reason than it is \
+really capable of, but typically those who put too much stock in the power of \
+reasoning do so because of a ",
+ StyleBox["lack",
+  FontSlant->"Italic"],
+ " of reason on their part. They make many conclusions that do not follow, \
+and while in fact simply following their inspiration, believe that reason has \
+told them these things. In the strict sense that I have defined above of \
+searching our beliefs for contradictions, there are no limits to reason. "
+}], "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Observation", "Subsubsection"],
+
+Cell["\<\
+When we observe, we inquire into our senses and ask, simply, what is there. \
+\>", "Paragraph"],
+
+Cell["\<\
+But we can never observe everything; thus we hypothesize general statements \
+about the world. \
+\>", "Paragraph"],
+
+Cell["\<\
+The axiom of observation is that that our senses are actually connected \
+somehow to reality. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell["Introspection", "Subsubsection"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Physics", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Symmetry", "Subsubsection"],
+
+Cell["\<\
+\[FilledSmallSquare]\tMention some of the speculationts of Kant and \
+Parmenedes. Noether's theorem. \
+\>", "Text"],
+
+Cell["", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Time and Space", "Subsubsection"],
+
+Cell["\<\
+\[FilledSmallSquare]\tDimension cannot be objectively known, only \
+pragmatically decided.
+\[FilledSmallSquare]\tThe same with curvature. 
+\[FilledSmallSquare]\tThe same with topology. 
+\[FilledSmallSquare]\tHomogenous spaces. 
+\[FilledSmallSquare]\tThe nature of particles and fields. 
+\[FilledSmallSquare]\tGalilean and Einstein relativity. 
+\[FilledSmallSquare]\tPhysics without space and time: loop quantum gravity. \
+\>", "Text"],
+
+Cell["", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Probabilistic Causality and Statisticts", "Subsubsection"],
+
+Cell["\<\
+\[FilledSmallSquare] The many-worlds interpretation of quantum mechanics. \
+\>", "Text"],
+
+Cell["Causality cannot be observed. ", "Text"],
+
+Cell["Causality is never observed. ", "Paragraph"],
+
+Cell[CellGroupData[{
+
+Cell["Determinism versus Randomness", "Subsubsubsection"],
+
+Cell["\<\
+It is not possible for experience to distinguish between a deterministic or \
+probabilistic mode of causality. \
+\>", "Paragraph"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Experimental Science vs. Historical Science", "Subsubsection"],
+
+Cell["\<\
+\[FilledSmallSquare] Discuss the controlled experiment, the separated \
+observation, and causality in pure observation. \
+\>", "Text"],
+
+Cell[TextData[{
+ "There are two necessary assumptions in performing a controlled experiment. \
+The first is ",
+ StyleBox["naturalism",
+  FontSlant->"Italic"],
+ ", meaning that all proposed explanations must be causal laws. Miracles or \
+divine phenomena that do not follow causal laws must be excluded. "
+}], "Paragraph"],
+
+Cell["\<\
+The second important restriction of the controlled experiment is that it must \
+be possible to separate phenomena from the rest of the universe so that it is \
+actually possible to control for a single variable. Over the centuries, \
+philosophers have at times proposed that science should be more holistic and \
+that things cannot really be understood without fully understanding their \
+context as well. Deconstructionism and postmodernism are often said to \
+espouse principles \
+\>", "Paragraph"],
+
+Cell["\<\
+I might mention that much of what is called 'climate science' does not \
+conform to this model. It is impossible to do controlled experiments on the \
+Earth's climate and the only way to test predictions about Earth's climate \
+decades from now is simply to wait. Therefore claims about global warming \
+should not be taken too seriously. It does not matter how many scientists buy \
+into the theory; they simply do not have a methodology to back up their \
+claims. \
 \>", "Paragraph"],
 
 Cell[TextData[{
@@ -2003,326 +3410,13 @@ controlling for ",
   FontSlant->"Italic"],
  ", and the scientific method would fail. Theories that involve miracles are \
 therefore automatically rejected. "
-}], "Paragraph"],
-
-Cell[TextData[{
- "Learning proceeds from two directions: on the one hand, a method of testing \
-theories is applied repeatedly, shearing away those theries that contradict \
-reality, and on the other, and the logical application of a set of axioms, \
-constraining our theories to only those that the method can manage. In this \
-world we are bound in a tangle of experience, but we overlook a vale of \
-hypotheses calling for exploration, with boundaries which say what knowlege \
-cannot be. Our axioms will never be ",
- StyleBox["testible",
-  FontSlant->"Italic"],
- "; there will always be an interpretation of our experience that is in \
-accordance with them. Nor will they be self-evident or necessarily true; to \
-allow for possibilities that contradict our axioms, however, allows for no \
-testible theories at all, and leaves us without even the possibilitiy of \
-knowlege. "
 }], "Paragraph"]
-}, Closed]],
+}, Closed]]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["The Problems of Rationalism", "Subsection"],
-
-Cell["\<\
-\[FilledSmallSquare]\tOur experience of our own mind requires justification \
-just as much as our experience of the world. Our emotions and thoughts are \
-data in our consciousness just like our senses. 
-\[FilledSmallSquare]\tImmediate knowledge cannot be articulated. Therefore, \
-nothing which seems obvious can be taken as unquestionably true.
-\[FilledSmallSquare]\tThere is nothing so crazy that it is literally \
-unbelievable. Anything that seems self-evident may seem that way simply \
-because of a quirk of our own minds. Axioms are not laws of thought. 
-\[FilledSmallSquare]\tAxioms are not necessarily true and not self-evident. 
-\[FilledSmallSquare]\tAxioms are not falsifiable. \
-\>", "Text"],
-
-Cell[TextData[{
- "Epistemology cannot do without ",
- StyleBox["a priori",
-  FontSlant->"Italic"],
- " principles, but these principles are not easy either to discover or \
-justify. At once the problem faces us that whatever we think has come to us \
-through the process of thought and hence depends upon the very processes we \
-desire to justify. The mind is versitile. The only thoughts that would be \
-litterally unbelievable would be only whatever thoughts the mind cannot hold; \
-whatever the mind can think, it can believe. Furthermore, the medium of \
-thought cannot be escaped. The beliefs to which we ascribe, no matter how \
-obvious and seemingly indisputable, come to us through the medium of our own \
-thought. ",
- StyleBox["A priori",
-  FontSlant->"Italic"],
- " principles may not be obvious or easy to understand; we cannot expect to \
-introspect and simply find them there waiting for us. "
-}], "Paragraph"],
-
-Cell["\<\
-It is possible, at least, to determine some of the properties of axioms. It \
-cannot be possible to give reasons why the axioms are true. If it were, then \
-they would not be axioms. If reasons could be given to prove the purported \
-axioms, then only those reasons could possibly be axioms, not what was proved \
-with them. It follows from this that axioms are not necessarily true. To deny \
-an axiom cannot result in a contradiction, for if it did, then the axiom \
-would be proved using the axioms of logic. The axioms would then be the \
-axioms of logic, not the statement which follows from them. \
-\>", "Paragraph"],
-
-Cell[TextData[{
- "And indeed the axioms of logic indeed satisy the criterion of not being \
-necessarily true; to deny them would not result in a contradiction because \
-there can be no contradictions without the axioms being presupposed. However, \
-they alone are not sufficient to justify our knowledge. The only things that \
-are necessarilly true according to the axioms of logic are tautologies with \
-no positive content such as (((x \[Nand] y) \[Nand] z) \[Nand] (x \[Nand] ((x \
-\[Nand] z) \[Nand] x))) = z. Anything that is ",
- StyleBox["a priori",
-  FontSlant->"Italic"],
- " is not necessarily true, and anything that is necessarily true is not ",
- StyleBox["a priori",
-  FontSlant->"Italic"],
- ". Something can only be considered necessarily true according to a prior \
-system of axioms. "
-}], "Paragraph"],
-
-Cell["\<\
-For the same reasons, axioms cannot falsifiable (or verifiable) through \
-observation. This too would be to give reasons to give reasons that the \
-axioms are true. Any axiom and its contrary should be consistent with any \
-concievable observation. \
-\>", "Paragraph"],
-
-Cell["", "Paragraph"],
-
-Cell[TextData[{
- "Another meaning that is sometimes used when claiming that an axiom is \
-necessarily true is to say that the statement of its contrary is somehow in \
-conflict with the act of denying it, that is, the statement is proved by the \
-fact that I can deny it. This approach is used by Rothbard to justify the \
-action axiom. <put something here> However, it is a nontrivial step to ",
- StyleBox["interpret",
-  FontSlant->"Italic"],
- " me as performing an action. I see no contradiction in claiming that I am \
-not acting while I am talking, and in failing to interpret my own thoughts \
-and desires as any more than mechanical processes having no intention or \
-meaning to them, in failing to identify my own consciousness. To apprehend \
-ones own conscious is not automatic; it is a highly complex ability, just \
-like seeing. It is so natural to most of us that we do not have any idea how \
-difficult it really is until we have had experience with the severely \
-autistic. "
-}], "Paragraph"],
-
-Cell[TextData[{
- "Therefore I deny that the action axiom is necessarily true. To apprehend \
-the motions that humans make as ",
- StyleBox["actions",
-  FontSlant->"Italic"],
- " is an interpretation, but not a necessary conclusion of our experience of \
-human action. "
-}], "Paragraph"],
-
-Cell["\<\
-It is also sometimes claimed that axioms are self-evident, which seems to \
-mean that upon understanding the meaning of the axiom is immediately to \
-apprehend its truth. Not having ever experienced this, I am not entirely \
-clear on how this works. Even if I had, why should I believe something simply \
-because contemplating it is accompanied with a feeling of certainty? This \
-could merely be a quirk of my mind that prevents me from imagining the ways \
-it might be false.\
-\>", "Paragraph"],
-
-Cell[TextData[{
- "Even if this method is granted, self-evidence seems to be an entirely \
-useless criterion for separating axioms from other statements. The definition \
-of self-evidence seems to preclude any rational discourse about it. If I \
-believe that something is self-evidently true, and that therefore the \
-apprehension of its truth is ",
- StyleBox["immediate",
-  FontSlant->"Italic"],
- " for me, then I cannot believe it because of ",
- StyleBox["reasons",
-  FontSlant->"Italic"],
- "; if I did, then my apprehension of its truth would be ",
- StyleBox["mediate",
-  FontSlant->"Italic"],
- " instead of immediate. Indeed, if I had reasons why it must be true, then I \
-would not need to rely on self-evidence; I could just give those reasons \
-instead. In fact, if I had reasons why it must be true, then it wouldn't be \
-an axiom in any cases. "
-}], "Paragraph"],
-
-Cell["\<\
-If two people disagree on whether a statement is self-evident, this seems to \
-preclude any rational argument on the matter. Alex claims that a given \
-statement is self-evident, Bjorn says it is not. Not having any reasons to \
-back up his claim, Alex cannot really do much other than hope Bjorn later \
-changes his mind. \
-\>", "Paragraph"],
-
-Cell["\<\
-Self-evidence to me seems more like a quality of the apprehensions of \
-animals. It is self-evident to the snail that it should creep along and suck \
-on rocks because it is incapable of considering any other possibility. \
-Philosophers have no business relying on self-evident principles. \
-\>", "Paragraph"]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["The Nature of First Principles", "Subsection"],
-
-Cell[TextData[{
- "One way to look at ",
- StyleBox["a priori",
-  FontSlant->"Italic"],
- " knowledge would be as the simplest processes hardwired into our brains. \
-These principles would presumably be quite immutable and true, being based on \
-physical law. However, this suggestion fails for the same reason as the \
-evolutionary justification outlined above: we are not automatically aquainted \
-with the underlying processes of our minds. We know about the way we think \
-through either experimental psychology or through introspection, both of \
-which are a kind of experience; any attempt at a generalization about the \
-nature of thought, therefore, has the same problems with any other sort of \
-generalization. "
-}], "Paragraph"],
-
-Cell[TextData[{
- "Indeed, all attempts at establishing some kind of certainty in ",
- StyleBox["a priori",
-  FontSlant->"Italic"],
- " principles must yield to the problem that thought cannot justify itself. \
-It is impossible for a person to prove to himself that he is sane. Whatever I \
-am now thinking, no matter how obvious it seems, might only seem that way \
-because my troubled mind makes it seem that way, and may really be the \
-absurdest of ravings. "
-}], "Paragraph"],
-
-Cell[TextData[{
- "The reader may be ready to object that there is a contradiction in using \
-arguments to dispute reason itself; but this, however, is not what I am \
-doing. To suggest that there is a philosophical problem in establishing the \
-foundation of reason is not to dispute reason itself, nor to give any \
-evidence that the method of reason is in fact flawed. Questioning logic \
-itself is, of course, illogical, but if I am already questioning logic, then \
-I am not at this point convinced that would be circular reasoning if I ",
- StyleBox["used",
-  FontSlant->"Italic"],
- " logic to quell my own doubts. Of course, if I were questioning logic, then \
-I could not say there was anything wrong with circular reasoning. Let us \
-proceed cautiously and continue to use reason despite any misgivings. "
-}], "Paragraph"],
-
-Cell[TextData[{
- "It is sometimes said that skepticism is contradictory: \[OpenCurlyQuote]\
-\[OpenCurlyDoubleQuote]We know that we know nothing,\[CloseCurlyDoubleQuote] \
-they chatter, blanking out the fact that they are claiming knowledge\
-\[CloseCurlyQuote]",
- Cell[BoxData[
-  FormBox[
-   SuperscriptBox["\[VeryThinSpace]", 
-    DynamicBox[$CellContext`ReferenceCounter[11, "knowledge"],
-     ImageSizeCache->{42., {6., 11.}}]], TraditionalForm]]],
- " However, this is not correct. To be a skeptic does not require that I \
-claim ",
- StyleBox["anything",
-  FontSlant->"Italic"],
- ". Not to believe something true is not to believe anything false; it is \
-simply the absence of belief. A rock, for example, believes nothing, and is \
-therefore a skeptic, insofar is it is unconvinced of anything, and yet there \
-cannot be anything illogical about its existance. There is no contradiction, \
-therefore, in doubting the axioms of logic or one's own sanity because, \
-without logic being presupposed, there can ",
- StyleBox["be",
-  FontSlant->"Italic"],
- " no contradiction in the first place, and without sanity being presupposed, \
-one cannot be sure that contradiction is really a problem. "
-}], "Paragraph"]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["A Schema of Knowledge", "Subsection"],
-
-Cell[CellGroupData[{
-
-Cell["Reason", "Subsubsection"],
-
-Cell["", "Paragraph"],
-
-Cell[TextData[{
- "There is always the danger of attributing more power to reason than it is \
-really capable of, but typically those who put too much stock in the power of \
-reasoning do so because of a ",
- StyleBox["lack",
-  FontSlant->"Italic"],
- " of reason on their part. They make many conclusions that do not follow, \
-and while in fact fact simply following their inspiration, believe that \
-reason has told them these things. In the strict sense that I have defined \
-above of searching our beliefs for contradictions, there are no limits to \
-reason. "
-}], "Paragraph"]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["Experimental Science", "Subsubsection"],
-
-Cell[TextData[{
- "There are two necessary assumptions in performing a controlled experiment. \
-The first is ",
- StyleBox["naturalism",
-  FontSlant->"Italic"],
- ", meaning that all proposed explanations must be causal laws. Miracles or \
-divine phenomena that do not follow causal laws must be excluded. "
-}], "Paragraph"],
-
-Cell["\<\
-The second important restriction of the controlled experiment is that it must \
-be possible to separate phenomena from the rest of the universe so that it is \
-actually possible to control for a single variable. Over the centuries, \
-philosophers have at times proposed that science should be more wholistic and \
-that things cannot really be understood without fully understanding their \
-context as well. Deconstructionism and postmodernism are often said to \
-espouse principles \
-\>", "Paragraph"],
-
-Cell["\<\
-I might mention that much of what is called 'climate science' does not \
-conform to this model. It is impossible to do controlled experiments on the \
-Earth's climate and the only way to test predictions about Earth's climate \
-decades from now is simply to wait. Therefore claims about global warming \
-should not be taken too seriously. It does not matter how many scientists buy \
-into the theory; they simply do not have a methodology to back up their \
-claims. \
-\>", "Paragraph"]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["Physics", "Subsubsection"],
-
-Cell["\<\
-Physics is the science of naturalistic cause-and-effect taking place in in \
-space. \
-\>", "Paragraph"],
-
-Cell["This is known as the cluster decomposition principle. ", "Paragraph"],
-
-Cell["\<\
-A conspicuous feature of modern physics is that theorists have discovered \
-laws without motivation by experiments at all. Two early examples of this are \
-the discovery of General Relativity by Einstein in 1915 and the prediction of \
-antimatter by Dirac in 1928. Under a strictly falsificatonist view, this \
-makes no sense. No one can have any expectation of proposing the correct laws \
-without an experiment falsifying the old ones. \
-\>", "Paragraph"]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["Biology", "Subsubsection"],
+Cell["Natural Selection", "Subsection"],
 
 Cell["\<\
 From the moment we recognize things as being alive, the theory of evolution \
@@ -2336,8 +3430,76 @@ Evolution is not falsifiable, but any family tree is falsifiable. \
 Cell["\<\
 Even if there were a designer, the ultimate explanation must still be \
 evolutionary. The first designer must be a product of evolution\
+\>", "Paragraph"],
+
+Cell[CellGroupData[{
+
+Cell["Efficient and final causes", "Subsubsubsection"],
+
+Cell["\[FilledSmallSquare]\tIncentive versus decision. ", "Text"],
+
+Cell["Similarly, ", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Stochastic Philosophy", "Subsubsubsection"],
+
+Cell["", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Darwinism", "Subsubsubsection"],
+
+Cell[TextData[{
+ "The idea of an infinite chain of justifications would be favored in a \
+philosophical theory of natural selection. Our instinctive ability to reason \
+would be justified as having grown out of the mental faculties of our \
+ancestors, all the way back to the time when thought was so modest that it \
+was indistinguishable from the mechanistic regulatory functions of a ganglia, \
+and then back to the time when nerve cells were indistinguishable from other \
+types of cells, and then further back to when life was indistinguishable from \
+other simple self-catalyzing reactions, and back through the procession of \
+the laws of physics all the way back.",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[VeryThinSpace]", 
+    DynamicBox[$CellContext`ReferenceCounter[10, "knowledge"],
+     ImageSizeCache->{42., {6., 11.}}]], TraditionalForm]]],
+ " Depending on how one look at it, this can also be considered a theory in \
+which there are first principles which do not require justification. In this \
+case the first principles would be the laws of physics; since these laws are \
+not statements of truth or falsehood, they do not need to be justified, but \
+simply ",
+ StyleBox["are",
+  FontSlant->"Italic"],
+ ". Or this can also be considered a theory of unconscious justification of \
+first principles. In this case the first principles would be the mental \
+processes on which learning is based, and they are justified not by conscious \
+inquiry but by natural selection. "
+}], "Paragraph"],
+
+Cell[TextData[{
+ "However, although evolutionary theory might be an ",
+ StyleBox["explanation",
+  FontSlant->"Italic"],
+ " of our ability to think, it is not a justification. In order to invent and \
+understand such an explanation we must think; indeed, the most advanced \
+faculties of our minds are required. To rely on an evolutionary explanation \
+of thought as a justification is circular. "
+}], "Paragraph"],
+
+Cell["\<\
+To apprehend our own instincts requires that an inquiry has already taken \
+place. \
 \>", "Paragraph"]
+}, Open  ]]
 }, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Teliology", "Subsection"],
 
 Cell[CellGroupData[{
 
@@ -2383,12 +3545,27 @@ economics does not. "
 
 Cell["\<\
 Mention George Reisman's proviso that economics is about wealth. \
-\>", "Paragraph"]
-}, Closed]],
+\>", "Paragraph"],
+
+Cell["\<\
+\[FilledSmallSquare]\tCaptialism & Darwinism: both theories are misunderstood \
+because critics fail to understand that the presumption of self-interested \
+behavior does not imply any specific maxims under which life forms and \
+entrepreneurs behave. Altruism can become the best strategy under both \
+darwinism and capitalism. 
+\[FilledSmallSquare]\tCapitalism is a Darwinism, not of people, but of ideas \
+and social practices. \
+\>", "Text"]
+}, Closed]]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["Ethics", "Subsubsection"],
+Cell["Ethics", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Morality", "Subsubsection"],
 
 Cell[TextData[{
  "A theory of epistemology of ethics should be expected to conform to the \
@@ -2415,7 +3592,12 @@ Negative morality is generally given in the form of strict rules without much \
 difficulty in interpretation, such as strictures against murder and theft, \
 whereas positive morality is generally given as traditional and sometimes \
 arbitrary procedures. "
-}], "Paragraph"]
+}], "Paragraph"],
+
+Cell["\<\
+Note: it is just as easy to disbelieve in physics and to believe in objective \
+ethics as the other way around. Write some hard-hitting argument about that. \
+\>", "Paragraph"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -2423,61 +3605,30 @@ Cell[CellGroupData[{
 Cell["Law", "Subsubsection"],
 
 Cell["Law is a kind of ethics, but ", "Paragraph"]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["Meaning", "Subsubsection"],
-
-Cell["Economics is a science that ", "Paragraph"]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["Aesthetics", "Subsubsection"],
-
-Cell["Economics is a science that ", "Paragraph"]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["Religion", "Subsubsection"],
-
-Cell["Economics is a science that ", "Paragraph"]
 }, Closed]]
-}, Closed]],
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A Schema of Knowledge", "Subsection"],
+
+Cell["\<\
+I conclude with a brief summary of the philosophical conclusions of my method \
+for certain kinds of inquiry. This section does not prove all that it \
+declares to be consequences of the method. The next iteration of this work \
+will draw all the connections more explicitly. \
+\>", "Paragraph"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["Refferences", "Subsection"],
 
 Cell[BoxData[
- RowBox[{
-  RowBox[{"PrintFootnotes", "[", "\"\<knowledge\>\"", "]"}], ";"}]], "Input"],
-
-Cell[TextData[{
- "1. ",
- "See ",
- "Chen, E.,",
- " ",
- ButtonBox["\"Autism Speaks for itself: Lost on Planet Earth\"",
-  BaseStyle->"Hyperlink",
-  ButtonData->{"http://iautistic.com/autism-speaks.php", None}],
- ",",
- " ",
- StyleBox["i autistic",
-  FontSlant->Italic],
- ",",
- " ",
- "<http://iautistic.com/autism-speaks.php>",
- " for an essay on the experience of severe autism. It is a perfect \
-description of experience without a sufficient ability to abstract."
-}], "Paragraph",
- GeneratedCell->True,
- CellAutoOverwrite->True],
+ RowBox[{"PrintFootnotes", "[", "\"\<Discovery and Axiom\>\"", "]"}]], "Input"],
 
 Cell["\<\
-2. This should not be taken to imply that I advocate a materialist philosophy \
+1. This should not be taken to imply that I advocate a materialist philosophy \
 of mind; I have merely presented an example of a kind of general knowledge \
 physically encoded in the brain, but my argument need not be associated with \
 any metaphysics of mind.\
@@ -2485,262 +3636,20 @@ any metaphysics of mind.\
  GeneratedCell->True,
  CellAutoOverwrite->True],
 
-Cell[TextData[{
- "3. ",
- "Ross, K.,",
- " ",
- ButtonBox["\"Ontological Undecidability\"",
-  BaseStyle->"Hyperlink",
-  ButtonData->{"http://www.friesian.com/undecd-1.htm", None}],
- ",",
- " ",
- StyleBox["Proceedings of the Friesian School, Fourth Series",
-  FontSlant->Italic],
- ",",
- " ",
- "<http://www.friesian.com/undecd-1.htm>",
- "."
-}], "Paragraph",
+Cell["\<\
+2. See Chen 2009 for an essay on the experience of severe autism. It is a \
+perfect description of experience without a sufficient ability to abstract.\
+\>", "Paragraph",
  GeneratedCell->True,
  CellAutoOverwrite->True],
 
-Cell[TextData[{
- "4. ",
- "Dennett, D.,",
- " ",
- StyleBox["Darwin's Dangerous Idea: Evolution and the Meanings of Life",
-  FontSlant->Italic],
- ",",
- " ",
- "Simon & Schuster,",
- " ",
- "1995",
- "."
-}], "Paragraph",
+Cell["3. Rand 1999.", "Paragraph",
  GeneratedCell->True,
  CellAutoOverwrite->True],
 
-Cell[TextData[{
- "5. ",
- "Rand, A.,",
- " ",
- StyleBox["Atlas Shrugged",
-  FontSlant->Italic],
- ",",
- " ",
- "Plume,",
- " ",
- "1998",
- "."
-}], "Paragraph",
- GeneratedCell->True,
- CellAutoOverwrite->True]
-}, Closed]],
-
-Cell[CellGroupData[{
-
-Cell["Dogmatism", "Subsection"],
-
-Cell["\<\
-\[Bullet]\tJust remove the term \"self-evidence\" completely from this essay. \
-Instead use the term \"intuitionism\". \
-\>", "Text"],
-
-Cell[CellGroupData[{
-
-Cell["Obviousness", "Subsubsubsection"],
-
-Cell["\<\
-[This division is just confusing. Get rid of it; evolutionism is a kind of \
-intuitionism.]\
-\>", "Text"],
-
-Cell[TextData[{
- "The first of these possibilities I call ",
- StyleBox["intuitionism",
-  FontSlant->"Italic"],
- "; the second I call ",
- StyleBox["evulotionism",
-  FontSlant->"Italic"],
- ", and the third I call ",
- StyleBox["criticism",
-  FontSlant->"Italic"],
- ". In the first case, axioms are simply stated and insisted upon. In the \
-second, an axiom is only ",
- StyleBox["temporarily",
-  FontSlant->"Italic"],
- " axiomatic; eventually new axioms will be found which justify the \
-statements previously taken to be axioms. As to the third case, I will \
-discuss it later. "
-}], "Paragraph"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Intuitionism", "Subsubsubsection"],
-
-Cell[TextData[{
- "Because axioms cannot be justified consciously, a standpoint I call ",
- StyleBox["intuitionism",
-  FontSlant->"Italic"],
- " proposes to begin with  either an unconscious justification of axioms, or \
-else that axioms are automatically given in some way. One way this is done is \
-to say that axioms are ",
- StyleBox["self-evident",
-  FontSlant->"Italic"],
- ", i.e, that they should be intuitively obious or such as to forbid \
-questioning."
-}], "Paragraph"],
-
-Cell[TextData[{
- "However, there can be know way of knowing whether an axiom is true or \
-false. Any procedure of testing a proposition for self-evidence is Any \
-consciousOnce stated ",
- StyleBox["any",
-  FontSlant->"Italic"],
- " proposition can be questioned. The only truly unquestionable statements \
-are those which are not consciously understood. No matter how intuitively \
-obvious a proposition may seem, its obviousness is subjective. The feeling of \
-obviousness may be nothing more than a psychological quirk than anything \
-about reality. "
-}], "Paragraph"],
-
-Cell["\<\
-A self-evident proposition may also mean that it is known immediately. \
-Although such truths may exist, they cannot serve as a justification of \
-knowledge. I have argued above that apprehension requires prior knowledge, \
-and requires being processed by the mind. Therefore, any knowledge which is \
-apparent is not immediate and any knowledge which is immediate is not \
-apparent. \
-\>", "Paragraph"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Naturalism", "Subsubsubsection"],
-
-Cell[TextData[{
- "Indeed there ",
- StyleBox["are",
-  FontSlant->"Italic"],
- " self-evident axioms, in a certain sense. They are the fundamental \
-processes of our minds, our instincts. These processes cannot be doubted \
-because they work automatically without allowing us any choice. One cannot \
-decide to turn off his own mind. However, they are not immediately apparent. \
-We cannot have any idea what they are without a great deal of research into \
-psychology and biology. Furthermore, self-evident principles cannot be stated \
-in a self-evident way. It is only the axiom in its original form, before it \
-has been consciously apprehended, which is self-evident. "
-}], "Paragraph"],
-
-Cell[TextData[{
- "One possible candidate for ",
- StyleBox["a priori",
-  FontSlant->"Italic"],
- " knowledge would be as the simplest processes hardwired into our brains. \
-These principles would presumably be true and immutable and true, seeing as \
-how they are based on the physical laws governing neurons. However, this \
-suggestion fails for the same reason as the evolutionary justification \
-outlined above: we are not automatically acquainted with the underlying \
-processes of our minds. We know about the way we think through either \
-experimental psychology or through introspection, both of which are a kind of \
-experience; any attempt at a generalization about the nature of thought, \
-therefore, has the same problems with any other sort of generalization. "
-}], "Paragraph"],
-
-Cell[TextData[{
- "The idea of an infinite chain of justifications would be favored in a \
-philosophical theory of natural selection. Our instinctive ability to reason \
-would be justified as having grown out of the mental faculties of our \
-ancestors, all the way back to the time when thought was so modest that it \
-was indistinguishable from the mechanistic regulatory functions of a ganglia, \
-and then back to the time when nerve cells were indistinguishable from other \
-types of cells, and then further back to when life was indistinguishable from \
-other simple self-catalyzingreactions, and back through the procession of the \
-laws of physics all the way back.",
- Cell[BoxData[
-  FormBox[
-   SuperscriptBox["\[VeryThinSpace]", 
-    DynamicBox[$CellContext`ReferenceCounter[10, "knowledge"],
-     ImageSizeCache->{42., {6., 11.}}]], TraditionalForm]]],
- " Depending on how one look at it, this can also be considered a theory in \
-which there are first principles which do not require justification. In this \
-case the first principles would be the laws of physics; since these laws are \
-not statements of truth or falsehood, they do not need to be justified, but \
-simply ",
- StyleBox["are",
-  FontSlant->"Italic"],
- ". Or this can also be considered a theory of unconscious justification of \
-first principles. In this case the first principles would be the mental \
-processes on which learning is based, and they are justified not by conscious \
-inquiry but by natural selection. "
-}], "Paragraph"],
-
-Cell[TextData[{
- "However, although evolutionary theory might be an ",
- StyleBox["explanation",
-  FontSlant->"Italic"],
- " of our ability to think, it is not a justification. In order to invent and \
-understand such an explanation we must think; indeed, the most advanced \
-faculties of our minds are required. To rely on an evolutionary explanation \
-of thought as a justification is therefore circular. "
-}], "Paragraph"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Self-evidence strays from rationality", "Subsubsubsection"],
-
-Cell[TextData[{
- "Even if this method is granted, self-evidence seems to be an entirely \
-useless criterion for separating axioms from other statements. The definition \
-of self-evidence seems to preclude any rational discourse about it. If I \
-believe that something is self-evidently true, and that therefore the \
-apprehension of its truth is ",
- StyleBox["immediate",
-  FontSlant->"Italic"],
- " for me, then I cannot believe it because of ",
- StyleBox["reasons",
-  FontSlant->"Italic"],
- "; if I did, then my apprehension of its truth would be ",
- StyleBox["mediate",
-  FontSlant->"Italic"],
- " instead of immediate. Indeed, if I had reasons why it must be true, then I \
-would not need to rely on self-evidence; I could just give those reasons \
-instead. In fact, if I had reasons why it must be true, then it wouldn't be \
-an axiom in any case. "
-}], "Paragraph"],
-
-Cell["\<\
-If two people disagree on whether a statement is self-evident they can have \
-no rational argument over it. Alex claims that a given statement is \
-self-evident, Bjorn says it is not. Not having any reasons to back up his \
-claim, Alex cannot really do much other than hope Bjorn later changes his \
-mind. \
-\>", "Paragraph"],
-
-Cell["\<\
-Self-evidence to me seems more like a quality of the apprehensions of \
-animals. It is self-evident to the snail that it should creep along and suck \
-on rocks because it is incapable of considering any other possibility. \
-Philosophers have no business relying on self-evident principles. \
-\>", "Paragraph"],
-
-Cell["\<\
-Therefore, self-evident principles cannot serve as the philosophical \
-foundations of knowledge. To apprehend them requires that we already have \
-knowledge, and to state them is to circumvent their self-evidence. \
-\>", "Paragraph"],
-
-Cell["To appeal to self-evidence is to stray from rationalism. ", "Paragraph"],
-
-Cell["\<\
-Axioms are necessary for any kind of general knowledge, but they are neither \
-necessarily true nor self-evident. Since axioms are by definition the \
-fundamental propositions, there can be no reasons proving them to be true. \
-How could such axioms be? \
-\>", "Paragraph"]
-}, Open  ]]
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"Null", ",", "Null", ",", "Null"}], "}"}]], "Output"]
 }, Closed]]
 }, Closed]]
 }, Open  ]],
@@ -4763,807 +5672,1098 @@ Cell[51916, 1196, 21, 0, 56, "Paragraph"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[51998, 1203, 36, 0, 81, "Section"],
+Cell[51998, 1203, 52, 0, 81, "Section"],
+Cell[52053, 1205, 811, 14, 321, "Text"],
 Cell[CellGroupData[{
-Cell[52059, 1207, 49, 0, 43, "Subsubsubsection"],
-Cell[52111, 1209, 168, 4, 2147483647, "Input"],
-Cell[52282, 1215, 8358, 195, 2147483647, "Input"],
-Cell[60643, 1412, 3450, 90, 2147483647, "Input"],
-Cell[64096, 1504, 120, 3, 2147483647, "Input"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[64253, 1512, 52, 0, 56, "Subsection"],
-Cell[64308, 1514, 566, 10, 216, "Text"],
-Cell[CellGroupData[{
-Cell[64899, 1528, 39, 0, 37, "Subsubsubsection"],
-Cell[64941, 1530, 185, 5, 70, "Paragraph"],
-Cell[65129, 1537, 229, 6, 95, "Paragraph"],
-Cell[65361, 1545, 243, 6, 95, "Paragraph"],
-Cell[65607, 1553, 104, 5, 45, "Paragraph"]
+Cell[52889, 1223, 154, 3, 45, "Input"],
+Cell[53046, 1228, 31, 0, 45, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[65748, 1563, 40, 0, 37, "Subsubsubsection"],
-Cell[65791, 1565, 637, 9, 292, "Paragraph"],
-Cell[66431, 1576, 648, 11, 267, "Paragraph"],
-Cell[67082, 1589, 233, 4, 119, "Paragraph"]
+Cell[53114, 1233, 49, 0, 43, "Subsubsubsection"],
+Cell[53166, 1235, 169, 4, 2147483647, "Input"],
+Cell[53338, 1241, 8664, 201, 2147483647, "Input"],
+Cell[62005, 1444, 3450, 90, 2147483647, "Input"],
+Cell[65458, 1536, 184, 4, 2147483647, "Input"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[65679, 1545, 35, 0, 56, "Subsection"],
+Cell[CellGroupData[{
+Cell[65739, 1549, 94, 1, 77, "Subsubsection"],
+Cell[65836, 1552, 374, 7, 203, "Text"],
+Cell[66213, 1561, 21, 0, 56, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[67352, 1598, 48, 0, 37, "Subsubsubsection"],
-Cell[67403, 1600, 530, 8, 242, "Paragraph"],
-Cell[67936, 1610, 965, 17, 369, "Paragraph"],
-Cell[68904, 1629, 761, 13, 341, "Paragraph"],
-Cell[69668, 1644, 422, 7, 218, "Paragraph"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[70127, 1656, 66, 0, 37, "Subsubsubsection"],
-Cell[70196, 1658, 827, 15, 296, "Paragraph"],
-Cell[71026, 1675, 1269, 18, 587, "Paragraph"],
-Cell[72298, 1695, 737, 11, 341, "Paragraph"],
-Cell[73038, 1708, 541, 8, 242, "Paragraph"],
-Cell[73582, 1718, 1241, 20, 492, "Paragraph"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[74860, 1743, 39, 0, 37, "Subsubsubsection"],
-Cell[74902, 1745, 746, 11, 341, "Paragraph"],
-Cell[75651, 1758, 770, 13, 341, "Paragraph"]
-}, Open  ]]
+Cell[66271, 1566, 67, 1, 77, "Subsubsection"],
+Cell[66341, 1569, 587, 11, 2147483647, "Paragraph"],
+Cell[66931, 1582, 374, 8, 2147483647, "Paragraph"],
+Cell[67308, 1592, 488, 9, 2147483647, "Paragraph"],
+Cell[67799, 1603, 344, 10, 2147483647, "Paragraph"],
+Cell[68146, 1615, 472, 11, 2147483647, "Paragraph"],
+Cell[68621, 1628, 241, 6, 2147483647, "Paragraph"],
+Cell[68865, 1636, 369, 6, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[76470, 1777, 32, 0, 56, "Subsection"],
-Cell[CellGroupData[{
-Cell[76527, 1781, 64, 0, 37, "Subsubsubsection"],
-Cell[76594, 1783, 481, 8, 192, "Text"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[77112, 1796, 61, 0, 37, "Subsubsubsection"],
-Cell[77176, 1798, 1208, 20, 513, "Paragraph"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[78421, 1823, 58, 0, 37, "Subsubsubsection"],
-Cell[78482, 1825, 697, 10, 316, "Paragraph"],
-Cell[79182, 1837, 1144, 19, 443, "Paragraph"],
-Cell[80329, 1858, 473, 9, 193, "Paragraph"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[80851, 1873, 38, 0, 56, "Subsection"],
-Cell[80892, 1875, 353, 6, 169, "Paragraph"],
-Cell[81248, 1883, 464, 7, 218, "Paragraph"],
-Cell[81715, 1892, 329, 5, 169, "Paragraph"],
-Cell[82047, 1899, 222, 4, 119, "Paragraph"],
-Cell[82272, 1905, 920, 30, 267, "Paragraph"],
-Cell[83195, 1937, 760, 11, 341, "Paragraph"],
-Cell[83958, 1950, 553, 11, 218, "Paragraph"],
-Cell[84514, 1963, 648, 10, 316, "Paragraph"],
-Cell[85165, 1975, 101, 2, 70, "Paragraph"],
-Cell[85269, 1979, 941, 26, 316, "Paragraph"],
-Cell[86213, 2007, 898, 15, 365, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[87148, 2027, 49, 0, 56, "Subsection"],
-Cell[87200, 2029, 713, 11, 266, "Text"],
-Cell[87916, 2042, 920, 17, 365, "Paragraph"],
-Cell[88839, 2061, 632, 9, 292, "Paragraph"],
-Cell[89474, 2072, 816, 15, 316, "Paragraph"],
-Cell[90293, 2089, 278, 5, 144, "Paragraph"],
-Cell[90574, 2096, 21, 0, 45, "Paragraph"],
-Cell[90598, 2098, 1006, 16, 439, "Paragraph"],
-Cell[91607, 2116, 284, 7, 119, "Paragraph"],
-Cell[91894, 2125, 506, 8, 242, "Paragraph"],
-Cell[92403, 2135, 870, 18, 316, "Paragraph"],
-Cell[93276, 2155, 352, 6, 169, "Paragraph"],
-Cell[93631, 2163, 319, 5, 169, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[93987, 2173, 52, 0, 56, "Subsection"],
-Cell[94042, 2175, 736, 13, 316, "Paragraph"],
-Cell[94781, 2190, 477, 9, 193, "Paragraph"],
-Cell[95261, 2201, 829, 13, 341, "Paragraph"],
-Cell[96093, 2216, 1210, 24, 369, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[97340, 2245, 43, 0, 56, "Subsection"],
-Cell[CellGroupData[{
-Cell[97408, 2249, 31, 0, 62, "Subsubsection"],
-Cell[97442, 2251, 21, 0, 2147483647, "Paragraph"],
-Cell[97466, 2253, 578, 11, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[98081, 2269, 45, 0, 40, "Subsubsection"],
-Cell[98129, 2271, 321, 7, 2147483647, "Paragraph"],
-Cell[98453, 2280, 511, 8, 2147483647, "Paragraph"],
-Cell[98967, 2290, 495, 8, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[99499, 2303, 32, 0, 40, "Subsubsection"],
-Cell[99534, 2305, 113, 3, 2147483647, "Paragraph"],
-Cell[99650, 2310, 75, 0, 2147483647, "Paragraph"],
-Cell[99728, 2312, 467, 7, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[100232, 2324, 32, 0, 40, "Subsubsection"],
-Cell[100267, 2326, 141, 3, 2147483647, "Paragraph"],
-Cell[100411, 2331, 95, 2, 2147483647, "Paragraph"],
-Cell[100509, 2335, 164, 3, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[100710, 2343, 34, 0, 40, "Subsubsection"],
-Cell[100747, 2345, 90, 2, 2147483647, "Paragraph"],
-Cell[100840, 2349, 207, 4, 2147483647, "Paragraph"],
-Cell[101050, 2355, 464, 7, 2147483647, "Paragraph"],
-Cell[101517, 2364, 62, 0, 2147483647, "Paragraph"],
-Cell[101582, 2366, 221, 4, 2147483647, "Paragraph"],
-Cell[101806, 2372, 418, 9, 2147483647, "Paragraph"],
-Cell[102227, 2383, 94, 2, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[102358, 2390, 31, 0, 40, "Subsubsection"],
-Cell[102392, 2392, 718, 12, 2147483647, "Paragraph"],
-Cell[103113, 2406, 589, 11, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[103739, 2422, 28, 0, 40, "Subsubsection"],
-Cell[103770, 2424, 50, 0, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[103857, 2429, 32, 0, 40, "Subsubsection"],
-Cell[103892, 2431, 49, 0, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[103978, 2436, 35, 0, 40, "Subsubsection"],
-Cell[104016, 2438, 49, 0, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[104102, 2443, 33, 0, 40, "Subsubsection"],
-Cell[104138, 2445, 49, 0, 2147483647, "Paragraph"]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[104236, 2451, 33, 0, 56, "Subsection"],
-Cell[104272, 2453, 101, 2, 37, "Input"],
-Cell[104376, 2457, 527, 19, 144, "Paragraph"],
-Cell[104906, 2478, 337, 7, 144, "Paragraph"],
-Cell[105246, 2487, 399, 17, 95, "Paragraph"],
-Cell[105648, 2506, 260, 14, 70, "Paragraph"],
-Cell[105911, 2522, 201, 14, 45, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[106149, 2541, 31, 0, 56, "Subsection"],
-Cell[106183, 2543, 143, 3, 69, "Text"],
-Cell[CellGroupData[{
-Cell[106351, 2550, 39, 0, 37, "Subsubsubsection"],
-Cell[106393, 2552, 115, 3, 68, "Text"],
-Cell[106511, 2557, 593, 17, 193, "Paragraph"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[107141, 2579, 40, 0, 37, "Subsubsubsection"],
-Cell[107184, 2581, 475, 11, 193, "Paragraph"],
-Cell[107662, 2594, 569, 11, 267, "Paragraph"],
-Cell[108234, 2607, 413, 7, 193, "Paragraph"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[108684, 2619, 38, 0, 37, "Subsubsubsection"],
-Cell[108725, 2621, 688, 12, 292, "Paragraph"],
-Cell[109416, 2635, 788, 13, 341, "Paragraph"],
-Cell[110207, 2650, 1511, 26, 566, "Paragraph"],
-Cell[111721, 2678, 423, 8, 193, "Paragraph"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[112181, 2691, 65, 0, 37, "Subsubsubsection"],
-Cell[112249, 2693, 869, 18, 316, "Paragraph"],
-Cell[113121, 2713, 335, 6, 169, "Paragraph"],
-Cell[113459, 2721, 319, 5, 169, "Paragraph"],
-Cell[113781, 2728, 243, 4, 119, "Paragraph"],
-Cell[114027, 2734, 78, 0, 45, "Paragraph"],
-Cell[114108, 2736, 283, 5, 144, "Paragraph"]
-}, Open  ]]
-}, Closed]]
-}, Closed]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[114464, 2749, 40, 1, 133, "Title"],
-Cell[CellGroupData[{
-Cell[114529, 2754, 61, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[114615, 2758, 45, 0, 157, "Item"],
-Cell[114663, 2760, 28, 0, 157, "Subitem"],
-Cell[114694, 2762, 37, 0, 157, "Subsubitem"],
-Cell[114734, 2764, 47, 0, 157, "Subsubitem"],
-Cell[114784, 2766, 45, 0, 157, "Subsubitem"],
-Cell[114832, 2768, 29, 0, 157, "Subsubitem"],
-Cell[114864, 2770, 26, 0, 157, "Subitem"],
-Cell[114893, 2772, 64, 0, 157, "Subsubitem"],
-Cell[114960, 2774, 34, 0, 157, "Subsubitem"],
-Cell[114997, 2776, 23, 0, 157, "Item"],
-Cell[115023, 2778, 33, 0, 157, "Subitem"],
-Cell[115059, 2780, 59, 0, 157, "Subitem"],
-Cell[115121, 2782, 35, 0, 157, "Item"],
-Cell[115159, 2784, 42, 0, 157, "Subitem"],
-Cell[115204, 2786, 72, 0, 157, "Subitem"],
-Cell[115279, 2788, 61, 0, 157, "Subitem"],
-Cell[115343, 2790, 41, 0, 157, "Item"],
-Cell[115387, 2792, 45, 0, 157, "Subitem"],
-Cell[115435, 2794, 79, 0, 157, "Subitem"],
-Cell[115517, 2796, 33, 0, 157, "Item"],
-Cell[115553, 2798, 34, 0, 157, "Subitem"],
-Cell[115590, 2800, 118, 3, 157, "Subitem"],
-Cell[115711, 2805, 22, 0, 157, "Item"],
-Cell[115736, 2807, 100, 2, 157, "Subitem"],
-Cell[115839, 2811, 23, 0, 157, "Item"],
-Cell[115865, 2813, 19, 0, 157, "Subitem"],
-Cell[115887, 2815, 93, 2, 157, "Subitem"],
-Cell[115983, 2819, 25, 0, 157, "Item"],
-Cell[116011, 2821, 41, 0, 157, "Subitem"],
-Cell[116055, 2823, 28, 0, 157, "Item"],
-Cell[116086, 2825, 113, 3, 157, "Subitem"],
-Cell[116202, 2830, 21, 0, 157, "Item"],
-Cell[116226, 2832, 92, 2, 157, "Subitem"],
-Cell[116321, 2836, 102, 2, 157, "Subitem"],
-Cell[116426, 2840, 26, 0, 157, "Item"],
-Cell[116455, 2842, 77, 0, 157, "Subitem"],
-Cell[116535, 2844, 23, 0, 157, "Item"],
-Cell[116561, 2846, 96, 2, 157, "Subitem"],
-Cell[116660, 2850, 26, 0, 157, "Item"],
-Cell[116689, 2852, 76, 0, 157, "Subitem"],
-Cell[116768, 2854, 108, 3, 157, "Subitem"],
-Cell[116879, 2859, 29, 0, 157, "Item"],
-Cell[116911, 2861, 117, 3, 157, "Subitem"],
-Cell[117031, 2866, 21, 0, 157, "Item"],
-Cell[117055, 2868, 39, 0, 157, "Subitem"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[117143, 2874, 56, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[117224, 2878, 38, 0, 157, "Item"],
-Cell[117265, 2880, 34, 0, 157, "Subitem"],
-Cell[117302, 2882, 42, 0, 157, "Subitem"],
-Cell[117347, 2884, 44, 0, 157, "Subitem"],
-Cell[117394, 2886, 26, 0, 157, "Subitem"],
-Cell[117423, 2888, 27, 0, 157, "Item"],
-Cell[117453, 2890, 36, 0, 157, "Subitem"],
-Cell[117492, 2892, 44, 0, 157, "Subitem"],
-Cell[117539, 2894, 38, 0, 157, "Subitem"],
-Cell[117580, 2896, 30, 0, 157, "Subitem"],
-Cell[117613, 2898, 48, 0, 157, "Item"],
-Cell[117664, 2900, 19, 0, 157, "Subitem"],
-Cell[117686, 2902, 30, 0, 157, "Subitem"],
-Cell[117719, 2904, 34, 0, 157, "Item"],
-Cell[117756, 2906, 41, 0, 157, "Subitem"],
-Cell[117800, 2908, 42, 0, 157, "Item"],
-Cell[117845, 2910, 48, 0, 157, "Subitem"],
-Cell[117896, 2912, 41, 0, 157, "Subitem"],
-Cell[117940, 2914, 37, 0, 157, "Item"],
-Cell[117980, 2916, 39, 0, 157, "Subitem"],
-Cell[118022, 2918, 36, 0, 157, "Subitem"],
-Cell[118061, 2920, 46, 0, 157, "Item"],
-Cell[118110, 2922, 34, 0, 157, "Subitem"],
-Cell[118147, 2924, 118, 3, 157, "Subitem"],
-Cell[118268, 2929, 27, 0, 157, "Item"],
-Cell[118298, 2931, 48, 0, 157, "Item"],
-Cell[118349, 2933, 40, 0, 157, "Subitem"],
-Cell[118392, 2935, 126, 3, 157, "Subsubitem"],
-Cell[118521, 2940, 52, 0, 157, "Subitem"],
-Cell[118576, 2942, 136, 3, 157, "Subsubitem"],
-Cell[118715, 2947, 55, 0, 157, "Subsubitem"],
-Cell[118773, 2949, 49, 0, 157, "Subitem"],
-Cell[118825, 2951, 96, 2, 157, "Subsubitem"],
-Cell[118924, 2955, 32, 0, 157, "Item"],
-Cell[118959, 2957, 26, 0, 157, "Subitem"],
-Cell[118988, 2959, 28, 0, 157, "Subitem"],
-Cell[119019, 2961, 62, 0, 157, "Item"],
-Cell[119084, 2963, 46, 0, 157, "Subitem"],
-Cell[119133, 2965, 117, 3, 157, "Subsubitem"],
-Cell[119253, 2970, 129, 3, 157, "Subsubitem"],
-Cell[119385, 2975, 150, 3, 157, "Subsubitem"],
-Cell[119538, 2980, 38, 0, 157, "Subitem"],
-Cell[119579, 2982, 47, 0, 157, "Subsubitem"],
-Cell[119629, 2984, 35, 0, 157, "Subitem"],
-Cell[119667, 2986, 202, 4, 157, "Subsubitem"],
-Cell[119872, 2992, 34, 0, 157, "Subitem"],
-Cell[119909, 2994, 28, 0, 157, "Subsubitem"],
-Cell[119940, 2996, 53, 0, 157, "Subitem"],
-Cell[119996, 2998, 95, 2, 157, "Subsubitem"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[120140, 3006, 45, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[120210, 3010, 58, 0, 157, "Item"],
-Cell[120271, 3012, 45, 0, 157, "Subitem"],
-Cell[120319, 3014, 73, 0, 157, "Subitem"],
-Cell[120395, 3016, 62, 0, 157, "Subitem"],
-Cell[120460, 3018, 47, 0, 157, "Subitem"],
-Cell[120510, 3020, 50, 0, 157, "Item"],
-Cell[120563, 3022, 49, 0, 157, "Subitem"],
-Cell[120615, 3024, 38, 0, 157, "Subitem"],
-Cell[120656, 3026, 30, 0, 157, "Item"],
-Cell[120689, 3028, 28, 0, 157, "Subitem"],
-Cell[120720, 3030, 62, 0, 157, "Subitem"],
-Cell[120785, 3032, 38, 0, 157, "Subitem"],
-Cell[120826, 3034, 53, 0, 157, "Subitem"],
-Cell[120882, 3036, 27, 0, 157, "Item"],
-Cell[120912, 3038, 33, 0, 157, "Subitem"],
-Cell[120948, 3040, 32, 0, 157, "Subitem"],
-Cell[120983, 3042, 37, 0, 157, "Subitem"],
-Cell[121023, 3044, 36, 0, 157, "Subitem"],
-Cell[121062, 3046, 31, 0, 157, "Item"],
-Cell[121096, 3048, 35, 0, 157, "Subitem"],
-Cell[121134, 3050, 38, 0, 157, "Subitem"],
-Cell[121175, 3052, 32, 0, 157, "Item"],
-Cell[121210, 3054, 19, 0, 157, "Subitem"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[121278, 3060, 28, 0, 157, "Section"],
-Cell[CellGroupData[{
-Cell[121331, 3064, 33, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[121389, 3068, 86, 2, 157, "Item"],
-Cell[121478, 3072, 62, 0, 157, "Item"],
-Cell[121543, 3074, 99, 2, 157, "Item"],
-Cell[121645, 3078, 60, 0, 157, "Item"],
-Cell[121708, 3080, 61, 0, 157, "Item"],
-Cell[121772, 3082, 52, 0, 157, "Item"],
-Cell[121827, 3084, 105, 2, 157, "Subitem"],
-Cell[121935, 3088, 99, 2, 157, "Subitem"],
-Cell[122037, 3092, 77, 0, 157, "Subitem"],
-Cell[122117, 3094, 110, 3, 157, "Subitem"],
-Cell[122230, 3099, 104, 2, 157, "Subitem"],
-Cell[122337, 3103, 88, 2, 157, "Subitem"]
+Cell[69271, 1647, 32, 0, 48, "Subsubsection"],
+Cell[69306, 1649, 180, 3, 117, "Paragraph"],
+Cell[69489, 1654, 251, 4, 148, "Paragraph"],
+Cell[69743, 1660, 152, 3, 87, "Paragraph"],
+Cell[69898, 1665, 227, 4, 117, "Paragraph"],
+Cell[70128, 1671, 181, 3, 117, "Paragraph"],
+Cell[70312, 1676, 162, 3, 117, "Paragraph"],
+Cell[70477, 1681, 349, 6, 209, "Paragraph"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[122474, 3111, 29, 0, 157, "Subsection"],
-Cell[122506, 3113, 415, 6, 157, "Paragraph"],
-Cell[122924, 3121, 550, 11, 157, "Paragraph"],
-Cell[123477, 3134, 553, 9, 157, "Paragraph"],
-Cell[124033, 3145, 555, 8, 157, "Paragraph"],
-Cell[124591, 3155, 91, 2, 157, "Paragraph"],
-Cell[124685, 3159, 217, 6, 157, "Paragraph"],
-Cell[124905, 3167, 145, 5, 157, "Paragraph"],
-Cell[125053, 3174, 444, 8, 157, "Paragraph"],
-Cell[125500, 3184, 315, 5, 157, "Paragraph"],
-Cell[125818, 3191, 431, 7, 157, "Paragraph"],
-Cell[126252, 3200, 372, 6, 157, "Paragraph"],
-Cell[126627, 3208, 323, 5, 157, "Paragraph"],
-Cell[126953, 3215, 349, 11, 157, "Paragraph"],
-Cell[127305, 3228, 159, 7, 157, "Paragraph"],
-Cell[127467, 3237, 92, 2, 157, "Paragraph"],
-Cell[127562, 3241, 117, 3, 157, "Paragraph"]
-}, Closed]],
+Cell[70875, 1693, 41, 0, 85, "Subsection"],
 Cell[CellGroupData[{
-Cell[127716, 3249, 42, 0, 157, "Subsection"],
+Cell[70941, 1697, 79, 1, 77, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[127783, 3253, 43, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[127851, 3257, 28, 0, 157, "Subsubsubsection"],
-Cell[127882, 3259, 66, 0, 157, "Item"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[127997, 3265, 41, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[128063, 3269, 37, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[128125, 3273, 41, 0, 157, "Item"],
-Cell[128169, 3275, 56, 0, 157, "Item"]
-}, Open  ]]
+Cell[71045, 1702, 40, 0, 2147483647, "Subsubsubsection"],
+Cell[71088, 1704, 659, 12, 2147483647, "Paragraph"],
+Cell[71750, 1718, 448, 12, 2147483647, "Paragraph"],
+Cell[72201, 1732, 311, 9, 2147483647, "Paragraph"],
+Cell[72515, 1743, 803, 14, 2147483647, "Paragraph"],
+Cell[73321, 1759, 542, 8, 2147483647, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[128274, 3281, 47, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[128346, 3285, 71, 0, 157, "Item"],
-Cell[128420, 3287, 38, 0, 157, "Item"]
-}, Open  ]]
+Cell[73900, 1772, 66, 0, 2147483647, "Subsubsubsection"],
+Cell[73969, 1774, 530, 11, 2147483647, "Paragraph"],
+Cell[74502, 1787, 1351, 19, 2147483647, "Paragraph"],
+Cell[75856, 1808, 737, 11, 2147483647, "Paragraph"],
+Cell[76596, 1821, 541, 8, 2147483647, "Paragraph"],
+Cell[77140, 1831, 1234, 20, 2147483647, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[128507, 3293, 66, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[128598, 3297, 202, 4, 157, "Item"],
-Cell[128803, 3303, 59, 0, 157, "Subitem"],
-Cell[128865, 3305, 85, 2, 157, "Item"],
-Cell[128953, 3309, 100, 2, 157, "Item"]
-}, Open  ]]
+Cell[78411, 1856, 48, 0, 2147483647, "Subsubsubsection"],
+Cell[78462, 1858, 535, 8, 2147483647, "Paragraph"],
+Cell[79000, 1868, 974, 17, 2147483647, "Paragraph"],
+Cell[79977, 1887, 826, 13, 2147483647, "Paragraph"],
+Cell[80806, 1902, 699, 11, 2147483647, "Paragraph"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[129114, 3318, 43, 0, 157, "Subsubsection"],
-Cell[129160, 3320, 35, 0, 157, "Subsubsubsection"],
-Cell[129198, 3322, 35, 0, 157, "Subsubsubsection"],
-Cell[129236, 3324, 48, 0, 157, "Subsubsubsection"]
-}, Closed]],
+Cell[81554, 1919, 77, 1, 48, "Subsubsection"],
+Cell[81634, 1922, 375, 7, 2147483647, "Text"],
 Cell[CellGroupData[{
-Cell[129321, 3329, 39, 0, 157, "Subsubsection"],
-Cell[129363, 3331, 34, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[129422, 3335, 58, 0, 157, "Subsubsubsection"],
-Cell[129483, 3337, 138, 3, 157, "Item"]
+Cell[82034, 1933, 33, 0, 2147483647, "Subsubsubsection"],
+Cell[82070, 1935, 314, 7, 2147483647, "Paragraph"],
+Cell[82387, 1944, 488, 10, 2147483647, "Paragraph"],
+Cell[82878, 1956, 589, 12, 2147483647, "Paragraph"],
+Cell[83470, 1970, 278, 7, 2147483647, "Paragraph"],
+Cell[83751, 1979, 231, 4, 2147483647, "Paragraph"],
+Cell[83985, 1985, 281, 5, 2147483647, "Paragraph"],
+Cell[84269, 1992, 451, 8, 2147483647, "Paragraph"],
+Cell[84723, 2002, 150, 3, 2147483647, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[129658, 3345, 51, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[129734, 3349, 66, 0, 157, "Item"],
-Cell[129803, 3351, 51, 0, 157, "Item"]
-}, Open  ]]
-}, Open  ]]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[129927, 3359, 30, 0, 157, "Subsection"],
-Cell[CellGroupData[{
-Cell[129982, 3363, 32, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[130039, 3367, 52, 0, 157, "Subsubsubsection"],
-Cell[130094, 3369, 59, 0, 157, "Item"]
+Cell[84910, 2010, 49, 0, 2147483647, "Subsubsubsection"],
+Cell[84962, 2012, 560, 8, 2147483647, "Paragraph"],
+Cell[85525, 2022, 690, 15, 2147483647, "Paragraph"],
+Cell[86218, 2039, 565, 10, 2147483647, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[130190, 3374, 50, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[130265, 3378, 147, 3, 157, "Item"],
-Cell[130415, 3383, 120, 3, 157, "Item"],
-Cell[130538, 3388, 58, 0, 157, "Item"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[130645, 3394, 47, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[130717, 3398, 63, 0, 157, "Item"],
-Cell[130783, 3400, 100, 2, 157, "Subitem"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[130932, 3408, 41, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[130998, 3412, 119, 3, 157, "Item"],
-Cell[131120, 3417, 149, 8, 157, "Subitem"],
-Cell[131272, 3427, 172, 3, 157, "Subitem"]
-}, Open  ]]
+Cell[86820, 2054, 48, 0, 2147483647, "Subsubsubsection"],
+Cell[86871, 2056, 996, 20, 2147483647, "Paragraph"],
+Cell[87870, 2078, 839, 16, 2147483647, "Paragraph"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[131505, 3437, 33, 0, 157, "Subsubsection"],
+Cell[88758, 2100, 34, 0, 48, "Subsubsection"],
+Cell[88795, 2102, 143, 3, 2147483647, "Text"],
 Cell[CellGroupData[{
-Cell[131563, 3441, 54, 0, 157, "Subsubsubsection"],
-Cell[131620, 3443, 107, 3, 157, "Item"]
+Cell[88963, 2109, 40, 0, 2147483647, "Subsubsubsection"],
+Cell[89006, 2111, 392, 8, 2147483647, "Paragraph"],
+Cell[89401, 2121, 352, 10, 2147483647, "Paragraph"],
+Cell[89756, 2133, 732, 16, 2147483647, "Paragraph"],
+Cell[90491, 2151, 380, 6, 2147483647, "Paragraph"],
+Cell[90874, 2159, 333, 6, 2147483647, "Paragraph"],
+Cell[91210, 2167, 337, 5, 2147483647, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[131764, 3451, 48, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[131837, 3455, 43, 0, 157, "Item"],
-Cell[131883, 3457, 79, 0, 157, "Item"],
-Cell[131965, 3459, 38, 0, 157, "Item"],
-Cell[132006, 3461, 43, 0, 157, "Item"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[132098, 3467, 42, 0, 157, "Subsubsubsection"],
-Cell[132143, 3469, 16, 0, 157, "Item"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[132196, 3474, 32, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[132253, 3478, 94, 2, 157, "Item"],
-Cell[132350, 3482, 53, 0, 157, "Subitem"],
-Cell[132406, 3484, 101, 2, 157, "Item"],
-Cell[132510, 3488, 58, 0, 157, "Item"]
-}, Open  ]]
+Cell[91584, 2177, 38, 0, 2147483647, "Subsubsubsection"],
+Cell[91625, 2179, 686, 12, 2147483647, "Paragraph"],
+Cell[92314, 2193, 233, 4, 2147483647, "Paragraph"],
+Cell[92550, 2199, 694, 12, 2147483647, "Paragraph"],
+Cell[93247, 2213, 261, 4, 2147483647, "Paragraph"],
+Cell[93511, 2219, 380, 9, 2147483647, "Paragraph"],
+Cell[93894, 2230, 266, 5, 2147483647, "Paragraph"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[132629, 3495, 47, 0, 157, "Subsubsection"],
+Cell[94209, 2241, 64, 1, 48, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[132701, 3499, 52, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[132778, 3503, 35, 0, 157, "Item"],
-Cell[132816, 3505, 29, 0, 157, "Item"],
-Cell[132848, 3507, 31, 0, 157, "Item"]
-}, Open  ]]
+Cell[94298, 2246, 55, 0, 2147483647, "Subsubsubsection"],
+Cell[94356, 2248, 611, 11, 2147483647, "Paragraph"],
+Cell[94970, 2261, 873, 16, 2147483647, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[132928, 3513, 44, 0, 157, "Subsubsubsection"],
-Cell[132975, 3515, 25, 0, 157, "Item"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[133049, 3521, 42, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[133116, 3525, 39, 0, 157, "Subsubsubsection"],
-Cell[133158, 3527, 61, 0, 157, "Item"]
+Cell[95880, 2282, 38, 0, 2147483647, "Subsubsubsection"],
+Cell[95921, 2284, 544, 8, 2147483647, "Paragraph"],
+Cell[96468, 2294, 915, 16, 2147483647, "Paragraph"],
+Cell[97386, 2312, 534, 8, 2147483647, "Paragraph"],
+Cell[97923, 2322, 880, 13, 2147483647, "Paragraph"],
+Cell[98806, 2337, 374, 6, 2147483647, "Paragraph"],
+Cell[99183, 2345, 525, 8, 2147483647, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[133256, 3532, 48, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[133329, 3536, 63, 0, 157, "Item"],
-Cell[133395, 3538, 40, 0, 157, "Item"]
+Cell[99745, 2358, 58, 0, 2147483647, "Subsubsubsection"],
+Cell[99806, 2360, 233, 4, 2147483647, "Paragraph"],
+Cell[100042, 2366, 586, 14, 2147483647, "Paragraph"],
+Cell[100631, 2382, 401, 6, 2147483647, "Paragraph"],
+Cell[101035, 2390, 550, 8, 2147483647, "Paragraph"]
 }, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[101634, 2404, 70, 1, 48, "Subsubsection"],
+Cell[101707, 2407, 626, 11, 2147483647, "Paragraph"],
+Cell[102336, 2420, 230, 4, 2147483647, "Paragraph"],
+Cell[102569, 2426, 347, 7, 2147483647, "Text"],
+Cell[102919, 2435, 464, 7, 2147483647, "Paragraph"],
+Cell[103386, 2444, 330, 5, 2147483647, "Paragraph"],
+Cell[103719, 2451, 222, 4, 2147483647, "Paragraph"],
+Cell[103944, 2457, 920, 30, 2147483647, "Paragraph"],
+Cell[104867, 2489, 761, 11, 2147483647, "Paragraph"],
+Cell[105631, 2502, 555, 11, 2147483647, "Paragraph"],
+Cell[106189, 2515, 448, 9, 2147483647, "Paragraph"],
+Cell[106640, 2526, 501, 8, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[107178, 2539, 38, 0, 48, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[107241, 2543, 55, 0, 2147483647, "Subsubsubsection"],
+Cell[107299, 2545, 666, 18, 2147483647, "Text"],
+Cell[107968, 2565, 624, 13, 2147483647, "Paragraph"],
+Cell[108595, 2580, 497, 9, 2147483647, "Paragraph"],
+Cell[109095, 2591, 335, 10, 2147483647, "Paragraph"],
+Cell[109433, 2603, 213, 4, 2147483647, "Text"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[133484, 3544, 46, 0, 157, "Subsubsubsection"],
-Cell[133533, 3546, 175, 3, 157, "Item"]
+Cell[109683, 2612, 142, 6, 2147483647, "Subsubsubsection"],
+Cell[109828, 2620, 382, 7, 2147483647, "Paragraph"],
+Cell[110213, 2629, 316, 9, 2147483647, "Paragraph"],
+Cell[110532, 2640, 422, 8, 2147483647, "Paragraph"],
+Cell[110957, 2650, 322, 5, 2147483647, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[133745, 3554, 37, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[133807, 3558, 28, 0, 157, "Item"],
-Cell[133838, 3560, 46, 0, 157, "Item"],
-Cell[133887, 3562, 70, 0, 157, "Item"]
-}, Open  ]]
-}, Open  ]]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[134030, 3570, 37, 0, 157, "Subsection"],
-Cell[134070, 3572, 47, 0, 157, "Subsubsection"],
-Cell[134120, 3574, 31, 0, 157, "Subsubsection"],
-Cell[134154, 3576, 31, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[134210, 3580, 36, 0, 157, "Subsubsection"],
-Cell[134249, 3582, 36, 0, 157, "Subsubsubsection"],
-Cell[134288, 3584, 40, 0, 157, "Subsubsubsection"],
-Cell[134331, 3586, 33, 0, 157, "Subsubsubsection"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[134413, 3592, 34, 0, 157, "Subsection"],
-Cell[CellGroupData[{
-Cell[134472, 3596, 34, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[134531, 3600, 45, 0, 157, "Subsubsubsection"],
-Cell[134579, 3602, 128, 3, 157, "Item"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[134744, 3610, 44, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[134813, 3614, 39, 0, 157, "Item"],
-Cell[134855, 3616, 64, 0, 157, "Subitem"],
-Cell[134922, 3618, 161, 3, 157, "Subitem"],
-Cell[135086, 3623, 69, 0, 157, "Item"],
-Cell[135158, 3625, 126, 3, 157, "Subitem"],
-Cell[135287, 3630, 199, 4, 157, "Item"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[135535, 3640, 44, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[135604, 3644, 66, 0, 157, "Item"],
-Cell[135673, 3646, 56, 0, 157, "Item"],
-Cell[135732, 3648, 46, 0, 157, "Item"],
-Cell[135781, 3650, 43, 0, 157, "Item"],
-Cell[135827, 3652, 46, 0, 157, "Item"]
-}, Open  ]]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[135934, 3659, 31, 0, 157, "Subsubsection"],
-Cell[135968, 3661, 85, 2, 157, "Item"],
-Cell[CellGroupData[{
-Cell[136078, 3667, 37, 0, 157, "Subsubsubsection"],
-Cell[136118, 3669, 40, 0, 157, "Item"]
-}, Open  ]],
-Cell[136173, 3672, 34, 0, 157, "Subsubsubsection"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[136244, 3677, 30, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[136299, 3681, 109, 3, 157, "Item"],
-Cell[136411, 3686, 44, 0, 157, "Item"],
-Cell[136458, 3688, 40, 0, 157, "Subitem"],
-Cell[136501, 3690, 31, 0, 157, "Subitem"],
-Cell[136535, 3692, 39, 0, 157, "Subitem"],
-Cell[136577, 3694, 86, 2, 157, "Item"],
-Cell[136666, 3698, 64, 0, 157, "Item"],
-Cell[136733, 3700, 55, 0, 157, "Item"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[136837, 3706, 32, 0, 157, "Subsubsection"],
-Cell[136872, 3708, 42, 0, 157, "Subsubsubsection"],
-Cell[136917, 3710, 41, 0, 157, "Subsubsubsection"],
-Cell[136961, 3712, 36, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[137022, 3716, 36, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[137083, 3720, 34, 0, 157, "Item"],
-Cell[137120, 3722, 47, 0, 157, "Subitem"],
-Cell[137170, 3724, 45, 0, 157, "Subsubitem"],
-Cell[137218, 3726, 43, 0, 157, "Subitem"],
-Cell[137264, 3728, 107, 2, 157, "Subsubitem"],
-Cell[137374, 3732, 48, 0, 157, "Subitem"],
-Cell[137425, 3734, 72, 0, 157, "Subsubitem"],
-Cell[137500, 3736, 39, 0, 157, "Subitem"]
-}, Open  ]]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[137600, 3743, 40, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[137665, 3747, 39, 0, 157, "Subsubsubsection"],
-Cell[137707, 3749, 250, 4, 157, "Paragraph"],
-Cell[137960, 3755, 184, 4, 157, "Paragraph"],
-Cell[138147, 3761, 21, 0, 157, "Paragraph"]
-}, Closed]],
-Cell[138183, 3764, 53, 0, 157, "Subsubsubsection"],
-Cell[138239, 3766, 51, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[138315, 3770, 35, 0, 157, "Subsubsubsection"],
-Cell[138353, 3772, 61, 0, 157, "Item"]
-}, Closed]]
-}, Closed]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[138475, 3779, 30, 0, 157, "Subsection"],
-Cell[CellGroupData[{
-Cell[138530, 3783, 32, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[138587, 3787, 38, 0, 157, "Subsubsubsection"],
-Cell[138628, 3789, 35, 0, 157, "Item"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[138700, 3794, 42, 0, 157, "Subsubsubsection"],
-Cell[138745, 3796, 43, 0, 157, "Item"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[138825, 3801, 42, 0, 157, "Subsubsubsection"],
-Cell[138870, 3803, 40, 0, 157, "Item"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[138959, 3809, 38, 0, 157, "Subsubsection"],
-Cell[139000, 3811, 39, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[139064, 3815, 50, 0, 157, "Subsubsubsection"],
-Cell[139117, 3817, 101, 2, 157, "Item"]
-}, Open  ]],
-Cell[139233, 3822, 34, 0, 157, "Subsubsubsection"],
-Cell[139270, 3824, 42, 0, 157, "Subsubsubsection"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[139349, 3829, 38, 0, 157, "Subsubsection"],
-Cell[139390, 3831, 42, 0, 157, "Subsubsubsection"],
-Cell[139435, 3833, 34, 0, 157, "Subsubsubsection"],
-Cell[139472, 3835, 37, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[139534, 3839, 49, 0, 157, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[139608, 3843, 25, 0, 157, "Item"],
-Cell[139636, 3845, 39, 0, 157, "Item"],
-Cell[139678, 3847, 24, 0, 157, "Item"],
-Cell[139705, 3849, 22, 0, 157, "Item"]
-}, Open  ]],
-Cell[139742, 3852, 212, 4, 157, "Paragraph"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[140003, 3862, 38, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[140066, 3866, 22, 0, 157, "Item"],
-Cell[140091, 3868, 24, 0, 157, "Item"],
-Cell[140118, 3870, 38, 0, 157, "Item"],
-Cell[140159, 3872, 32, 0, 157, "Item"],
-Cell[140194, 3874, 35, 0, 157, "Item"],
-Cell[140232, 3876, 38, 0, 157, "Item"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[140319, 3882, 35, 0, 157, "Subsubsection"],
-Cell[140357, 3884, 43, 0, 157, "Subsubsubsection"],
-Cell[140403, 3886, 38, 0, 157, "Subsubsubsection"]
-}, Open  ]]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[140502, 3893, 28, 0, 157, "Section"],
-Cell[CellGroupData[{
-Cell[140555, 3897, 40, 0, 157, "Subsection"],
-Cell[CellGroupData[{
-Cell[140620, 3901, 36, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[140681, 3905, 28, 0, 157, "Subsubsubsection"],
-Cell[140712, 3907, 16, 0, 157, "Item"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[140777, 3913, 41, 0, 157, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[140843, 3917, 28, 0, 157, "Subsubsubsection"],
-Cell[140874, 3919, 16, 0, 157, "Item"]
+Cell[111316, 2660, 79, 1, 2147483647, "Subsubsubsection"],
+Cell[111398, 2663, 634, 9, 2147483647, "Paragraph"],
+Cell[112035, 2674, 396, 6, 2147483647, "Paragraph"],
+Cell[112434, 2682, 437, 7, 2147483647, "Paragraph"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[140951, 3926, 40, 0, 157, "Subsection"],
+Cell[112932, 2696, 30, 0, 85, "Subsection"],
 Cell[CellGroupData[{
-Cell[141016, 3930, 32, 0, 157, "Subsubsection"],
+Cell[112987, 2700, 47, 0, 77, "Subsubsection"],
+Cell[113037, 2702, 23, 0, 2147483647, "Text"],
+Cell[113063, 2704, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[141073, 3934, 28, 0, 157, "Subsubsubsection"],
-Cell[141104, 3936, 16, 0, 157, "Item"]
+Cell[113121, 2709, 52, 0, 48, "Subsubsection"],
+Cell[113176, 2711, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[113234, 2716, 39, 0, 48, "Subsubsection"],
+Cell[113276, 2718, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[113334, 2723, 46, 0, 48, "Subsubsection"],
+Cell[113383, 2725, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[113441, 2730, 39, 0, 48, "Subsubsection"],
+Cell[113483, 2732, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[113541, 2737, 43, 0, 48, "Subsubsection"],
+Cell[113587, 2739, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[113645, 2744, 45, 0, 48, "Subsubsection"],
+Cell[113693, 2746, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[113763, 2752, 27, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[113815, 2756, 44, 0, 77, "Subsubsection"],
+Cell[113862, 2758, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[113920, 2763, 41, 0, 48, "Subsubsection"],
+Cell[113964, 2765, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[114022, 2770, 36, 0, 48, "Subsubsection"],
+Cell[114061, 2772, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[114131, 2778, 29, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[114185, 2782, 33, 0, 77, "Subsubsection"],
+Cell[114221, 2784, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[114279, 2789, 34, 0, 48, "Subsubsection"],
+Cell[114316, 2791, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[114374, 2796, 67, 0, 48, "Subsubsection"],
+Cell[114444, 2798, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[114514, 2804, 31, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[114570, 2808, 33, 0, 77, "Subsubsection"],
+Cell[114606, 2810, 27, 0, 2147483647, "Paragraph"],
+Cell[114636, 2812, 205, 4, 2147483647, "Paragraph"],
+Cell[114844, 2818, 79, 0, 2147483647, "Paragraph"],
+Cell[114926, 2820, 163, 3, 2147483647, "Paragraph"],
+Cell[115092, 2825, 65, 0, 2147483647, "Paragraph"],
+Cell[115160, 2827, 38, 0, 2147483647, "Paragraph"],
+Cell[115201, 2829, 370, 7, 2147483647, "Paragraph"],
+Cell[115574, 2838, 27, 0, 2147483647, "Paragraph"],
+Cell[115604, 2840, 30, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[115671, 2845, 48, 0, 48, "Subsubsection"],
+Cell[115722, 2847, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[115780, 2852, 46, 0, 48, "Subsubsection"],
+Cell[115829, 2854, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[115899, 2860, 31, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[115955, 2864, 41, 0, 77, "Subsubsection"],
+Cell[115999, 2866, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[116057, 2871, 36, 0, 48, "Subsubsection"],
+Cell[116096, 2873, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[116154, 2878, 33, 0, 48, "Subsubsection"],
+Cell[116190, 2880, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[116248, 2885, 49, 0, 48, "Subsubsection"],
+Cell[116300, 2887, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[116370, 2893, 28, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[116423, 2897, 33, 0, 77, "Subsubsection"],
+Cell[116459, 2899, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[116517, 2904, 34, 0, 48, "Subsubsection"],
+Cell[116554, 2906, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[116612, 2911, 47, 0, 48, "Subsubsection"],
+Cell[116662, 2913, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[116720, 2918, 34, 0, 48, "Subsubsection"],
+Cell[116757, 2920, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[116815, 2925, 28, 0, 48, "Subsubsection"],
+Cell[116846, 2927, 21, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[116916, 2933, 29, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[116970, 2937, 49, 0, 2147483647, "Subsubsection"],
+Cell[117022, 2939, 74, 0, 2147483647, "Paragraph"],
+Cell[117099, 2941, 50, 0, 2147483647, "Paragraph"],
+Cell[CellGroupData[{
+Cell[117174, 2945, 43, 0, 2147483647, "Subsubsubsection"],
+Cell[117220, 2947, 148, 3, 2147483647, "Paragraph"],
+Cell[117371, 2952, 56, 0, 2147483647, "Paragraph"],
+Cell[117430, 2954, 57, 0, 2147483647, "Paragraph"],
+Cell[117490, 2956, 318, 7, 2147483647, "Paragraph"],
+Cell[117811, 2965, 43, 0, 2147483647, "Paragraph"],
+Cell[117857, 2967, 120, 3, 2147483647, "Paragraph"],
+Cell[117980, 2972, 21, 0, 2147483647, "Paragraph"],
+Cell[118004, 2974, 76, 0, 2147483647, "Paragraph"],
+Cell[118083, 2976, 128, 3, 2147483647, "Paragraph"],
+Cell[118214, 2981, 266, 4, 2147483647, "Paragraph"],
+Cell[118483, 2987, 226, 6, 2147483647, "Paragraph"],
+Cell[118712, 2995, 216, 4, 2147483647, "Paragraph"],
+Cell[118931, 3001, 191, 4, 2147483647, "Paragraph"],
+Cell[119125, 3007, 401, 6, 2147483647, "Paragraph"],
+Cell[119529, 3015, 122, 3, 2147483647, "Paragraph"],
+Cell[119654, 3020, 268, 7, 2147483647, "Paragraph"],
+Cell[119925, 3029, 260, 4, 2147483647, "Paragraph"],
+Cell[120188, 3035, 509, 8, 2147483647, "Paragraph"],
+Cell[120700, 3045, 233, 4, 2147483647, "Paragraph"],
+Cell[120936, 3051, 281, 5, 2147483647, "Paragraph"],
+Cell[121220, 3058, 170, 3, 2147483647, "Paragraph"],
+Cell[121393, 3063, 199, 4, 2147483647, "Paragraph"],
+Cell[121595, 3069, 106, 2, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[121738, 3076, 56, 0, 2147483647, "Subsubsubsection"],
+Cell[121797, 3078, 223, 4, 2147483647, "Paragraph"],
+Cell[122023, 3084, 191, 4, 2147483647, "Paragraph"],
+Cell[122217, 3090, 192, 4, 2147483647, "Paragraph"],
+Cell[122412, 3096, 45, 0, 2147483647, "Paragraph"],
+Cell[122460, 3098, 128, 3, 2147483647, "Paragraph"],
+Cell[122591, 3103, 93, 2, 2147483647, "Paragraph"],
+Cell[122687, 3107, 355, 6, 2147483647, "Paragraph"],
+Cell[123045, 3115, 157, 3, 2147483647, "Paragraph"],
+Cell[123205, 3120, 118, 3, 2147483647, "Paragraph"],
+Cell[123326, 3125, 23, 0, 2147483647, "Paragraph"],
+Cell[123352, 3127, 2076, 45, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[125443, 3175, 28, 0, 2147483647, "Subsubsubsection"]
+}, Open  ]],
+Cell[125486, 3178, 35, 0, 2147483647, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[125546, 3182, 29, 0, 2147483647, "Subsubsection"],
+Cell[125578, 3184, 55, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[125670, 3189, 35, 0, 2147483647, "Subsubsection"],
+Cell[125708, 3191, 55, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[125800, 3196, 33, 0, 2147483647, "Subsubsection"],
+Cell[125836, 3198, 71, 0, 2147483647, "Paragraph"],
+Cell[125910, 3200, 50, 0, 2147483647, "Paragraph"],
+Cell[125963, 3202, 57, 0, 2147483647, "Paragraph"],
+Cell[126023, 3204, 74, 0, 2147483647, "Paragraph"],
+Cell[126100, 3206, 150, 3, 2147483647, "Paragraph"]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[126299, 3215, 32, 0, 56, "Subsection"],
+Cell[CellGroupData[{
+Cell[126356, 3219, 36, 0, 77, "Subsubsection"],
+Cell[126395, 3221, 121, 3, 55, "Text"],
+Cell[126519, 3226, 21, 0, 56, "Paragraph"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[126577, 3231, 31, 0, 77, "Subsubsection"],
+Cell[126611, 3233, 238, 6, 2147483647, "Paragraph"],
+Cell[126852, 3241, 138, 3, 2147483647, "Paragraph"],
+Cell[126993, 3246, 534, 8, 2147483647, "Paragraph"],
+Cell[127530, 3256, 571, 10, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[128138, 3271, 36, 0, 48, "Subsubsection"],
+Cell[128177, 3273, 105, 2, 2147483647, "Paragraph"],
+Cell[128285, 3277, 124, 3, 2147483647, "Paragraph"],
+Cell[128412, 3282, 123, 3, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[128550, 3288, 38, 0, 48, "Subsubsection"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[128625, 3293, 29, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[128679, 3297, 33, 0, 77, "Subsubsection"],
+Cell[128715, 3299, 125, 3, 85, "Text"],
+Cell[128843, 3304, 21, 0, 56, "Paragraph"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[128901, 3309, 39, 0, 77, "Subsubsection"],
+Cell[128943, 3311, 444, 9, 232, "Text"],
+Cell[129390, 3322, 21, 0, 56, "Paragraph"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[129448, 3327, 64, 0, 77, "Subsubsection"],
+Cell[129515, 3329, 98, 2, 2147483647, "Text"],
+Cell[129616, 3333, 46, 0, 2147483647, "Text"],
+Cell[129665, 3335, 50, 0, 2147483647, "Paragraph"],
+Cell[CellGroupData[{
+Cell[129740, 3339, 57, 0, 2147483647, "Subsubsubsection"],
+Cell[129800, 3341, 140, 3, 2147483647, "Paragraph"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[141169, 3942, 39, 0, 157, "Subsubsection"],
+Cell[129989, 3350, 68, 0, 48, "Subsubsection"],
+Cell[130060, 3352, 144, 3, 2147483647, "Text"],
+Cell[130207, 3357, 321, 7, 2147483647, "Paragraph"],
+Cell[130531, 3366, 510, 8, 2147483647, "Paragraph"],
+Cell[131044, 3376, 495, 8, 2147483647, "Paragraph"],
+Cell[131542, 3386, 941, 26, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[141233, 3946, 28, 0, 157, "Subsubsubsection"],
-Cell[141264, 3948, 16, 0, 157, "Item"]
+Cell[132532, 3418, 39, 0, 85, "Subsection"],
+Cell[132574, 3420, 141, 3, 2147483647, "Paragraph"],
+Cell[132718, 3425, 95, 2, 2147483647, "Paragraph"],
+Cell[132816, 3429, 164, 3, 2147483647, "Paragraph"],
+Cell[CellGroupData[{
+Cell[133005, 3436, 54, 0, 2147483647, "Subsubsubsection"],
+Cell[133062, 3438, 65, 0, 2147483647, "Text"],
+Cell[133130, 3440, 32, 0, 2147483647, "Paragraph"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[133199, 3445, 49, 0, 2147483647, "Subsubsubsection"],
+Cell[133251, 3447, 21, 0, 2147483647, "Paragraph"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[133309, 3452, 37, 0, 2147483647, "Subsubsubsection"],
+Cell[133349, 3454, 1512, 26, 2147483647, "Paragraph"],
+Cell[134864, 3482, 413, 8, 2147483647, "Paragraph"],
+Cell[135280, 3492, 112, 3, 2147483647, "Paragraph"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[141329, 3954, 32, 0, 157, "Subsubsection"],
+Cell[135441, 3501, 31, 0, 56, "Subsection"],
 Cell[CellGroupData[{
-Cell[141386, 3958, 28, 0, 157, "Subsubsubsection"],
-Cell[141417, 3960, 16, 0, 157, "Item"]
+Cell[135497, 3505, 34, 0, 77, "Subsubsection"],
+Cell[135534, 3507, 90, 2, 2147483647, "Paragraph"],
+Cell[135627, 3511, 207, 4, 2147483647, "Paragraph"],
+Cell[135837, 3517, 464, 7, 2147483647, "Paragraph"],
+Cell[136304, 3526, 62, 0, 2147483647, "Paragraph"],
+Cell[136369, 3528, 221, 4, 2147483647, "Paragraph"],
+Cell[136593, 3534, 418, 9, 2147483647, "Paragraph"],
+Cell[137014, 3545, 94, 2, 2147483647, "Paragraph"],
+Cell[137111, 3549, 455, 8, 2147483647, "Text"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[137615, 3563, 28, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[137668, 3567, 33, 0, 77, "Subsubsection"],
+Cell[137704, 3569, 718, 12, 2147483647, "Paragraph"],
+Cell[138425, 3583, 589, 11, 2147483647, "Paragraph"],
+Cell[139017, 3596, 186, 3, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[139240, 3604, 28, 0, 48, "Subsubsection"],
+Cell[139271, 3606, 50, 0, 2147483647, "Paragraph"]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[139370, 3612, 43, 0, 85, "Subsection"],
+Cell[139416, 3614, 305, 5, 178, "Paragraph"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[139758, 3624, 33, 0, 85, "Subsection"],
+Cell[139794, 3626, 93, 1, 2147483647, "Input"],
+Cell[139890, 3629, 337, 7, 2147483647, "Paragraph"],
+Cell[140230, 3638, 228, 5, 2147483647, "Paragraph"],
+Cell[140461, 3645, 82, 2, 2147483647, "Paragraph"],
+Cell[140546, 3649, 92, 2, 2147483647, "Output"]
+}, Closed]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[140699, 3658, 40, 1, 133, "Title"],
+Cell[CellGroupData[{
+Cell[140764, 3663, 61, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[140850, 3667, 45, 0, 157, "Item"],
+Cell[140898, 3669, 28, 0, 157, "Subitem"],
+Cell[140929, 3671, 37, 0, 157, "Subsubitem"],
+Cell[140969, 3673, 47, 0, 157, "Subsubitem"],
+Cell[141019, 3675, 45, 0, 157, "Subsubitem"],
+Cell[141067, 3677, 29, 0, 157, "Subsubitem"],
+Cell[141099, 3679, 26, 0, 157, "Subitem"],
+Cell[141128, 3681, 64, 0, 157, "Subsubitem"],
+Cell[141195, 3683, 34, 0, 157, "Subsubitem"],
+Cell[141232, 3685, 23, 0, 157, "Item"],
+Cell[141258, 3687, 33, 0, 157, "Subitem"],
+Cell[141294, 3689, 59, 0, 157, "Subitem"],
+Cell[141356, 3691, 35, 0, 157, "Item"],
+Cell[141394, 3693, 42, 0, 157, "Subitem"],
+Cell[141439, 3695, 72, 0, 157, "Subitem"],
+Cell[141514, 3697, 61, 0, 157, "Subitem"],
+Cell[141578, 3699, 41, 0, 157, "Item"],
+Cell[141622, 3701, 45, 0, 157, "Subitem"],
+Cell[141670, 3703, 79, 0, 157, "Subitem"],
+Cell[141752, 3705, 33, 0, 157, "Item"],
+Cell[141788, 3707, 34, 0, 157, "Subitem"],
+Cell[141825, 3709, 118, 3, 157, "Subitem"],
+Cell[141946, 3714, 22, 0, 157, "Item"],
+Cell[141971, 3716, 100, 2, 157, "Subitem"],
+Cell[142074, 3720, 23, 0, 157, "Item"],
+Cell[142100, 3722, 19, 0, 157, "Subitem"],
+Cell[142122, 3724, 93, 2, 157, "Subitem"],
+Cell[142218, 3728, 25, 0, 157, "Item"],
+Cell[142246, 3730, 41, 0, 157, "Subitem"],
+Cell[142290, 3732, 28, 0, 157, "Item"],
+Cell[142321, 3734, 113, 3, 157, "Subitem"],
+Cell[142437, 3739, 21, 0, 157, "Item"],
+Cell[142461, 3741, 92, 2, 157, "Subitem"],
+Cell[142556, 3745, 102, 2, 157, "Subitem"],
+Cell[142661, 3749, 26, 0, 157, "Item"],
+Cell[142690, 3751, 77, 0, 157, "Subitem"],
+Cell[142770, 3753, 23, 0, 157, "Item"],
+Cell[142796, 3755, 96, 2, 157, "Subitem"],
+Cell[142895, 3759, 26, 0, 157, "Item"],
+Cell[142924, 3761, 76, 0, 157, "Subitem"],
+Cell[143003, 3763, 108, 3, 157, "Subitem"],
+Cell[143114, 3768, 29, 0, 157, "Item"],
+Cell[143146, 3770, 117, 3, 157, "Subitem"],
+Cell[143266, 3775, 21, 0, 157, "Item"],
+Cell[143290, 3777, 39, 0, 157, "Subitem"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[143378, 3783, 56, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[143459, 3787, 38, 0, 157, "Item"],
+Cell[143500, 3789, 34, 0, 157, "Subitem"],
+Cell[143537, 3791, 42, 0, 157, "Subitem"],
+Cell[143582, 3793, 44, 0, 157, "Subitem"],
+Cell[143629, 3795, 26, 0, 157, "Subitem"],
+Cell[143658, 3797, 27, 0, 157, "Item"],
+Cell[143688, 3799, 36, 0, 157, "Subitem"],
+Cell[143727, 3801, 44, 0, 157, "Subitem"],
+Cell[143774, 3803, 38, 0, 157, "Subitem"],
+Cell[143815, 3805, 30, 0, 157, "Subitem"],
+Cell[143848, 3807, 48, 0, 157, "Item"],
+Cell[143899, 3809, 19, 0, 157, "Subitem"],
+Cell[143921, 3811, 30, 0, 157, "Subitem"],
+Cell[143954, 3813, 34, 0, 157, "Item"],
+Cell[143991, 3815, 41, 0, 157, "Subitem"],
+Cell[144035, 3817, 42, 0, 157, "Item"],
+Cell[144080, 3819, 48, 0, 157, "Subitem"],
+Cell[144131, 3821, 41, 0, 157, "Subitem"],
+Cell[144175, 3823, 37, 0, 157, "Item"],
+Cell[144215, 3825, 39, 0, 157, "Subitem"],
+Cell[144257, 3827, 36, 0, 157, "Subitem"],
+Cell[144296, 3829, 46, 0, 157, "Item"],
+Cell[144345, 3831, 34, 0, 157, "Subitem"],
+Cell[144382, 3833, 118, 3, 157, "Subitem"],
+Cell[144503, 3838, 27, 0, 157, "Item"],
+Cell[144533, 3840, 48, 0, 157, "Item"],
+Cell[144584, 3842, 40, 0, 157, "Subitem"],
+Cell[144627, 3844, 126, 3, 157, "Subsubitem"],
+Cell[144756, 3849, 52, 0, 157, "Subitem"],
+Cell[144811, 3851, 136, 3, 157, "Subsubitem"],
+Cell[144950, 3856, 55, 0, 157, "Subsubitem"],
+Cell[145008, 3858, 49, 0, 157, "Subitem"],
+Cell[145060, 3860, 96, 2, 157, "Subsubitem"],
+Cell[145159, 3864, 32, 0, 157, "Item"],
+Cell[145194, 3866, 26, 0, 157, "Subitem"],
+Cell[145223, 3868, 28, 0, 157, "Subitem"],
+Cell[145254, 3870, 62, 0, 157, "Item"],
+Cell[145319, 3872, 46, 0, 157, "Subitem"],
+Cell[145368, 3874, 117, 3, 157, "Subsubitem"],
+Cell[145488, 3879, 129, 3, 157, "Subsubitem"],
+Cell[145620, 3884, 150, 3, 157, "Subsubitem"],
+Cell[145773, 3889, 38, 0, 157, "Subitem"],
+Cell[145814, 3891, 47, 0, 157, "Subsubitem"],
+Cell[145864, 3893, 35, 0, 157, "Subitem"],
+Cell[145902, 3895, 202, 4, 157, "Subsubitem"],
+Cell[146107, 3901, 34, 0, 157, "Subitem"],
+Cell[146144, 3903, 28, 0, 157, "Subsubitem"],
+Cell[146175, 3905, 53, 0, 157, "Subitem"],
+Cell[146231, 3907, 95, 2, 157, "Subsubitem"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[146375, 3915, 45, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[146445, 3919, 58, 0, 157, "Item"],
+Cell[146506, 3921, 45, 0, 157, "Subitem"],
+Cell[146554, 3923, 73, 0, 157, "Subitem"],
+Cell[146630, 3925, 62, 0, 157, "Subitem"],
+Cell[146695, 3927, 47, 0, 157, "Subitem"],
+Cell[146745, 3929, 50, 0, 157, "Item"],
+Cell[146798, 3931, 49, 0, 157, "Subitem"],
+Cell[146850, 3933, 38, 0, 157, "Subitem"],
+Cell[146891, 3935, 30, 0, 157, "Item"],
+Cell[146924, 3937, 28, 0, 157, "Subitem"],
+Cell[146955, 3939, 62, 0, 157, "Subitem"],
+Cell[147020, 3941, 38, 0, 157, "Subitem"],
+Cell[147061, 3943, 53, 0, 157, "Subitem"],
+Cell[147117, 3945, 27, 0, 157, "Item"],
+Cell[147147, 3947, 33, 0, 157, "Subitem"],
+Cell[147183, 3949, 32, 0, 157, "Subitem"],
+Cell[147218, 3951, 37, 0, 157, "Subitem"],
+Cell[147258, 3953, 36, 0, 157, "Subitem"],
+Cell[147297, 3955, 31, 0, 157, "Item"],
+Cell[147331, 3957, 35, 0, 157, "Subitem"],
+Cell[147369, 3959, 38, 0, 157, "Subitem"],
+Cell[147410, 3961, 32, 0, 157, "Item"],
+Cell[147445, 3963, 19, 0, 157, "Subitem"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[147513, 3969, 28, 0, 157, "Section"],
+Cell[CellGroupData[{
+Cell[147566, 3973, 33, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[147624, 3977, 86, 2, 157, "Item"],
+Cell[147713, 3981, 62, 0, 157, "Item"],
+Cell[147778, 3983, 99, 2, 157, "Item"],
+Cell[147880, 3987, 60, 0, 157, "Item"],
+Cell[147943, 3989, 61, 0, 157, "Item"],
+Cell[148007, 3991, 52, 0, 157, "Item"],
+Cell[148062, 3993, 105, 2, 157, "Subitem"],
+Cell[148170, 3997, 99, 2, 157, "Subitem"],
+Cell[148272, 4001, 77, 0, 157, "Subitem"],
+Cell[148352, 4003, 110, 3, 157, "Subitem"],
+Cell[148465, 4008, 104, 2, 157, "Subitem"],
+Cell[148572, 4012, 88, 2, 157, "Subitem"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[148709, 4020, 29, 0, 157, "Subsection"],
+Cell[148741, 4022, 415, 6, 157, "Paragraph"],
+Cell[149159, 4030, 550, 11, 157, "Paragraph"],
+Cell[149712, 4043, 553, 9, 157, "Paragraph"],
+Cell[150268, 4054, 555, 8, 157, "Paragraph"],
+Cell[150826, 4064, 91, 2, 157, "Paragraph"],
+Cell[150920, 4068, 217, 6, 157, "Paragraph"],
+Cell[151140, 4076, 145, 5, 157, "Paragraph"],
+Cell[151288, 4083, 444, 8, 157, "Paragraph"],
+Cell[151735, 4093, 315, 5, 157, "Paragraph"],
+Cell[152053, 4100, 431, 7, 157, "Paragraph"],
+Cell[152487, 4109, 372, 6, 157, "Paragraph"],
+Cell[152862, 4117, 323, 5, 157, "Paragraph"],
+Cell[153188, 4124, 349, 11, 157, "Paragraph"],
+Cell[153540, 4137, 159, 7, 157, "Paragraph"],
+Cell[153702, 4146, 92, 2, 157, "Paragraph"],
+Cell[153797, 4150, 117, 3, 157, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[153951, 4158, 42, 0, 157, "Subsection"],
+Cell[CellGroupData[{
+Cell[154018, 4162, 43, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[154086, 4166, 28, 0, 157, "Subsubsubsection"],
+Cell[154117, 4168, 66, 0, 157, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[154232, 4174, 41, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[154298, 4178, 37, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[154360, 4182, 41, 0, 157, "Item"],
+Cell[154404, 4184, 56, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[154509, 4190, 47, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[154581, 4194, 71, 0, 157, "Item"],
+Cell[154655, 4196, 38, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[154742, 4202, 66, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[154833, 4206, 202, 4, 157, "Item"],
+Cell[155038, 4212, 59, 0, 157, "Subitem"],
+Cell[155100, 4214, 85, 2, 157, "Item"],
+Cell[155188, 4218, 100, 2, 157, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[155349, 4227, 43, 0, 157, "Subsubsection"],
+Cell[155395, 4229, 35, 0, 157, "Subsubsubsection"],
+Cell[155433, 4231, 35, 0, 157, "Subsubsubsection"],
+Cell[155471, 4233, 48, 0, 157, "Subsubsubsection"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[155556, 4238, 39, 0, 157, "Subsubsection"],
+Cell[155598, 4240, 34, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[155657, 4244, 58, 0, 157, "Subsubsubsection"],
+Cell[155718, 4246, 138, 3, 157, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[155893, 4254, 51, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[155969, 4258, 66, 0, 157, "Item"],
+Cell[156038, 4260, 51, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[156162, 4268, 30, 0, 157, "Subsection"],
+Cell[CellGroupData[{
+Cell[156217, 4272, 32, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[156274, 4276, 52, 0, 157, "Subsubsubsection"],
+Cell[156329, 4278, 59, 0, 157, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[156425, 4283, 50, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[156500, 4287, 147, 3, 157, "Item"],
+Cell[156650, 4292, 120, 3, 157, "Item"],
+Cell[156773, 4297, 58, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[156880, 4303, 47, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[156952, 4307, 63, 0, 157, "Item"],
+Cell[157018, 4309, 100, 2, 157, "Subitem"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[157167, 4317, 41, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[157233, 4321, 119, 3, 157, "Item"],
+Cell[157355, 4326, 149, 8, 157, "Subitem"],
+Cell[157507, 4336, 172, 3, 157, "Subitem"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[157740, 4346, 33, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[157798, 4350, 54, 0, 157, "Subsubsubsection"],
+Cell[157855, 4352, 107, 3, 157, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[157999, 4360, 48, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[158072, 4364, 43, 0, 157, "Item"],
+Cell[158118, 4366, 79, 0, 157, "Item"],
+Cell[158200, 4368, 38, 0, 157, "Item"],
+Cell[158241, 4370, 43, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[158333, 4376, 42, 0, 157, "Subsubsubsection"],
+Cell[158378, 4378, 16, 0, 157, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[158431, 4383, 32, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[158488, 4387, 94, 2, 157, "Item"],
+Cell[158585, 4391, 53, 0, 157, "Subitem"],
+Cell[158641, 4393, 101, 2, 157, "Item"],
+Cell[158745, 4397, 58, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[158864, 4404, 47, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[158936, 4408, 52, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[159013, 4412, 35, 0, 157, "Item"],
+Cell[159051, 4414, 29, 0, 157, "Item"],
+Cell[159083, 4416, 31, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[159163, 4422, 44, 0, 157, "Subsubsubsection"],
+Cell[159210, 4424, 25, 0, 157, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[159284, 4430, 42, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[159351, 4434, 39, 0, 157, "Subsubsubsection"],
+Cell[159393, 4436, 61, 0, 157, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[159491, 4441, 48, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[159564, 4445, 63, 0, 157, "Item"],
+Cell[159630, 4447, 40, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[159719, 4453, 46, 0, 157, "Subsubsubsection"],
+Cell[159768, 4455, 175, 3, 157, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[159980, 4463, 37, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[160042, 4467, 28, 0, 157, "Item"],
+Cell[160073, 4469, 46, 0, 157, "Item"],
+Cell[160122, 4471, 70, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[160265, 4479, 37, 0, 157, "Subsection"],
+Cell[160305, 4481, 47, 0, 157, "Subsubsection"],
+Cell[160355, 4483, 31, 0, 157, "Subsubsection"],
+Cell[160389, 4485, 31, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[160445, 4489, 36, 0, 157, "Subsubsection"],
+Cell[160484, 4491, 36, 0, 157, "Subsubsubsection"],
+Cell[160523, 4493, 40, 0, 157, "Subsubsubsection"],
+Cell[160566, 4495, 33, 0, 157, "Subsubsubsection"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[160648, 4501, 34, 0, 157, "Subsection"],
+Cell[CellGroupData[{
+Cell[160707, 4505, 34, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[160766, 4509, 45, 0, 157, "Subsubsubsection"],
+Cell[160814, 4511, 128, 3, 157, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[160979, 4519, 44, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[161048, 4523, 39, 0, 157, "Item"],
+Cell[161090, 4525, 64, 0, 157, "Subitem"],
+Cell[161157, 4527, 161, 3, 157, "Subitem"],
+Cell[161321, 4532, 69, 0, 157, "Item"],
+Cell[161393, 4534, 126, 3, 157, "Subitem"],
+Cell[161522, 4539, 199, 4, 157, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[161770, 4549, 44, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[161839, 4553, 66, 0, 157, "Item"],
+Cell[161908, 4555, 56, 0, 157, "Item"],
+Cell[161967, 4557, 46, 0, 157, "Item"],
+Cell[162016, 4559, 43, 0, 157, "Item"],
+Cell[162062, 4561, 46, 0, 157, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[162169, 4568, 31, 0, 157, "Subsubsection"],
+Cell[162203, 4570, 85, 2, 157, "Item"],
+Cell[CellGroupData[{
+Cell[162313, 4576, 37, 0, 157, "Subsubsubsection"],
+Cell[162353, 4578, 40, 0, 157, "Item"]
+}, Open  ]],
+Cell[162408, 4581, 34, 0, 157, "Subsubsubsection"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[162479, 4586, 30, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[162534, 4590, 109, 3, 157, "Item"],
+Cell[162646, 4595, 44, 0, 157, "Item"],
+Cell[162693, 4597, 40, 0, 157, "Subitem"],
+Cell[162736, 4599, 31, 0, 157, "Subitem"],
+Cell[162770, 4601, 39, 0, 157, "Subitem"],
+Cell[162812, 4603, 86, 2, 157, "Item"],
+Cell[162901, 4607, 64, 0, 157, "Item"],
+Cell[162968, 4609, 55, 0, 157, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[163072, 4615, 32, 0, 157, "Subsubsection"],
+Cell[163107, 4617, 42, 0, 157, "Subsubsubsection"],
+Cell[163152, 4619, 41, 0, 157, "Subsubsubsection"],
+Cell[163196, 4621, 36, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[163257, 4625, 36, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[163318, 4629, 34, 0, 157, "Item"],
+Cell[163355, 4631, 47, 0, 157, "Subitem"],
+Cell[163405, 4633, 45, 0, 157, "Subsubitem"],
+Cell[163453, 4635, 43, 0, 157, "Subitem"],
+Cell[163499, 4637, 107, 2, 157, "Subsubitem"],
+Cell[163609, 4641, 48, 0, 157, "Subitem"],
+Cell[163660, 4643, 72, 0, 157, "Subsubitem"],
+Cell[163735, 4645, 39, 0, 157, "Subitem"]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[163835, 4652, 40, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[163900, 4656, 39, 0, 157, "Subsubsubsection"],
+Cell[163942, 4658, 250, 4, 157, "Paragraph"],
+Cell[164195, 4664, 184, 4, 157, "Paragraph"],
+Cell[164382, 4670, 21, 0, 157, "Paragraph"]
+}, Closed]],
+Cell[164418, 4673, 53, 0, 157, "Subsubsubsection"],
+Cell[164474, 4675, 51, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[164550, 4679, 35, 0, 157, "Subsubsubsection"],
+Cell[164588, 4681, 61, 0, 157, "Item"]
+}, Closed]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[164710, 4688, 30, 0, 157, "Subsection"],
+Cell[CellGroupData[{
+Cell[164765, 4692, 32, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[164822, 4696, 38, 0, 157, "Subsubsubsection"],
+Cell[164863, 4698, 35, 0, 157, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[164935, 4703, 42, 0, 157, "Subsubsubsection"],
+Cell[164980, 4705, 43, 0, 157, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[165060, 4710, 42, 0, 157, "Subsubsubsection"],
+Cell[165105, 4712, 40, 0, 157, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[165194, 4718, 38, 0, 157, "Subsubsection"],
+Cell[165235, 4720, 39, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[165299, 4724, 50, 0, 157, "Subsubsubsection"],
+Cell[165352, 4726, 101, 2, 157, "Item"]
+}, Open  ]],
+Cell[165468, 4731, 34, 0, 157, "Subsubsubsection"],
+Cell[165505, 4733, 42, 0, 157, "Subsubsubsection"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[165584, 4738, 38, 0, 157, "Subsubsection"],
+Cell[165625, 4740, 42, 0, 157, "Subsubsubsection"],
+Cell[165670, 4742, 34, 0, 157, "Subsubsubsection"],
+Cell[165707, 4744, 37, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[165769, 4748, 49, 0, 157, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[165843, 4752, 25, 0, 157, "Item"],
+Cell[165871, 4754, 39, 0, 157, "Item"],
+Cell[165913, 4756, 24, 0, 157, "Item"],
+Cell[165940, 4758, 22, 0, 157, "Item"]
+}, Open  ]],
+Cell[165977, 4761, 212, 4, 157, "Paragraph"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[166238, 4771, 38, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[166301, 4775, 22, 0, 157, "Item"],
+Cell[166326, 4777, 24, 0, 157, "Item"],
+Cell[166353, 4779, 38, 0, 157, "Item"],
+Cell[166394, 4781, 32, 0, 157, "Item"],
+Cell[166429, 4783, 35, 0, 157, "Item"],
+Cell[166467, 4785, 38, 0, 157, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[166554, 4791, 35, 0, 157, "Subsubsection"],
+Cell[166592, 4793, 43, 0, 157, "Subsubsubsection"],
+Cell[166638, 4795, 38, 0, 157, "Subsubsubsection"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[166737, 4802, 28, 0, 157, "Section"],
+Cell[CellGroupData[{
+Cell[166790, 4806, 40, 0, 157, "Subsection"],
+Cell[CellGroupData[{
+Cell[166855, 4810, 36, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[166916, 4814, 28, 0, 157, "Subsubsubsection"],
+Cell[166947, 4816, 16, 0, 157, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[167012, 4822, 41, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[167078, 4826, 28, 0, 157, "Subsubsubsection"],
+Cell[167109, 4828, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[141494, 3967, 39, 0, 157, "Subsection"],
+Cell[167186, 4835, 40, 0, 157, "Subsection"],
 Cell[CellGroupData[{
-Cell[141558, 3971, 36, 0, 157, "Subsubsection"],
+Cell[167251, 4839, 32, 0, 157, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[141619, 3975, 28, 0, 157, "Subsubsubsection"],
-Cell[141650, 3977, 16, 0, 157, "Item"]
+Cell[167308, 4843, 28, 0, 157, "Subsubsubsection"],
+Cell[167339, 4845, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[141715, 3983, 47, 0, 157, "Subsubsection"],
+Cell[167404, 4851, 39, 0, 157, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[141787, 3987, 28, 0, 157, "Subsubsubsection"],
-Cell[141818, 3989, 16, 0, 157, "Item"]
+Cell[167468, 4855, 28, 0, 157, "Subsubsubsection"],
+Cell[167499, 4857, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[141883, 3995, 33, 0, 157, "Subsubsection"],
+Cell[167564, 4863, 32, 0, 157, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[141941, 3999, 28, 0, 157, "Subsubsubsection"],
-Cell[141972, 4001, 16, 0, 157, "Item"]
+Cell[167621, 4867, 28, 0, 157, "Subsubsubsection"],
+Cell[167652, 4869, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[142049, 4008, 29, 0, 157, "Subsection"],
+Cell[167729, 4876, 39, 0, 157, "Subsection"],
 Cell[CellGroupData[{
-Cell[142103, 4012, 36, 0, 157, "Subsubsection"],
+Cell[167793, 4880, 36, 0, 157, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[142164, 4016, 28, 0, 157, "Subsubsubsection"],
-Cell[142195, 4018, 16, 0, 157, "Item"]
+Cell[167854, 4884, 28, 0, 157, "Subsubsubsection"],
+Cell[167885, 4886, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[142260, 4024, 34, 0, 157, "Subsubsection"],
+Cell[167950, 4892, 47, 0, 157, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[142319, 4028, 28, 0, 157, "Subsubsubsection"],
-Cell[142350, 4030, 16, 0, 157, "Item"]
+Cell[168022, 4896, 28, 0, 157, "Subsubsubsection"],
+Cell[168053, 4898, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[142415, 4036, 31, 0, 157, "Subsubsection"],
+Cell[168118, 4904, 33, 0, 157, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[142471, 4040, 28, 0, 157, "Subsubsubsection"],
-Cell[142502, 4042, 16, 0, 157, "Item"]
+Cell[168176, 4908, 28, 0, 157, "Subsubsubsection"],
+Cell[168207, 4910, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[142579, 4049, 29, 0, 157, "Subsection"],
+Cell[168284, 4917, 29, 0, 157, "Subsection"],
 Cell[CellGroupData[{
-Cell[142633, 4053, 37, 0, 157, "Subsubsection"],
+Cell[168338, 4921, 36, 0, 157, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[142695, 4057, 28, 0, 157, "Subsubsubsection"],
-Cell[142726, 4059, 16, 0, 157, "Item"]
+Cell[168399, 4925, 28, 0, 157, "Subsubsubsection"],
+Cell[168430, 4927, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[142791, 4065, 38, 0, 157, "Subsubsection"],
+Cell[168495, 4933, 34, 0, 157, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[142854, 4069, 28, 0, 157, "Subsubsubsection"],
-Cell[142885, 4071, 16, 0, 157, "Item"]
+Cell[168554, 4937, 28, 0, 157, "Subsubsubsection"],
+Cell[168585, 4939, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[142950, 4077, 35, 0, 157, "Subsubsection"],
+Cell[168650, 4945, 31, 0, 157, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[143010, 4081, 28, 0, 157, "Subsubsubsection"],
-Cell[143041, 4083, 16, 0, 157, "Item"]
+Cell[168706, 4949, 28, 0, 157, "Subsubsubsection"],
+Cell[168737, 4951, 16, 0, 157, "Item"]
+}, Open  ]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[168814, 4958, 29, 0, 157, "Subsection"],
+Cell[CellGroupData[{
+Cell[168868, 4962, 37, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[168930, 4966, 28, 0, 157, "Subsubsubsection"],
+Cell[168961, 4968, 16, 0, 157, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[169026, 4974, 38, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[169089, 4978, 28, 0, 157, "Subsubsubsection"],
+Cell[169120, 4980, 16, 0, 157, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[169185, 4986, 35, 0, 157, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[169245, 4990, 28, 0, 157, "Subsubsubsection"],
+Cell[169276, 4992, 16, 0, 157, "Item"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]]
