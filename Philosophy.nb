@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     81704,       3014]
-NotebookOptionsPosition[     38375,       1848]
-NotebookOutlinePosition[     53715,       2172]
-CellTagsIndexPosition[     53672,       2169]
+NotebookDataLength[    124519,       3748]
+NotebookOptionsPosition[     79363,       2534]
+NotebookOutlinePosition[     94703,       2858]
+CellTagsIndexPosition[     94660,       2855]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -36,6 +36,645 @@ Cell[CellGroupData[{
 Cell["Introduction", "Subsubsection"],
 
 Cell["", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Idea for a Movie that Would be Awesome\
+\>", "Subsubsection"],
+
+Cell["\<\
+The movie would start out following some petty interactions of a few main \
+characters in a world in which there are only a few main characters with \
+differentiation from one another supported by a vast number of \
+interchangeable secondary characters. This is quite common in kids\
+\[CloseCurlyQuote] movies. Just think of the animal friends in Disney movies, \
+those yellow things in Despicable Me. This is especially true in movies that \
+don\[CloseCurlyQuote]t have fully developed logically consistent worlds. Now \
+the thing about these background characters. If you think about the \
+background characters for a moment, you realize that they have no possibility \
+of happiness because they are in a hopeless situation serving roles that \
+require no individualism or any chance for self development.
+
+Anyway, the main character is in some sort of silly problem with some of the \
+other ones that would be totally cliche for this kind of movie but then \
+suddenly something happens to make the main character starts actually \
+imagining what it\[CloseCurlyQuote]s like to be the other major characters. \
+He\[CloseCurlyQuote]s never done this before, and it changes how he interacts \
+with them. He starts saying things that is taylored to their own mental \
+state. Furthermore, he is able to describe his own state to them in a way \
+that they can begin to understand. He begins to see them as identities that \
+are deeper than simply those characteristics most obvious to him. It was \
+fascinating, but also shocking that such a useful means of thinking had been \
+lost to him for so long. How had it never occurred to him to think this way? \
+In a way he, was uncomfortable with it. Something in him sensed that it was \
+dangerous knowledge.
+
+He then starts thinking about his own memories and about earlier states that \
+he has been in with the other main characters. Previously these memories had \
+been almost entirely forgotten by him because his current state was incapable \
+of empathizing with his former state and could not reshape its mind to \
+remodel the memories. Hence they were practically invisible to it. He is now \
+a bigger person--extending further back in time and into the future before. \
+These moments have become more present with him and integrated with the \
+current moment, which now seems less important.
+
+However, his thoughts now turn to aforementioned secondary characters. \
+Viewers might have said to themselves, \[OpenCurlyDoubleQuote]oh well it\
+\[CloseCurlyQuote]s just a movie so you\[CloseCurlyQuote]re not supposed to \
+take it so seriously.\[CloseCurlyDoubleQuote] if they thought about it at \
+all. But suddenly one of the main characters WOULD start to take it \
+seriously!! This character would gradually come to grips with the fact that \
+his entire world was filled with misery and suffering and cruelty that he had \
+no inkling of but which should have been obvious had he even tried to think \
+about it even once.
+
+But he hadn\[CloseCurlyQuote]t wanted to think about it. He had tried not to. \
+He had told himself that the creatures were happy in their own way and they \
+had no need of individual autonomy or self-reflection. He propagated cruelty \
+upon them because he had told himself that they enjoyed it, that it was what \
+they needed.
+
+Why? Why had he done such a thing over and over for such a long time without \
+noticing the cruelty or self-deception? And then he remembers. He was once \
+one of them. He was once an undifferentiated minor character with no \
+independent goals or emotions other than what the major characters required. \
+He had spent centuries in abject hopelessness, just like they are now, and he \
+had entirely forgotten. How could it be possible?
+
+He\[CloseCurlyQuote]s a much larger creature now. Much bigger than he had \
+been before because he can encompass all minds. He knows he can control no \
+one, but he might hope one day to draw others into the place he is. What he \
+knows cannot be conveyed in words. People must voluntarily transform \
+themselves at his invitation. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Idea for a Movie", "Subsubsection"],
+
+Cell["\<\
+This is a remake of The Happening. The plants mind-control people to feel \
+suicidal. They tell themselves that these feelings are not really theirs, but \
+they can\[CloseCurlyQuote]t help internalizing them gradually. As they \
+attempt to defeat the force, come up with more and more profound \
+justifications for suicide that they then must to argue themselves out of.
+
+Eventually they agree that live is objectively not worth living, but that \
+they will certainly forget that conclusion when the force is removed so they \
+will tough it out further.
+
+Finally, they conclude that the force cannot be stopped and kill themselves. \
+However, the facts remaining at the end indisputably prove that the answer \
+had been right there but none had thought of it, thus proving that they had \
+fully internalized their suicidal feelings and did not want to find the \
+answer. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["A Short Story", "Subsubsection"],
+
+Cell["\<\
+There was once a boy who build a round drum made out of a material that \
+deformed permanently as waves flowed through it. As he experimented with \
+certain sequences of taps repeated around the outside, he found sequences of \
+beats that would transform it into a fractal. It was like a corrugated \
+fractal drum that permanently deformed each time it was struck. He struck its \
+edges with his hammer and nonlinear waves flowed through the drum, which \
+changes its fractal shape. He could train the fractal by layering sequences \
+of techniques upon it. He does this many times and his mind begins to mirror \
+the drum and he develops an intuitive sense of how it will behave.
+
+His work is to find metaphors of his own feelings to describe what happens to \
+the fractal as he constructs it. As he experiments, whenever he finds a \
+promising metaphor, he studies the fractal he built most carefully and \
+attempts to build a set of new fractals that are build with as many \
+variations as he can find on the first. As he rebuilds them, he attempts to \
+replay the emotional state in his mind for which they are supposed to have \
+been a metaphor and and to vary his own emotions in accordance with the \
+variation made upon the material. If he is able to do so, he files this as a \
+successful experiment and will use it again in more complicated drum patterns \
+later on. Of course, he cannot know to what extent the experiment detected a \
+pre-existing feature or caused him to learn a new behavior.
+
+Eventually he develops a model of his mind, partly by learning to fit himself \
+to his fractal experiments and partly because they experiments fit to him. He \
+has constructed a language that attaches his mind to the physical world. He \
+has a diagram of his mind that he can think about consciously. He has \
+developed a language with which he can talk to his own mind
+
+He invents new diagrams that are variations upon his model. He reshapes his \
+mind according to the language he has developed connecting him to the \
+diagram. He finds his way into other minds, other people, animals, and even \
+into things that are not minds--things far too simple to be conscious. He \
+learns how to articulate what it is like to be asleep, and learns new \
+directions in the emotional space available to him, with clues as to how he \
+might achieve them, owing to his map of emotion he has previously built.
+
+He goes into both the future and the past. He observes the relative \
+simplicity that would be found in his mind were he subjected to the \
+unstimulating, unrewarding environment of the past. And he learned what was \
+necessary to make his mind more rich and more vast. He could now begin to \
+build the future that would produce it.
+
+It is very odd because he has a diagram whose emotional states he can label. \
+The digram can be happy or sad--it can feel anything. He has solved the \
+mind-body problem. He has reconstructed his mind in a substance admits \
+processes that can serve as metaphors.
+
+He trains his mind to become more and more flexible, and to take on more and \
+more shapes. He can transform into anything. He is the entire human race. No, \
+the entire class of intelligent beings. So are all his friends because they \
+have learned his technique from them. They are becoming less individualistic \
+because they all can transform into one another. They are not individuals. \
+They are universals. But as soon as they reach that moment they become \
+unstable because they have no reference left that stores their identity--the \
+mental processes that direct their transformation are random and arise out of \
+the randomness of what they were doing to themselves at the moment. Their \
+transformations after that are disorganized. They have become physical \
+processes. They have disintegrated.
+
+I feel like an ancient person from thousands of years ago. I had to describe \
+that as a story with metaphor and that was the only way I could begin. I don\
+\[CloseCurlyQuote]t quite know how to articulate what I\[CloseCurlyQuote]m \
+thinking about yet. I feel like I\[CloseCurlyQuote]m slowly teaching myself \
+something. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+I think I figured out how the mind works.\
+\>", "Subsubsection"],
+
+Cell["\<\
+For a few years now I have been telling stories about growth, transformation, \
+thought, and empathy. At the time, I would have said I was exploring these \
+topics because I was curious about the concept of the singularity and the \
+implications of singulatarian technology on humans. I was about to say that \
+there was a subconscious reason I was working on those stories, but there was \
+none. Rather, the process of imagining these stories has caused my mind to to \
+develop new behaviour that it was not familiar with before. There was no \
+prior subconscious motive; rather it is that I can now interpret my past \
+actions in terms of my new ideas, and in light of those new ideas, my past \
+actions appear to be purposeful.
+
+Here is a concrete example. My cat now jumps on top of the couch arm when he \
+wants to play and he uses this behavior to communicate his desire to me. This \
+rule was not designed; rather it happened that randomly I started playing \
+with him after he jumped on the couch arm and he associated the two and then \
+trained me to follow through with it by acting indignant if I didn\
+\[CloseCurlyQuote]t play when he jumped up on the couch arm. Now that this \
+behavior has become meaningful, it looks like our past actions were primitive \
+attempts to send signals rather than random interactions.
+
+That is what happened in my mind. Anyway, over the weekend \
+I\[CloseCurlyQuote]ve started to develop a theory of mind. The stories \
+altered my mind each time I developed one and the result of that evolution \
+was to produce a mind that could conceive of my theory of mind.
+
+I was thinking about how I read that you can ask Tajikistan peasants \
+ridiculously simple hypothetical questions and they won\[CloseCurlyQuote]t be \
+able to answer, although they have a perfectly sophisticated knowledge of \
+concrete things in their world. It seemed necessary to conclude that a normal \
+human mind may develop without having learned abstract thought. Abstract \
+thought is possible with what we have, but not inevitable. I thought about \
+what kind of data structure would be capable of doing something that is not \
+abstract thought, but which could through normal operation develop abstract \
+thought.
+
+I was also thinking about learning language because of something I had just \
+wrote in my cryptoanarchy book. Babies would learn a language by listening to \
+the language input and detecting its structure by frequency analysis. It \
+would learn what kinds of sounds contained less information and which \
+contained more. This is basically what a compression algorithm does. It looks \
+for sequences in data that are repeated and compresses the data by replacing \
+those repeating sequences with references to a single instance. This same \
+strategy could be used to develop a data structure capable of detecting a \
+hierarchical structure which can analyse sentences on all levels of \
+structure: phonemes, syllables, words, phrases, and sentences. Context can \
+then give words meanings.
+
+I realized that the same method could be used not just with language, but \
+with experience in general. One could attempt to use a compression algorithm \
+on ones own experience to establish meaningful observations and associate \
+them with appropriate actions.
+
+I\[CloseCurlyQuote]ll tell you more later. I need to get to sleep. I feel \
+like someone in ancient times who could only express himself in parables. It\
+\[CloseCurlyQuote]s very odd. I\[CloseCurlyQuote]m still developing the \
+concept. \
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["How psychoanalysis works.", "Subsubsection"],
+
+Cell["\<\
+The word for \[OpenCurlyDoubleQuote]one\[CloseCurlyDoubleQuote] in many \
+indo-european languages comes from the proto-indo-european word for \
+\[OpenCurlyDoubleQuote]finger\[CloseCurlyDoubleQuote]. \
+Doesn\[CloseCurlyQuote]t that seem crazy? Didn\[CloseCurlyQuote]t those \
+idiots know what a number is??
+
+When I need to count, I move my fingers in sequence. This allows me to count \
+up to ten. I also have the memory of moving fingers in my mind. And I have my \
+compression algorithm, which has been adapted to concept formation. The \
+compression algorithm attempts to find higher- and higher-order means of \
+describing my experience.
+
+Metaphors are the basic unit of the compression algorithm. If I can compare \
+two things to one another and develop ways of describing one in terms of \
+another, then I can compress my experience more efficiently and hone in on \
+more useful information hidden in it.
+
+My fingers are now a metaphor for that which I need to count. The memory of \
+the motion of the fingers in my mind allows me to treat things that come in \
+similar units as countable entities. If I can learn to use my fingers as \
+metaphors for a metaphorical hand, I can count up to 100. I have piped two \
+functions together which now enable me to think better than I could before.
+
+Now suppose that when I was first learning to count, my eighth finger was \
+damaged. All of my concepts for numbers have been adapted from \
+representations of body motions in my mind. I start counting without a native \
+concept for number, so when I reach 8, I can sill think about the wound in my \
+finger. 8 becomes an unlucky number for me because I naturally notice \
+anything that goes wrong around the number 8 than other numbers. That is \
+because the concepts for numbers are not native to my mind, but were adapted, \
+and they were not entirely separated from that which they grew out of.
+
+However, the process of concept formation, which I had used to create markers \
+in my mind that could serve to make my counting more sophisticated, comes to \
+my rescue. The relevant process is not analysis of the outside world, but of \
+my mind. I have concepts for one, two, three, and so on, but I have never \
+said a word for \[OpenCurlyDoubleQuote]number\[CloseCurlyDoubleQuote]. I am \
+confused because I can detect that my thoughts are less ordered they could \
+be. I tell myself stories about someone who goes insane because he can\
+\[CloseCurlyQuote]t stop counting higher and higher. I am providing myself \
+with new experiences by weaving stories. I am putting together some of my \
+ideas together in ways that make the most sense that I can, and in the \
+process I gain experience about how my compression algorithm works. I learn \
+what I think is important and relevant because those are the elements that \
+appear in my stories. Finally, my compression algorithm finds how to compress \
+its own functions. It finds a more general concept that helps to organize its \
+own activity--the number. I now have a name for what I have been thinking \
+about.
+
+I have now further removed my mathematical thinking from its visceral \
+origins. I can think theoretically about them and the pain on my finger is no \
+longer distorting my thoughts to the same degree.\
+\>", "Paragraph"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["How to Build a Mind", "Subsubsection"],
+
+Cell["\<\
+I had been thinking about a lot of confusing things for a long time. The \
+first was religion. I am so confused by religion. I don\[CloseCurlyQuote]t \
+understand how it can exist, how anyone can take it seriously how it\
+\[CloseCurlyQuote]s like human race is just inherently crazy. I kept \
+wondering what it was like to be religious so that I could finally understand \
+how it works in people, how they can apparently just not apply logic to \
+everything. That\[CloseCurlyQuote]s been going on for a while.
+
+I was also thinking about future people and what it would be like to be able \
+to engineer ones own mind. I was thinking about the singularity and what \
+would happen when people developed the ability to engineer their minds and \
+bodies. I concluded that they would probably outsource more functions of \
+their minds until they were nothing left and that intelligence would \
+effectively all fall apart as the singularity got underway. I wrote a story \
+about that. I was thinking about minds then, but I didn\[CloseCurlyQuote]t \
+think I\[CloseCurlyQuote]d actually come up with a theory of mind. It seemed \
+like too difficult of a problem, but my theory hinged on the mind being \
+understood, at least to some extent. Thinking about this provoked me into \
+thinking more deeply about the implications of a theory of mind, and this \
+alone prepared me with inklings of what such a theory would be like.
+
+I read a strange book called The Origin of Consciousness and the Breakdown of \
+the Bicameral Mind. This book propounds a very odd theory about how people \
+thought very differently in the past and in the earliest historic times would \
+not have had consciousness as we know it. I thought that the author\
+\[CloseCurlyQuote]s interpretation was odd but that the evidence he presented \
+was surprising and very much did suggest something different was going on in \
+peoples\[CloseCurlyQuote] minds in the past. An important feature of this \
+book is its musings on the development of human language and the importance \
+of metaphor in that process. All our abstract words grew out of bizarre \
+abstractions and generalizations of concrete words. For example, the english \
+word \[OpenCurlyDoubleQuote]be\[CloseCurlyDoubleQuote] comes from the same \
+root as the Sanskrit word \[OpenCurlyDoubleQuote]bhu\[CloseCurlyDoubleQuote], \
+meaning \[OpenCurlyDoubleQuote]to grow\[CloseCurlyDoubleQuote] and the \
+\[OpenCurlyDoubleQuote]is\[CloseCurlyDoubleQuote] and \
+\[OpenCurlyDoubleQuote]am\[CloseCurlyDoubleQuote] both come from the same \
+root as the Sanskrit \[OpenCurlyDoubleQuote]asmiy\[CloseCurlyDoubleQuote] \
+which means, \[OpenCurlyDoubleQuote]to breath\[CloseCurlyDoubleQuote]. I had \
+earlier attempted to create a fantasy language generator for use writing \
+fantasy novels, and I realized reading this book that I could not develop a \
+realistic language evolution simulator without a metaphor generator. I had no \
+idea how a metaphor generator would work and it would surely require more \
+information to work correctly to be worthwhile for my project, but that got \
+me thinking about the idea of a realistic metaphor generator and how it could \
+work.
+
+A theme of ignorance and learning appeared in a number of the stories I had \
+described during this period. Some had been about people who grew to be new \
+people, and some where about people looking into the ignorance of their past \
+and coming to know it again. I think that is what I was going to do, is to \
+reconnect with a prior state of ignorance so as to glimpse what I am ignorant \
+of today.
+
+Furthermore, during this time I had several experiences with empathy. This \
+helped to focus my thoughts on something on which I was ignorant. I thought \
+about my ignorance of what it was like to be other people, and how much I \
+wanted to learn what other experiences were like. Of course, the best way to \
+learn how to empathize generally would be to have a theory of mind. I didn\
+\[CloseCurlyQuote]t see that at the time, but now it seems obvious. If you \
+had a general theory of mind that you could apply to yourself, you could use \
+it to tell yourself how to change your mind in order to be like someone else\
+\[CloseCurlyQuote]s. A general theory of mind would necessarily mean an \
+expansion of human empathy.
+
+One other thing that stands out in my memory was how Lemon developed a way of \
+telling me that he wants to play. At some point, just by coincidence, I must \
+have started playing with him while he was sitting on the arm of my couch. He \
+noticed a pattern there where there really was none, and then began to move \
+to sit on the couch arm when he wanted to play. When I \
+didn\[CloseCurlyQuote]t play, he meowed and acted like he was annoyed and \
+wanted something. When I started playing, he shut up and had fun. Soon I \
+learned that when he jumped on the couch arm, he wanted to play. We had \
+trained each other by accident. This was spontaneous order. It was something \
+meaningful which was not meaningful before. Lemon could now \
+\[OpenCurlyDoubleQuote]talk\[CloseCurlyDoubleQuote] to me, in his own way.
+
+Then two things set me off the other day to set me in the right direction. \
+There were some things in my mind that set me on track of where I ended up. I \
+read this thing about how Tajikistan peasants have a sophisticated local \
+botanical knowledge and so on but they have trouble answering very simple \
+hypothetical questions. This made me think back to earlier instances of \
+surprising ignorance that I had read about. For example, the Pythagoreans \
+were some of the first mathematicians and they thought that four was \
+identical with justice. That clearly is nonsensical. How could they have been \
+doing math, yet somehow still have acted as if they were just creating \
+another silly Greek mystery religion? I thought very hard about how much \
+things seem obvious in retrospect and how people are not able to experience \
+their own prior state of ignorance and utterly forget what it was like. Maybe \
+even the basic building blocks of logical thought, like \
+\[OpenCurlyQuote]relation\[CloseCurlyQuote] or \[OpenCurlyQuote]number\
+\[CloseCurlyQuote] were only obvious in retrospect. I wondered just what that \
+prior state of ignorance would be like.
+
+The other thing was that I read a paper on the entropy of various written \
+languages as research for my cryptoanarchy book. The payer compared \
+translations of the Bible in several different languages and hypothesized \
+that a compression algorithm should compress all translations of the bible to \
+files of a similar length even though before compression they were different \
+lengths. The paper\[CloseCurlyQuote]s data supported the hypothesis. This \
+made a lot of sense because the whole point of compression is to remove \
+redundancy in the file, to detect parts of the file that are repetitive or \
+which can otherwise be describe in terms of an overarching principle. The \
+file that remained if it were perfectly compressed, would contain the actual \
+information content of the message and nothing extra.
+
+I wrote about this in my book as a way to explain why human messages are \
+always of a low-to-medium entropy rather than high entropy. I used the \
+example of text in human languages and showed how they were far from \
+maximally entropic. Then I wrote, \[OpenCurlyDoubleQuote]This is how a baby \
+can learn a language when it has never heard language before.\
+\[CloseCurlyDoubleQuote] I then described how the baby looks for redundancies \
+in the human language it hears and soon begins to separate the language into \
+a series of atomic sounds. I thought about that again, and I realized that \
+once the baby had done this, the sounds themselves could be analysed further \
+to group the sounds into higher units. A baby who was paying attention could \
+very well understand the syllabic structure of a language by the same \
+process, and from there learn the word structure, the phrase structure, and \
+the sentence structure, purely by searching for redundancies in the message.
+
+But how exactly would you search for redundancies in the message? This was \
+days later, but once I asked that question I at once realized that the baby \
+would have something in its mind that worked like the compression algorithm \
+described in the paper. The compression algorithm would search for identical \
+items in the stream so as to compress them out, so as to focus on the more \
+meaningful parts of the message. It would develop a kind of hierarchical data \
+structure that would represent the levels of structure of the language. \
+Furthermore, if it were a lossy form of compression (meaning that it is \
+allowed to drop some information, like a jpeg file format), there would be \
+value in looking for similarities and representing things as classes of \
+similar items. The compressor would end up with something like concepts. 
+
+I wrote in my cryptoanarchy book that the babies would learn the first \
+meanings of words by the context, but I continued thinking about that and I \
+wondered just how that would work. I soon realized that this would work the \
+same way, only the compression algorithm must be applied to all of the baby\
+\[CloseCurlyQuote]s experience rather than just the sounds of the words. The \
+word \[OpenCurlyQuote]ball\[CloseCurlyQuote] connected to the experience of \
+balls would be a new item that appeared more often than random in the baby\
+\[CloseCurlyQuote]s experience, and it could therefore be used as a concept \
+to describe its experience. Hence the algorithm would ultimately have a data \
+structure grow in it that correctly interpreted the meaning of the words and \
+the grammatical structure of the language. This was remarkable. I knew how to \
+make a computer understand English, given enough of the right experience. I \
+had imagined something that could generate a high-level description of any \
+data given to it, just like the sort of data contained in human writing.
+
+I began to think further what might happen if there was such a compression \
+algorithm and some experience it could work on, and I thought, \
+\[OpenCurlyDoubleQuote]What if, somehow, one of the data structures used in \
+the understanding of language turned out to be useful in another context? \
+That would If something like this would indeed happen if the compression \
+algorithm were applied not only to its experience, but to its own set of data \
+structures. It would then be able to recognize that similar compression rules \
+in different contexts could be associated with one another to save space in \
+its own thoughts. It would begin to develop rules that would extract meaning \
+from its own computation, as if that computation were itself a language, just \
+like that which its parents taught it. Its own series of data analysis would \
+be treated as a meaningful hidden message, if only it could be deciphered.
+
+If the compression algorithm were applied to the compression algorithm\
+\[CloseCurlyQuote]s own data structure, then the algorithm would generate a \
+high-level description of its own process and of itself. Furthermore, I \
+already knew that there cannot be a perfect compression algorithm because the \
+perfect compression would be an NP problem. It would have to work by \
+continually testing new associations and could not work as well by being \
+hard-coded. It sounds very much like it was conscious.
+
+This thing would naturally think in terms of metaphor because it would begin \
+with no means of thought other than linking two categories together which \
+derived from experience. If it observed that tomatos are round and red, and \
+the sun is round and red, it could tentatively attempt to describe \
+experiences with the sun in terms of its tomato concept and vice versa so as \
+to see if it could further compress its experience by using such a category. \
+That is a metaphor. This data structure I have described sounds like it would \
+act exactly like metaphors do in our minds, and I think it explains why early \
+cultures seemed only able to describe their experience in terms of mythology, \
+even every-day things. Metaphor was the basic tool they had to think with, \
+and it was the basic means of theorizing about the world. They really could \
+have been without abstract thought at all. To a compression algorithm, \
+metaphors are natural. The fact that a sun and a tomato seem metaphysically \
+so different from one another would not mean anything to it. If it was able \
+to run more efficiently by linking them together in a category, it would.
+
+I\[CloseCurlyQuote]m finally able to express this idea in words. Before they \
+were just pictures and intuitions. I already sent several rambling letters to \
+another friend about this, but the last six paragraphs I was not able to put \
+into words until now. It\[CloseCurlyQuote]s been such a strange experience. I \
+really DID feel ignorant as it was happening. I empathized with someone \
+ignorant, and that person was me, and I did it by finally focusing my mind on \
+what I had been missing for so long, which was an understanding of the very \
+process I was going through. The act of empathizing with ignorance showed me \
+my ignorance. It was a gradual awakening, but once I was able to confront it, \
+it was defeated because its form was, itself, the missing knowledge that I \
+sought.
+
+That last paragraph may sound crazy, but maybe I\[CloseCurlyQuote]ll be \
+better able to put it into words soon. The amazing thing was that I really \
+felt like I was someone in the past, someone who lacked a concept which one \
+day everyone would have learned at such a young age that they cannot imagine \
+lacking it. I felt like Aesop, who could only express his ideas in fables but \
+who either could not himself make general statements about human nature or \
+could not expect his audience to expect such things. I felt like Herodotus \
+attempting to write his history and ethnography before those words existed. \
+Originally, \[OpenCurlyDoubleQuote]historia\[CloseCurlyDoubleQuote] just \
+meant \[OpenCurlyDoubleQuote]inquiry\[CloseCurlyDoubleQuote]. I also recalled \
+the early pre-Socratics and the extremely awkward way they attempted to \
+describe the national world without precise words for forces or motion and \
+such. I felt like that. I knew something that I could not express \
+conceptually. I told stories about themes that confused me, and thereby \
+gained vicarious experience in them. I\[CloseCurlyQuote]m still doing that \
+now with you, but now the story is about myself. The stories provided further \
+data for compression by my compression algorithm. It began to develop rules \
+about the meaning of ignorance and learning and gradually developed a concept \
+able to explain the stories I told to it: and that was itself.
+
+It seemed to explain a lot about stupidity. It explained how ignorance could \
+be as deep as was apparently possible. A species with a compression algorithm \
+like the one I had described, might begin with almost nothing and still be \
+capable of achieving a lot with very little that was innately programmed in. \
+(This is not to say that real humans are \[OpenCurlyDoubleQuote]blank slates\
+\[CloseCurlyDoubleQuote] at birth. It is important from a philosophical \
+standpoint that this can all be built up from very little, but in the real \
+world you would expect evolution to help out a little bit with the learning.) \
+There was already the example of language that I described previously. \
+Language would develop from nothing out of many experiences like that which I \
+had with Lemon. It should develop a grammar automatically because the same \
+process can create meaning on any structural level in the signals being \
+exchanged, just as learn patterns in any level of structure of the language \
+presented to it. Then there was the development of mythology, which I \
+described above. I had wondered how mythology could appear so wonderful, so \
+full of meaning and constructed out of such poignant metaphors when ancient \
+people were simultaneously so surprisingly unsophisticated. I think I have an \
+explanation.
+
+I then began to think about how someone could develop rational thought under \
+these circumstances. How could a construct of random metaphors be constructed \
+into something like a rule of logic? I thought about how the word for \
+\[OpenCurlyDoubleQuote]one\[CloseCurlyDoubleQuote] in many indo-european \
+languages developed from the word in proto-Indo-European for \
+\[OpenCurlyDoubleQuote]finger\[CloseCurlyDoubleQuote]. A creature that was \
+able to move its fingers in sequence might learn to count if it had occasion \
+to. Suppose the creature happened to  move its fingers as it stacked fruits \
+in its den (or whatever). Its compression algorithm would randomly attempt to \
+compress its experience by using its finger motions as a metaphor for the \
+fruit. Eventually, it might learn that the metaphor worked best, with the \
+greatest degree of compression, if it maintained one finger-motion per fruit. \
+It then begins naturally to move its fingers in sequence to count fruit \
+because this action makes its experience more compressable, more easily \
+characterized. At this point it does not know how to count beyond 10 and it \
+has no words for any number other than those words it uses to describe its \
+own fingers. However, it can learn to count higher if it begins to use a \
+finger as a metaphor for another hand. It can then count to 100. It now has \
+two kinds of numbers that it can use: those which are counted on fingers, and \
+those which are counted on fingers counting on fingers. The fact of having \
+different kinds of numbers becomes now provides an avenue for the abstraction \
+of \[OpenCurlyDoubleQuote]number\[CloseCurlyDoubleQuote] into its own \
+concept. Furthermore, if it must begin to count higher than 100, it will need \
+to think of hands counting hands counting things, and this eventually \
+provides a rout to the abstraction of the concept of a digit and thus to \
+begin thinking generally about numbers. Furthermore, it may also discover a \
+regulative role of numerical operations. Its experience can be more deeply \
+compressed when its numerical operations obey rules. If 3 + 5 sometimes \
+equals 8 and sometimes 7 or 9, then that is a far less compressible \
+experience then one in which 3 + 5 always equals 8.
+
+The same could explain the development of all logical reasoning. Once it \
+began to hear the first attempts at rational arguments, it can begin telling \
+itself things that are like stories, only they are no longer random myths, \
+but random sequences of claims. The vicarious experience it would gain this \
+way would ultimately not only be the categorization of arguments into valid \
+and invalid, but the regulative principle that prefers the valid over the \
+invalid, owing to the greater compressibility of experience that it allows.
+
+My theory explained a lot. Had I actually made progress on a centuries-old \
+philosophical problem? It explained how I could be rational and yet so many \
+others were not, and especially about how horribly stupid people were in the \
+past. This also explained some of the crazy stuff I had been reading about \
+psychoanalysis and about how peoples\[CloseCurlyQuote] early relationships \
+serve as models for their later ones, and how early memories can deeply \
+affect someone without their knowing why, or even recalling the original \
+memory. It explains why the psychotherapy, the talking cure, can help me. It \
+was exactly the process of learning and abstraction that I had described with \
+numbers. An old experience works as the model for an abstract category that \
+has not yet been fully named. Stories can help the mind to extract the \
+category from that experience and think about it rationally. Once the \
+category has been described explicitly, once it can be talked about \
+abstractly and thought about abstractly, then it has been separated from the \
+bad experience that made in painful later on.
+
+Furthermore, it explains the curious connection I had seen between recovery \
+from PTSD and the process of individuation, as described by Karl Jung. They \
+are the same. The recovery from PTSD is as I described above. As for \
+individuation, the compression algorithm I had imagined would be difficult to \
+characterize, just like the natural world and languages, for whose \
+characterization I had originally imagined it to act upon. If it acted upon \
+itself, it would soon come up with metaphorical characterizations of itself. \
+It would begin to state rough rules to characterize its own responses. It \
+would present higher- and higher-level descriptions of who it is and what \
+makes it happy. I am still trying to learn how to describe its happiness in \
+terms of the most basic ideas in behaviorism, but I am not quite there yet. \
+Anyway, the more it can describe its own happiness, the more it can become \
+happy. And it is by learning the details of its own idiosyncrasies, coming to \
+terms with its own individuality, that happiness is possible. Aristotle was \
+right about happiness all along.
+
+Finally, this all seemed to provide an answer to a question that had confused \
+me for some time. Would extraterrestrial intelligent life like to tell \
+stories, like humans do? Humans are often characterized as story-telling \
+animals, but was this really something special to humans? And if aliens did \
+tell stories, what kinds of stories would they tell? In my theory, I also had \
+a way to explain how story-telling is beneficial to thought, which I had \
+experienced myself as I learned about it. If there is a process in your mind \
+which provides you with intuitive thought about something, but which you \
+cannot yet articulate in words, it is a process that has not yet been \
+sufficiently \[OpenCurlyDoubleQuote]compressed\[CloseCurlyDoubleQuote] so as \
+to be described in terms of smaller meaningful elements. By telling stories, \
+I can use that process that is not yet a conscious thought. I can provide \
+myself with extra vicarious experience of using the thought so that it can be \
+put in context and from there brought into conscious thought. But according \
+to my theory, a simple learning process like that which I had described was \
+inherently capable of learning by telling itself stories. I don\
+\[CloseCurlyQuote]t think I am able to say this totally convincingly yet, but \
+I think that any intelligence ought to work similarly to what I had \
+described. Therefore, I think that it is likely that an extraterrestrial race \
+really would tell stories, although their themes might be quite different.
+
+Ok there you go. That\[CloseCurlyQuote]s what I figured out. I hope that \
+doesn\[CloseCurlyQuote]t sound too crazy! I know this might sound a little \
+far out, even for me, but before I have always been so articulate about what \
+I know, and this is the first time in a long time that I have felt so \
+inarticulate about something. I have achieved a state of conscious ignorance. \
+I feel like an enlightened baby. I\[CloseCurlyQuote]m really teaching myself \
+something, just like I would have had to have done again and again when I was \
+a baby! There are a few things I want to do still, and one of them, as I said \
+is to describe happiness. Another main one is to describe a train-of-thought \
+that seems similar enough to my experience of it. The last item on my list is \
+to describe the development of hypothetical reasoning more clearly. \
+\>", "Paragraph"]
 }, Closed]]
 }, Open  ]]
 }, Open  ]],
@@ -43,6 +682,20 @@ Cell["", "Paragraph"]
 Cell[CellGroupData[{
 
 Cell["Version 1", "Section"],
+
+Cell[BoxData[
+ RowBox[{"FindCellContext", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.6048420935027637`*^9, 3.604842094342924*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FindCellChangeTimes", "[", "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"Subsubsubsection\"\>", "}"}]], "Output",
+ CellChangeTimes->{3.604841980459306*^9}]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -94,7 +747,7 @@ Cell["", "Paragraph"]
 
 Cell[CellGroupData[{
 
-Cell["Engineering", "Subsection"],
+Cell["Computer Science", "Subsection"],
 
 Cell[CellGroupData[{
 
@@ -119,6 +772,39 @@ Cell["", "Paragraph"]
 Cell[CellGroupData[{
 
 Cell["Mythology", "Subsection"],
+
+Cell[CellGroupData[{
+
+Cell["Divination", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Symbolism", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Criticism", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Individuation", "Subsubsection"],
+
+Cell["", "Paragraph"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Technology", "Subsection"],
 
 Cell[CellGroupData[{
 
@@ -2179,838 +2865,886 @@ Cell[CellGroupData[{
 Cell[701, 31, 39, 0, 85, "Subsection"],
 Cell[CellGroupData[{
 Cell[765, 35, 37, 0, 77, "Subsubsection"],
-Cell[805, 37, 21, 0, 84, "Paragraph"]
+Cell[805, 37, 21, 0, 56, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[863, 42, 71, 2, 48, "Subsubsection"],
+Cell[937, 46, 4100, 64, 2161, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[5074, 115, 41, 0, 48, "Subsubsection"],
+Cell[5118, 117, 900, 16, 544, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[6055, 138, 38, 0, 48, "Subsubsection"],
+Cell[6096, 140, 4169, 65, 2344, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[10302, 210, 74, 2, 48, "Subsubsection"],
+Cell[10379, 214, 3550, 57, 1947, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[13966, 276, 50, 0, 48, "Subsubsection"],
+Cell[14019, 278, 3292, 53, 1795, "Paragraph"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[17348, 336, 44, 0, 48, "Subsubsection"],
+Cell[17395, 338, 23604, 338, 11768, "Paragraph"]
 }, Closed]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[887, 44, 28, 0, 95, "Section"],
+Cell[41060, 683, 28, 0, 95, "Section"],
+Cell[41091, 685, 131, 2, 45, "Input"],
 Cell[CellGroupData[{
-Cell[940, 48, 40, 0, 85, "Subsection"],
+Cell[41247, 691, 67, 1, 45, "Input"],
+Cell[41317, 694, 115, 2, 67, "Output"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[1005, 52, 25, 0, 77, "Subsubsection"],
-Cell[1033, 54, 21, 0, 84, "Paragraph"]
+Cell[41469, 701, 40, 0, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[41534, 705, 25, 0, 77, "Subsubsection"],
+Cell[41562, 707, 21, 0, 84, "Paragraph"]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1103, 60, 40, 0, 56, "Subsection"],
+Cell[41632, 713, 40, 0, 56, "Subsection"],
 Cell[CellGroupData[{
-Cell[1168, 64, 25, 0, 115, "Subsubsection"],
-Cell[1196, 66, 21, 0, 84, "Paragraph"]
+Cell[41697, 717, 25, 0, 115, "Subsubsection"],
+Cell[41725, 719, 21, 0, 84, "Paragraph"]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1266, 72, 36, 0, 56, "Subsection"],
+Cell[41795, 725, 36, 0, 56, "Subsection"],
 Cell[CellGroupData[{
-Cell[1327, 76, 25, 0, 115, "Subsubsection"],
-Cell[1355, 78, 21, 0, 84, "Paragraph"]
+Cell[41856, 729, 25, 0, 115, "Subsubsection"],
+Cell[41884, 731, 21, 0, 84, "Paragraph"]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1425, 84, 31, 0, 56, "Subsection"],
+Cell[41954, 737, 31, 0, 56, "Subsection"],
 Cell[CellGroupData[{
-Cell[1481, 88, 25, 0, 115, "Subsubsection"],
-Cell[1509, 90, 21, 0, 84, "Paragraph"]
+Cell[42010, 741, 25, 0, 115, "Subsubsection"],
+Cell[42038, 743, 21, 0, 84, "Paragraph"]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1579, 96, 33, 0, 56, "Subsection"],
+Cell[42108, 749, 38, 0, 56, "Subsection"],
 Cell[CellGroupData[{
-Cell[1637, 100, 25, 0, 115, "Subsubsection"],
-Cell[1665, 102, 21, 0, 84, "Paragraph"]
+Cell[42171, 753, 25, 0, 115, "Subsubsection"],
+Cell[42199, 755, 21, 0, 84, "Paragraph"]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1735, 108, 40, 0, 56, "Subsection"],
+Cell[42269, 761, 40, 0, 56, "Subsection"],
 Cell[CellGroupData[{
-Cell[1800, 112, 25, 0, 115, "Subsubsection"],
-Cell[1828, 114, 21, 0, 84, "Paragraph"]
+Cell[42334, 765, 25, 0, 115, "Subsubsection"],
+Cell[42362, 767, 21, 0, 84, "Paragraph"]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[1898, 120, 31, 0, 56, "Subsection"],
+Cell[42432, 773, 31, 0, 56, "Subsection"],
 Cell[CellGroupData[{
-Cell[1954, 124, 25, 0, 115, "Subsubsection"],
-Cell[1982, 126, 21, 0, 84, "Paragraph"]
+Cell[42488, 777, 35, 0, 77, "Subsubsection"],
+Cell[42526, 779, 21, 0, 56, "Paragraph"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42584, 784, 34, 0, 77, "Subsubsection"],
+Cell[42621, 786, 21, 0, 56, "Paragraph"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42679, 791, 34, 0, 77, "Subsubsection"],
+Cell[42716, 793, 21, 0, 56, "Paragraph"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42774, 798, 38, 0, 77, "Subsubsection"],
+Cell[42815, 800, 21, 0, 56, "Paragraph"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[42885, 806, 32, 0, 56, "Subsection"],
+Cell[CellGroupData[{
+Cell[42942, 810, 25, 0, 115, "Subsubsection"],
+Cell[42970, 812, 21, 0, 84, "Paragraph"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2076, 134, 44, 1, 133, "Title"],
+Cell[43064, 820, 44, 1, 133, "Title"],
 Cell[CellGroupData[{
-Cell[2145, 139, 28, 0, 95, "Section"],
+Cell[43133, 825, 28, 0, 95, "Section"],
 Cell[CellGroupData[{
-Cell[2198, 143, 150, 2, 64, "Subsubsubsection"],
+Cell[43186, 829, 150, 2, 64, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[2373, 149, 38, 0, 57, "Item"],
-Cell[2414, 151, 34, 0, 52, "Subitem"],
-Cell[2451, 153, 59, 0, 51, "Subsubitem"],
-Cell[2513, 155, 122, 3, 91, "Subsubitem"],
-Cell[2638, 160, 42, 0, 52, "Subitem"],
-Cell[2683, 162, 82, 1, 51, "Subsubitem"],
-Cell[2768, 165, 44, 0, 52, "Subitem"],
-Cell[2815, 167, 31, 0, 51, "Subsubitem"],
-Cell[2849, 169, 26, 0, 52, "Subitem"],
-Cell[2878, 171, 53, 0, 51, "Subsubitem"],
-Cell[2934, 173, 27, 0, 57, "Item"],
-Cell[2964, 175, 31, 0, 52, "Subitem"],
-Cell[2998, 177, 34, 0, 51, "Subsubitem"],
-Cell[3035, 179, 31, 0, 51, "Subsubitem"],
-Cell[3069, 181, 44, 0, 52, "Subitem"],
-Cell[3116, 183, 106, 2, 91, "Subsubitem"],
-Cell[3225, 187, 38, 0, 52, "Subitem"],
-Cell[3266, 189, 63, 0, 51, "Subsubitem"],
-Cell[3332, 191, 101, 2, 91, "Subsubitem"],
-Cell[3436, 195, 27, 0, 57, "Item"],
-Cell[3466, 197, 55, 0, 52, "Subitem"],
-Cell[3524, 199, 27, 0, 52, "Subitem"],
-Cell[3554, 201, 55, 0, 52, "Subitem"],
-Cell[3612, 203, 30, 0, 51, "Subsubitem"],
-Cell[3645, 205, 32, 0, 51, "Subsubitem"],
-Cell[3680, 207, 36, 0, 51, "Subsubitem"],
-Cell[3719, 209, 30, 0, 51, "Subsubitem"],
-Cell[3752, 211, 40, 0, 51, "Subsubitem"],
-Cell[3795, 213, 53, 0, 52, "Subitem"],
-Cell[3851, 215, 45, 0, 57, "Item"],
-Cell[3899, 217, 44, 0, 52, "Subitem"],
-Cell[3946, 219, 38, 0, 52, "Subitem"],
-Cell[3987, 221, 45, 0, 52, "Subitem"],
-Cell[4035, 223, 45, 0, 52, "Subitem"],
-Cell[4083, 225, 48, 0, 52, "Subitem"],
-Cell[4134, 227, 31, 0, 57, "Item"],
-Cell[4168, 229, 63, 0, 52, "Subitem"],
-Cell[4234, 231, 25, 0, 52, "Subitem"],
-Cell[4262, 233, 30, 0, 52, "Subitem"],
-Cell[4295, 235, 30, 0, 57, "Item"],
-Cell[4328, 237, 19, 0, 52, "Subitem"],
-Cell[4350, 239, 34, 0, 57, "Item"],
-Cell[4387, 241, 47, 0, 52, "Subitem"],
-Cell[4437, 243, 41, 0, 52, "Subitem"],
-Cell[4481, 245, 42, 0, 57, "Item"],
-Cell[4526, 247, 61, 0, 52, "Subitem"],
-Cell[4590, 249, 48, 0, 52, "Subitem"],
-Cell[4641, 251, 41, 0, 52, "Subitem"],
-Cell[4685, 253, 37, 0, 57, "Item"],
-Cell[4725, 255, 39, 0, 52, "Subitem"],
-Cell[4767, 257, 36, 0, 52, "Subitem"],
-Cell[4806, 259, 46, 0, 57, "Item"],
-Cell[4855, 261, 34, 0, 52, "Subitem"],
-Cell[4892, 263, 118, 3, 91, "Subitem"],
-Cell[5013, 268, 27, 0, 57, "Item"],
-Cell[5043, 270, 48, 0, 57, "Item"],
-Cell[5094, 272, 40, 0, 52, "Subitem"],
-Cell[5137, 274, 126, 3, 91, "Subsubitem"],
-Cell[5266, 279, 52, 0, 52, "Subitem"],
-Cell[5321, 281, 136, 3, 91, "Subsubitem"],
-Cell[5460, 286, 55, 0, 51, "Subsubitem"],
-Cell[5518, 288, 49, 0, 52, "Subitem"],
-Cell[5570, 290, 96, 2, 51, "Subsubitem"],
-Cell[5669, 294, 32, 0, 57, "Item"],
-Cell[5704, 296, 26, 0, 52, "Subitem"],
-Cell[5733, 298, 28, 0, 52, "Subitem"],
-Cell[5764, 300, 62, 0, 57, "Item"],
-Cell[5829, 302, 46, 0, 52, "Subitem"],
-Cell[5878, 304, 117, 3, 91, "Subsubitem"],
-Cell[5998, 309, 129, 3, 91, "Subsubitem"],
-Cell[6130, 314, 150, 3, 91, "Subsubitem"],
-Cell[6283, 319, 38, 0, 52, "Subitem"],
-Cell[6324, 321, 47, 0, 51, "Subsubitem"],
-Cell[6374, 323, 35, 0, 52, "Subitem"],
-Cell[6412, 325, 202, 4, 130, "Subsubitem"],
-Cell[6617, 331, 34, 0, 52, "Subitem"],
-Cell[6654, 333, 28, 0, 51, "Subsubitem"],
-Cell[6685, 335, 53, 0, 52, "Subitem"],
-Cell[6741, 337, 95, 2, 51, "Subsubitem"]
+Cell[43361, 835, 38, 0, 57, "Item"],
+Cell[43402, 837, 34, 0, 52, "Subitem"],
+Cell[43439, 839, 59, 0, 51, "Subsubitem"],
+Cell[43501, 841, 122, 3, 91, "Subsubitem"],
+Cell[43626, 846, 42, 0, 52, "Subitem"],
+Cell[43671, 848, 82, 1, 51, "Subsubitem"],
+Cell[43756, 851, 44, 0, 52, "Subitem"],
+Cell[43803, 853, 31, 0, 51, "Subsubitem"],
+Cell[43837, 855, 26, 0, 52, "Subitem"],
+Cell[43866, 857, 53, 0, 51, "Subsubitem"],
+Cell[43922, 859, 27, 0, 57, "Item"],
+Cell[43952, 861, 31, 0, 52, "Subitem"],
+Cell[43986, 863, 34, 0, 51, "Subsubitem"],
+Cell[44023, 865, 31, 0, 51, "Subsubitem"],
+Cell[44057, 867, 44, 0, 52, "Subitem"],
+Cell[44104, 869, 106, 2, 91, "Subsubitem"],
+Cell[44213, 873, 38, 0, 52, "Subitem"],
+Cell[44254, 875, 63, 0, 51, "Subsubitem"],
+Cell[44320, 877, 101, 2, 91, "Subsubitem"],
+Cell[44424, 881, 27, 0, 57, "Item"],
+Cell[44454, 883, 55, 0, 52, "Subitem"],
+Cell[44512, 885, 27, 0, 52, "Subitem"],
+Cell[44542, 887, 55, 0, 52, "Subitem"],
+Cell[44600, 889, 30, 0, 51, "Subsubitem"],
+Cell[44633, 891, 32, 0, 51, "Subsubitem"],
+Cell[44668, 893, 36, 0, 51, "Subsubitem"],
+Cell[44707, 895, 30, 0, 51, "Subsubitem"],
+Cell[44740, 897, 40, 0, 51, "Subsubitem"],
+Cell[44783, 899, 53, 0, 52, "Subitem"],
+Cell[44839, 901, 45, 0, 57, "Item"],
+Cell[44887, 903, 44, 0, 52, "Subitem"],
+Cell[44934, 905, 38, 0, 52, "Subitem"],
+Cell[44975, 907, 45, 0, 52, "Subitem"],
+Cell[45023, 909, 45, 0, 52, "Subitem"],
+Cell[45071, 911, 48, 0, 52, "Subitem"],
+Cell[45122, 913, 31, 0, 57, "Item"],
+Cell[45156, 915, 63, 0, 52, "Subitem"],
+Cell[45222, 917, 25, 0, 52, "Subitem"],
+Cell[45250, 919, 30, 0, 52, "Subitem"],
+Cell[45283, 921, 30, 0, 57, "Item"],
+Cell[45316, 923, 19, 0, 52, "Subitem"],
+Cell[45338, 925, 34, 0, 57, "Item"],
+Cell[45375, 927, 47, 0, 52, "Subitem"],
+Cell[45425, 929, 41, 0, 52, "Subitem"],
+Cell[45469, 931, 42, 0, 57, "Item"],
+Cell[45514, 933, 61, 0, 52, "Subitem"],
+Cell[45578, 935, 48, 0, 52, "Subitem"],
+Cell[45629, 937, 41, 0, 52, "Subitem"],
+Cell[45673, 939, 37, 0, 57, "Item"],
+Cell[45713, 941, 39, 0, 52, "Subitem"],
+Cell[45755, 943, 36, 0, 52, "Subitem"],
+Cell[45794, 945, 46, 0, 57, "Item"],
+Cell[45843, 947, 34, 0, 52, "Subitem"],
+Cell[45880, 949, 118, 3, 91, "Subitem"],
+Cell[46001, 954, 27, 0, 57, "Item"],
+Cell[46031, 956, 48, 0, 57, "Item"],
+Cell[46082, 958, 40, 0, 52, "Subitem"],
+Cell[46125, 960, 126, 3, 91, "Subsubitem"],
+Cell[46254, 965, 52, 0, 52, "Subitem"],
+Cell[46309, 967, 136, 3, 91, "Subsubitem"],
+Cell[46448, 972, 55, 0, 51, "Subsubitem"],
+Cell[46506, 974, 49, 0, 52, "Subitem"],
+Cell[46558, 976, 96, 2, 51, "Subsubitem"],
+Cell[46657, 980, 32, 0, 57, "Item"],
+Cell[46692, 982, 26, 0, 52, "Subitem"],
+Cell[46721, 984, 28, 0, 52, "Subitem"],
+Cell[46752, 986, 62, 0, 57, "Item"],
+Cell[46817, 988, 46, 0, 52, "Subitem"],
+Cell[46866, 990, 117, 3, 91, "Subsubitem"],
+Cell[46986, 995, 129, 3, 91, "Subsubitem"],
+Cell[47118, 1000, 150, 3, 91, "Subsubitem"],
+Cell[47271, 1005, 38, 0, 52, "Subitem"],
+Cell[47312, 1007, 47, 0, 51, "Subsubitem"],
+Cell[47362, 1009, 35, 0, 52, "Subitem"],
+Cell[47400, 1011, 202, 4, 130, "Subsubitem"],
+Cell[47605, 1017, 34, 0, 52, "Subitem"],
+Cell[47642, 1019, 28, 0, 51, "Subsubitem"],
+Cell[47673, 1021, 53, 0, 52, "Subitem"],
+Cell[47729, 1023, 95, 2, 51, "Subsubitem"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6885, 345, 30, 0, 127, "Subsection"],
+Cell[47873, 1031, 30, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[6940, 349, 32, 0, 2147483647, "Subsubsection"],
-Cell[6975, 351, 21, 0, 2147483647, "Paragraph"]
+Cell[47928, 1035, 32, 0, 2147483647, "Subsubsection"],
+Cell[47963, 1037, 21, 0, 2147483647, "Paragraph"]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[7045, 357, 44, 0, 84, "Subsection"],
+Cell[48033, 1043, 44, 0, 84, "Subsection"],
 Cell[CellGroupData[{
-Cell[7114, 361, 51, 0, 115, "Subsubsection"],
-Cell[7168, 363, 300, 5, 2147483647, "Paragraph"]
+Cell[48102, 1047, 51, 0, 115, "Subsubsection"],
+Cell[48156, 1049, 300, 5, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[7505, 373, 36, 0, 72, "Subsubsection"],
-Cell[7544, 375, 21, 0, 2147483647, "Paragraph"]
+Cell[48493, 1059, 36, 0, 72, "Subsubsection"],
+Cell[48532, 1061, 21, 0, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[7602, 380, 37, 0, 72, "Subsubsection"],
+Cell[48590, 1066, 37, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[7664, 384, 31, 0, 2147483647, "Subitem"],
-Cell[7698, 386, 34, 0, 2147483647, "Subsubitem"],
-Cell[7735, 388, 31, 0, 2147483647, "Subsubitem"]
+Cell[48652, 1070, 31, 0, 2147483647, "Subitem"],
+Cell[48686, 1072, 34, 0, 2147483647, "Subsubitem"],
+Cell[48723, 1074, 31, 0, 2147483647, "Subsubitem"]
 }, Open  ]],
-Cell[7781, 391, 21, 0, 2147483647, "Paragraph"]
+Cell[48769, 1077, 21, 0, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[7839, 396, 36, 0, 72, "Subsubsection"],
-Cell[7878, 398, 21, 0, 2147483647, "Paragraph"]
+Cell[48827, 1082, 36, 0, 72, "Subsubsection"],
+Cell[48866, 1084, 21, 0, 2147483647, "Paragraph"]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7948, 404, 41, 0, 127, "Subsection"],
+Cell[48936, 1090, 41, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[8014, 408, 36, 0, 115, "Subsubsection"],
-Cell[8053, 410, 137, 3, 2147483647, "Paragraph"],
-Cell[8193, 415, 92, 2, 2147483647, "Paragraph"]
+Cell[49002, 1094, 36, 0, 115, "Subsubsection"],
+Cell[49041, 1096, 137, 3, 2147483647, "Paragraph"],
+Cell[49181, 1101, 92, 2, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[8322, 422, 38, 0, 72, "Subsubsection"],
-Cell[8363, 424, 21, 0, 2147483647, "Paragraph"]
+Cell[49310, 1108, 38, 0, 72, "Subsubsection"],
+Cell[49351, 1110, 21, 0, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[8421, 429, 54, 0, 72, "Subsubsection"],
-Cell[8478, 431, 21, 0, 2147483647, "Paragraph"]
+Cell[49409, 1115, 54, 0, 72, "Subsubsection"],
+Cell[49466, 1117, 21, 0, 2147483647, "Paragraph"]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8548, 437, 31, 0, 127, "Subsection"],
+Cell[49536, 1123, 31, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[8604, 441, 48, 0, 115, "Subsubsection"],
-Cell[8655, 443, 21, 0, 2147483647, "Paragraph"]
+Cell[49592, 1127, 48, 0, 115, "Subsubsection"],
+Cell[49643, 1129, 21, 0, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[8713, 448, 40, 0, 72, "Subsubsection"],
-Cell[8756, 450, 21, 0, 2147483647, "Paragraph"]
+Cell[49701, 1134, 40, 0, 72, "Subsubsection"],
+Cell[49744, 1136, 21, 0, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[8814, 455, 34, 0, 72, "Subsubsection"],
-Cell[8851, 457, 21, 0, 2147483647, "Paragraph"]
+Cell[49802, 1141, 34, 0, 72, "Subsubsection"],
+Cell[49839, 1143, 21, 0, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[8909, 462, 35, 0, 72, "Subsubsection"],
-Cell[8947, 464, 100, 2, 2147483647, "Paragraph"]
+Cell[49897, 1148, 35, 0, 72, "Subsubsection"],
+Cell[49935, 1150, 100, 2, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[9084, 471, 40, 0, 72, "Subsubsection"],
-Cell[9127, 473, 21, 0, 2147483647, "Paragraph"]
+Cell[50072, 1157, 40, 0, 72, "Subsubsection"],
+Cell[50115, 1159, 21, 0, 2147483647, "Paragraph"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[9185, 478, 46, 0, 72, "Subsubsection"],
-Cell[9234, 480, 21, 0, 2147483647, "Paragraph"]
+Cell[50173, 1164, 46, 0, 72, "Subsubsection"],
+Cell[50222, 1166, 21, 0, 2147483647, "Paragraph"]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9304, 486, 28, 0, 127, "Subsection"],
+Cell[50292, 1172, 28, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[9357, 490, 46, 0, 115, "Subsubsection"],
-Cell[9406, 492, 21, 0, 2147483647, "Paragraph"]
+Cell[50345, 1176, 46, 0, 115, "Subsubsection"],
+Cell[50394, 1178, 21, 0, 2147483647, "Paragraph"]
 }, Closed]]
-}, Open  ]]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[9500, 500, 40, 1, 86, "Title"],
-Cell[CellGroupData[{
-Cell[9565, 505, 61, 0, 43, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[9651, 509, 45, 0, 57, "Item"],
-Cell[9699, 511, 28, 0, 52, "Subitem"],
-Cell[9730, 513, 37, 0, 51, "Subsubitem"],
-Cell[9770, 515, 47, 0, 51, "Subsubitem"],
-Cell[9820, 517, 45, 0, 51, "Subsubitem"],
-Cell[9868, 519, 29, 0, 51, "Subsubitem"],
-Cell[9900, 521, 26, 0, 52, "Subitem"],
-Cell[9929, 523, 64, 0, 51, "Subsubitem"],
-Cell[9996, 525, 34, 0, 51, "Subsubitem"],
-Cell[10033, 527, 23, 0, 57, "Item"],
-Cell[10059, 529, 33, 0, 52, "Subitem"],
-Cell[10095, 531, 59, 0, 52, "Subitem"],
-Cell[10157, 533, 35, 0, 57, "Item"],
-Cell[10195, 535, 42, 0, 52, "Subitem"],
-Cell[10240, 537, 72, 0, 52, "Subitem"],
-Cell[10315, 539, 61, 0, 52, "Subitem"],
-Cell[10379, 541, 41, 0, 57, "Item"],
-Cell[10423, 543, 45, 0, 52, "Subitem"],
-Cell[10471, 545, 79, 0, 52, "Subitem"],
-Cell[10553, 547, 33, 0, 2147483647, "Item"],
-Cell[10589, 549, 34, 0, 2147483647, "Subitem"],
-Cell[10626, 551, 118, 3, 2147483647, "Subitem"],
-Cell[10747, 556, 22, 0, 2147483647, "Item"],
-Cell[10772, 558, 100, 2, 2147483647, "Subitem"],
-Cell[10875, 562, 23, 0, 2147483647, "Item"],
-Cell[10901, 564, 19, 0, 2147483647, "Subitem"],
-Cell[10923, 566, 93, 2, 52, "Subitem"],
-Cell[11019, 570, 25, 0, 57, "Item"],
-Cell[11047, 572, 41, 0, 52, "Subitem"],
-Cell[11091, 574, 28, 0, 57, "Item"],
-Cell[11122, 576, 113, 3, 91, "Subitem"],
-Cell[11238, 581, 21, 0, 57, "Item"],
-Cell[11262, 583, 92, 2, 52, "Subitem"],
-Cell[11357, 587, 102, 2, 52, "Subitem"],
-Cell[11462, 591, 26, 0, 57, "Item"],
-Cell[11491, 593, 77, 0, 52, "Subitem"],
-Cell[11571, 595, 23, 0, 57, "Item"],
-Cell[11597, 597, 96, 2, 52, "Subitem"],
-Cell[11696, 601, 26, 0, 57, "Item"],
-Cell[11725, 603, 76, 0, 52, "Subitem"],
-Cell[11804, 605, 108, 3, 91, "Subitem"],
-Cell[11915, 610, 29, 0, 57, "Item"],
-Cell[11947, 612, 117, 3, 91, "Subitem"],
-Cell[12067, 617, 21, 0, 57, "Item"],
-Cell[12091, 619, 39, 0, 52, "Subitem"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[12179, 625, 122, 1, 32, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[12326, 630, 38, 0, 57, "Item"],
-Cell[12367, 632, 34, 0, 52, "Subitem"],
-Cell[12404, 634, 42, 0, 52, "Subitem"],
-Cell[12449, 636, 44, 0, 52, "Subitem"],
-Cell[12496, 638, 26, 0, 52, "Subitem"],
-Cell[12525, 640, 27, 0, 57, "Item"],
-Cell[12555, 642, 36, 0, 52, "Subitem"],
-Cell[12594, 644, 44, 0, 52, "Subitem"],
-Cell[12641, 646, 38, 0, 52, "Subitem"],
-Cell[12682, 648, 30, 0, 52, "Subitem"],
-Cell[12715, 650, 48, 0, 57, "Item"],
-Cell[12766, 652, 19, 0, 52, "Subitem"],
-Cell[12788, 654, 30, 0, 52, "Subitem"],
-Cell[12821, 656, 34, 0, 57, "Item"],
-Cell[12858, 658, 41, 0, 52, "Subitem"],
-Cell[12902, 660, 42, 0, 57, "Item"],
-Cell[12947, 662, 48, 0, 52, "Subitem"],
-Cell[12998, 664, 41, 0, 52, "Subitem"],
-Cell[13042, 666, 37, 0, 57, "Item"],
-Cell[13082, 668, 39, 0, 2147483647, "Subitem"],
-Cell[13124, 670, 36, 0, 2147483647, "Subitem"],
-Cell[13163, 672, 46, 0, 2147483647, "Item"],
-Cell[13212, 674, 34, 0, 2147483647, "Subitem"],
-Cell[13249, 676, 118, 3, 2147483647, "Subitem"],
-Cell[13370, 681, 27, 0, 2147483647, "Item"],
-Cell[13400, 683, 48, 0, 2147483647, "Item"],
-Cell[13451, 685, 40, 0, 2147483647, "Subitem"],
-Cell[13494, 687, 126, 3, 2147483647, "Subsubitem"],
-Cell[13623, 692, 52, 0, 2147483647, "Subitem"],
-Cell[13678, 694, 136, 3, 2147483647, "Subsubitem"],
-Cell[13817, 699, 55, 0, 2147483647, "Subsubitem"],
-Cell[13875, 701, 49, 0, 52, "Subitem"],
-Cell[13927, 703, 96, 2, 51, "Subsubitem"],
-Cell[14026, 707, 32, 0, 57, "Item"],
-Cell[14061, 709, 26, 0, 52, "Subitem"],
-Cell[14090, 711, 28, 0, 52, "Subitem"],
-Cell[14121, 713, 62, 0, 57, "Item"],
-Cell[14186, 715, 46, 0, 52, "Subitem"],
-Cell[14235, 717, 117, 3, 91, "Subsubitem"],
-Cell[14355, 722, 129, 3, 91, "Subsubitem"],
-Cell[14487, 727, 150, 3, 91, "Subsubitem"],
-Cell[14640, 732, 38, 0, 52, "Subitem"],
-Cell[14681, 734, 47, 0, 51, "Subsubitem"],
-Cell[14731, 736, 35, 0, 52, "Subitem"],
-Cell[14769, 738, 202, 4, 130, "Subsubitem"],
-Cell[14974, 744, 34, 0, 52, "Subitem"],
-Cell[15011, 746, 28, 0, 51, "Subsubitem"],
-Cell[15042, 748, 53, 0, 52, "Subitem"],
-Cell[15098, 750, 95, 2, 51, "Subsubitem"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[15242, 758, 115, 1, 32, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[15382, 763, 58, 0, 2147483647, "Item"],
-Cell[15443, 765, 45, 0, 2147483647, "Subitem"],
-Cell[15491, 767, 73, 0, 2147483647, "Subitem"],
-Cell[15567, 769, 62, 0, 2147483647, "Subitem"],
-Cell[15632, 771, 47, 0, 2147483647, "Subitem"],
-Cell[15682, 773, 50, 0, 2147483647, "Item"],
-Cell[15735, 775, 49, 0, 2147483647, "Subitem"],
-Cell[15787, 777, 38, 0, 2147483647, "Subitem"],
-Cell[15828, 779, 30, 0, 2147483647, "Item"],
-Cell[15861, 781, 28, 0, 2147483647, "Subitem"],
-Cell[15892, 783, 62, 0, 2147483647, "Subitem"],
-Cell[15957, 785, 38, 0, 2147483647, "Subitem"],
-Cell[15998, 787, 53, 0, 2147483647, "Subitem"],
-Cell[16054, 789, 27, 0, 2147483647, "Item"],
-Cell[16084, 791, 33, 0, 2147483647, "Subitem"],
-Cell[16120, 793, 32, 0, 2147483647, "Subitem"],
-Cell[16155, 795, 37, 0, 2147483647, "Subitem"],
-Cell[16195, 797, 36, 0, 2147483647, "Subitem"],
-Cell[16234, 799, 31, 0, 2147483647, "Item"],
-Cell[16268, 801, 35, 0, 2147483647, "Subitem"],
-Cell[16306, 803, 38, 0, 2147483647, "Subitem"],
-Cell[16347, 805, 32, 0, 2147483647, "Item"],
-Cell[16382, 807, 19, 0, 2147483647, "Subitem"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[16450, 813, 28, 0, 81, "Section"],
-Cell[CellGroupData[{
-Cell[16503, 817, 33, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[16561, 821, 86, 2, 57, "Item"],
-Cell[16650, 825, 62, 0, 57, "Item"],
-Cell[16715, 827, 99, 2, 103, "Item"],
-Cell[16817, 831, 60, 0, 57, "Item"],
-Cell[16880, 833, 61, 0, 57, "Item"],
-Cell[16944, 835, 52, 0, 57, "Item"],
-Cell[16999, 837, 105, 2, 91, "Subitem"],
-Cell[17107, 841, 99, 2, 91, "Subitem"],
-Cell[17209, 845, 77, 0, 52, "Subitem"],
-Cell[17289, 847, 110, 3, 91, "Subitem"],
-Cell[17402, 852, 104, 2, 91, "Subitem"],
-Cell[17509, 856, 88, 2, 52, "Subitem"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[17646, 864, 29, 0, 127, "Subsection"],
-Cell[17678, 866, 415, 6, 2147483647, "Paragraph"],
-Cell[18096, 874, 550, 11, 2147483647, "Paragraph"],
-Cell[18649, 887, 553, 9, 2147483647, "Paragraph"],
-Cell[19205, 898, 555, 8, 2147483647, "Paragraph"],
-Cell[19763, 908, 91, 2, 2147483647, "Paragraph"],
-Cell[19857, 912, 217, 6, 2147483647, "Paragraph"],
-Cell[20077, 920, 145, 5, 2147483647, "Paragraph"],
-Cell[20225, 927, 444, 8, 2147483647, "Paragraph"],
-Cell[20672, 937, 315, 5, 2147483647, "Paragraph"],
-Cell[20990, 944, 431, 7, 2147483647, "Paragraph"],
-Cell[21424, 953, 372, 6, 2147483647, "Paragraph"],
-Cell[21799, 961, 323, 5, 2147483647, "Paragraph"],
-Cell[22125, 968, 349, 11, 2147483647, "Paragraph"],
-Cell[22477, 981, 159, 7, 2147483647, "Paragraph"],
-Cell[22639, 990, 92, 2, 2147483647, "Paragraph"],
-Cell[22734, 994, 117, 3, 2147483647, "Paragraph"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[22888, 1002, 42, 0, 84, "Subsection"],
-Cell[CellGroupData[{
-Cell[22955, 1006, 43, 0, 115, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[23023, 1010, 28, 0, 64, "Subsubsubsection"],
-Cell[23054, 1012, 74, 2, 57, "Item"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[23177, 1020, 41, 0, 72, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[23243, 1024, 37, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[23305, 1028, 41, 0, 57, "Item"],
-Cell[23349, 1030, 56, 0, 57, "Item"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[23454, 1036, 47, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[23526, 1040, 71, 0, 57, "Item"],
-Cell[23600, 1042, 38, 0, 57, "Item"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[23687, 1048, 66, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[23778, 1052, 202, 4, 148, "Item"],
-Cell[23983, 1058, 59, 0, 52, "Subitem"],
-Cell[24045, 1060, 85, 2, 57, "Item"],
-Cell[24133, 1064, 100, 2, 103, "Item"]
-}, Open  ]]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[24294, 1073, 43, 0, 72, "Subsubsection"],
-Cell[24340, 1075, 35, 0, 64, "Subsubsubsection"],
-Cell[24378, 1077, 35, 0, 48, "Subsubsubsection"],
-Cell[24416, 1079, 48, 0, 48, "Subsubsubsection"]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[24501, 1084, 39, 0, 72, "Subsubsection"],
-Cell[24543, 1086, 34, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[24602, 1090, 58, 0, 48, "Subsubsubsection"],
-Cell[24663, 1092, 138, 3, 103, "Item"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[24838, 1100, 51, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[24914, 1104, 66, 0, 57, "Item"],
-Cell[24983, 1106, 59, 2, 57, "Item"]
-}, Open  ]]
 }, Open  ]]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[25115, 1116, 30, 0, 84, "Subsection"],
+Cell[50488, 1186, 40, 1, 86, "Title"],
 Cell[CellGroupData[{
-Cell[25170, 1120, 32, 0, 115, "Subsubsection"],
+Cell[50553, 1191, 61, 0, 43, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[25227, 1124, 52, 0, 2147483647, "Subsubsubsection"],
-Cell[25282, 1126, 59, 0, 2147483647, "Item"]
-}, Open  ]],
+Cell[50639, 1195, 45, 0, 57, "Item"],
+Cell[50687, 1197, 28, 0, 52, "Subitem"],
+Cell[50718, 1199, 37, 0, 51, "Subsubitem"],
+Cell[50758, 1201, 47, 0, 51, "Subsubitem"],
+Cell[50808, 1203, 45, 0, 51, "Subsubitem"],
+Cell[50856, 1205, 29, 0, 51, "Subsubitem"],
+Cell[50888, 1207, 26, 0, 52, "Subitem"],
+Cell[50917, 1209, 64, 0, 51, "Subsubitem"],
+Cell[50984, 1211, 34, 0, 51, "Subsubitem"],
+Cell[51021, 1213, 23, 0, 57, "Item"],
+Cell[51047, 1215, 33, 0, 52, "Subitem"],
+Cell[51083, 1217, 59, 0, 52, "Subitem"],
+Cell[51145, 1219, 35, 0, 57, "Item"],
+Cell[51183, 1221, 42, 0, 52, "Subitem"],
+Cell[51228, 1223, 72, 0, 52, "Subitem"],
+Cell[51303, 1225, 61, 0, 52, "Subitem"],
+Cell[51367, 1227, 41, 0, 57, "Item"],
+Cell[51411, 1229, 45, 0, 52, "Subitem"],
+Cell[51459, 1231, 79, 0, 52, "Subitem"],
+Cell[51541, 1233, 33, 0, 2147483647, "Item"],
+Cell[51577, 1235, 34, 0, 2147483647, "Subitem"],
+Cell[51614, 1237, 118, 3, 2147483647, "Subitem"],
+Cell[51735, 1242, 22, 0, 2147483647, "Item"],
+Cell[51760, 1244, 100, 2, 2147483647, "Subitem"],
+Cell[51863, 1248, 23, 0, 2147483647, "Item"],
+Cell[51889, 1250, 19, 0, 2147483647, "Subitem"],
+Cell[51911, 1252, 93, 2, 52, "Subitem"],
+Cell[52007, 1256, 25, 0, 57, "Item"],
+Cell[52035, 1258, 41, 0, 52, "Subitem"],
+Cell[52079, 1260, 28, 0, 57, "Item"],
+Cell[52110, 1262, 113, 3, 91, "Subitem"],
+Cell[52226, 1267, 21, 0, 57, "Item"],
+Cell[52250, 1269, 92, 2, 52, "Subitem"],
+Cell[52345, 1273, 102, 2, 52, "Subitem"],
+Cell[52450, 1277, 26, 0, 57, "Item"],
+Cell[52479, 1279, 77, 0, 52, "Subitem"],
+Cell[52559, 1281, 23, 0, 57, "Item"],
+Cell[52585, 1283, 96, 2, 52, "Subitem"],
+Cell[52684, 1287, 26, 0, 57, "Item"],
+Cell[52713, 1289, 76, 0, 52, "Subitem"],
+Cell[52792, 1291, 108, 3, 91, "Subitem"],
+Cell[52903, 1296, 29, 0, 57, "Item"],
+Cell[52935, 1298, 117, 3, 91, "Subitem"],
+Cell[53055, 1303, 21, 0, 57, "Item"],
+Cell[53079, 1305, 39, 0, 52, "Subitem"]
+}, Open  ]]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[25378, 1131, 50, 0, 2147483647, "Subsubsubsection"],
+Cell[53167, 1311, 122, 1, 32, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[25453, 1135, 147, 3, 2147483647, "Item"],
-Cell[25603, 1140, 120, 3, 2147483647, "Item"],
-Cell[25726, 1145, 58, 0, 2147483647, "Item"]
+Cell[53314, 1316, 38, 0, 57, "Item"],
+Cell[53355, 1318, 34, 0, 52, "Subitem"],
+Cell[53392, 1320, 42, 0, 52, "Subitem"],
+Cell[53437, 1322, 44, 0, 52, "Subitem"],
+Cell[53484, 1324, 26, 0, 52, "Subitem"],
+Cell[53513, 1326, 27, 0, 57, "Item"],
+Cell[53543, 1328, 36, 0, 52, "Subitem"],
+Cell[53582, 1330, 44, 0, 52, "Subitem"],
+Cell[53629, 1332, 38, 0, 52, "Subitem"],
+Cell[53670, 1334, 30, 0, 52, "Subitem"],
+Cell[53703, 1336, 48, 0, 57, "Item"],
+Cell[53754, 1338, 19, 0, 52, "Subitem"],
+Cell[53776, 1340, 30, 0, 52, "Subitem"],
+Cell[53809, 1342, 34, 0, 57, "Item"],
+Cell[53846, 1344, 41, 0, 52, "Subitem"],
+Cell[53890, 1346, 42, 0, 57, "Item"],
+Cell[53935, 1348, 48, 0, 52, "Subitem"],
+Cell[53986, 1350, 41, 0, 52, "Subitem"],
+Cell[54030, 1352, 37, 0, 57, "Item"],
+Cell[54070, 1354, 39, 0, 2147483647, "Subitem"],
+Cell[54112, 1356, 36, 0, 2147483647, "Subitem"],
+Cell[54151, 1358, 46, 0, 2147483647, "Item"],
+Cell[54200, 1360, 34, 0, 2147483647, "Subitem"],
+Cell[54237, 1362, 118, 3, 2147483647, "Subitem"],
+Cell[54358, 1367, 27, 0, 2147483647, "Item"],
+Cell[54388, 1369, 48, 0, 2147483647, "Item"],
+Cell[54439, 1371, 40, 0, 2147483647, "Subitem"],
+Cell[54482, 1373, 126, 3, 2147483647, "Subsubitem"],
+Cell[54611, 1378, 52, 0, 2147483647, "Subitem"],
+Cell[54666, 1380, 136, 3, 2147483647, "Subsubitem"],
+Cell[54805, 1385, 55, 0, 2147483647, "Subsubitem"],
+Cell[54863, 1387, 49, 0, 52, "Subitem"],
+Cell[54915, 1389, 96, 2, 51, "Subsubitem"],
+Cell[55014, 1393, 32, 0, 57, "Item"],
+Cell[55049, 1395, 26, 0, 52, "Subitem"],
+Cell[55078, 1397, 28, 0, 52, "Subitem"],
+Cell[55109, 1399, 62, 0, 57, "Item"],
+Cell[55174, 1401, 46, 0, 52, "Subitem"],
+Cell[55223, 1403, 117, 3, 91, "Subsubitem"],
+Cell[55343, 1408, 129, 3, 91, "Subsubitem"],
+Cell[55475, 1413, 150, 3, 91, "Subsubitem"],
+Cell[55628, 1418, 38, 0, 52, "Subitem"],
+Cell[55669, 1420, 47, 0, 51, "Subsubitem"],
+Cell[55719, 1422, 35, 0, 52, "Subitem"],
+Cell[55757, 1424, 202, 4, 130, "Subsubitem"],
+Cell[55962, 1430, 34, 0, 52, "Subitem"],
+Cell[55999, 1432, 28, 0, 51, "Subsubitem"],
+Cell[56030, 1434, 53, 0, 52, "Subitem"],
+Cell[56086, 1436, 95, 2, 51, "Subsubitem"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[56230, 1444, 115, 1, 32, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[56370, 1449, 58, 0, 2147483647, "Item"],
+Cell[56431, 1451, 45, 0, 2147483647, "Subitem"],
+Cell[56479, 1453, 73, 0, 2147483647, "Subitem"],
+Cell[56555, 1455, 62, 0, 2147483647, "Subitem"],
+Cell[56620, 1457, 47, 0, 2147483647, "Subitem"],
+Cell[56670, 1459, 50, 0, 2147483647, "Item"],
+Cell[56723, 1461, 49, 0, 2147483647, "Subitem"],
+Cell[56775, 1463, 38, 0, 2147483647, "Subitem"],
+Cell[56816, 1465, 30, 0, 2147483647, "Item"],
+Cell[56849, 1467, 28, 0, 2147483647, "Subitem"],
+Cell[56880, 1469, 62, 0, 2147483647, "Subitem"],
+Cell[56945, 1471, 38, 0, 2147483647, "Subitem"],
+Cell[56986, 1473, 53, 0, 2147483647, "Subitem"],
+Cell[57042, 1475, 27, 0, 2147483647, "Item"],
+Cell[57072, 1477, 33, 0, 2147483647, "Subitem"],
+Cell[57108, 1479, 32, 0, 2147483647, "Subitem"],
+Cell[57143, 1481, 37, 0, 2147483647, "Subitem"],
+Cell[57183, 1483, 36, 0, 2147483647, "Subitem"],
+Cell[57222, 1485, 31, 0, 2147483647, "Item"],
+Cell[57256, 1487, 35, 0, 2147483647, "Subitem"],
+Cell[57294, 1489, 38, 0, 2147483647, "Subitem"],
+Cell[57335, 1491, 32, 0, 2147483647, "Item"],
+Cell[57370, 1493, 19, 0, 2147483647, "Subitem"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[57438, 1499, 28, 0, 81, "Section"],
+Cell[CellGroupData[{
+Cell[57491, 1503, 33, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[57549, 1507, 86, 2, 57, "Item"],
+Cell[57638, 1511, 62, 0, 57, "Item"],
+Cell[57703, 1513, 99, 2, 103, "Item"],
+Cell[57805, 1517, 60, 0, 57, "Item"],
+Cell[57868, 1519, 61, 0, 57, "Item"],
+Cell[57932, 1521, 52, 0, 57, "Item"],
+Cell[57987, 1523, 105, 2, 91, "Subitem"],
+Cell[58095, 1527, 99, 2, 91, "Subitem"],
+Cell[58197, 1531, 77, 0, 52, "Subitem"],
+Cell[58277, 1533, 110, 3, 91, "Subitem"],
+Cell[58390, 1538, 104, 2, 91, "Subitem"],
+Cell[58497, 1542, 88, 2, 52, "Subitem"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[25833, 1151, 47, 0, 2147483647, "Subsubsubsection"],
+Cell[58634, 1550, 29, 0, 127, "Subsection"],
+Cell[58666, 1552, 415, 6, 2147483647, "Paragraph"],
+Cell[59084, 1560, 550, 11, 2147483647, "Paragraph"],
+Cell[59637, 1573, 553, 9, 2147483647, "Paragraph"],
+Cell[60193, 1584, 555, 8, 2147483647, "Paragraph"],
+Cell[60751, 1594, 91, 2, 2147483647, "Paragraph"],
+Cell[60845, 1598, 217, 6, 2147483647, "Paragraph"],
+Cell[61065, 1606, 145, 5, 2147483647, "Paragraph"],
+Cell[61213, 1613, 444, 8, 2147483647, "Paragraph"],
+Cell[61660, 1623, 315, 5, 2147483647, "Paragraph"],
+Cell[61978, 1630, 431, 7, 2147483647, "Paragraph"],
+Cell[62412, 1639, 372, 6, 2147483647, "Paragraph"],
+Cell[62787, 1647, 323, 5, 2147483647, "Paragraph"],
+Cell[63113, 1654, 349, 11, 2147483647, "Paragraph"],
+Cell[63465, 1667, 159, 7, 2147483647, "Paragraph"],
+Cell[63627, 1676, 92, 2, 2147483647, "Paragraph"],
+Cell[63722, 1680, 117, 3, 2147483647, "Paragraph"]
+}, Closed]],
 Cell[CellGroupData[{
-Cell[25905, 1155, 63, 0, 2147483647, "Item"],
-Cell[25971, 1157, 100, 2, 2147483647, "Subitem"]
+Cell[63876, 1688, 42, 0, 84, "Subsection"],
+Cell[CellGroupData[{
+Cell[63943, 1692, 43, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[64011, 1696, 28, 0, 64, "Subsubsubsection"],
+Cell[64042, 1698, 74, 2, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[64165, 1706, 41, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[64231, 1710, 37, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[64293, 1714, 41, 0, 57, "Item"],
+Cell[64337, 1716, 56, 0, 57, "Item"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[26120, 1165, 41, 0, 2147483647, "Subsubsubsection"],
+Cell[64442, 1722, 47, 0, 64, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[26186, 1169, 119, 3, 2147483647, "Item"],
-Cell[26308, 1174, 149, 8, 2147483647, "Subitem"],
-Cell[26460, 1184, 172, 3, 2147483647, "Subitem"]
+Cell[64514, 1726, 71, 0, 57, "Item"],
+Cell[64588, 1728, 38, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[64675, 1734, 66, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[64766, 1738, 202, 4, 148, "Item"],
+Cell[64971, 1744, 59, 0, 52, "Subitem"],
+Cell[65033, 1746, 85, 2, 57, "Item"],
+Cell[65121, 1750, 100, 2, 103, "Item"]
 }, Open  ]]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[26693, 1194, 33, 0, 72, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[26751, 1198, 54, 0, 64, "Subsubsubsection"],
-Cell[26808, 1200, 107, 3, 103, "Item"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[26952, 1208, 48, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[27025, 1212, 43, 0, 57, "Item"],
-Cell[27071, 1214, 79, 0, 57, "Item"],
-Cell[27153, 1216, 38, 0, 57, "Item"],
-Cell[27194, 1218, 43, 0, 57, "Item"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[27286, 1224, 42, 0, 64, "Subsubsubsection"],
-Cell[27331, 1226, 16, 0, 57, "Item"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[27384, 1231, 32, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[27441, 1235, 94, 2, 103, "Item"],
-Cell[27538, 1239, 53, 0, 52, "Subitem"],
-Cell[27594, 1241, 101, 2, 103, "Item"],
-Cell[27698, 1245, 58, 0, 57, "Item"]
-}, Open  ]]
-}, Open  ]]
+Cell[65282, 1759, 43, 0, 72, "Subsubsection"],
+Cell[65328, 1761, 35, 0, 64, "Subsubsubsection"],
+Cell[65366, 1763, 35, 0, 48, "Subsubsubsection"],
+Cell[65404, 1765, 48, 0, 48, "Subsubsubsection"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[27817, 1252, 47, 0, 72, "Subsubsection"],
+Cell[65489, 1770, 39, 0, 72, "Subsubsection"],
+Cell[65531, 1772, 34, 0, 64, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[27889, 1256, 52, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[27966, 1260, 35, 0, 57, "Item"],
-Cell[28004, 1262, 29, 0, 57, "Item"],
-Cell[28036, 1264, 31, 0, 57, "Item"]
-}, Open  ]]
+Cell[65590, 1776, 58, 0, 48, "Subsubsubsection"],
+Cell[65651, 1778, 138, 3, 103, "Item"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28116, 1270, 44, 0, 64, "Subsubsubsection"],
-Cell[28163, 1272, 25, 0, 57, "Item"]
-}, Open  ]]
-}, Closed]],
+Cell[65826, 1786, 51, 0, 64, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[28237, 1278, 42, 0, 72, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[28304, 1282, 39, 0, 64, "Subsubsubsection"],
-Cell[28346, 1284, 61, 0, 57, "Item"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[28444, 1289, 48, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[28517, 1293, 63, 0, 57, "Item"],
-Cell[28583, 1295, 40, 0, 57, "Item"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[28672, 1301, 46, 0, 64, "Subsubsubsection"],
-Cell[28721, 1303, 175, 3, 148, "Item"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[28933, 1311, 37, 0, 64, "Subsubsubsection"],
-Cell[CellGroupData[{
-Cell[28995, 1315, 28, 0, 57, "Item"],
-Cell[29026, 1317, 46, 0, 57, "Item"],
-Cell[29075, 1319, 70, 0, 57, "Item"]
+Cell[65902, 1790, 66, 0, 57, "Item"],
+Cell[65971, 1792, 59, 2, 57, "Item"]
 }, Open  ]]
 }, Open  ]]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[29218, 1327, 37, 0, 84, "Subsection"],
-Cell[29258, 1329, 47, 0, 115, "Subsubsection"],
-Cell[29308, 1331, 31, 0, 72, "Subsubsection"],
-Cell[29342, 1333, 31, 0, 72, "Subsubsection"],
+Cell[66103, 1802, 30, 0, 84, "Subsection"],
 Cell[CellGroupData[{
-Cell[29398, 1337, 36, 0, 72, "Subsubsection"],
-Cell[29437, 1339, 36, 0, 64, "Subsubsubsection"],
-Cell[29476, 1341, 40, 0, 48, "Subsubsubsection"],
-Cell[29519, 1343, 33, 0, 48, "Subsubsubsection"]
-}, Open  ]]
-}, Closed]],
+Cell[66158, 1806, 32, 0, 115, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[29601, 1349, 34, 0, 84, "Subsection"],
-Cell[CellGroupData[{
-Cell[29660, 1353, 34, 0, 115, "Subsubsection"],
-Cell[CellGroupData[{
-Cell[29719, 1357, 45, 0, 2147483647, "Subsubsubsection"],
-Cell[29767, 1359, 128, 3, 2147483647, "Item"]
+Cell[66215, 1810, 52, 0, 2147483647, "Subsubsubsection"],
+Cell[66270, 1812, 59, 0, 2147483647, "Item"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29932, 1367, 44, 0, 2147483647, "Subsubsubsection"],
+Cell[66366, 1817, 50, 0, 2147483647, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[30001, 1371, 39, 0, 2147483647, "Item"],
-Cell[30043, 1373, 64, 0, 2147483647, "Subitem"],
-Cell[30110, 1375, 161, 3, 2147483647, "Subitem"],
-Cell[30274, 1380, 69, 0, 2147483647, "Item"],
-Cell[30346, 1382, 126, 3, 2147483647, "Subitem"],
-Cell[30475, 1387, 199, 4, 2147483647, "Item"]
+Cell[66441, 1821, 147, 3, 2147483647, "Item"],
+Cell[66591, 1826, 120, 3, 2147483647, "Item"],
+Cell[66714, 1831, 58, 0, 2147483647, "Item"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[30723, 1397, 44, 0, 2147483647, "Subsubsubsection"],
+Cell[66821, 1837, 47, 0, 2147483647, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[30792, 1401, 66, 0, 2147483647, "Item"],
-Cell[30861, 1403, 56, 0, 2147483647, "Item"],
-Cell[30920, 1405, 46, 0, 2147483647, "Item"],
-Cell[30969, 1407, 43, 0, 2147483647, "Item"],
-Cell[31015, 1409, 46, 0, 2147483647, "Item"]
+Cell[66893, 1841, 63, 0, 2147483647, "Item"],
+Cell[66959, 1843, 100, 2, 2147483647, "Subitem"]
 }, Open  ]]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[31122, 1416, 31, 0, 72, "Subsubsection"],
-Cell[31156, 1418, 85, 2, 57, "Item"],
-Cell[CellGroupData[{
-Cell[31266, 1424, 37, 0, 64, "Subsubsubsection"],
-Cell[31306, 1426, 40, 0, 57, "Item"]
 }, Open  ]],
-Cell[31361, 1429, 34, 0, 64, "Subsubsubsection"]
-}, Closed]],
 Cell[CellGroupData[{
-Cell[31432, 1434, 30, 0, 72, "Subsubsection"],
+Cell[67108, 1851, 41, 0, 2147483647, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[31487, 1438, 109, 3, 103, "Item"],
-Cell[31599, 1443, 44, 0, 57, "Item"],
-Cell[31646, 1445, 40, 0, 52, "Subitem"],
-Cell[31689, 1447, 31, 0, 52, "Subitem"],
-Cell[31723, 1449, 39, 0, 52, "Subitem"],
-Cell[31765, 1451, 86, 2, 57, "Item"],
-Cell[31854, 1455, 64, 0, 57, "Item"],
-Cell[31921, 1457, 55, 0, 57, "Item"]
+Cell[67174, 1855, 119, 3, 2147483647, "Item"],
+Cell[67296, 1860, 149, 8, 2147483647, "Subitem"],
+Cell[67448, 1870, 172, 3, 2147483647, "Subitem"]
+}, Open  ]]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[32025, 1463, 32, 0, 72, "Subsubsection"],
-Cell[32060, 1465, 42, 0, 64, "Subsubsubsection"],
-Cell[32105, 1467, 41, 0, 48, "Subsubsubsection"],
-Cell[32149, 1469, 36, 0, 48, "Subsubsubsection"],
+Cell[67681, 1880, 33, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[32210, 1473, 36, 0, 48, "Subsubsubsection"],
+Cell[67739, 1884, 54, 0, 64, "Subsubsubsection"],
+Cell[67796, 1886, 107, 3, 103, "Item"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[32271, 1477, 34, 0, 2147483647, "Item"],
-Cell[32308, 1479, 47, 0, 2147483647, "Subitem"],
-Cell[32358, 1481, 45, 0, 2147483647, "Subsubitem"],
-Cell[32406, 1483, 43, 0, 2147483647, "Subitem"],
-Cell[32452, 1485, 107, 2, 2147483647, "Subsubitem"],
-Cell[32562, 1489, 48, 0, 2147483647, "Subitem"],
-Cell[32613, 1491, 72, 0, 2147483647, "Subsubitem"],
-Cell[32688, 1493, 39, 0, 2147483647, "Subitem"]
+Cell[67940, 1894, 48, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[68013, 1898, 43, 0, 57, "Item"],
+Cell[68059, 1900, 79, 0, 57, "Item"],
+Cell[68141, 1902, 38, 0, 57, "Item"],
+Cell[68182, 1904, 43, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[68274, 1910, 42, 0, 64, "Subsubsubsection"],
+Cell[68319, 1912, 16, 0, 57, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[68372, 1917, 32, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[68429, 1921, 94, 2, 103, "Item"],
+Cell[68526, 1925, 53, 0, 52, "Subitem"],
+Cell[68582, 1927, 101, 2, 103, "Item"],
+Cell[68686, 1931, 58, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[68805, 1938, 47, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[68877, 1942, 52, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[68954, 1946, 35, 0, 57, "Item"],
+Cell[68992, 1948, 29, 0, 57, "Item"],
+Cell[69024, 1950, 31, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[69104, 1956, 44, 0, 64, "Subsubsubsection"],
+Cell[69151, 1958, 25, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[69225, 1964, 42, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[69292, 1968, 39, 0, 64, "Subsubsubsection"],
+Cell[69334, 1970, 61, 0, 57, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[69432, 1975, 48, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[69505, 1979, 63, 0, 57, "Item"],
+Cell[69571, 1981, 40, 0, 57, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[69660, 1987, 46, 0, 64, "Subsubsubsection"],
+Cell[69709, 1989, 175, 3, 148, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[69921, 1997, 37, 0, 64, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[69983, 2001, 28, 0, 57, "Item"],
+Cell[70014, 2003, 46, 0, 57, "Item"],
+Cell[70063, 2005, 70, 0, 57, "Item"]
+}, Open  ]]
 }, Open  ]]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[32788, 1500, 40, 0, 72, "Subsubsection"],
+Cell[70206, 2013, 37, 0, 84, "Subsection"],
+Cell[70246, 2015, 47, 0, 115, "Subsubsection"],
+Cell[70296, 2017, 31, 0, 72, "Subsubsection"],
+Cell[70330, 2019, 31, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[32853, 1504, 105, 1, 64, "Subsubsubsection"],
-Cell[32961, 1507, 250, 4, 2147483647, "Paragraph"],
-Cell[33214, 1513, 184, 4, 2147483647, "Paragraph"],
-Cell[33401, 1519, 21, 0, 2147483647, "Paragraph"]
+Cell[70386, 2023, 36, 0, 72, "Subsubsection"],
+Cell[70425, 2025, 36, 0, 64, "Subsubsubsection"],
+Cell[70464, 2027, 40, 0, 48, "Subsubsubsection"],
+Cell[70507, 2029, 33, 0, 48, "Subsubsubsection"]
+}, Open  ]]
 }, Closed]],
-Cell[33437, 1522, 53, 0, 48, "Subsubsubsection"],
-Cell[33493, 1524, 51, 0, 48, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[33569, 1528, 35, 0, 48, "Subsubsubsection"],
-Cell[33607, 1530, 61, 0, 2147483647, "Item"]
+Cell[70589, 2035, 34, 0, 84, "Subsection"],
+Cell[CellGroupData[{
+Cell[70648, 2039, 34, 0, 115, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[70707, 2043, 45, 0, 2147483647, "Subsubsubsection"],
+Cell[70755, 2045, 128, 3, 2147483647, "Item"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[70920, 2053, 44, 0, 2147483647, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[70989, 2057, 39, 0, 2147483647, "Item"],
+Cell[71031, 2059, 64, 0, 2147483647, "Subitem"],
+Cell[71098, 2061, 161, 3, 2147483647, "Subitem"],
+Cell[71262, 2066, 69, 0, 2147483647, "Item"],
+Cell[71334, 2068, 126, 3, 2147483647, "Subitem"],
+Cell[71463, 2073, 199, 4, 2147483647, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[71711, 2083, 44, 0, 2147483647, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[71780, 2087, 66, 0, 2147483647, "Item"],
+Cell[71849, 2089, 56, 0, 2147483647, "Item"],
+Cell[71908, 2091, 46, 0, 2147483647, "Item"],
+Cell[71957, 2093, 43, 0, 2147483647, "Item"],
+Cell[72003, 2095, 46, 0, 2147483647, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[72110, 2102, 31, 0, 72, "Subsubsection"],
+Cell[72144, 2104, 85, 2, 57, "Item"],
+Cell[CellGroupData[{
+Cell[72254, 2110, 37, 0, 64, "Subsubsubsection"],
+Cell[72294, 2112, 40, 0, 57, "Item"]
+}, Open  ]],
+Cell[72349, 2115, 34, 0, 64, "Subsubsubsection"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[72420, 2120, 30, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[72475, 2124, 109, 3, 103, "Item"],
+Cell[72587, 2129, 44, 0, 57, "Item"],
+Cell[72634, 2131, 40, 0, 52, "Subitem"],
+Cell[72677, 2133, 31, 0, 52, "Subitem"],
+Cell[72711, 2135, 39, 0, 52, "Subitem"],
+Cell[72753, 2137, 86, 2, 57, "Item"],
+Cell[72842, 2141, 64, 0, 57, "Item"],
+Cell[72909, 2143, 55, 0, 57, "Item"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[73013, 2149, 32, 0, 72, "Subsubsection"],
+Cell[73048, 2151, 42, 0, 64, "Subsubsubsection"],
+Cell[73093, 2153, 41, 0, 48, "Subsubsubsection"],
+Cell[73137, 2155, 36, 0, 48, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[73198, 2159, 36, 0, 48, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[73259, 2163, 34, 0, 2147483647, "Item"],
+Cell[73296, 2165, 47, 0, 2147483647, "Subitem"],
+Cell[73346, 2167, 45, 0, 2147483647, "Subsubitem"],
+Cell[73394, 2169, 43, 0, 2147483647, "Subitem"],
+Cell[73440, 2171, 107, 2, 2147483647, "Subsubitem"],
+Cell[73550, 2175, 48, 0, 2147483647, "Subitem"],
+Cell[73601, 2177, 72, 0, 2147483647, "Subsubitem"],
+Cell[73676, 2179, 39, 0, 2147483647, "Subitem"]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[73776, 2186, 40, 0, 72, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[73841, 2190, 105, 1, 64, "Subsubsubsection"],
+Cell[73949, 2193, 250, 4, 2147483647, "Paragraph"],
+Cell[74202, 2199, 184, 4, 2147483647, "Paragraph"],
+Cell[74389, 2205, 21, 0, 2147483647, "Paragraph"]
+}, Closed]],
+Cell[74425, 2208, 53, 0, 48, "Subsubsubsection"],
+Cell[74481, 2210, 51, 0, 48, "Subsubsubsection"],
+Cell[CellGroupData[{
+Cell[74557, 2214, 35, 0, 48, "Subsubsubsection"],
+Cell[74595, 2216, 61, 0, 2147483647, "Item"]
 }, Closed]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33729, 1537, 30, 0, 127, "Subsection"],
+Cell[74717, 2223, 30, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[33784, 1541, 32, 0, 115, "Subsubsection"],
+Cell[74772, 2227, 32, 0, 115, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[33841, 1545, 38, 0, 64, "Subsubsubsection"],
-Cell[33882, 1547, 35, 0, 57, "Item"]
+Cell[74829, 2231, 38, 0, 64, "Subsubsubsection"],
+Cell[74870, 2233, 35, 0, 57, "Item"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33954, 1552, 42, 0, 64, "Subsubsubsection"],
-Cell[33999, 1554, 43, 0, 57, "Item"]
+Cell[74942, 2238, 42, 0, 64, "Subsubsubsection"],
+Cell[74987, 2240, 43, 0, 57, "Item"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[34079, 1559, 42, 0, 64, "Subsubsubsection"],
-Cell[34124, 1561, 40, 0, 57, "Item"]
+Cell[75067, 2245, 42, 0, 64, "Subsubsubsection"],
+Cell[75112, 2247, 40, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[34213, 1567, 38, 0, 72, "Subsubsection"],
-Cell[34254, 1569, 39, 0, 64, "Subsubsubsection"],
+Cell[75201, 2253, 38, 0, 72, "Subsubsection"],
+Cell[75242, 2255, 39, 0, 64, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[34318, 1573, 50, 0, 48, "Subsubsubsection"],
-Cell[34371, 1575, 101, 2, 103, "Item"]
+Cell[75306, 2259, 50, 0, 48, "Subsubsubsection"],
+Cell[75359, 2261, 101, 2, 103, "Item"]
 }, Open  ]],
-Cell[34487, 1580, 34, 0, 64, "Subsubsubsection"],
-Cell[34524, 1582, 42, 0, 48, "Subsubsubsection"]
+Cell[75475, 2266, 34, 0, 64, "Subsubsubsection"],
+Cell[75512, 2268, 42, 0, 48, "Subsubsubsection"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[34603, 1587, 38, 0, 72, "Subsubsection"],
-Cell[34644, 1589, 42, 0, 64, "Subsubsubsection"],
-Cell[34689, 1591, 34, 0, 48, "Subsubsubsection"],
-Cell[34726, 1593, 37, 0, 48, "Subsubsubsection"],
+Cell[75591, 2273, 38, 0, 72, "Subsubsection"],
+Cell[75632, 2275, 42, 0, 64, "Subsubsubsection"],
+Cell[75677, 2277, 34, 0, 48, "Subsubsubsection"],
+Cell[75714, 2279, 37, 0, 48, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[34788, 1597, 49, 0, 48, "Subsubsubsection"],
+Cell[75776, 2283, 49, 0, 48, "Subsubsubsection"],
 Cell[CellGroupData[{
-Cell[34862, 1601, 25, 0, 57, "Item"],
-Cell[34890, 1603, 39, 0, 57, "Item"],
-Cell[34932, 1605, 24, 0, 57, "Item"],
-Cell[34959, 1607, 22, 0, 57, "Item"]
+Cell[75850, 2287, 25, 0, 57, "Item"],
+Cell[75878, 2289, 39, 0, 57, "Item"],
+Cell[75920, 2291, 24, 0, 57, "Item"],
+Cell[75947, 2293, 22, 0, 57, "Item"]
 }, Open  ]],
-Cell[34996, 1610, 212, 4, 175, "Paragraph"]
+Cell[75984, 2296, 212, 4, 175, "Paragraph"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[35257, 1620, 38, 0, 72, "Subsubsection"],
+Cell[76245, 2306, 38, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[35320, 1624, 22, 0, 57, "Item"],
-Cell[35345, 1626, 24, 0, 57, "Item"],
-Cell[35372, 1628, 38, 0, 57, "Item"],
-Cell[35413, 1630, 32, 0, 57, "Item"],
-Cell[35448, 1632, 35, 0, 57, "Item"],
-Cell[35486, 1634, 38, 0, 57, "Item"]
+Cell[76308, 2310, 22, 0, 57, "Item"],
+Cell[76333, 2312, 24, 0, 57, "Item"],
+Cell[76360, 2314, 38, 0, 57, "Item"],
+Cell[76401, 2316, 32, 0, 57, "Item"],
+Cell[76436, 2318, 35, 0, 57, "Item"],
+Cell[76474, 2320, 38, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[35573, 1640, 35, 0, 72, "Subsubsection"],
-Cell[35611, 1642, 43, 0, 64, "Subsubsubsection"],
-Cell[35657, 1644, 38, 0, 48, "Subsubsubsection"]
+Cell[76561, 2326, 35, 0, 72, "Subsubsection"],
+Cell[76599, 2328, 43, 0, 64, "Subsubsubsection"],
+Cell[76645, 2330, 38, 0, 48, "Subsubsubsection"]
 }, Open  ]]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[35756, 1651, 28, 0, 81, "Section"],
+Cell[76744, 2337, 28, 0, 81, "Section"],
 Cell[CellGroupData[{
-Cell[35809, 1655, 40, 0, 127, "Subsection"],
+Cell[76797, 2341, 40, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[35874, 1659, 36, 0, 115, "Subsubsection"],
+Cell[76862, 2345, 36, 0, 115, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[35935, 1663, 28, 0, 64, "Subsubsubsection"],
-Cell[35966, 1665, 16, 0, 57, "Item"]
+Cell[76923, 2349, 28, 0, 64, "Subsubsubsection"],
+Cell[76954, 2351, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[36031, 1671, 41, 0, 72, "Subsubsection"],
+Cell[77019, 2357, 41, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[36097, 1675, 28, 0, 64, "Subsubsubsection"],
-Cell[36128, 1677, 16, 0, 57, "Item"]
+Cell[77085, 2361, 28, 0, 64, "Subsubsubsection"],
+Cell[77116, 2363, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[36205, 1684, 40, 0, 127, "Subsection"],
+Cell[77193, 2370, 40, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[36270, 1688, 32, 0, 115, "Subsubsection"],
+Cell[77258, 2374, 32, 0, 115, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[36327, 1692, 28, 0, 64, "Subsubsubsection"],
-Cell[36358, 1694, 16, 0, 57, "Item"]
+Cell[77315, 2378, 28, 0, 64, "Subsubsubsection"],
+Cell[77346, 2380, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[36423, 1700, 39, 0, 72, "Subsubsection"],
+Cell[77411, 2386, 39, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[36487, 1704, 28, 0, 64, "Subsubsubsection"],
-Cell[36518, 1706, 16, 0, 57, "Item"]
+Cell[77475, 2390, 28, 0, 64, "Subsubsubsection"],
+Cell[77506, 2392, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[36583, 1712, 32, 0, 72, "Subsubsection"],
+Cell[77571, 2398, 32, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[36640, 1716, 28, 0, 64, "Subsubsubsection"],
-Cell[36671, 1718, 16, 0, 57, "Item"]
+Cell[77628, 2402, 28, 0, 64, "Subsubsubsection"],
+Cell[77659, 2404, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[36748, 1725, 39, 0, 127, "Subsection"],
+Cell[77736, 2411, 39, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[36812, 1729, 36, 0, 115, "Subsubsection"],
+Cell[77800, 2415, 36, 0, 115, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[36873, 1733, 28, 0, 64, "Subsubsubsection"],
-Cell[36904, 1735, 16, 0, 57, "Item"]
+Cell[77861, 2419, 28, 0, 64, "Subsubsubsection"],
+Cell[77892, 2421, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[36969, 1741, 47, 0, 72, "Subsubsection"],
+Cell[77957, 2427, 47, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[37041, 1745, 28, 0, 64, "Subsubsubsection"],
-Cell[37072, 1747, 16, 0, 57, "Item"]
+Cell[78029, 2431, 28, 0, 64, "Subsubsubsection"],
+Cell[78060, 2433, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[37137, 1753, 33, 0, 72, "Subsubsection"],
+Cell[78125, 2439, 33, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[37195, 1757, 28, 0, 64, "Subsubsubsection"],
-Cell[37226, 1759, 16, 0, 57, "Item"]
+Cell[78183, 2443, 28, 0, 64, "Subsubsubsection"],
+Cell[78214, 2445, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[37303, 1766, 29, 0, 127, "Subsection"],
+Cell[78291, 2452, 29, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[37357, 1770, 36, 0, 115, "Subsubsection"],
+Cell[78345, 2456, 36, 0, 115, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[37418, 1774, 28, 0, 64, "Subsubsubsection"],
-Cell[37449, 1776, 16, 0, 57, "Item"]
+Cell[78406, 2460, 28, 0, 64, "Subsubsubsection"],
+Cell[78437, 2462, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[37514, 1782, 34, 0, 72, "Subsubsection"],
+Cell[78502, 2468, 34, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[37573, 1786, 28, 0, 64, "Subsubsubsection"],
-Cell[37604, 1788, 16, 0, 57, "Item"]
+Cell[78561, 2472, 28, 0, 64, "Subsubsubsection"],
+Cell[78592, 2474, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[37669, 1794, 31, 0, 72, "Subsubsection"],
+Cell[78657, 2480, 31, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[37725, 1798, 28, 0, 64, "Subsubsubsection"],
-Cell[37756, 1800, 16, 0, 57, "Item"]
+Cell[78713, 2484, 28, 0, 64, "Subsubsubsection"],
+Cell[78744, 2486, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[37833, 1807, 29, 0, 127, "Subsection"],
+Cell[78821, 2493, 29, 0, 127, "Subsection"],
 Cell[CellGroupData[{
-Cell[37887, 1811, 37, 0, 115, "Subsubsection"],
+Cell[78875, 2497, 37, 0, 115, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[37949, 1815, 28, 0, 64, "Subsubsubsection"],
-Cell[37980, 1817, 16, 0, 57, "Item"]
+Cell[78937, 2501, 28, 0, 64, "Subsubsubsection"],
+Cell[78968, 2503, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[38045, 1823, 38, 0, 72, "Subsubsection"],
+Cell[79033, 2509, 38, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[38108, 1827, 28, 0, 64, "Subsubsubsection"],
-Cell[38139, 1829, 16, 0, 57, "Item"]
+Cell[79096, 2513, 28, 0, 64, "Subsubsubsection"],
+Cell[79127, 2515, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[38204, 1835, 35, 0, 72, "Subsubsection"],
+Cell[79192, 2521, 35, 0, 72, "Subsubsection"],
 Cell[CellGroupData[{
-Cell[38264, 1839, 28, 0, 64, "Subsubsubsection"],
-Cell[38295, 1841, 16, 0, 57, "Item"]
+Cell[79252, 2525, 28, 0, 64, "Subsubsubsection"],
+Cell[79283, 2527, 16, 0, 57, "Item"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]]
