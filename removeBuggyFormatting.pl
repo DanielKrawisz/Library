@@ -12,10 +12,10 @@ open FILE, $filename
 my $string = <FILE>;
 close FILE;
 
-my $find = '$CellContext`';
-$find = quotemeta $find; # escape regex metachars if present
+#my $find = '$CellContext`';
+#$find = quotemeta $find; # escape regex metachars if present
 
-$string =~ s/$find//g;
+#$string =~ s/$find//g;
 
 $string =~ s/,\\?\s*CellChangeTimes->\{\s*((\{\s*([0-9\*\^\-\.`]*(,\s*)?)*\s*\})|[0-9\*\^\-\.`]*(,\s*)?)*\s*\}//g;
 
