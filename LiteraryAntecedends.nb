@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     86654,       2416]
-NotebookOptionsPosition[     63857,       1882]
-NotebookOutlinePosition[     82001,       2277]
-CellTagsIndexPosition[     81958,       2274]
+NotebookDataLength[    145579,       3783]
+NotebookOptionsPosition[    122017,       3231]
+NotebookOutlinePosition[    140161,       3626]
+CellTagsIndexPosition[    140118,       3623]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -428,6 +428,1355 @@ Cell[BoxData[
  CellChangeTimes->{{3.552746429248046*^9, 3.5527464365264215`*^9}, {
   3.552746580706519*^9, 3.552746664422269*^9}, {3.552746699664155*^9, 
   3.5527467843997965`*^9}, {3.5816384239200583`*^9, 3.5816384396119556`*^9}}]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Reference Formatting", "Section"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FindSection", "[", "context_String", "]"}], ":=", 
+  RowBox[{"Fold", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Cases", "[", 
+      RowBox[{"#", ",", "#2", ",", "\[Infinity]"}], "]"}], "&"}], ",", 
+    RowBox[{"NotebookGet", "[", 
+     RowBox[{"InputNotebook", "[", "]"}], "]"}], ",", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"CellGroupData", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Cell", "[", 
+           RowBox[{"#", ",", "___"}], "]"}], ",", "___"}], "}"}], ",", 
+        "___"}], "]"}], "&"}], "/@", 
+     RowBox[{"Flatten", "[", 
+      RowBox[{"{", 
+       RowBox[{"SectionHeaderName", "[", "context", "]"}], "}"}], "]"}]}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.590579755909315*^9, 3.590579763168232*^9}, {
+  3.590579818864275*^9, 3.5905798467648015`*^9}, {3.5905799680481358`*^9, 
+  3.5905800018724117`*^9}, {3.5905801366564536`*^9, 3.590580192385502*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Clear", "[", "FormatReference", "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"ReferenceCounter", "[", 
+    RowBox[{"n_", ",", "context_"}], "]"}], ":=", "n"}], ";"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Options", "[", "FormatReference", "]"}], "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<Format\>\"", "\[Rule]", "\"\<Web\>\""}], ",", 
+     RowBox[{"\"\<Abbreviation\>\"", "\[Rule]", "None"}]}], "}"}]}], 
+  ";"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Options", "[", "Reference", "]"}], "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<Citation\>\"", "\[Rule]", "\"\<Book\>\""}], ",", 
+     RowBox[{"\"\<Author\>\"", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\"\<Title\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Date\>\"", "\[Rule]", 
+      RowBox[{"{", "}"}]}], ",", 
+     RowBox[{"\"\<Publisher\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Volume\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Number\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Chapter\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Source\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Pages\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<URL\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Footnote\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Location\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Edition\>\"", "\[Rule]", "None"}], ",", 
+     RowBox[{"\"\<Editor\>\"", "\[Rule]", "None"}]}], "}"}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.5770708315443306`*^9, 3.5770708356638527`*^9}, {
+  3.5770709162399225`*^9, 3.577070919879378*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"ReferenceContextList", "[", "]"}], "=", 
+   RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"RegisterReferenceContext", "[", "context_", "]"}], ":=", 
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{"!", 
+      RowBox[{"MemberQ", "[", 
+       RowBox[{
+        RowBox[{"ReferenceContextList", "[", "]"}], ",", "context"}], "]"}]}],
+      ",", 
+     RowBox[{
+      RowBox[{"AppendTo", "[", 
+       RowBox[{
+        RowBox[{"ReferenceContextList", "[", "]"}], ",", "context"}], "]"}], 
+      ";"}]}], "]"}]}], ";"}]}], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FormatReference", "[", 
+   RowBox[{
+    RowBox[{"Reference", "[", 
+     RowBox[{"OptionsPattern", "[", "]"}], "]"}], ",", 
+    RowBox[{"OptionsPattern", "[", "]"}]}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Function", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"title", ",", "url", ",", "book"}], "}"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Row", "[", 
+      RowBox[{"Riffle", "[", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"MapAt", "[", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"If", "[", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"Head", "[", "#", "]"}], "===", "String"}], ",", 
+               "\[IndentingNewLine]", 
+               RowBox[{"#", "<>", "\"\<,\>\""}], ",", "\[IndentingNewLine]", 
+               RowBox[{"Row", "[", 
+                RowBox[{"{", 
+                 RowBox[{"#", ",", "\"\<,\>\""}], "}"}], "]"}]}], "]"}], 
+             "&"}], ",", "\[IndentingNewLine]", "#", ",", 
+            "\[IndentingNewLine]", 
+            RowBox[{"Array", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"{", "#", "}"}], "&"}], ",", 
+              RowBox[{
+               RowBox[{"Length", "[", 
+                RowBox[{"Unevaluated", "[", "#", "]"}], "]"}], "-", "1"}]}], 
+             "]"}]}], "]"}], "&"}], "[", "\[IndentingNewLine]", 
+         RowBox[{"Which", "[", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"OptionValue", "[", 
+             RowBox[{"FormatReference", ",", "\"\<Abbreviation\>\""}], "]"}], 
+            "===", "\"\<Ibid\>\""}], ",", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"Reap", "[", 
+             RowBox[{
+              RowBox[{"Sow", "[", "\"\<Ibid.\>\"", "]"}], ";", 
+              "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "=!=", 
+                 "None"}], ",", "\[IndentingNewLine]", 
+                RowBox[{"Switch", "[", 
+                 RowBox[{
+                  RowBox[{"Head", "[", 
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "]"}],
+                   ",", "\[IndentingNewLine]", "Integer", ",", 
+                  RowBox[{"\"\<pg. \>\"", "<>", 
+                   RowBox[{"ToString", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "]"}]}], ",", "\[IndentingNewLine]", "List", ",", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{
+                   RowBox[{"Which", "[", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "]"}],
+                     "\[Equal]", "1"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", 
+                    RowBox[{"\"\<pg. \>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                    "]"}]}], "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"Length", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "]"}],
+                     ">", "1"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", 
+                    RowBox[{"\"\<pp. \>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                    "]"}], "<>", "\"\<-\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+                    "]"}]}], "]"}]}], "]"}], ";"}]}], "\[IndentingNewLine]", 
+                 "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Footnote\>\""}], "]"}], "=!=",
+                  "None"}], ",", 
+                RowBox[{"Sow", "[", 
+                 RowBox[{"\"\<footnote \>\"", "<>", 
+                  RowBox[{"ToString", "[", 
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Footnote\>\""}], "]"}], 
+                   "]"}]}], "]"}]}], "]"}], ";"}], "]"}], 
+            "\[LeftDoubleBracket]", 
+            RowBox[{"2", ",", "1"}], "\[RightDoubleBracket]"}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"OptionValue", "[", 
+             RowBox[{"FormatReference", ",", "\"\<Abbreviation\>\""}], "]"}], 
+            "===", "\"\<Citation\>\""}], ",", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"Reap", "[", 
+             RowBox[{
+              RowBox[{"Sow", "[", "\[IndentingNewLine]", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"If", "[", 
+                  RowBox[{"url", ",", 
+                   RowBox[{"Hyperlink", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<URL\>\""}], "]"}]}], "]"}],
+                    ",", "#"}], "]"}], "&"}], "[", "\[IndentingNewLine]", 
+                RowBox[{"StringJoin", "@@", 
+                 RowBox[{"Riffle", "[", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"Reap", "[", 
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Author\>\""}], "]"}], "=!=", 
+                    RowBox[{"{", "}"}]}], "&&", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Author\>\""}], "]"}], "=!=",
+                     "None"}]}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", 
+                    RowBox[{"StringJoin", "@@", 
+                    RowBox[{"Riffle", "[", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], ">", "3"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{
+                    "#", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}], ",", "\"\<et al\>\""}], "}"}], 
+                    ",", "#"}], "]"}], "&"}], "[", 
+                    RowBox[{"Sort", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"StringSplit", "[", 
+                    RowBox[{"#", ",", "\"\< \>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", 
+                    RowBox[{"-", "1"}], "\[RightDoubleBracket]"}], "&"}], "/@", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Author\>\""}], "]"}]}], 
+                    "]"}], "]"}], ",", "\"\<, \>\""}], "]"}]}], "]"}]}], 
+                    "]"}], ";", "\[IndentingNewLine]", 
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Editor\>\""}], "]"}], "=!=", 
+                    RowBox[{"{", "}"}]}], "&&", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Editor\>\""}], "]"}], "=!=",
+                     "None"}]}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", 
+                    RowBox[{"StringJoin", "@@", 
+                    RowBox[{"Riffle", "[", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Which", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], ">", "3"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{
+                    "#", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}], ",", "\"\<et al, eds.\>\""}], 
+                    "}"}], ",", 
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], ">", "1"}], ",", 
+                    RowBox[{"Append", "[", 
+                    RowBox[{"#", ",", "\"\<eds.\>\""}], "]"}], ",", "True", 
+                    ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{
+                    "#", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}], ",", "\"\<ed.\>\""}], "}"}]}], 
+                    "]"}], "&"}], "[", 
+                    RowBox[{"Sort", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"StringSplit", "[", 
+                    RowBox[{"#", ",", "\"\< \>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", 
+                    RowBox[{"-", "1"}], "\[RightDoubleBracket]"}], "&"}], "/@", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Editor\>\""}], "]"}]}], 
+                    "]"}], "]"}], ",", "\"\<, \>\""}], "]"}]}], "]"}]}], 
+                    "]"}], ";", "\[IndentingNewLine]", 
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Date\>\""}], "]"}], "=!=", 
+                    
+                    RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{"MemberQ", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"\"\<Year\>\"", "\[Rule]", "_"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", "\[IndentingNewLine]", 
+                    RowBox[{"DateString", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"\<Year\>\"", "+", "1"}], ",", "0", ",", "0", 
+                    ",", "0", ",", "0", ",", "0"}], "}"}], "/.", "#"}], ",", 
+                    RowBox[{"{", "\"\<Year\>\"", "}"}]}], "]"}], "]"}]}], 
+                    "]"}], "&"}], "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Date\>\""}], "]"}], 
+                    "]"}]}], "]"}]}], "]"}], "\[LeftDoubleBracket]", 
+                    RowBox[{"2", ",", "1"}], "\[RightDoubleBracket]"}], ",", 
+                   "\"\<, \>\""}], "]"}]}], "]"}], "]"}], ";", 
+              "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "=!=", 
+                 "None"}], ",", "\[IndentingNewLine]", 
+                RowBox[{"Switch", "[", 
+                 RowBox[{
+                  RowBox[{"Head", "[", 
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "]"}],
+                   ",", "\[IndentingNewLine]", "Integer", ",", 
+                  RowBox[{"\"\<pg. \>\"", "<>", 
+                   RowBox[{"ToString", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "]"}]}], ",", "\[IndentingNewLine]", "List", ",", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{
+                   RowBox[{"Which", "[", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "]"}],
+                     "\[Equal]", "1"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", 
+                    RowBox[{"\"\<pg. \>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                    "]"}]}], "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"Length", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "]"}],
+                     ">", "1"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", 
+                    RowBox[{"\"\<pp. \>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                    "]"}], "<>", "\"\<-\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+                    "]"}]}], "]"}]}], "]"}], ";"}]}], "\[IndentingNewLine]", 
+                 "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Footnote\>\""}], "]"}], "=!=",
+                  "None"}], ",", 
+                RowBox[{"Sow", "[", 
+                 RowBox[{"\"\<footnote \>\"", "<>", 
+                  RowBox[{"ToString", "[", 
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Footnote\>\""}], "]"}], 
+                   "]"}]}], "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+             "]"}], "\[LeftDoubleBracket]", 
+            RowBox[{"2", ",", "1"}], "\[RightDoubleBracket]"}], ",", 
+           "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"OptionValue", "[", 
+             RowBox[{"FormatReference", ",", "\"\<Abbreviation\>\""}], "]"}], 
+            "===", "None"}], ",", "\[IndentingNewLine]", 
+           RowBox[{
+            RowBox[{"Reap", "[", "\[IndentingNewLine]", 
+             RowBox[{
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{
+                  RowBox[{"OptionValue", "[", 
+                   RowBox[{"Reference", ",", "\"\<Author\>\""}], "]"}], "=!=", 
+                  RowBox[{"{", "}"}]}], "&&", 
+                 RowBox[{
+                  RowBox[{"OptionValue", "[", 
+                   RowBox[{"Reference", ",", "\"\<Author\>\""}], "]"}], "=!=",
+                   "None"}]}], ",", "\[IndentingNewLine]", 
+                RowBox[{"Sow", "[", 
+                 RowBox[{"StringJoin", "@@", 
+                  RowBox[{"Riffle", "[", "\[IndentingNewLine]", 
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], ">", "1"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"Last", "[", "#", "]"}], "<>", "\"\<, \>\"", "<>", 
+                    RowBox[{"StringTake", "[", 
+                    RowBox[{
+                    RowBox[{"First", "[", "#", "]"}], ",", "1"}], "]"}], 
+                    "<>", "\"\<.\>\""}], ",", "\[IndentingNewLine]", "#"}], 
+                    "]"}], "&"}], "[", 
+                    RowBox[{"StringSplit", "[", 
+                    RowBox[{"#", ",", "\"\< \>\""}], "]"}], "]"}], "&"}], "/@", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Author\>\""}], "]"}]}], 
+                    ",", "\"\<, \>\""}], "]"}]}], "]"}]}], "]"}], ";", 
+              "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{
+                  RowBox[{"OptionValue", "[", 
+                   RowBox[{"Reference", ",", "\"\<Editor\>\""}], "]"}], "=!=", 
+                  RowBox[{"{", "}"}]}], "&&", 
+                 RowBox[{
+                  RowBox[{"OptionValue", "[", 
+                   RowBox[{"Reference", ",", "\"\<Editor\>\""}], "]"}], "=!=",
+                   "None"}]}], ",", "\[IndentingNewLine]", 
+                RowBox[{"Sow", "[", 
+                 RowBox[{"StringJoin", "@@", 
+                  RowBox[{"Riffle", "[", "\[IndentingNewLine]", 
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", "#", "]"}], ">", "3"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{
+                    "#", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}], ",", "\"\<et al\>\""}], "}"}], 
+                    ",", "#"}], "]"}], "&"}], "[", 
+                    RowBox[{"Sort", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"StringSplit", "[", 
+                    RowBox[{"#", ",", "\"\< \>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", 
+                    RowBox[{"-", "1"}], "\[RightDoubleBracket]"}], "&"}], "/@", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Editor\>\""}], "]"}]}], 
+                    "]"}], "]"}], ",", "\"\<, \>\""}], "]"}]}], "]"}]}], 
+               "]"}], ";", "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{"title", ",", 
+                RowBox[{"Sow", "[", "\[IndentingNewLine]", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{"Which", "[", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"url", "&&", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"FormatReference", ",", "\"\<Format\>\""}], "]"}],
+                     "===", "\"\<Web\>\""}]}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"Hyperlink", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<URL\>\""}], "]"}]}], "]"}],
+                     ",", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"FormatReference", ",", "\"\<Format\>\""}], "]"}],
+                     "===", "\"\<Paper\>\""}], ",", "\[IndentingNewLine]", 
+                    "#", ",", "True", ",", "#"}], "]"}], "&"}], "[", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"If", "[", 
+                    RowBox[{"book", ",", 
+                    RowBox[{"Style", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"FontSlant", "\[Rule]", "Italic"}]}], "]"}], ",", 
+                    
+                    RowBox[{
+                    "\"\<\[OpenCurlyDoubleQuote]\>\"", "<>", "#", "<>", 
+                    "\"\<\[CloseCurlyDoubleQuote]\>\""}]}], "]"}], "&"}], "[", 
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Title\>\""}], "]"}], "]"}],
+                   "]"}], "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Volume\>\""}], "]"}], "=!=", 
+                 "None"}], ",", 
+                RowBox[{
+                 RowBox[{"Sow", "[", 
+                  RowBox[{"\"\<vol. \>\"", "<>", 
+                   RowBox[{"ToString", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Volume\>\""}], "]"}], 
+                    "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+                 RowBox[{"If", "[", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Number\>\""}], "]"}], "=!=",
+                     "None"}], ",", "\[IndentingNewLine]", 
+                   RowBox[{"Sow", "[", 
+                    RowBox[{"\"\<no. \>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Number\>\""}], "]"}], 
+                    "]"}]}], "]"}]}], "]"}]}]}], "]"}], ";", 
+              "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"Head", "[", 
+                  RowBox[{"OptionValue", "[", 
+                   RowBox[{"Reference", ",", "\"\<Edition\>\""}], "]"}], 
+                  "]"}], "===", "Integer"}], ",", "\[IndentingNewLine]", 
+                RowBox[{
+                 RowBox[{
+                  RowBox[{"Sow", "[", 
+                   RowBox[{
+                    RowBox[{"ToString", "[", "#", "]"}], "<>", 
+                    RowBox[{"Which", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Mod", "[", 
+                    RowBox[{"#", ",", "10"}], "]"}], "\[Equal]", "1"}], ",", 
+                    "\"\<st\>\"", ",", 
+                    RowBox[{
+                    RowBox[{"Mod", "[", 
+                    RowBox[{"#", ",", "10"}], "]"}], "\[Equal]", "2"}], ",", 
+                    "\"\<nd\>\"", ",", 
+                    RowBox[{
+                    RowBox[{"Mod", "[", 
+                    RowBox[{"#", ",", "10"}], "]"}], "\[Equal]", "3"}], ",", 
+                    "\"\<rd\>\"", ",", "True", ",", "\"\<th\>\""}], "]"}], 
+                    "<>", "\"\< ed.\>\""}], "]"}], "&"}], "[", 
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Edition\>\""}], "]"}], 
+                 "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{"book", ",", "\[IndentingNewLine]", 
+                RowBox[{"If", "[", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Publisher\>\""}], "]"}], "=!=",
+                    "None"}], ",", "\[IndentingNewLine]", 
+                  RowBox[{"Sow", "[", 
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Publisher\>\""}], "]"}], 
+                   "]"}]}], "]"}], ",", "\[IndentingNewLine]", 
+                RowBox[{"If", "[", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Source\>\""}], "]"}], "=!=",
+                    "None"}], ",", "\[IndentingNewLine]", 
+                  RowBox[{"Sow", "[", 
+                   RowBox[{"Style", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Source\>\""}], "]"}], ",", 
+                    
+                    RowBox[{"FontSlant", "\[Rule]", "Italic"}]}], "]"}], 
+                   "]"}]}], "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{
+                  RowBox[{"OptionValue", "[", 
+                   RowBox[{"Reference", ",", "\"\<Citation\>\""}], "]"}], 
+                  "===", "\"\<URL\>\""}], "&&", "url", "&&", 
+                 RowBox[{
+                  RowBox[{"OptionValue", "[", 
+                   RowBox[{"FormatReference", ",", "\"\<Format\>\""}], "]"}], 
+                  "=!=", "\"\<Web\>\""}]}], ",", "\[IndentingNewLine]", 
+                RowBox[{"Sow", "[", 
+                 RowBox[{"\"\<<\>\"", "<>", 
+                  RowBox[{"OptionValue", "[", 
+                   RowBox[{"Reference", ",", "\"\<URL\>\""}], "]"}], "<>", 
+                  "\"\<>\>\""}], "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Date\>\""}], "]"}], "=!=", 
+                 RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+                RowBox[{
+                 RowBox[{
+                  RowBox[{"If", "[", 
+                   RowBox[{
+                    RowBox[{"MemberQ", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"\"\<Year\>\"", "\[Rule]", "_"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", 
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{"MemberQ", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"\"\<Month\>\"", "\[Rule]", "_"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{"MemberQ", "[", 
+                    RowBox[{"#", ",", 
+                    RowBox[{"\"\<Day\>\"", "\[Rule]", "_"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"DateString", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\"\<Year\>\"", ",", "\"\<Month\>\"", ",", "\"\<Day\>\"", 
+                    ",", "0", ",", "0", ",", "0"}], "}"}], "/.", "#"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\"\<DayShort\>\"", ",", "\"\< \>\"", ",", 
+                    "\"\<MonthNameShort\>\"", ",", "\"\< \>\"", ",", 
+                    "\"\<Year\>\""}], "}"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"DateString", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\"\<Year\>\"", ",", "\"\<Month\>\"", ",", "0", ",", "0", 
+                    ",", "0", ",", "0"}], "}"}], "/.", "#"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    "\"\<MonthNameShort\>\"", ",", "\"\< \>\"", ",", 
+                    "\"\<Year\>\""}], "}"}]}], "]"}]}], "]"}], ",", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"DateString", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"\"\<Year\>\"", "+", "1"}], ",", "0", ",", "0", 
+                    ",", "0", ",", "0", ",", "0"}], "}"}], "/.", "#"}], ",", 
+                    RowBox[{"{", "\"\<Year\>\"", "}"}]}], "]"}]}], "]"}], 
+                    "]"}]}], "]"}], "&"}], "[", 
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Date\>\""}], "]"}], "]"}]}], 
+               "]"}], ";", "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "=!=", 
+                 "None"}], ",", "\[IndentingNewLine]", 
+                RowBox[{"Switch", "[", 
+                 RowBox[{
+                  RowBox[{"Head", "[", 
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "]"}],
+                   ",", "\[IndentingNewLine]", "Integer", ",", 
+                  RowBox[{"\"\<pg. \>\"", "<>", 
+                   RowBox[{"ToString", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "]"}]}], ",", "\[IndentingNewLine]", "List", ",", 
+                  "\[IndentingNewLine]", 
+                  RowBox[{
+                   RowBox[{"Which", "[", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"Length", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "]"}],
+                     "\[Equal]", "1"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", 
+                    RowBox[{"\"\<pg. \>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                    "]"}]}], "]"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{
+                    RowBox[{"Length", "[", 
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], "]"}],
+                     ">", "1"}], ",", "\[IndentingNewLine]", 
+                    RowBox[{"Sow", "[", 
+                    RowBox[{"\"\<pp. \>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                    "]"}], "<>", "\"\<-\>\"", "<>", 
+                    RowBox[{"ToString", "[", 
+                    RowBox[{
+                    RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Pages\>\""}], "]"}], 
+                    "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+                    "]"}]}], "]"}]}], "]"}], ";"}]}], "\[IndentingNewLine]", 
+                 "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+              RowBox[{"If", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"OptionValue", "[", 
+                  RowBox[{"Reference", ",", "\"\<Footnote\>\""}], "]"}], "=!=",
+                  "None"}], ",", 
+                RowBox[{"Sow", "[", 
+                 RowBox[{"\"\<footnote \>\"", "<>", 
+                  RowBox[{"ToString", "[", 
+                   RowBox[{"OptionValue", "[", 
+                    RowBox[{"Reference", ",", "\"\<Footnote\>\""}], "]"}], 
+                   "]"}]}], "]"}]}], "]"}], ";"}], "\[IndentingNewLine]", 
+             "]"}], "\[LeftDoubleBracket]", 
+            RowBox[{"2", ",", "1"}], "\[RightDoubleBracket]"}]}], "]"}], 
+         "]"}], ",", "\[IndentingNewLine]", "\"\< \>\""}], "]"}], "]"}]}], 
+    "]"}], "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"OptionValue", "[", 
+      RowBox[{"Reference", ",", "\"\<Title\>\""}], "]"}], "=!=", "None"}], 
+    ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"OptionValue", "[", 
+      RowBox[{"Reference", ",", "\"\<URL\>\""}], "]"}], "=!=", "None"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"MemberQ", "[", 
+     RowBox[{
+      RowBox[{"{", "\"\<Book\>\"", "}"}], ",", 
+      RowBox[{"OptionValue", "[", 
+       RowBox[{"Reference", ",", "\"\<Citation\>\""}], "]"}]}], "]"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{
+  3.5781537131909714`*^9, {3.578154072510523*^9, 3.5781541028542585`*^9}, {
+   3.5781541726532507`*^9, 3.578154185032959*^9}, {3.578154374660805*^9, 
+   3.5781543957840133`*^9}, {3.578154468501172*^9, 3.57815451549086*^9}, {
+   3.5781545488527684`*^9, 3.578154574866256*^9}, {3.578154670132705*^9, 
+   3.578154688290744*^9}, {3.5781547251588526`*^9, 3.5781548021222544`*^9}, {
+   3.578154984729699*^9, 3.5781552162879434`*^9}, {3.578155359758149*^9, 
+   3.5781553755190506`*^9}, {3.578155407345871*^9, 3.5781554362335234`*^9}, {
+   3.57815557534348*^9, 3.578155611447545*^9}, {3.5781556527359066`*^9, 
+   3.578155757471897*^9}, {3.578155798352236*^9, 3.5781558059966726`*^9}, {
+   3.578155932561912*^9, 3.578155934193005*^9}, {3.5781559981906652`*^9, 
+   3.5781560177827864`*^9}, {3.578160369580695*^9, 3.578160429543124*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FormatReference", "[", 
+   RowBox[{"ref_", ",", "opts__"}], "]"}], ":=", 
+  RowBox[{"Block", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"last", "=", 
+      RowBox[{"{", "}"}]}], "}"}], ",", 
+    RowBox[{"ref", "/.", 
+     RowBox[{"x_Reference", "\[RuleDelayed]", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{"#", "===", "last"}], ",", 
+           RowBox[{"FormatReference", "[", 
+            RowBox[{"x", ",", 
+             RowBox[{"\"\<Abbreviation\>\"", "\[Rule]", "\"\<Ibid\>\""}], ",",
+              "opts"}], "]"}], ",", 
+           RowBox[{
+            RowBox[{"last", "=", "#"}], ";", 
+            RowBox[{"FormatReference", "[", 
+             RowBox[{"x", ",", "opts"}], "]"}]}]}], "]"}], "&"}], "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"\"\<Title\>\"", ",", "\"\<Authors\>\""}], "}"}], "/.", 
+         RowBox[{"(", 
+          RowBox[{"List", "@@", "x"}], ")"}]}], "]"}], ")"}]}]}]}], 
+   "]"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"Clear", "[", "PrintFootnotes", "]"}]], "Input",
+ CellChangeTimes->{{3.5781563622364883`*^9, 3.5781563653756676`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Options", "[", "PrintFootnotes", "]"}], "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\"\<Style\>\"", "\[Rule]", "\"\<Short\>\""}], ",", 
+     RowBox[{"\"\<ReferenceOptions\>\"", "\[Rule]", 
+      RowBox[{"{", "}"}]}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.578156222558499*^9, 3.5781562488250012`*^9}, 
+   3.5781563558501225`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PrintFootnotes", "[", 
+   RowBox[{"context_", ",", 
+    RowBox[{"OptionsPattern", "[", "]"}]}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"mentioned", ",", "number"}], "}"}], ",", "\[IndentingNewLine]", 
+    
+    RowBox[{
+     RowBox[{
+      RowBox[{"mentioned", "[", "_", "]"}], "=", "False"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"number", "[", 
+       RowBox[{
+        RowBox[{"Row", "[", "A___", "]"}], ",", "z_"}], "]"}], ":=", 
+      RowBox[{"Row", "[", 
+       RowBox[{
+        RowBox[{"z", "<>", "\"\<. \>\""}], ",", "A"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"number", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Row", "[", "A___", "]"}], ",", "B___"}], "}"}], ",", 
+        "z_"}], "]"}], ":=", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Row", "[", 
+         RowBox[{
+          RowBox[{"z", "<>", "\"\<. \>\""}], ",", "A"}], "]"}], ",", "B"}], 
+       "}"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Block", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+        "formatReference", ",", "formattedCitation", ",", "findCase", ",", 
+         "checkMention"}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"formatReference", "[", "R_", "]"}], "[", 
+          RowBox[{"J_", ",", "m_"}], "]"}], ":=", 
+         RowBox[{"FormatReference", "[", 
+          RowBox[{
+           RowBox[{"Join", "[", 
+            RowBox[{"R", ",", "J"}], "]"}], ",", 
+           RowBox[{"OptionValue", "[", 
+            RowBox[{"PrintFootnotes", ",", "\"\<ReferenceOptions\>\""}], 
+            "]"}], ",", 
+           RowBox[{"\"\<Abbreviation\>\"", "\[Rule]", "m"}]}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"findCase", "[", "\[CapitalLambda]_", "]"}], ":=", 
+         RowBox[{"Cases", "[", 
+          RowBox[{
+           RowBox[{"References", "[", "context", "]"}], ",", 
+           RowBox[{"Reference", "[", 
+            RowBox[{"___", ",", 
+             RowBox[{"\"\<Title\>\"", "\[Rule]", "\[CapitalLambda]"}], ",", 
+             "___"}], "]"}], ",", "1"}], "]"}]}], ";", "\[IndentingNewLine]", 
+        
+        RowBox[{
+         RowBox[{"checkMention", "[", "\[CapitalLambda]_", "]"}], ":=", 
+         RowBox[{"Which", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"OptionValue", "[", 
+             RowBox[{"PrintFootnotes", ",", "\"\<Style\>\""}], "]"}], "===", 
+            "\"\<Short\>\""}], ",", "\"\<Citation\>\"", ",", 
+           RowBox[{
+            RowBox[{"OptionValue", "[", 
+             RowBox[{"PrintFootnotes", ",", "\"\<Style\>\""}], "]"}], "===", 
+            "\"\<Long\>\""}], ",", 
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{"mentioned", "[", "\[CapitalLambda]", "]"}], ",", 
+             "\"\<Citation\>\"", ",", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"mentioned", "[", "\[CapitalLambda]", "]"}], "=", 
+               "True"}], ";", "None"}]}], "]"}]}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"formattedCitation", "[", 
+          RowBox[{"\[CapitalLambda]_", ",", "opts___"}], "]"}], ":=", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"If", "[", 
+            RowBox[{
+             RowBox[{"#", "===", 
+              RowBox[{"{", "}"}]}], ",", 
+             RowBox[{
+             "\"\<<<<UNKNOWN:\>\"", "<>", "\[CapitalLambda]", "<>", 
+              "\"\<>>>\>\""}], ",", 
+             RowBox[{
+              RowBox[{"formatReference", "[", 
+               RowBox[{"Reference", "[", "opts", "]"}], "]"}], "[", 
+              RowBox[{
+               RowBox[{
+               "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+               ",", 
+               RowBox[{"checkMention", "[", "\[CapitalLambda]", "]"}]}], 
+              "]"}]}], "]"}], "&"}], "[", 
+          RowBox[{"findCase", "[", "\[CapitalLambda]", "]"}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"CellPrint", "[", 
+           RowBox[{"Cell", "[", 
+            RowBox[{
+             RowBox[{"TextData", "[", "#", "]"}], ",", "\"\<Footnote\>\""}], 
+            "]"}], "]"}], "&"}], "/@", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"Flatten", "[", 
+            RowBox[{"MapIndexed", "[", "\[IndentingNewLine]", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"number", "[", 
+                RowBox[{"#", ",", 
+                 RowBox[{"ToString", "[", 
+                  RowBox[{
+                  "#2", "\[LeftDoubleBracket]", "1", 
+                   "\[RightDoubleBracket]"}], "]"}]}], "]"}], "&"}], ",", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"Footnotes", "[", "context", "]"}], 
+                "\[LeftDoubleBracket]", 
+                RowBox[{"Last", "/@", 
+                 RowBox[{"Sort", "[", 
+                  RowBox[{"Cases", "[", 
+                   RowBox[{
+                    RowBox[{"DownValues", "[", "ReferenceCounter", "]"}], ",", 
+                    RowBox[{
+                    RowBox[{"HoldPattern", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"_", ":", "RuleDelayed"}], ")"}], "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"_", ":", "HoldPattern"}], ")"}], "[", 
+                    RowBox[{"ReferenceCounter", "[", 
+                    RowBox[{"\[Angle]_", ",", "context"}], "]"}], "]"}], ",", 
+                    "\[WeierstrassP]_"}], "]"}], "]"}], "\[RuleDelayed]", 
+                    RowBox[{"{", 
+                    RowBox[{"\[WeierstrassP]", ",", "\[Angle]"}], "}"}]}]}], 
+                   "]"}], "]"}]}], "\[RightDoubleBracket]"}], "/.", 
+               RowBox[{"Citation", "\[Rule]", "formattedCitation"}]}]}], 
+             "]"}], "]"}], "//.", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"Row", "\[Rule]", "List"}], ",", 
+             RowBox[{
+              RowBox[{"Hyperlink", "[", 
+               RowBox[{"z_", ",", "l_"}], "]"}], "\[RuleDelayed]", 
+              RowBox[{"ButtonBox", "[", 
+               RowBox[{"z", ",", 
+                RowBox[{"BaseStyle", "\[Rule]", "\"\<Hyperlink\>\""}], ",", 
+                RowBox[{"ButtonData", "\[Rule]", 
+                 RowBox[{"{", 
+                  RowBox[{"l", ",", "None"}], "}"}]}]}], "]"}]}], ",", 
+             RowBox[{"Style", "\[Rule]", "StyleBox"}]}], "}"}]}], ")"}]}]}]}],
+       "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGCQAmIQbcO2SOujzytHt9IDYNpI+9ScUyteOTbckp0LorfM
+OLMaRLeVnl4Dovlzlm0B0QwBF8C0xd32vSC6xnXyPhC9TajtBIj+9kr+DIjm
+ehF1EUQn/V95CWxedMc1EK3jZPIQRAe92v0GRC9oYfsCog0nLyw+A6QPTD0C
+psXmSlSB6DP3M8D0LpvM1k9rXzm+MGgB07Ui0n0g2uTT7Ckg+s5crjkgOuNQ
+HpiekJa4CkTbbpXZCKIZp0ftBtGzEvj2gOi9wfrHQPSC9y+ug2jx/dp38tcD
+/fnJ9wmIPhdx5AWIjllh9RJEz4m4+B5E6+qHfwfRp5UzfoNohdknpQuAtNau
+Ln0QXXrxtg2I3lcU7wKiZ2zu9wDRv5Jkw0F0QeW1eBC9UWl5Koj+fuxkIYj2
++vvIrAxIT7nzDEwDAHyL88g=
+  "]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PrintUnusedFootnotes", "[", "context_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"CellPrint", "[", 
+     RowBox[{"Cell", "[", 
+      RowBox[{
+       RowBox[{"TextData", "[", "#", "]"}], ",", "\"\<Paragraph\>\""}], "]"}],
+      "]"}], "&"}], "/@", 
+   RowBox[{"Flatten", "[", 
+    RowBox[{
+     RowBox[{"MapIndexed", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Head", "[", "#", "]"}], "===", "List"}], ",", 
+          "\[IndentingNewLine]", 
+          RowBox[{"MapAt", "[", 
+           RowBox[{
+            RowBox[{"Function", "[", 
+             RowBox[{"z", ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"ToString", "[", 
+                  RowBox[{
+                  "#2", "\[LeftDoubleBracket]", "1", 
+                   "\[RightDoubleBracket]"}], "]"}], "<>", "\"\<. \>\""}], 
+                ",", 
+                RowBox[{"Flatten", "[", "z", "]"}]}], "}"}]}], "]"}], ",", 
+            "#", ",", 
+            RowBox[{"{", "1", "}"}]}], "]"}], ",", "\[IndentingNewLine]", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"ToString", "[", 
+              RowBox[{
+              "#2", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+              "]"}], "<>", "\"\<. \>\""}], ",", 
+            RowBox[{"Flatten", "[", "#", "]"}]}], "}"}]}], "]"}], "&"}], ",", 
+       
+       RowBox[{
+        RowBox[{"FormatReference", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Delete", "[", 
+            RowBox[{
+             RowBox[{"Footnotes", "[", "context", "]"}], ",", 
+             RowBox[{"List", "/@", 
+              RowBox[{"Last", "/@", 
+               RowBox[{"Sort", "[", 
+                RowBox[{"Cases", "[", 
+                 RowBox[{
+                  RowBox[{"DownValues", "[", "ReferenceCounter", "]"}], ",", 
+                  RowBox[{
+                   RowBox[{"HoldPattern", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"_", ":", "RuleDelayed"}], ")"}], "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"_", ":", "HoldPattern"}], ")"}], "[", 
+                    RowBox[{"ReferenceCounter", "[", 
+                    RowBox[{"\[Angle]_", ",", "context"}], "]"}], "]"}], ",", 
+                    "\[WeierstrassP]_"}], "]"}], "]"}], "\[RuleDelayed]", 
+                   RowBox[{"{", 
+                    RowBox[{"\[WeierstrassP]", ",", "\[Angle]"}], "}"}]}]}], 
+                 "]"}], "]"}]}]}]}], "]"}], "/.", 
+           RowBox[{
+            RowBox[{"Citation", "[", 
+             RowBox[{"\[CapitalLambda]_", ",", "opts___"}], "]"}], 
+            "\[RuleDelayed]", 
+            RowBox[{"Join", "[", 
+             RowBox[{
+              RowBox[{"Reference", "[", "opts", "]"}], ",", 
+              RowBox[{
+               RowBox[{"Cases", "[", 
+                RowBox[{
+                 RowBox[{"References", "[", "context", "]"}], ",", 
+                 RowBox[{"Reference", "[", 
+                  RowBox[{"___", ",", 
+                   RowBox[{"\"\<Title\>\"", "\[Rule]", "\[CapitalLambda]"}], 
+                   ",", "___"}], "]"}], ",", "1"}], "]"}], 
+               "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], 
+             "]"}]}]}], ",", 
+          RowBox[{"\"\<Format\>\"", "\[Rule]", "\"\<Web\>\""}], ",", 
+          RowBox[{"\"\<Abbreviation\>\"", "\[Rule]", "\"\<Citation\>\""}]}], 
+         "]"}], "//.", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Row", "\[Rule]", "List"}], ",", 
+          RowBox[{
+           RowBox[{"Hyperlink", "[", 
+            RowBox[{"z_", ",", "l_"}], "]"}], "\[RuleDelayed]", 
+           RowBox[{"ButtonBox", "[", 
+            RowBox[{"z", ",", 
+             RowBox[{"BaseStyle", "\[Rule]", "\"\<Hyperlink\>\""}], ",", 
+             RowBox[{"ButtonData", "\[Rule]", 
+              RowBox[{"{", 
+               RowBox[{"l", ",", "None"}], "}"}]}]}], "]"}]}], ",", 
+          RowBox[{"Style", "\[Rule]", "StyleBox"}]}], "}"}]}]}], "]"}], ",", 
+     "1"}], "]"}]}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PrintWorksCited", "[", "context_", "]"}], ":=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"CellPrint", "[", 
+     RowBox[{"Cell", "[", 
+      RowBox[{
+       RowBox[{"TextData", "[", 
+        RowBox[{"Append", "[", 
+         RowBox[{"#", ",", "\"\<.\>\""}], "]"}], "]"}], ",", 
+       "\"\<Reference\>\""}], "]"}], "]"}], "&"}], "/@", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"FormatReference", "[", 
+      RowBox[{
+       RowBox[{"DeleteDuplicates", "[", 
+        RowBox[{"SortBy", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Cases", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"Footnotes", "[", "context", "]"}], 
+              "\[LeftDoubleBracket]", 
+              RowBox[{"Last", "/@", 
+               RowBox[{"Sort", "[", 
+                RowBox[{"Cases", "[", 
+                 RowBox[{
+                  RowBox[{"DownValues", "[", "ReferenceCounter", "]"}], ",", 
+                  RowBox[{
+                   RowBox[{"HoldPattern", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"_", ":", "RuleDelayed"}], ")"}], "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"_", ":", "HoldPattern"}], ")"}], "[", 
+                    RowBox[{"ReferenceCounter", "[", 
+                    RowBox[{"\[Angle]_", ",", "context"}], "]"}], "]"}], ",", 
+                    "\[WeierstrassP]_"}], "]"}], "]"}], "\[RuleDelayed]", 
+                   RowBox[{"{", 
+                    RowBox[{"\[WeierstrassP]", ",", "\[Angle]"}], "}"}]}]}], 
+                 "]"}], "]"}]}], "\[RightDoubleBracket]"}], ",", 
+             RowBox[{"Citation", "[", "__", "]"}], ",", "\[Infinity]"}], 
+            "]"}], "/.", 
+           RowBox[{
+            RowBox[{"Citation", "[", 
+             RowBox[{"\[CapitalLambda]_", ",", "opts___"}], "]"}], 
+            "\[RuleDelayed]", 
+            RowBox[{
+             RowBox[{"Cases", "[", 
+              RowBox[{
+               RowBox[{"References", "[", "context", "]"}], ",", 
+               RowBox[{"Reference", "[", 
+                RowBox[{"___", ",", 
+                 RowBox[{"\"\<Title\>\"", "\[Rule]", "\[CapitalLambda]"}], 
+                 ",", "___"}], "]"}], ",", "1"}], "]"}], 
+             "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}]}], ",", 
+          
+          RowBox[{
+           RowBox[{
+            RowBox[{"Sort", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{
+                RowBox[{"StringSplit", "[", 
+                 RowBox[{"#", ",", "\"\< \>\""}], "]"}], 
+                "\[LeftDoubleBracket]", 
+                RowBox[{"-", "1"}], "\[RightDoubleBracket]"}], "&"}], "/@", 
+              RowBox[{"Flatten", "[", 
+               RowBox[{"{", 
+                RowBox[{"\"\<Author\>\"", "/.", 
+                 RowBox[{"(", 
+                  RowBox[{"List", "@@", "#"}], ")"}]}], "}"}], "]"}]}], "]"}],
+             "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], "&"}]}], 
+         "]"}], "]"}], "\[IndentingNewLine]", ",", 
+       RowBox[{"\"\<Format\>\"", "\[Rule]", "\"\<Web\>\""}]}], "]"}], "//.", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Row", "\[Rule]", "List"}], ",", 
+       RowBox[{
+        RowBox[{"Hyperlink", "[", 
+         RowBox[{"z_", ",", "l_"}], "]"}], "\[RuleDelayed]", 
+        RowBox[{"ButtonBox", "[", 
+         RowBox[{"z", ",", 
+          RowBox[{"BaseStyle", "\[Rule]", "\"\<Hyperlink\>\""}], ",", 
+          RowBox[{"ButtonData", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{"l", ",", "None"}], "}"}]}]}], "]"}]}], ",", 
+       RowBox[{"Style", "\[Rule]", "StyleBox"}]}], "}"}]}], 
+    ")"}]}]}]], "Input",
+ CellChangeTimes->{{3.52995468466153*^9, 3.5299547187804813`*^9}, {
+  3.5299550184046187`*^9, 3.5299550355876017`*^9}, {3.529955113604064*^9, 
+  3.5299551494441137`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SetReferenceCounters", "[", "context_", "]"}], ":=", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Unset", "[", 
+       RowBox[{"ReferenceCounter", "[", 
+        RowBox[{"#", ",", "context"}], "]"}], "]"}], "&"}], "/@", 
+     RowBox[{"Cases", "[", 
+      RowBox[{
+       RowBox[{"DownValues", "[", "ReferenceCounter", "]"}], ",", 
+       RowBox[{
+        RowBox[{"HoldPattern", "[", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"_", ":", "RuleDelayed"}], ")"}], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"_", ":", "HoldPattern"}], ")"}], "[", 
+            RowBox[{"ReferenceCounter", "[", 
+             RowBox[{"z_", ",", "context"}], "]"}], "]"}], ",", "_"}], "]"}], 
+         "]"}], "\[RuleDelayed]", "z"}]}], "]"}]}], ";", 
+    RowBox[{"MapIndexed", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"ReferenceCounter", "[", 
+          RowBox[{"#", ",", "context"}], "]"}], "=", 
+         RowBox[{
+         "#2", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], 
+        ")"}], "&"}], ",", 
+      RowBox[{"Cases", "[", 
+       RowBox[{
+        RowBox[{"FindSection", "[", "context", "]"}], ",", 
+        RowBox[{
+         RowBox[{"HoldPattern", "[", 
+          RowBox[{"$CellContext`ReferenceCounter", "[", 
+           RowBox[{"g_", ",", "context"}], "]"}], "]"}], "\[RuleDelayed]", 
+         "g"}], ",", "\[Infinity]"}], "]"}]}], "]"}], ";"}], ")"}]}]], "Input",\
+
+ CellChangeTimes->{{3.5905802348178663`*^9, 3.590580239063404*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SetReferenceCounters", "[", 
+   RowBox[{"context_", ",", "domain_"}], "]"}], ":=", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"Unset", "[", 
+       RowBox[{"ReferenceCounter", "[", 
+        RowBox[{"#", ",", "context"}], "]"}], "]"}], "&"}], "/@", 
+     RowBox[{"Cases", "[", 
+      RowBox[{
+       RowBox[{"DownValues", "[", "ReferenceCounter", "]"}], ",", 
+       RowBox[{
+        RowBox[{"HoldPattern", "[", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"_", ":", "RuleDelayed"}], ")"}], "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"_", ":", "HoldPattern"}], ")"}], "[", 
+            RowBox[{"ReferenceCounter", "[", 
+             RowBox[{"z_", ",", "context"}], "]"}], "]"}], ",", "_"}], "]"}], 
+         "]"}], "\[RuleDelayed]", "z"}]}], "]"}]}], ";", 
+    RowBox[{"MapIndexed", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"ReferenceCounter", "[", 
+          RowBox[{"#", ",", "context"}], "]"}], "=", 
+         RowBox[{
+         "#2", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], 
+        ")"}], "&"}], ",", 
+      RowBox[{"Cases", "[", 
+       RowBox[{
+        RowBox[{"Cases", "[", 
+         RowBox[{
+          RowBox[{"FindSection", "[", "context", "]"}], ",", 
+          RowBox[{
+           RowBox[{"CellGroupData", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"Cell", "[", 
+                RowBox[{"p_", ",", "___"}], "]"}], ",", "___"}], "}"}], ",", 
+             "___"}], "]"}], "/;", 
+           RowBox[{"MemberQ", "[", 
+            RowBox[{"domain", ",", "p"}], "]"}]}], ",", "\[Infinity]"}], 
+         "]"}], ",", 
+        RowBox[{
+         RowBox[{"HoldPattern", "[", 
+          RowBox[{"$CellContext`ReferenceCounter", "[", 
+           RowBox[{"g_", ",", "context"}], "]"}], "]"}], "\[RuleDelayed]", 
+         "g"}], ",", "\[Infinity]"}], "]"}]}], "]"}], ";"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.5905802488746433`*^9, 3.590580252225068*^9}}]
 }, Closed]]
 }, Open  ]],
 
@@ -1881,7 +3230,7 @@ Cell["A Palette", "Subsection"]
 }, Open  ]]
 },
 WindowSize->{1157, 988},
-WindowMargins->{{Automatic, 255}, {0, Automatic}},
+WindowMargins->{{Automatic, 254}, {0, Automatic}},
 PrintingPageRange->{Automatic, Automatic},
 ShowSelection->True,
 SpellingDictionaries->{"CorrectWords"->{
@@ -2281,141 +3630,159 @@ Cell[579, 22, 27, 0, 123, "Title"],
 Cell[CellGroupData[{
 Cell[631, 26, 103, 4, 78, "Section"],
 Cell[CellGroupData[{
-Cell[759, 34, 41, 0, 71, "Subsection"],
-Cell[803, 36, 83, 1, 47, "Paragraph"],
-Cell[889, 39, 513, 13, 89, "Input"]
+Cell[759, 34, 41, 0, 88, "Subsection"],
+Cell[803, 36, 83, 1, 58, "Paragraph"],
+Cell[889, 39, 513, 13, 111, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1439, 57, 41, 0, 71, "Subsection"],
-Cell[1483, 59, 97, 2, 47, "Paragraph"],
-Cell[1583, 63, 729, 19, 139, "Input"]
+Cell[1439, 57, 41, 0, 88, "Subsection"],
+Cell[1483, 59, 97, 2, 58, "Paragraph"],
+Cell[1583, 63, 729, 19, 173, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2349, 87, 61, 1, 71, "Subsection"],
-Cell[2413, 90, 138, 3, 73, "Paragraph"],
-Cell[2554, 95, 184, 3, 73, "Paragraph"],
-Cell[2741, 100, 641, 15, 139, "Input"]
+Cell[2349, 87, 61, 1, 88, "Subsection"],
+Cell[2413, 90, 138, 3, 91, "Paragraph"],
+Cell[2554, 95, 184, 3, 91, "Paragraph"],
+Cell[2741, 100, 641, 15, 173, "Input"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
 Cell[3431, 121, 39, 0, 67, "Section"],
 Cell[CellGroupData[{
-Cell[3495, 125, 27, 0, 71, "Subsection"],
-Cell[3525, 127, 129, 3, 73, "Paragraph"],
+Cell[3495, 125, 27, 0, 88, "Subsection"],
+Cell[3525, 127, 129, 3, 91, "Paragraph"],
 Cell[CellGroupData[{
-Cell[3679, 134, 60, 0, 32, "Item"],
-Cell[3742, 136, 63, 0, 32, "Item"]
+Cell[3679, 134, 60, 0, 40, "Item"],
+Cell[3742, 136, 63, 0, 40, "Item"]
 }, Open  ]],
-Cell[3820, 139, 146, 3, 73, "Paragraph"]
+Cell[3820, 139, 146, 3, 91, "Paragraph"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4003, 147, 31, 0, 71, "Subsection"],
-Cell[4037, 149, 48, 0, 65, "Subsubsection"]
+Cell[4003, 147, 31, 0, 88, "Subsection"],
+Cell[4037, 149, 48, 0, 81, "Subsubsection"]
 }, Open  ]]
 }, Closed]],
 Cell[4112, 153, 28, 0, 67, "Section"],
 Cell[CellGroupData[{
 Cell[4165, 157, 30, 0, 67, "Section"],
-Cell[4198, 159, 674, 13, 78, "Input"],
-Cell[4875, 174, 1684, 44, 137, "Input"],
-Cell[6562, 220, 2020, 55, 158, "Input"],
-Cell[8585, 277, 2745, 69, 241, "Input"],
-Cell[11333, 348, 3188, 81, 220, "Input"]
+Cell[4198, 159, 674, 13, 97, "Input"],
+Cell[4875, 174, 1684, 44, 171, "Input"],
+Cell[6562, 220, 2020, 55, 197, "Input"],
+Cell[8585, 277, 2745, 69, 301, "Input"],
+Cell[11333, 348, 3188, 81, 275, "Input"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[14558, 434, 39, 0, 67, "Section"],
+Cell[14600, 436, 952, 25, 89, "Input"],
+Cell[15555, 463, 72, 1, 38, "Input"],
+Cell[15630, 466, 145, 4, 38, "Input"],
+Cell[15778, 472, 277, 8, 38, "Input"],
+Cell[16058, 482, 1182, 25, 114, "Input"],
+Cell[17243, 509, 610, 19, 89, "Input"],
+Cell[17856, 530, 34034, 710, 3114, "Input"],
+Cell[51893, 1242, 1055, 30, 164, "Input"],
+Cell[52951, 1274, 141, 2, 38, "Input"],
+Cell[53095, 1278, 393, 10, 38, "Input"],
+Cell[53491, 1290, 7248, 178, 639, "Input"],
+Cell[60742, 1470, 4285, 106, 389, "Input"],
+Cell[65030, 1578, 3927, 95, 364, "Input"],
+Cell[68960, 1675, 1612, 44, 189, "Input"],
+Cell[70575, 1721, 2106, 57, 214, "Input"]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14570, 435, 51, 0, 123, "Title"],
+Cell[72730, 1784, 51, 0, 123, "Title"],
 Cell[CellGroupData[{
-Cell[14646, 439, 24, 0, 108, "Section"],
+Cell[72806, 1788, 24, 0, 135, "Section"],
 Cell[CellGroupData[{
-Cell[14695, 443, 37, 0, 108, "Subsection"],
-Cell[14735, 445, 156, 3, 108, "Paragraph"],
-Cell[14894, 450, 65, 0, 108, "Paragraph"],
+Cell[72855, 1792, 37, 0, 135, "Subsection"],
+Cell[72895, 1794, 156, 3, 135, "Paragraph"],
+Cell[73054, 1799, 65, 0, 135, "Paragraph"],
 Cell[CellGroupData[{
-Cell[14984, 454, 119, 3, 108, "Item"],
-Cell[15106, 459, 132, 3, 108, "Subitem"],
-Cell[15241, 464, 45, 0, 108, "Subsubitem"],
-Cell[15289, 466, 55, 0, 108, "Subsubitem"],
-Cell[15347, 468, 74, 2, 108, "Subsubitem"],
-Cell[15424, 472, 77, 2, 108, "Subitem"],
-Cell[15504, 476, 78, 2, 108, "Subitem"],
-Cell[15585, 480, 85, 2, 108, "Subsubitem"],
-Cell[15673, 484, 60, 0, 108, "Subsubitem"],
-Cell[15736, 486, 29, 0, 108, "Item"],
-Cell[15768, 488, 31, 0, 108, "Item"]
+Cell[73144, 1803, 119, 3, 135, "Item"],
+Cell[73266, 1808, 132, 3, 135, "Subitem"],
+Cell[73401, 1813, 45, 0, 135, "Subsubitem"],
+Cell[73449, 1815, 55, 0, 135, "Subsubitem"],
+Cell[73507, 1817, 74, 2, 135, "Subsubitem"],
+Cell[73584, 1821, 77, 2, 135, "Subitem"],
+Cell[73664, 1825, 78, 2, 135, "Subitem"],
+Cell[73745, 1829, 85, 2, 135, "Subsubitem"],
+Cell[73833, 1833, 60, 0, 135, "Subsubitem"],
+Cell[73896, 1835, 29, 0, 135, "Item"],
+Cell[73928, 1837, 31, 0, 135, "Item"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[15848, 494, 34, 0, 108, "Subsection"],
-Cell[15885, 496, 404, 6, 108, "Paragraph"]
+Cell[74008, 1843, 34, 0, 135, "Subsection"],
+Cell[74045, 1845, 404, 6, 135, "Paragraph"]
 }, Open  ]]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[16350, 509, 43, 0, 85, "Title"],
+Cell[74510, 1858, 43, 0, 85, "Title"],
 Cell[CellGroupData[{
-Cell[16418, 513, 39, 0, 78, "Section"],
+Cell[74578, 1862, 39, 0, 78, "Section"],
 Cell[CellGroupData[{
-Cell[16482, 517, 40, 0, 71, "Subsection"],
+Cell[74642, 1866, 40, 0, 71, "Subsection"],
 Cell[CellGroupData[{
-Cell[16547, 521, 40, 0, 65, "Subsubsection"],
-Cell[16590, 523, 130, 3, 108, "Text"],
-Cell[16723, 528, 1896, 40, 108, "Input"],
-Cell[18622, 570, 193, 4, 108, "Input"],
-Cell[18818, 576, 5740, 164, 108, "Input"],
-Cell[24561, 742, 239, 7, 108, "Input"],
-Cell[24803, 751, 810, 23, 108, "Input"],
-Cell[25616, 776, 151, 4, 108, "Input"],
-Cell[25770, 782, 2028, 56, 108, "Input"]
+Cell[74707, 1870, 40, 0, 65, "Subsubsection"],
+Cell[74750, 1872, 130, 3, 135, "Text"],
+Cell[74883, 1877, 1896, 40, 135, "Input"],
+Cell[76782, 1919, 193, 4, 135, "Input"],
+Cell[76978, 1925, 5740, 164, 135, "Input"],
+Cell[82721, 2091, 239, 7, 135, "Input"],
+Cell[82963, 2100, 810, 23, 135, "Input"],
+Cell[83776, 2125, 151, 4, 135, "Input"],
+Cell[83930, 2131, 2028, 56, 135, "Input"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[27835, 843, 59, 0, 41, "Subsubsection"],
-Cell[27897, 845, 193, 5, 108, "Input"],
-Cell[28093, 852, 54, 0, 108, "Paragraph"],
-Cell[28150, 854, 293, 9, 108, "Input"],
-Cell[28446, 865, 728, 21, 108, "Input"],
-Cell[29177, 888, 2878, 72, 108, "Input"],
-Cell[32058, 962, 52, 0, 108, "Paragraph"],
-Cell[32113, 964, 1793, 50, 108, "Input"],
-Cell[33909, 1016, 304, 8, 108, "Input"],
-Cell[34216, 1026, 114, 3, 108, "Input"],
-Cell[34333, 1031, 95, 2, 108, "Paragraph"],
-Cell[34431, 1035, 9849, 252, 108, "Input"],
-Cell[44283, 1289, 158, 3, 108, "Paragraph"],
-Cell[44444, 1294, 71, 1, 108, "Input"],
-Cell[44518, 1297, 602, 17, 108, "Input"],
-Cell[45123, 1316, 479, 13, 108, "Input"],
-Cell[45605, 1331, 224, 7, 108, "Input"],
-Cell[45832, 1340, 2722, 70, 108, "Input"],
-Cell[48557, 1412, 126, 3, 108, "Paragraph"],
-Cell[48686, 1417, 265, 9, 108, "Input"]
+Cell[85995, 2192, 59, 0, 41, "Subsubsection"],
+Cell[86057, 2194, 193, 5, 135, "Input"],
+Cell[86253, 2201, 54, 0, 135, "Paragraph"],
+Cell[86310, 2203, 293, 9, 135, "Input"],
+Cell[86606, 2214, 728, 21, 135, "Input"],
+Cell[87337, 2237, 2878, 72, 135, "Input"],
+Cell[90218, 2311, 52, 0, 135, "Paragraph"],
+Cell[90273, 2313, 1793, 50, 135, "Input"],
+Cell[92069, 2365, 304, 8, 135, "Input"],
+Cell[92376, 2375, 114, 3, 135, "Input"],
+Cell[92493, 2380, 95, 2, 135, "Paragraph"],
+Cell[92591, 2384, 9849, 252, 135, "Input"],
+Cell[102443, 2638, 158, 3, 135, "Paragraph"],
+Cell[102604, 2643, 71, 1, 135, "Input"],
+Cell[102678, 2646, 602, 17, 135, "Input"],
+Cell[103283, 2665, 479, 13, 135, "Input"],
+Cell[103765, 2680, 224, 7, 135, "Input"],
+Cell[103992, 2689, 2722, 70, 135, "Input"],
+Cell[106717, 2761, 126, 3, 135, "Paragraph"],
+Cell[106846, 2766, 265, 9, 135, "Input"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[48988, 1431, 42, 0, 41, "Subsubsection"],
-Cell[49033, 1433, 121, 3, 108, "Input"],
-Cell[49157, 1438, 408, 12, 108, "Input"],
-Cell[49568, 1452, 1637, 43, 108, "Input"],
-Cell[51208, 1497, 3372, 97, 108, "Input"],
-Cell[54583, 1596, 361, 9, 108, "Input"]
+Cell[107148, 2780, 42, 0, 41, "Subsubsection"],
+Cell[107193, 2782, 121, 3, 135, "Input"],
+Cell[107317, 2787, 408, 12, 135, "Input"],
+Cell[107728, 2801, 1637, 43, 135, "Input"],
+Cell[109368, 2846, 3372, 97, 135, "Input"],
+Cell[112743, 2945, 361, 9, 135, "Input"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[54981, 1610, 51, 0, 41, "Subsubsection"],
-Cell[55035, 1612, 185, 4, 108, "Story"],
-Cell[55223, 1618, 275, 6, 108, "Input"],
-Cell[55501, 1626, 150, 5, 108, "Input"],
-Cell[55654, 1633, 2524, 66, 108, "Input"],
-Cell[58181, 1701, 428, 12, 108, "Input"],
-Cell[58612, 1715, 142, 4, 108, "Input"],
-Cell[58757, 1721, 125, 4, 108, "Input"],
-Cell[58885, 1727, 734, 21, 108, "Input"],
-Cell[59622, 1750, 2266, 64, 108, "Input"],
-Cell[61891, 1816, 500, 14, 108, "Input"],
-Cell[62394, 1832, 291, 7, 108, "Input"],
-Cell[62688, 1841, 689, 20, 108, "Input"],
-Cell[63380, 1863, 391, 11, 108, "Input"]
+Cell[113141, 2959, 51, 0, 41, "Subsubsection"],
+Cell[113195, 2961, 185, 4, 135, "Story"],
+Cell[113383, 2967, 275, 6, 135, "Input"],
+Cell[113661, 2975, 150, 5, 135, "Input"],
+Cell[113814, 2982, 2524, 66, 135, "Input"],
+Cell[116341, 3050, 428, 12, 135, "Input"],
+Cell[116772, 3064, 142, 4, 135, "Input"],
+Cell[116917, 3070, 125, 4, 135, "Input"],
+Cell[117045, 3076, 734, 21, 135, "Input"],
+Cell[117782, 3099, 2266, 64, 135, "Input"],
+Cell[120051, 3165, 500, 14, 135, "Input"],
+Cell[120554, 3181, 291, 7, 135, "Input"],
+Cell[120848, 3190, 689, 20, 135, "Input"],
+Cell[121540, 3212, 391, 11, 135, "Input"]
 }, Closed]]
 }, Open  ]],
-Cell[63798, 1878, 31, 0, 71, "Subsection"]
+Cell[121958, 3227, 31, 0, 71, "Subsection"]
 }, Open  ]]
 }, Open  ]]
 }
